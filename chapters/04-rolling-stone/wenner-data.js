@@ -5,9 +5,9 @@
 window.WENNER_DATA = {
   "wenner_coefficient": {
     "pearson_r": -0.3751,
-    "pearson_p": 0.0,
+    "pearson_p": 5.61e-10,
     "spearman_rho": -0.4326,
-    "spearman_p": 0.0,
+    "spearman_p": 4.24e-13,
     "n_with_rs": 76,
     "n_without_rs": 180,
     "median_wait_with_rs": 4.0,

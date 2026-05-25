@@ -1152,20 +1152,18 @@ window.TEACHERS_DATA = {
       "WB": 1,
       "other": 0
     },
-    "bw_median_gap": 32,
-    "bw_mean_gap": 27.4,
-    "bw_gaps": [
-      2,
-      31,
-      32,
-      32,
-      40
-    ],
-    "same_race_median_gap": 3.0,
-    "same_race_mean_gap": 10.1,
-    "bb_median_gap": 3,
-    "ww_median_gap": 3,
-    "unexplained_difference": 29.0
+    "bw_median_gap": 3.5,
+    "bw_mean_gap": 10.6,
+    "bw_count": 20,
+    "same_race_median_gap": 5.5,
+    "same_race_mean_gap": 9.9,
+    "same_race_count": 50,
+    "raw_median_difference": -2.0,
+    "tw_bw_median_gap": 32,
+    "tw_bw_count": 5,
+    "tw_same_race_median_gap": 3.0,
+    "tw_same_race_count": 16,
+    "tw_raw_difference": 29.0
   },
   "centrality": [
     {

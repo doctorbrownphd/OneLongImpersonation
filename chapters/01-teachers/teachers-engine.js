@@ -23,9 +23,10 @@
     var diffEl = document.getElementById('stat-diff');
     var nEl = document.getElementById('stat-n-pairs');
 
-    if (bwEl && stats.bw_median_gap != null) bwEl.textContent = stats.bw_median_gap;
-    if (sameEl && stats.same_race_median_gap != null) sameEl.textContent = stats.same_race_median_gap;
-    if (diffEl && stats.unexplained_difference != null) diffEl.textContent = stats.unexplained_difference;
+    // Use teacher-waited subset stats (clearly labeled in the HTML)
+    if (bwEl && stats.tw_bw_median_gap != null) bwEl.textContent = stats.tw_bw_median_gap;
+    if (sameEl && stats.tw_same_race_median_gap != null) sameEl.textContent = stats.tw_same_race_median_gap;
+    if (diffEl && stats.tw_raw_difference != null) diffEl.textContent = stats.tw_raw_difference;
     if (nEl) nEl.textContent = stats.total_pairs;
   }
 

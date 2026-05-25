@@ -234,6 +234,10 @@
         points.unshift([0, 1.0]);
       }
 
+      // Dash patterns for accessibility (not color-only)
+      var dashPatterns = ['', '8,4', '4,4', '12,4,4,4'];
+      var dashPattern = dashPatterns[si] || '';
+
       // Draw the curve
       svg.append('path')
         .datum(points)
@@ -241,6 +245,7 @@
         .attr('fill', 'none')
         .attr('stroke', color)
         .attr('stroke-width', 2.5)
+        .attr('stroke-dasharray', dashPattern)
         .attr('opacity', 0.9);
 
       // Median wait vertical drop indicator

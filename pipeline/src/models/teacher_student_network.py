@@ -142,45 +142,63 @@ def compute_gaps(pairs):
 
 
 def analyze_gaps(gap_records):
-    """Compute summary statistics on the gap distribution."""
-    # Filter to pairs where teacher waited or was never inducted
+    """Compute summary statistics on the gap distribution.
+
+    IMPORTANT (Elias review): Stats are computed across ALL pairs in each
+    composition group, not just the teacher-waited subset. The teacher-waited
+    subset stats are reported separately and clearly labeled.
+    """
+    # ALL pairs by composition (unfiltered)
+    all_bw = [g["gap_years"] for g in gap_records if g["composition"] == "BW"]
+    all_bb = [g["gap_years"] for g in gap_records if g["composition"] == "BB"]
+    all_ww = [g["gap_years"] for g in gap_records if g["composition"] == "WW"]
+    all_same_race = all_bb + all_ww
+
+    # Teacher-waited/never-inducted subset
     teacher_waited = [g for g in gap_records if g["gap_direction"] == "teacher_waited"
                       or g["teacher_never_inducted"]]
-
-    # By racial composition
-    bw_gaps = [g["gap_years"] for g in teacher_waited if g["composition"] == "BW"]
-    bb_gaps = [g["gap_years"] for g in teacher_waited if g["composition"] == "BB"]
-    ww_gaps = [g["gap_years"] for g in teacher_waited if g["composition"] == "WW"]
-    same_race = bb_gaps + ww_gaps
+    tw_bw = [g["gap_years"] for g in teacher_waited if g["composition"] == "BW"]
+    tw_same = ([g["gap_years"] for g in teacher_waited if g["composition"] == "BB"] +
+               [g["gap_years"] for g in teacher_waited if g["composition"] == "WW"])
 
     stats = {
         "total_pairs": len(gap_records),
         "teacher_waited_or_never": len(teacher_waited),
         "composition_counts": {
-            "BW": len([g for g in gap_records if g["composition"] == "BW"]),
-            "BB": len([g for g in gap_records if g["composition"] == "BB"]),
-            "WW": len([g for g in gap_records if g["composition"] == "WW"]),
+            "BW": len(all_bw),
+            "BB": len(all_bb),
+            "WW": len(all_ww),
             "WB": len([g for g in gap_records if g["composition"] == "WB"]),
             "other": len([g for g in gap_records if g["composition"] == "other"]),
         },
     }
 
-    if bw_gaps:
-        stats["bw_median_gap"] = round(statistics.median(bw_gaps), 1)
-        stats["bw_mean_gap"] = round(statistics.mean(bw_gaps), 1)
-        stats["bw_gaps"] = sorted(bw_gaps)
-    if same_race:
-        stats["same_race_median_gap"] = round(statistics.median(same_race), 1)
-        stats["same_race_mean_gap"] = round(statistics.mean(same_race), 1)
-    if bb_gaps:
-        stats["bb_median_gap"] = round(statistics.median(bb_gaps), 1)
-    if ww_gaps:
-        stats["ww_median_gap"] = round(statistics.median(ww_gaps), 1)
+    # ALL-PAIRS stats (the primary headline numbers)
+    if all_bw:
+        stats["bw_median_gap"] = round(statistics.median(all_bw), 1)
+        stats["bw_mean_gap"] = round(statistics.mean(all_bw), 1)
+        stats["bw_count"] = len(all_bw)
+    if all_same_race:
+        stats["same_race_median_gap"] = round(statistics.median(all_same_race), 1)
+        stats["same_race_mean_gap"] = round(statistics.mean(all_same_race), 1)
+        stats["same_race_count"] = len(all_same_race)
 
-    # The unexplained difference
-    if bw_gaps and same_race:
-        stats["unexplained_difference"] = round(
+    # Raw median difference (NOT "unexplained" -- no controls applied)
+    if all_bw and all_same_race:
+        stats["raw_median_difference"] = round(
             stats["bw_median_gap"] - stats["same_race_median_gap"], 1
+        )
+
+    # TEACHER-WAITED subset stats (labeled clearly)
+    if tw_bw:
+        stats["tw_bw_median_gap"] = round(statistics.median(tw_bw), 1)
+        stats["tw_bw_count"] = len(tw_bw)
+    if tw_same:
+        stats["tw_same_race_median_gap"] = round(statistics.median(tw_same), 1)
+        stats["tw_same_race_count"] = len(tw_same)
+    if tw_bw and tw_same:
+        stats["tw_raw_difference"] = round(
+            stats["tw_bw_median_gap"] - stats["tw_same_race_median_gap"], 1
         )
 
     return stats

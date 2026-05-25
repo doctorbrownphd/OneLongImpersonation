@@ -184,3 +184,34 @@
     width: 100%;
   }
 }
+
+@media (max-width: 375px) {
+  .docket-input {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+
+  .docket-row {
+    grid-template-columns: 1fr 80px;
+    gap: 4px;
+    padding: 12px 0;
+  }
+
+  .docket-header {
+    grid-template-columns: 1fr 80px;
+  }
+
+  .docket-row__name {
+    font-size: 14px;
+  }
+
+  .docket-row__verdict {
+    font-size: 8px;
+    padding: 3px 6px;
+  }
+
+  .docket-select {
+    font-size: 11px;
+    padding: 8px 12px;
+  }
+}

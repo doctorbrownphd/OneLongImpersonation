@@ -254,18 +254,41 @@
     // Sort so that dots with higher rs_score render on top (they are fewer, more interesting)
     var sorted = scatter.slice().sort(function(a, b) { return a.rs_score - b.rs_score; });
 
+    // Shape encoding by genre group for accessibility (not color-only)
+    var GENRE_SHAPES = {
+      'Classic Rock': 'circle', 'Soul/R&B': 'square', 'Pop': 'diamond',
+      'Folk/Country': 'triangle', 'Hip-Hop': 'cross', 'Heavy Metal': 'star',
+      'Punk': 'triangle', 'Electronic': 'square', 'Blues/Early': 'diamond',
+      'Disco/Dance': 'cross'
+    };
+
+    function drawShape(g, cx, cy, shape, size, fill, opacity) {
+      var s = size;
+      if (shape === 'square') {
+        g.append('rect').attr('x', cx-s).attr('y', cy-s).attr('width', s*2).attr('height', s*2)
+          .attr('fill', fill).attr('opacity', opacity);
+      } else if (shape === 'diamond') {
+        g.append('polygon').attr('points', cx+','+( cy-s)+' '+(cx+s)+','+cy+' '+cx+','+(cy+s)+' '+(cx-s)+','+cy)
+          .attr('fill', fill).attr('opacity', opacity);
+      } else if (shape === 'triangle') {
+        g.append('polygon').attr('points', cx+','+(cy-s)+' '+(cx+s)+','+(cy+s)+' '+(cx-s)+','+(cy+s))
+          .attr('fill', fill).attr('opacity', opacity);
+      } else if (shape === 'cross') {
+        g.append('line').attr('x1',cx-s).attr('y1',cy).attr('x2',cx+s).attr('y2',cy).attr('stroke',fill).attr('stroke-width',2).attr('opacity',opacity);
+        g.append('line').attr('x1',cx).attr('y1',cy-s).attr('x2',cx).attr('y2',cy+s).attr('stroke',fill).attr('stroke-width',2).attr('opacity',opacity);
+      } else {
+        g.append('circle').attr('cx', cx).attr('cy', cy).attr('r', s)
+          .attr('fill', fill).attr('opacity', opacity);
+      }
+    }
+
     sorted.forEach(function(d) {
       var color = GENRE_COLORS[d.genre] || COLORS.mute;
       var isZero = d.rs_score === 0;
+      var shape = GENRE_SHAPES[d.genre] || 'circle';
 
-      g.append('circle')
-        .attr('cx', x(d.rs_score))
-        .attr('cy', y(d.wait_time))
-        .attr('r', isZero ? 3 : 5)
-        .attr('fill', color)
-        .attr('stroke', isZero ? 'none' : COLORS.ink)
-        .attr('stroke-width', isZero ? 0 : 1.5)
-        .attr('opacity', isZero ? 0.35 : 0.88);
+      drawShape(g, x(d.rs_score), y(d.wait_time), shape,
+                isZero ? 3 : 5, color, isZero ? 0.35 : 0.88);
     });
 
     // ---- OUTLIER LABELS ----

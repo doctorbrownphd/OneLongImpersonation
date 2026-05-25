@@ -459,7 +459,7 @@ window.WAIT_DATA = {
   "metadata": {
     "source": "Rock and Roll Hall of Fame official inductee database",
     "model_type": "Cox Proportional Hazards (lifelines library)",
-    "censoring": "Right-censored at 2026 for non-inducted artists",
+    "censoring": "No right-censoring in current model (inducted performers only). Full model would add eligible non-inducted artists as right-censored.",
     "baseline": "White male Classic Rock artist, eligible pre-2000",
     "n_artists_in_model": 256
   }

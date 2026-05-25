@@ -126,11 +126,15 @@ def compute_wenner_coefficient(df):
     has_rs = inducted[inducted["rs_attention_score"] > 0]
     no_rs = inducted[inducted["rs_attention_score"] == 0]
 
+    # Preserve actual p-values (never truncate to 0.0)
+    pearson_p = float(p_val) if float(p_val) > 0 else 1e-16
+    spearman_p = float(rho_p) if float(rho_p) > 0 else 1e-16
+
     results = {
         "pearson_r": round(float(r_val), 4),
-        "pearson_p": round(float(p_val), 6),
+        "pearson_p": float(f"{pearson_p:.2e}"),
         "spearman_rho": round(float(rho), 4),
-        "spearman_p": round(float(rho_p), 6),
+        "spearman_p": float(f"{spearman_p:.2e}"),
         "n_with_rs": len(has_rs),
         "n_without_rs": len(no_rs),
         "median_wait_with_rs": round(float(has_rs["wait_time"].median()), 1),
