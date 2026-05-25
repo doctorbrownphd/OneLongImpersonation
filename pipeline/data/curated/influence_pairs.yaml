@@ -23,11 +23,14 @@ pairs:
     student: "Chuck Berry"
     source_type: interview
     citation: >
-      Chuck Berry, Rock and Roll Hall of Fame induction ceremony acceptance
-      speech, January 23, 1986: "My whole career has been one long Sister
-      Rosetta Tharpe impersonation."
+      Statement widely attributed to Chuck Berry acknowledging Tharpe's
+      foundational influence on his guitar style and performance approach.
+      Documented in Gayle Wald, "Shout, Sister, Shout!" (Beacon Press,
+      2007) and multiple secondary sources. The specific verbatim quote
+      and its precise occasion are disputed; Berry's acknowledgment of
+      Tharpe's influence is documented across multiple sources.
     url: null
-    confidence: documented
+    confidence: reported
 
   - teacher: "Sister Rosetta Tharpe"
     student: "Little Richard"
@@ -67,9 +70,9 @@ pairs:
     student: "Elvis Presley"
     source_type: academic
     citation: >
-      Big Mama Thornton recorded "Hound Dog" (Peacock Records, 1952),
-      written by Leiber and Stoller specifically for her. Presley's 1956
-      version became the hit. Documented in Michael T. Bertrand, "Race,
+      Big Mama Thornton recorded "Hound Dog" (Peacock Records, recorded
+      August 13, 1952, released February 1953), written by Leiber and
+      Stoller specifically for her. Presley's 1956 version became the hit. Documented in Michael T. Bertrand, "Race,
       Rock, and Elvis" (University of Illinois Press, 2000).
     url: null
     confidence: documented
@@ -283,12 +286,16 @@ pairs:
     student: "Muddy Waters"
     source_type: biography
     citation: >
-      Robert Palmer, "Deep Blues" (Viking, 1981). Documents that Waters
-      learned guitar directly from Son House, who was Patton's protege.
-      The Patton-House-Waters lineage is the central chain of Delta
-      blues transmission.
+      Robert Palmer, "Deep Blues" (Viking, 1981). The influence chain
+      is indirect: Patton taught Son House, Son House taught Waters.
+      This pair documents the lineage, not a direct teacher-student
+      relationship. The Patton-House-Waters chain is the central
+      transmission line of Delta blues.
     url: null
     confidence: documented
+    notes: >
+      Indirect influence via Son House. Pair retained because Patton's
+      style transmitted to Waters through the documented lineage.
 
   - teacher: "B.B. King"
     student: "Jimi Hendrix"
