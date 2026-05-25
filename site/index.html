@@ -566,17 +566,19 @@
       var grid = document.getElementById('chapter-grid');
       if (!grid || !data.chapters) return;
       data.chapters.forEach(function(ch) {
-        var a = document.createElement('a');
-        a.className = 'chapter-card';
-        a.href = '..' + ch.url;
-        var statusClass = ch.status === 'live' ? 'chapter-card__status--live' : 'chapter-card__status--coming';
-        a.innerHTML =
+        var isLive = ch.status === 'live';
+        var el = document.createElement(isLive ? 'a' : 'div');
+        el.className = 'chapter-card';
+        if (isLive) el.href = '..' + ch.url;
+        else el.style.cursor = 'default';
+        var statusClass = isLive ? 'chapter-card__status--live' : 'chapter-card__status--coming';
+        el.innerHTML =
           '<div class="chapter-card__number">Chapter ' + ch.number + '</div>' +
           '<div class="chapter-card__title">' + ch.title + '</div>' +
           '<div class="chapter-card__desc">' + ch.description + '</div>' +
           '<div class="chapter-card__meta">' + ch.meta +
             ' &nbsp;<span class="chapter-card__status ' + statusClass + '">' + ch.status + '</span></div>';
-        grid.appendChild(a);
+        grid.appendChild(el);
       });
     });
 })();

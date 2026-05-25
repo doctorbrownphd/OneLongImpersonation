@@ -10,7 +10,7 @@
       "slug": "opening",
       "description": "Before the prosecution begins, the jury must know the law.",
       "status": "coming",
-      "url": "/chapters/opening/",
+      "url": "/chapters/00-opening/",
       "meta": "Criteria Compliance Model / Violation Index"
     },
     {
@@ -23,7 +23,7 @@
       "slug": "teachers",
       "description": "The teacher-student gap. The founding exhibit.",
       "status": "coming",
-      "url": "/chapters/teachers/",
+      "url": "/chapters/01-teachers/",
       "meta": "Network analysis / Influence graph / Racial decomposition"
     },
     {
@@ -36,7 +36,7 @@
       "slug": "the-wait",
       "description": "Time is not neutral. Who waited longest, and why.",
       "status": "coming",
-      "url": "/chapters/the-wait/",
+      "url": "/chapters/02-the-wait/",
       "meta": "Cox proportional hazards / Survival curves / Hazard ratios"
     },
     {
@@ -49,7 +49,7 @@
       "slug": "genre",
       "description": "What the Hall decided rock and roll was, and what it actually was.",
       "status": "coming",
-      "url": "/chapters/genre/",
+      "url": "/chapters/03-genre/",
       "meta": "Simpson's diversity index / Genre Bias Score / Timeline"
     },
     {
@@ -62,7 +62,7 @@
       "slug": "rolling-stone",
       "description": "The Wenner Coefficient. How one publication's taste became an institution's selection criteria.",
       "status": "coming",
-      "url": "/chapters/rolling-stone/",
+      "url": "/chapters/04-rolling-stone/",
       "meta": "Logistic regression / Wenner Coefficient / Committee composition"
     },
     {
@@ -75,7 +75,7 @@
       "slug": "the-docket",
       "description": "Every eligible artist who has not been inducted. The criteria applied. The verdict rendered.",
       "status": "coming",
-      "url": "/chapters/the-docket/",
+      "url": "/chapters/05-the-docket/",
       "meta": "Claude API / AI-generated briefs / Searchable / Annual update"
     },
     {
@@ -88,7 +88,7 @@
       "slug": "the-other-side",
       "description": "What the Hall has gotten right. The cases that were correct. The trend since 2019.",
       "status": "coming",
-      "url": "/chapters/the-other-side/",
+      "url": "/chapters/06-the-other-side/",
       "meta": "Post-2019 improvement / Criteria alignment analysis"
     },
     {
