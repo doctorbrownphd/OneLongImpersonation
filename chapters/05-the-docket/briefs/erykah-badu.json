@@ -1,15 +1,12 @@
 {
   "artist_name": "Erykah Badu",
-  "genre": "Soul/R&B",
+  "artist_id": 364,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 22.9,
-  "eligible_year": 2022,
-  "wait_years": 4,
-  "data_record": "Name: Erykah Badu\nGenre: Soul/R&B\nFirst commercial recording: 1997\nEligible for induction since: 2022\nYears since eligibility: 4\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: ERYKAH BADU ROCK AND ROLL HALL OF FAME INDUCTION CASE\n\n## Findings of Fact\n\nThe documented record establishes that Erykah Badu operates primarily within the Soul/R&B genre. Her first commercial recording is documented as occurring in 1997, establishing a career span of approximately 27 years as of 2024. The artist became eligible for Rock and Roll Hall of Fame consideration in 2022, marking four years since initial eligibility. The record shows zero documented Rolling Stone Attention Score and no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Criterion 1: Musical Excellence**\nInsufficient data in record. The provided documentation does not contain specific evidence regarding musical excellence, critical acclaim, awards, or peer recognition.\n\n**Criterion 2: Influence on Other Performers**\nInsufficient data in record. No documented evidence of influence on other artists or performers is provided in the case file.\n\n**Criterion 3: Length of Career**\nDocumented evidence supports this criterion. The record establishes a 27-year career span from 1997 to present, demonstrating sustained professional activity over multiple decades.\n\n**Criterion 4: Depth of Catalog**\nInsufficient data in record. The documentation provides no information regarding album releases, commercial performance, or catalog depth beyond the initial 1997 commercial recording date.\n\n**Criterion 5: Contributions to Rock and Roll**\nInsufficient data in record. While the artist's documented genre classification is Soul/R&B, the record contains no specific evidence of contributions to rock and roll music or culture.\n\n## The Gap\n\nThe documented evidence reveals significant data gaps when measured against typical induction qualifications. The zero Rolling Stone Attention Score and absence of documented nominations indicate limited recognition within the Hall's traditional evaluation framework. The Soul/R&B genre classification may present additional challenges given the Hall's historical rock-centric focus, though insufficient genre-specific induction data is provided for comparative analysis.\n\n## The Verdict\n\nThe classification is INSUFFICIENT with 30% confidence. The documented evidence supports only one of the five stated criteria (length of career), while four criteria lack sufficient supporting documentation. This case demonstrates a significant evidentiary gap between available documentation and the comprehensive record typically required for Rock and Roll Hall of Fame consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:58:58",
   "human_reviewed": false,
-  "slug": "erykah-badu"
+  "data_record": "Name: Erykah Badu\nGenre: Soul/R&B\nFirst commercial recording: 1997\nEligible for induction since: 2022\nYears since eligibility: 4\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "Wire",
-  "genre": "Punk",
-  "verdict": "BORDERLINE",
-  "confidence": 0.5,
+  "artist_id": 320,
+  "verdict": "INSUFFICIENT",
+  "confidence": 0.3,
   "criteria_score": 37.9,
-  "eligible_year": 2002,
-  "wait_years": 24,
-  "data_record": "Name: Wire\nGenre: Punk\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nWire is documented as a punk genre artist with their first commercial recording released in 1977. The band has been eligible for Rock and Roll Hall of Fame induction since 2002, representing 24 years of eligibility. The data record shows no documented nominations for induction and a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented critical assessments, awards, or professional recognition metrics are provided to evaluate musical excellence.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of artists citing Wire as an influence, covers of their material, or measurable impact on subsequent musicians is provided.\n\n**Length of Career:** Documented evidence shows a career spanning from 1977 to present, representing approximately 47 years of documented activity in music.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding number of albums, singles, or total recorded output is provided to assess catalog depth.\n\n**Contributions to Rock and Roll:** Insufficient data in record. Beyond genre classification as punk, no specific innovations, cultural impact, or documented contributions to rock and roll's development are provided.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. Wire's 24 years of eligibility without nomination, combined with a Rolling Stone Attention Score of 0, indicates limited recognition within music industry evaluation systems. Most inducted punk artists demonstrate documented influence metrics, critical recognition, and media attention scores substantially higher than the provided data reflects.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports a lengthy career timeline but lacks sufficient data across four of five induction criteria to demonstrate qualification patterns typical of inducted artists. Wire's case is severely limited by absence of documented influence, critical recognition, and measurable contributions to rock and roll's development.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:44:35",
   "human_reviewed": false,
-  "slug": "wire"
+  "data_record": "Name: Wire\nGenre: Punk\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

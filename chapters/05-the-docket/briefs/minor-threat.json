@@ -1,15 +1,12 @@
 {
   "artist_name": "Minor Threat",
-  "genre": "Punk",
+  "artist_id": 315,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 33.3,
-  "eligible_year": 2006,
-  "wait_years": 20,
-  "data_record": "Name: Minor Threat\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nMinor Threat is documented as a punk genre artist whose first commercial recording was released in 1981. The band became eligible for Rock and Roll Hall of Fame induction in 2006 and has remained eligible for 20 years as of the current analysis period. The artist has received zero documented attention from Rolling Stone magazine and has no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented information regarding technical proficiency, songwriting quality, or critical recognition of musical achievement.\n\n**Influence on Other Performers**: Insufficient data in record. While the band operates within the punk genre, no specific documentation exists regarding their influence on subsequent artists or musical movements.\n\n**Length of Career**: Insufficient data in record. While the first commercial recording is documented as 1981, no information is provided regarding the duration of the band's active period or career span.\n\n**Depth of Catalog**: Insufficient data in record. Beyond confirmation of a first commercial recording in 1981, no documentation exists regarding the breadth or volume of the artist's recorded output.\n\n**Contributions to Rock and Roll**: Insufficient data in record. No specific documentation exists regarding the band's contributions to the broader rock and roll genre or cultural impact.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inductees. With zero Rolling Stone attention score and no documented nominations after 20 years of eligibility, Minor Threat's documented profile falls substantially below the recognition patterns typically associated with inducted artists. The absence of documented evidence across all five Hall criteria creates a substantial evidentiary gap.\n\n## The Verdict\n\nThe case presents insufficient documented evidence to support induction under the Hall's stated criteria. While Minor Threat has maintained eligibility status for two decades within the punk genre, the record lacks substantive documentation of musical excellence, influence, career depth, catalog breadth, or specific contributions to rock and roll. The evidence supports a finding of inadequate documentation rather than demonstrated qualification for induction.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:49:07",
   "human_reviewed": false,
-  "slug": "minor-threat"
+  "data_record": "Name: Minor Threat\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "Dinosaur Jr.",
-  "genre": "Punk",
+  "artist_id": 329,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 31.1,
-  "eligible_year": 2010,
-  "wait_years": 16,
-  "data_record": "Name: Dinosaur Jr.\nGenre: Punk\nFirst commercial recording: 1985\nEligible for induction since: 2010\nYears since eligibility: 16\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nDinosaur Jr. is documented as a punk genre artist with their first commercial recording released in 1985. The band became eligible for Rock and Roll Hall of Fame induction in 2010 and has remained eligible for 16 years as of the current analysis period. The record shows a Rolling Stone Attention Score of 0 and no documented nominations to the Hall of Fame.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided data contains no documentation of critical acclaim, awards, or professional recognition of the band's musical abilities.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documentation exists regarding other artists citing Dinosaur Jr. as an influence or evidence of their impact on subsequent musicians.\n\n**3. Length of Career**\nDocumented evidence shows a career spanning from 1985 to present, representing approximately 39 years of activity in the music industry, which demonstrates significant longevity.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information is provided regarding the number of albums, singles, or scope of recorded output beyond the initial 1985 commercial recording.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. The record provides no documentation of specific innovations, cultural impact, or contributions to the evolution of rock and roll music.\n\n## The Gap\n\nThe documented qualifications show a significant gap compared to typical inducted artists. While Dinosaur Jr. demonstrates documented career longevity of 39 years, the record lacks evidence for four of the five stated criteria. The Rolling Stone Attention Score of 0 indicates minimal mainstream media recognition, and the absence of any documented nominations suggests limited Hall of Fame consideration over their 16-year eligibility period.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts support only one criterion (career length) while providing no verifiable evidence for musical excellence, influence, catalog depth, or rock and roll contributions. Dinosaur Jr.'s case demonstrates career persistence without documented mainstream recognition or Hall of Fame consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:52:16",
   "human_reviewed": false,
-  "slug": "dinosaur-jr"
+  "data_record": "Name: Dinosaur Jr.\nGenre: Punk\nFirst commercial recording: 1985\nEligible for induction since: 2010\nYears since eligibility: 16\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "The Commodores",
-  "genre": "Soul/R&B",
+  "artist_id": 360,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 40.6,
-  "eligible_year": 1999,
-  "wait_years": 27,
-  "data_record": "Name: The Commodores\nGenre: Soul/R&B\nFirst commercial recording: 1974\nEligible for induction since: 1999\nYears since eligibility: 27\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe Commodores are documented as a Soul/R&B group with their first commercial recording released in 1974. The group became eligible for Rock and Roll Hall of Fame induction in 1999, making them eligible for 27 years as of the current assessment period. The record shows no documented nominations to the Hall of Fame. Rolling Stone magazine coverage metrics indicate zero attention score for the group.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No information provided regarding technical proficiency, vocal abilities, instrumental skills, or critical assessments of musical quality.\n\n**Influence on Other Performers**: Insufficient data in record. No documentation provided of artists citing The Commodores as influences or evidence of their impact on subsequent musical developments.\n\n**Length of Career**: Documented career span of at least 25 years, calculated from first commercial recording in 1974 to eligibility date in 1999. This meets typical Hall of Fame expectations for career longevity.\n\n**Depth of Catalog**: Insufficient data in record. No information provided regarding number of albums released, chart performance, or scope of recorded material.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While the group operated in Soul/R&B genre, which has established connections to rock and roll development, no specific contributions to the broader rock and roll tradition are documented in the provided record.\n\n## The Gap\n\nThe documented qualifications show significant data limitations compared to typical inducted artists. While The Commodores demonstrate career longevity spanning the required timeframe, critical gaps exist in documented musical excellence, influence metrics, catalog depth, and rock contributions. The zero Rolling Stone attention score and absence of documented nominations suggest limited recognition within traditional rock journalism and Hall of Fame evaluation processes compared to inducted Soul/R&B artists from similar eras.\n\n## The Verdict\n\nClassification: BORDERLINE (confidence: 50%). The available evidence supports career longevity but lacks documentation in four of five induction criteria, creating substantial evidentiary gaps that prevent stronger case assessment. The Commodores present a case with verified eligibility duration but insufficient documented evidence across most Hall of Fame evaluation standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:41:35",
   "human_reviewed": false,
-  "slug": "the-commodores"
+  "data_record": "Name: The Commodores\nGenre: Soul/R&B\nFirst commercial recording: 1974\nEligible for induction since: 1999\nYears since eligibility: 27\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

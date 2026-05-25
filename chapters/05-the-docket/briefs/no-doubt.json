@@ -1,15 +1,12 @@
 {
   "artist_name": "No Doubt",
-  "genre": "Pop",
+  "artist_id": 386,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 22.2,
-  "eligible_year": 2017,
-  "wait_years": 9,
-  "data_record": "Name: No Doubt\nGenre: Pop\nFirst commercial recording: 1992\nEligible for induction since: 2017\nYears since eligibility: 9\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: No Doubt Rock and Roll Hall of Fame Induction Case\n\n## Findings of Fact\n\nThe documented record establishes the following verified facts regarding No Doubt:\n\n- **Artist Classification**: Documented as a Pop genre act\n- **Commercial Career Commencement**: First commercial recording occurred in 1992\n- **Eligibility Status**: Became eligible for Rock and Roll Hall of Fame induction in 2017\n- **Duration Since Eligibility**: Nine years have elapsed since becoming eligible\n- **Media Recognition**: Rolling Stone Attention Score documented at 0\n- **Nomination History**: No documented nominations for Rock and Roll Hall of Fame induction\n\n## Application of Criteria\n\n**Criterion 1: Musical Excellence**\nInsufficient data in record. The provided documentation contains no specific evidence regarding musical excellence, critical reception, or artistic achievement.\n\n**Criterion 2: Influence on Other Performers**\nInsufficient data in record. No documented evidence of influence on subsequent artists or musical movements is provided in the case materials.\n\n**Criterion 3: Length of Career**\nThe evidence shows a documented commercial recording career beginning in 1992, establishing a career span of at least 32 years from initial commercial recording to present. The artist has maintained eligibility status for nine consecutive years.\n\n**Criterion 4: Depth of Catalog**\nInsufficient data in record. No documentation of album releases, chart performance, or catalog depth is provided in the available materials.\n\n**Criterion 5: Contributions to Rock and Roll**\nThe documented genre classification as \"Pop\" raises questions about direct contributions to rock and roll specifically. However, insufficient data exists in the record to evaluate concrete contributions to the rock and roll genre.\n\n## The Gap\n\nThe documented qualifications present significant gaps compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal documented critical recognition in major music publications. The absence of any documented nominations over nine years of eligibility suggests limited institutional support within the Hall's selection process. The Pop genre classification may place the artist outside the traditional rock and roll framework emphasized by the institution.\n\n## The Verdict\n\nThe classification INSUFFICIENT (confidence: 30%) reflects substantial gaps in documented evidence across multiple criteria. While the length of career criterion shows adequate duration, the absence of documented musical excellence, influence metrics, catalog depth, and clear rock and roll contributions creates evidentiary shortfalls. The case demonstrates a significant disconnect between the artist's documented qualifications and the typical profile of inducted artists.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:59:46",
   "human_reviewed": false,
-  "slug": "no-doubt"
+  "data_record": "Name: No Doubt\nGenre: Pop\nFirst commercial recording: 1992\nEligible for induction since: 2017\nYears since eligibility: 9\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

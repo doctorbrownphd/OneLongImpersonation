@@ -1,15 +1,12 @@
 {
   "artist_name": "Anita Baker",
-  "genre": "Soul/R&B",
+  "artist_id": 367,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 32.8,
-  "eligible_year": 2008,
-  "wait_years": 18,
-  "data_record": "Name: Anita Baker\nGenre: Soul/R&B\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nAnita Baker is documented as a Soul/R&B artist whose first commercial recording occurred in 1983. She became eligible for Rock and Roll Hall of Fame induction in 2008, marking 18 years since eligibility. The record shows a Rolling Stone Attention Score of 0 and no documented nominations for Hall of Fame induction.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided documentation does not include performance metrics, critical acclaim measures, or technical achievement indicators necessary to evaluate musical excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No evidence is provided regarding Baker's influence on subsequent artists, stylistic innovations, or documented citations by other performers.\n\n**3. Length of Career**\nThe record documents a career spanning from 1983 to present, representing approximately 41 years of documented activity. This satisfies the criterion's temporal requirements for sustained professional engagement.\n\n**4. Depth of Catalog**\nInsufficient data in record. The documentation lacks information about album releases, singles, or the scope of recorded output necessary to assess catalog depth.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While Baker is classified within Soul/R&B genres historically connected to rock and roll's development, the record provides no specific evidence of contributions to rock and roll's evolution or sound.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal documented critical recognition in major rock journalism outlets. The absence of any documented Hall of Fame nominations across 18 years of eligibility suggests limited institutional recognition within the selection process.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports only one of the five stated criteria (length of career), while four criteria lack sufficient supporting data in the provided record. The case demonstrates extended eligibility period without documented institutional recognition or critical attention scores typical of inducted artists.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:50:07",
   "human_reviewed": false,
-  "slug": "anita-baker"
+  "data_record": "Name: Anita Baker\nGenre: Soul/R&B\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

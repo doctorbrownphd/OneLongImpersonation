@@ -1,15 +1,12 @@
 {
   "artist_name": "Phish",
-  "genre": "Classic Rock",
+  "artist_id": 374,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 28.1,
-  "eligible_year": 2013,
-  "wait_years": 13,
-  "data_record": "Name: Phish\nGenre: Classic Rock\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: PHISH INDUCTION CASE\n\n## Findings of Fact\n\n**Artist:** Phish  \n**Genre Classification:** Classic Rock  \n**Career Timeline:** First commercial recording documented in 1988, making the artist eligible for Rock and Roll Hall of Fame consideration since 2013  \n**Induction Status:** Remains uninducted after 13 years of eligibility  \n**Industry Recognition:** Rolling Stone Attention Score of 0, indicating minimal documented coverage in major rock journalism outlets  \n**Nomination Record:** No documented nominations for Rock and Roll Hall of Fame induction\n\n## Application of Criteria\n\n**Criterion 1 - Musical Excellence:**  \nInsufficient data in record. The provided documentation contains no specific evidence of musical achievements, critical acclaim, or technical proficiency assessments.\n\n**Criterion 2 - Influence on Other Performers:**  \nInsufficient data in record. No documented evidence of influence on subsequent artists or performers is provided in the case materials.\n\n**Criterion 3 - Length of Career:**  \nDocumented evidence supports this criterion. With a first commercial recording in 1988, the artist demonstrates a career span of over 35 years, satisfying typical longevity requirements for Hall consideration.\n\n**Criterion 4 - Depth of Catalog:**  \nInsufficient data in record. While commercial recording activity is documented from 1988 forward, specific details regarding album releases, chart performance, or catalog scope are not provided.\n\n**Criterion 5 - Contributions to Rock and Roll:**  \nInsufficient data in record. The genre classification as \"Classic Rock\" provides minimal insight into specific contributions to rock and roll development or culture.\n\n## The Gap\n\nThe documented evidence reveals significant deficiencies when measured against typical inducted artist profiles. The Rolling Stone Attention Score of 0 indicates minimal recognition from major rock journalism platforms, contrasting sharply with the substantial media coverage typically associated with Hall inductees. The absence of any documented nominations over 13 years of eligibility suggests limited industry support for induction. While the artist meets basic career longevity requirements, critical gaps exist in documented musical excellence, cultural influence, and industry recognition metrics.\n\n## The Verdict\n\n**Classification: INSUFFICIENT (Confidence: 30%)**\n\nThe available evidence supports career longevity but fails to establish the musical excellence, cultural influence, or industry recognition typically associated with Rock and Roll Hall of Fame induction. Phish's case demonstrates eligibility through career length alone, insufficient to meet the Hall's comprehensive induction standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:54:49",
   "human_reviewed": false,
-  "slug": "phish"
+  "data_record": "Name: Phish\nGenre: Classic Rock\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

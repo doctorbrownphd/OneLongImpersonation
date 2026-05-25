@@ -1,15 +1,12 @@
 {
   "artist_name": "New Order",
-  "genre": "Electronic",
+  "artist_id": 331,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
-  "criteria_score": 33.85,
-  "eligible_year": 2006,
-  "wait_years": 20,
-  "data_record": "Name: New Order\nGenre: Electronic\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "criteria_score": 35.1,
+  "brief_text": "## Findings of Fact\n\nNew Order is documented as an electronic genre artist with their first commercial recording released in 1981. The band has been eligible for Rock and Roll Hall of Fame induction since 2006, representing 20 years since achieving eligibility. The data record shows documented influences from Kraftwerk and reports a Rolling Stone Attention Score of 0. No documented nominations for Rock and Roll Hall of Fame induction appear in the record.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The data record provides no documented information regarding critical acclaim, technical proficiency, or artistic achievement metrics.\n\n**Influence on Other Performers:** Insufficient data in record. While the record documents that New Order drew influences from Kraftwerk, no evidence is provided regarding New Order's documented influence on subsequent artists or performers.\n\n**Length of Career:** Documented evidence shows a career span beginning in 1981, representing over 40 years of documented activity through the present eligibility period.\n\n**Depth of Catalog:** Insufficient data in record. The data record provides no information regarding album releases, commercial performance, or catalog scope beyond the initial 1981 commercial recording.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The electronic genre classification is documented, but the record contains no evidence of specific contributions to rock and roll's development or evolution.\n\n## The Gap\n\nThe data record shows significant gaps in documented evidence across four of the five stated criteria. While New Order's career length meets standard induction patterns, the absence of documented influence metrics, catalog depth information, and contribution evidence creates substantial evidentiary deficiencies compared to typical inducted artists from the electronic and alternative rock categories of their era.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts support only one criterion (career length) while providing insufficient data for musical excellence, influence documentation, catalog assessment, and rock contributions. New Order's case demonstrates significant evidentiary gaps that prevent adequate evaluation against the Hall's stated induction standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:47:29",
   "human_reviewed": false,
-  "slug": "new-order"
+  "data_record": "Name: New Order\nGenre: Electronic\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nDocumented influences from: Kraftwerk\nNomination history: No documented nominations"
 }

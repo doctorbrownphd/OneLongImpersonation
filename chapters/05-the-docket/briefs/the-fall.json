@@ -1,15 +1,12 @@
 {
   "artist_name": "The Fall",
-  "genre": "Punk",
+  "artist_id": 324,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 37.6,
-  "eligible_year": 2003,
-  "wait_years": 23,
-  "data_record": "Name: The Fall\nGenre: Punk\nFirst commercial recording: 1978\nEligible for induction since: 2003\nYears since eligibility: 23\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe documented record establishes The Fall as a punk genre artist whose first commercial recording occurred in 1978. The band became eligible for Rock and Roll Hall of Fame consideration in 2003, representing 23 years of eligibility as of the current assessment period. The record shows zero Rolling Stone Attention Score and no documented nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No specific documentation of musical achievements, critical acclaim, or artistic recognition provided.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence of impact on subsequent artists or musical movements provided in the available data.\n\n**Length of Career**: Documented evidence supports this criterion. The record establishes a commercial recording career spanning from 1978, indicating at least 45 years of documented activity in the music industry.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding discography size, album releases, or recorded output volume provided.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While genre classification as punk is documented, specific contributions to rock and roll development are not detailed in the provided data.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The zero Rolling Stone Attention Score indicates absence of mainstream critical recognition typically associated with Hall of Fame inductees. The lack of documented nominations over 23 years of eligibility suggests limited institutional support. While length of career criterion shows potential compliance, insufficient documentation exists for four of the five stated criteria.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports only one of five induction criteria with certainty, while four criteria lack sufficient documentation for proper evaluation. The case demonstrates insufficient documented qualifications for Rock and Roll Hall of Fame induction based on available data, though substantial gaps in the evidentiary record limit comprehensive assessment.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:45:49",
   "human_reviewed": false,
-  "slug": "the-fall"
+  "data_record": "Name: The Fall\nGenre: Punk\nFirst commercial recording: 1978\nEligible for induction since: 2003\nYears since eligibility: 23\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

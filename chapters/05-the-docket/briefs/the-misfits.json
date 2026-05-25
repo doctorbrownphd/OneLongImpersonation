@@ -1,15 +1,12 @@
 {
   "artist_name": "The Misfits",
-  "genre": "Punk",
-  "verdict": "BORDERLINE",
-  "confidence": 0.5,
+  "artist_id": 327,
+  "verdict": "INSUFFICIENT",
+  "confidence": 0.3,
   "criteria_score": 37.9,
-  "eligible_year": 2002,
-  "wait_years": 24,
-  "data_record": "Name: The Misfits\nGenre: Punk\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: THE MISFITS\n## Case for Rock and Roll Hall of Fame Induction\n\n---\n\n## Findings of Fact\n\nThe Misfits are documented as a punk genre band with their first commercial recording released in 1977. The band has been eligible for Rock and Roll Hall of Fame induction since 2002, representing 24 years of eligibility as of the current assessment period. The data record reports no documented nominations for induction. The band's Rolling Stone Attention Score is documented as 0, indicating no measured coverage in that publication's rankings or features within the assessed parameters.\n\n---\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No documented critical assessments, awards, or professional recognition metrics are provided to evaluate musical excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documented evidence of artists citing The Misfits as influences or measurable impact on subsequent performers is provided.\n\n**3. Length of Career**\nDocumented evidence shows first commercial recording in 1977, establishing a career span of at least 47 years as of 2024. This criterion appears satisfied based on the documented timeline.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information regarding number of albums, singles, or breadth of recorded material is provided to assess catalog depth.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the band is classified within the punk genre, which represents a documented rock and roll subgenre, no specific contributions to the development or evolution of rock and roll are documented in the provided record.\n\n---\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. With a Rolling Stone Attention Score of 0 and no documented nominations despite 24 years of eligibility, The Misfits' measurable recognition falls substantially below the threshold typically associated with induction. The punk genre has seen successful inductees, but those cases typically demonstrate documented influence, critical recognition, or measurable cultural impact not evidenced in this record.\n\n---\n\n## The Verdict\n\nThe classification is INSUFFICIENT with 30% confidence. The documented evidence supports length of career as the primary qualifying criterion, while critical gaps exist in demonstrable influence, catalog documentation, and measurable excellence. The Misfits present a case where longevity is documented but broader Hall of Fame qualification criteria remain largely unsubstantiated by the available record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:44:49",
   "human_reviewed": false,
-  "slug": "the-misfits"
+  "data_record": "Name: The Misfits\nGenre: Punk\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

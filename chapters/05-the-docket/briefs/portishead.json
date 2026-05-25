@@ -1,15 +1,12 @@
 {
   "artist_name": "Portishead",
-  "genre": "Electronic",
+  "artist_id": 335,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 24.4,
-  "eligible_year": 2019,
-  "wait_years": 7,
-  "data_record": "Name: Portishead\nGenre: Electronic\nFirst commercial recording: 1994\nEligible for induction since: 2019\nYears since eligibility: 7\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nPortishead is documented as an electronic genre artist with their first commercial recording released in 1994. The band became eligible for Rock and Roll Hall of Fame induction in 2019 and has been eligible for seven years as of the current assessment period. The data record shows zero Rolling Stone Attention Score and no documented nominations for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No specific documentation of critical acclaim, awards, or peer recognition is provided in the artist data record.\n\n**Influence on Other Performers:** Insufficient data in record. The data record contains no documentation of artists citing Portishead as an influence or evidence of their impact on subsequent performers.\n\n**Length of Career:** Documented evidence shows a career spanning from 1994 to present, representing approximately 30 years of documented activity in the music industry.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding album releases, chart performance, or catalog size is documented in the provided data record.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the artist is classified under the electronic genre, no specific documentation of contributions to rock and roll's development or evolution is provided.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The zero Rolling Stone Attention Score indicates minimal documented mainstream recognition. The absence of any documented nominations after seven years of eligibility suggests limited industry advocacy. Most inducted artists demonstrate documented evidence across multiple criteria, while this record provides sufficient documentation for only one criterion (length of career).\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports length of career but lacks sufficient documentation across the remaining four criteria required for induction consideration. The case demonstrates a substantial gap between documented qualifications and the typical profile of inducted artists.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:57:23",
   "human_reviewed": false,
-  "slug": "portishead"
+  "data_record": "Name: Portishead\nGenre: Electronic\nFirst commercial recording: 1994\nEligible for induction since: 2019\nYears since eligibility: 7\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

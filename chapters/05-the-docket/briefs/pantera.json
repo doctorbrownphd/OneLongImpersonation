@@ -1,15 +1,12 @@
 {
   "artist_name": "Pantera",
-  "genre": "Heavy Metal",
+  "artist_id": 296,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 31.7,
-  "eligible_year": 2008,
-  "wait_years": 18,
-  "data_record": "Name: Pantera\nGenre: Heavy Metal\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nPantera is documented as a heavy metal band with their first commercial recording released in 1983. The band became eligible for Rock and Roll Hall of Fame induction in 2008 and has remained eligible for 18 years as of the current analysis. The band has received zero documented attention from Rolling Stone in measurable coverage metrics. No nominations to the Rock and Roll Hall of Fame have been documented in the available record.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented critical assessments, awards, or professional recognitions are provided to evaluate musical excellence.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence of influence on subsequent artists or citations by other performers is provided.\n\n**Length of Career**: Documented career span begins in 1983 with first commercial recording, indicating over 40 years of documented activity in the music industry.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding album releases, song catalog size, or commercial performance metrics is provided.\n\n**Contributions to Rock and Roll**: Insufficient data in record. No specific documented contributions to the development or evolution of rock and roll are provided beyond genre classification as heavy metal.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The zero Rolling Stone Attention Score indicates absence of documented critical recognition in major music publications. The lack of any documented nominations over 18 years of eligibility suggests the artist has not met the threshold for serious consideration by Hall of Fame voters. Heavy metal artists face documented challenges in Hall recognition, and this case shows none of the compensating factors typically required for induction in this genre.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports only one of five induction criteria with measurable data, while four criteria lack sufficient documentation for evaluation. Pantera's case demonstrates insufficient documented qualifications for Rock and Roll Hall of Fame induction based on available evidence.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:50:35",
   "human_reviewed": false,
-  "slug": "pantera"
+  "data_record": "Name: Pantera\nGenre: Heavy Metal\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

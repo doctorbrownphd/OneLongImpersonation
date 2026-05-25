@@ -1,15 +1,12 @@
 {
   "artist_name": "Dream Theater",
-  "genre": "Heavy Metal",
+  "artist_id": 306,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 28.9,
-  "eligible_year": 2014,
-  "wait_years": 12,
-  "data_record": "Name: Dream Theater\nGenre: Heavy Metal\nFirst commercial recording: 1989\nEligible for induction since: 2014\nYears since eligibility: 12\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nDream Theater is documented as a Heavy Metal artist whose first commercial recording was released in 1989. The band became eligible for Rock and Roll Hall of Fame induction in 2014 and has remained eligible for 12 years as of the current analysis. The data record shows zero Rolling Stone Attention Score and no documented nominations to the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented critical assessments, awards, or professional recognition metrics are provided to evaluate musical excellence.\n\n**Influence on Other Performers:** Insufficient data in record. No documentation of artists citing Dream Theater as an influence or evidence of their impact on subsequent performers.\n\n**Length of Career:** Documented evidence shows a career spanning at least 35 years from first commercial recording (1989) to present, demonstrating sustained professional activity over multiple decades.\n\n**Depth of Catalog:** Insufficient data in record. No information provided regarding number of albums, songs, or body of work to assess catalog depth.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While classified within Heavy Metal genre, no specific documented contributions to rock and roll's development or evolution are provided.\n\n## The Gap\n\nThe data record provides minimal quantifiable metrics for comparison with inducted artists. The documented zero Rolling Stone Attention Score and absence of nominations suggest limited recognition within traditional rock journalism and Hall of Fame consideration processes. The 12-year eligibility period without nomination indicates a significant gap between this artist's profile and typical induction patterns.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports only one of five stated criteria with adequate information, while four criteria lack sufficient data for proper evaluation. Dream Theater's case demonstrates the challenge facing specialized genre artists with limited mainstream documentation despite documented career longevity.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:54:24",
   "human_reviewed": false,
-  "slug": "dream-theater"
+  "data_record": "Name: Dream Theater\nGenre: Heavy Metal\nFirst commercial recording: 1989\nEligible for induction since: 2014\nYears since eligibility: 12\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

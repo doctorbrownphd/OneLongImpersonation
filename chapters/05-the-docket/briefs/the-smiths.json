@@ -1,15 +1,12 @@
 {
   "artist_name": "The Smiths",
-  "genre": "Classic Rock",
+  "artist_id": 371,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 30.3,
-  "eligible_year": 2009,
-  "wait_years": 17,
-  "data_record": "Name: The Smiths\nGenre: Classic Rock\nFirst commercial recording: 1984\nEligible for induction since: 2009\nYears since eligibility: 17\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe Smiths are documented as a Classic Rock artist with their first commercial recording released in 1984. The band became eligible for Rock and Roll Hall of Fame induction in 2009 and has remained eligible for 17 years as of the current assessment period. The data record shows no documented nominations for induction. The artist received a Rolling Stone Attention Score of 0, indicating no verified coverage in major rock journalism metrics tracked in this dataset.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented evidence of critical acclaim, technical proficiency, or artistic achievement is provided in the available data.\n\n**Influence on Other Performers:** Insufficient data in record. The data contains no documented evidence of other artists citing The Smiths as an influence or adopting their musical approaches.\n\n**Length of Career:** Documented career span begins with 1984 commercial recording. However, the record provides insufficient data regarding career duration, active periods, or longevity of musical output.\n\n**Depth of Catalog:** Insufficient data in record. No information is provided regarding album releases, song output, or breadth of musical work beyond the initial 1984 commercial recording.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The genre classification of Classic Rock is documented, but no specific contributions to rock and roll's development or evolution are evidenced in the provided data.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. With 17 years of eligibility and zero documented nominations, The Smiths demonstrate a substantial departure from the nomination patterns of successfully inducted Classic Rock artists. The absence of Rolling Stone attention (score of 0) indicates limited recognition in major rock journalism platforms that typically chronicle inducted artists' careers.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented record provides minimal factual support across all five induction criteria, with most criteria lacking sufficient data for meaningful evaluation. The Smiths' case demonstrates a significant evidentiary gap relative to the documented qualifications typically associated with Rock and Roll Hall of Fame induction.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:52:49",
   "human_reviewed": false,
-  "slug": "the-smiths"
+  "data_record": "Name: The Smiths\nGenre: Classic Rock\nFirst commercial recording: 1984\nEligible for induction since: 2009\nYears since eligibility: 17\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

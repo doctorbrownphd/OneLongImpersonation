@@ -1,15 +1,12 @@
 {
   "artist_name": "Scorpions",
-  "genre": "Heavy Metal",
+  "artist_id": 304,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 39.2,
-  "eligible_year": 1997,
-  "wait_years": 29,
-  "data_record": "Name: Scorpions\nGenre: Heavy Metal\nFirst commercial recording: 1972\nEligible for induction since: 1997\nYears since eligibility: 29\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nScorpions is a heavy metal band that made their first commercial recording in 1972. The band became eligible for Rock and Roll Hall of Fame induction in 1997 and has remained eligible for 29 years as of the current assessment period. The data record shows no documented nominations for induction. The band's Rolling Stone Attention Score is documented as 0.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record to assess technical proficiency, songwriting quality, or critical recognition of musical achievements.\n\n**Influence on Other Performers:** Insufficient data in record to document the band's impact on subsequent artists or musical movements within heavy metal or broader rock genres.\n\n**Length of Career:** Documented evidence shows a career span of at least 25 years from first commercial recording (1972) to eligibility date (1997), meeting the Hall's minimum career duration requirement.\n\n**Depth of Catalog:** Insufficient data in record regarding album releases, chart performance, or commercial success metrics to assess catalog breadth and significance.\n\n**Contributions to Rock and Roll:** Insufficient data in record to evaluate specific innovations, cultural impact, or advancement of rock music through the band's work.\n\n## The Gap\n\nThe data record provides limited quantifiable metrics for comparison with inducted artists. The documented Rolling Stone Attention Score of 0 suggests minimal coverage in major rock journalism outlets. The absence of documented nominations over 29 years of eligibility indicates potential gaps in meeting the Hall's selection standards relative to inducted heavy metal and hard rock acts from similar time periods.\n\n## The Verdict\n\nThe case classification is BORDERLINE with 50% confidence. The documented evidence establishes basic eligibility through career length but lacks sufficient data to demonstrate strength across the remaining four criteria. Scorpions presents a case where extended eligibility period and genre representation must be weighed against limited documented evidence of the excellence and influence typically associated with Hall of Fame induction.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:42:44",
   "human_reviewed": false,
-  "slug": "scorpions"
+  "data_record": "Name: Scorpions\nGenre: Heavy Metal\nFirst commercial recording: 1972\nEligible for induction since: 1997\nYears since eligibility: 29\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

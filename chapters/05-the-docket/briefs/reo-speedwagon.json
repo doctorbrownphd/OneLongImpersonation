@@ -1,15 +1,12 @@
 {
   "artist_name": "REO Speedwagon",
-  "genre": "Classic Rock",
-  "verdict": "BORDERLINE",
-  "confidence": 0.5,
+  "artist_id": 381,
+  "verdict": "INSUFFICIENT",
+  "confidence": 0.3,
   "criteria_score": 37.8,
-  "eligible_year": 1996,
-  "wait_years": 30,
-  "data_record": "Name: REO Speedwagon\nGenre: Classic Rock\nFirst commercial recording: 1971\nEligible for induction since: 1996\nYears since eligibility: 30\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: REO SPEEDWAGON INDUCTION CASE\n\n## Findings of Fact\n\nREO Speedwagon is documented as a classic rock artist with their first commercial recording released in 1971. The band has been eligible for Rock and Roll Hall of Fame induction since 1996, representing 30 years of eligibility as of the current analysis period. The documented record shows zero Rolling Stone Attention Score and no recorded nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The provided documentation contains no specific evidence regarding technical proficiency, songwriting quality, or critical assessment of musical achievement.\n\n**Influence on Other Performers:** Insufficient data in record. No documentation provided regarding REO Speedwagon's impact on subsequent artists or musical movements.\n\n**Length of Career:** Documented evidence supports this criterion. The band's first commercial recording in 1971 establishes a career span exceeding the Hall's typical minimum threshold for consideration.\n\n**Depth of Catalog:** Insufficient data in record. No information provided regarding album releases, chart performance, or catalog breadth.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The classic rock genre classification is noted, but specific contributions to the development or evolution of rock music are not documented.\n\n## The Gap\n\nThe documented qualifications present significant evidentiary gaps when measured against typical inducted artist profiles. The zero Rolling Stone Attention Score indicates minimal critical recognition in documented metrics. The absence of any nomination history over 30 years of eligibility suggests the Hall's selection committees have not identified compelling evidence meeting their stated criteria. The limited factual record provides verification for only one of the five stated induction criteria.\n\n## The Verdict\n\nThe classification is INSUFFICIENT with 30% confidence. The documented evidence supports career longevity but lacks substantive data for musical excellence, influence, catalog depth, or specific contributions to rock and roll development. This case demonstrates how extended eligibility periods without nominations may reflect fundamental gaps in meeting the Hall's documented selection standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:45:14",
   "human_reviewed": false,
-  "slug": "reo-speedwagon"
+  "data_record": "Name: REO Speedwagon\nGenre: Classic Rock\nFirst commercial recording: 1971\nEligible for induction since: 1996\nYears since eligibility: 30\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

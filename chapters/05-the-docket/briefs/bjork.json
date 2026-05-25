@@ -1,15 +1,12 @@
 {
   "artist_name": "Bjork",
-  "genre": "Electronic",
+  "artist_id": 340,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 38.6,
-  "eligible_year": 2002,
-  "wait_years": 24,
-  "data_record": "Name: Bjork\nGenre: Electronic\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nBjork is classified as an electronic genre artist who began her commercial recording career in 1977. She became eligible for Rock and Roll Hall of Fame induction in 2002 and has remained eligible for 24 years as of the current analysis. The artist has received a Rolling Stone Attention Score of 0, indicating no documented coverage in that publication's rankings or features. No nominations for Hall of Fame induction have been documented in the available records.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The data contains no documented information regarding critical acclaim, awards, technical proficiency, or professional recognition that would demonstrate musical excellence.\n\n**Influence on Other Performers:** Insufficient data in record. No evidence is provided regarding documented influence on subsequent artists, genre development, or acknowledgment by other musicians.\n\n**Length of Career:** Documented. The record establishes a commercial recording career beginning in 1977, indicating a career span of approximately 47 years, which satisfies typical length requirements for Hall consideration.\n\n**Depth of Catalog:** Insufficient data in record. No information is provided regarding album releases, chart performance, or body of work that would demonstrate catalog depth.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the artist is classified under the electronic genre, no specific documented contributions to rock and roll or its evolution are provided in the data record.\n\n## The Gap\n\nThe data record provides minimal quantifiable information for comparison with inducted artists. The documented 24-year eligibility period without nomination suggests performance below average induction standards for the artist's era and genre classification. The Rolling Stone Attention Score of 0 indicates absence from major rock publication recognition metrics that typically correlate with Hall consideration.\n\n## The Verdict\n\nThe classification is BORDERLINE with 50% confidence. The documented evidence supports career longevity spanning 47 years and long-term eligibility status, but lacks verification of the musical excellence, influence, catalog depth, and rock contributions typically documented for inducted artists. The case demonstrates career persistence without documented industry recognition metrics that characterize successful Hall of Fame candidates.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:43:59",
   "human_reviewed": false,
-  "slug": "bjork"
+  "data_record": "Name: Bjork\nGenre: Electronic\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

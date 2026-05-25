@@ -1,15 +1,12 @@
 {
   "artist_name": "Iron Butterfly",
-  "genre": "Heavy Metal",
+  "artist_id": 298,
   "verdict": "CASE",
   "confidence": 0.7,
   "criteria_score": 42.6,
-  "eligible_year": 1993,
-  "wait_years": 33,
-  "data_record": "Name: Iron Butterfly\nGenre: Heavy Metal\nFirst commercial recording: 1968\nEligible for induction since: 1993\nYears since eligibility: 33\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: IRON BUTTERFLY INDUCTION CASE\n\n## Findings of Fact\n\nIron Butterfly, classified as a Heavy Metal artist, made their first commercial recording in 1968. The band became eligible for Rock and Roll Hall of Fame induction in 1993, making them eligible for 33 years as of the current assessment. The documented record shows a Rolling Stone Attention Score of 0 and no documented nominations for Hall of Fame induction in their 33-year eligibility period.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided documentation contains no specific evidence regarding Iron Butterfly's musical excellence, technical proficiency, or artistic achievements.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documentation provided regarding Iron Butterfly's influence on subsequent artists or their role in shaping musical developments.\n\n**3. Length of Career**\nDocumented evidence shows commercial recording activity beginning in 1968, establishing a career spanning at least 56 years to present. This meets the basic career longevity expectations for Hall consideration.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information provided regarding the breadth, quality, or commercial success of Iron Butterfly's recorded output.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record regarding specific contributions to rock and roll development, innovation, or cultural impact.\n\n## The Gap\n\nThe documented qualifications show significant gaps in critical areas. With a Rolling Stone Attention Score of 0 and no documented nominations despite 33 years of eligibility, Iron Butterfly's profile falls substantially below typical inducted artists. The absence of documented influence metrics, catalog depth data, and contribution evidence creates substantial evidentiary deficiencies compared to successful inductees in the Heavy Metal genre.\n\n## The Verdict\n\nClassification: CASE (confidence: 70%). The documented evidence supports a case with limited strength due to insufficient data across four of five induction criteria. While career length is documented, the absence of recognition metrics, nomination history, and detailed achievement records presents significant challenges to demonstrating Hall-worthy qualifications. The evidence suggests a candidate with substantial documentation gaps relative to typical inductee profiles.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:40:20",
   "human_reviewed": false,
-  "slug": "iron-butterfly"
+  "data_record": "Name: Iron Butterfly\nGenre: Heavy Metal\nFirst commercial recording: 1968\nEligible for induction since: 1993\nYears since eligibility: 33\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

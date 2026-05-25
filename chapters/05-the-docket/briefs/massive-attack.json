@@ -1,15 +1,12 @@
 {
   "artist_name": "Massive Attack",
-  "genre": "Electronic",
+  "artist_id": 334,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 29.75,
-  "eligible_year": 2013,
-  "wait_years": 13,
-  "data_record": "Name: Massive Attack\nGenre: Electronic\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nMassive Attack is documented as an electronic genre artist whose first commercial recording was released in 1988. The group became eligible for Rock and Roll Hall of Fame induction in 2013, marking 13 years since eligibility began. The data record shows a Rolling Stone Attention Score of 0 and indicates no documented nominations for Hall of Fame induction.\n\n## Application of Criteria\n\n**1. Musical excellence**\nInsufficient data in record. No specific information provided regarding musical achievements, critical reception, or artistic quality.\n\n**2. Influence on other performers**\nInsufficient data in record. No documentation provided regarding the artist's impact on subsequent musicians or the broader musical landscape.\n\n**3. Length of career**\nDocumented evidence shows a career spanning from 1988 to present, indicating approximately 36 years of musical activity based on the first commercial recording date.\n\n**4. Depth of catalog**\nInsufficient data in record. No information provided regarding the number of albums, songs, or scope of recorded output.\n\n**5. Contributions to rock and roll**\nInsufficient data in record. While the artist is classified in the electronic genre, no specific documentation provided regarding contributions to rock and roll or related musical forms.\n\n## The Gap\n\nThe data record provides minimal information for comparative analysis against inducted artists. The documented Rolling Stone Attention Score of 0 and absence of nominations suggest limited recognition within traditional rock journalism metrics. The 13-year period since eligibility without nomination indicates a significant gap between this artist's documented profile and typical induction patterns.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts establish basic eligibility through career length since 1988, but the record lacks substantive data across four of the five induction criteria. The case demonstrates how electronic genre artists face documentation challenges within traditional rock and roll evaluation frameworks.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:53:00",
   "human_reviewed": false,
-  "slug": "massive-attack"
+  "data_record": "Name: Massive Attack\nGenre: Electronic\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "Siouxsie and the Banshees",
-  "genre": "Punk",
+  "artist_id": 322,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 37.6,
-  "eligible_year": 2003,
-  "wait_years": 23,
-  "data_record": "Name: Siouxsie and the Banshees\nGenre: Punk\nFirst commercial recording: 1978\nEligible for induction since: 2003\nYears since eligibility: 23\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nSiouxsie and the Banshees is documented as a punk genre artist with their first commercial recording released in 1978. The band became eligible for Rock and Roll Hall of Fame induction in 2003 and has remained eligible for 23 years without documented nominations. The artist received a Rolling Stone Attention Score of 0, indicating minimal coverage in Rolling Stone's rankings and features.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented information regarding critical acclaim, technical proficiency, or artistic innovation is provided.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence of the band's impact on subsequent artists or musical movements is available in the provided data.\n\n**Length of Career**: Documented evidence shows the band began commercial recording in 1978, establishing a career spanning at least 45 years as of 2023. This demonstrates substantial career longevity.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding album releases, discography size, or body of work is documented.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While the band is classified within the punk genre, no specific documented contributions to rock and roll's development or evolution are provided.\n\n## The Gap\n\nThe documented evidence reveals significant gaps in establishing the artist's qualifications relative to typical inducted performers. The 23-year period since eligibility without nominations and Rolling Stone Attention Score of 0 indicate limited recognition within music industry evaluation frameworks. Most inducted artists demonstrate documented excellence across multiple criteria, while this record provides verifiable evidence for only one criterion (career length).\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports career longevity within the punk genre but lacks sufficient data to evaluate musical excellence, influence, catalog depth, or specific contributions to rock and roll. The absence of nominations despite 23 years of eligibility and minimal Rolling Stone recognition suggest the artist has not achieved the documented profile typically associated with Hall of Fame induction.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:45:38",
   "human_reviewed": false,
-  "slug": "siouxsie-and-the-banshees"
+  "data_record": "Name: Siouxsie and the Banshees\nGenre: Punk\nFirst commercial recording: 1978\nEligible for induction since: 2003\nYears since eligibility: 23\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

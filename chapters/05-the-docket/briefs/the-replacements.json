@@ -1,15 +1,12 @@
 {
   "artist_name": "The Replacements",
-  "genre": "Punk",
+  "artist_id": 313,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 33.3,
-  "eligible_year": 2006,
-  "wait_years": 20,
-  "data_record": "Name: The Replacements\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe Replacements, classified as a punk genre artist, made their first commercial recording in 1981. The band became eligible for Rock and Roll Hall of Fame induction in 2006 and has remained eligible for 20 years as of the current assessment period. The documented record shows a Rolling Stone Attention Score of 0 and no documented nomination history for Hall of Fame consideration.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented evidence of critical acclaim, awards, or professional recognition is provided in the artist data record.\n\n**Influence on Other Performers**: Insufficient data in record. The provided data contains no documentation of influence on subsequent artists or musical movements.\n\n**Length of Career**: Documented evidence shows commercial recording activity beginning in 1981, indicating a career span of substantial duration, though the end date of active recording is not specified in the record.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding album releases, chart performance, or catalog scope is documented in the provided data.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While the artist is classified within the punk genre, specific contributions to rock and roll development are not documented in the available record.\n\n## The Gap\n\nThe documented qualifications present significant gaps when measured against typical induction standards. The Rolling Stone Attention Score of 0 and absence of documented nominations indicate limited recognition within established music industry evaluation frameworks. The 20-year eligibility period without nomination suggests the artist's documented achievements may fall below the threshold typically required for serious Hall consideration within their genre classification.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented record lacks sufficient data across four of the five stated criteria, with only career length partially documented. The Replacements case demonstrates how limited documentation can obscure an artist's qualifications for Hall of Fame consideration, regardless of their actual musical contributions.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:48:43",
   "human_reviewed": false,
-  "slug": "the-replacements"
+  "data_record": "Name: The Replacements\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

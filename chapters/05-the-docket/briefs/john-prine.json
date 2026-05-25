@@ -1,15 +1,12 @@
 {
   "artist_name": "John Prine",
-  "genre": "Folk/Country",
+  "artist_id": 399,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 36.4,
-  "eligible_year": 1996,
-  "wait_years": 30,
-  "data_record": "Name: John Prine\nGenre: Folk/Country\nFirst commercial recording: 1971\nEligible for induction since: 1996\nYears since eligibility: 30\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nJohn Prine is documented as a Folk/Country artist who made his first commercial recording in 1971. The record shows he became eligible for Rock and Roll Hall of Fame induction in 1996, making him eligible for 30 years as of the data collection date. The documented Rolling Stone Attention Score is 0, and no nominations to the Rock and Roll Hall of Fame are recorded in the available data.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No specific documentation of critical acclaim, awards, or professional recognition is provided to evaluate musical excellence.\n\n**Influence on Other Performers:** Insufficient data in record. The data contains no documentation of artists citing Prine as an influence or covering his material.\n\n**Length of Career:** Documented evidence shows a career spanning from 1971 through the data collection period, representing approximately 30+ years of documented activity in music.\n\n**Depth of Catalog:** Insufficient data in record. No information is provided regarding album releases, song count, or catalog scope.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The artist's documented genre classification is Folk/Country, but no specific evidence is provided regarding contributions to rock and roll music or culture.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal documented mainstream rock press coverage. The absence of any recorded nominations over 30 years of eligibility suggests limited recognition by Hall voters. Most critically, the Folk/Country genre classification creates uncertainty regarding rock and roll contributions, a fundamental criterion for induction.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts show eligibility through career length but lack supporting evidence for musical excellence, influence documentation, catalog depth assessment, and rock and roll contributions. This case demonstrates how genre classification and limited mainstream rock documentation can affect an artist's measurable qualification profile despite extended career longevity.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:46:14",
   "human_reviewed": false,
-  "slug": "john-prine"
+  "data_record": "Name: John Prine\nGenre: Folk/Country\nFirst commercial recording: 1971\nEligible for induction since: 1996\nYears since eligibility: 30\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

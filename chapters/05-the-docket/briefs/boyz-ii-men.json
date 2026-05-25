@@ -1,15 +1,12 @@
 {
   "artist_name": "Boyz II Men",
-  "genre": "Soul/R&B",
+  "artist_id": 362,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 25.7,
-  "eligible_year": 2016,
-  "wait_years": 10,
-  "data_record": "Name: Boyz II Men\nGenre: Soul/R&B\nFirst commercial recording: 1991\nEligible for induction since: 2016\nYears since eligibility: 10\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nBoyz II Men is a Soul/R&B group that first released commercial recordings in 1991. The group has maintained an active recording career spanning over three decades and became eligible for Rock and Roll Hall of Fame induction in 2016. As of the current evaluation period, the group has been eligible for induction for 10 years. The data record shows no documented nominations for Hall of Fame induction and reports a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided data does not include information about critical reception, awards, chart performance, or other metrics that would document musical excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. The data contains no documentation of the group's influence on subsequent artists or performers in the R&B, soul, or broader musical landscape.\n\n**3. Length of Career**\nDocumented evidence supports this criterion. The group's career spans from 1991 to present, representing over 30 years of documented activity in the music industry.\n\n**4. Depth of Catalog**\nInsufficient data in record. The data provides no information about the number of albums, singles, or the scope of the group's recorded output beyond the initial 1991 commercial recording date.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the group operates primarily in the Soul/R&B genre, the data contains no specific documentation of contributions to rock and roll music or culture.\n\n## The Gap\n\nThe documented evidence shows significant gaps when measured against typical inductee qualifications. The absence of documented nominations after 10 years of eligibility, combined with a Rolling Stone Attention Score of 0, indicates limited recognition within the Hall of Fame evaluation ecosystem. Most successfully inducted artists demonstrate documented influence, critical acclaim, and sustained industry recognition that is not present in this data record.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The available evidence demonstrates career longevity spanning over three decades but lacks documentation in four of the five stated criteria, particularly the critical areas of musical excellence, influence, and catalog depth that typically characterize Hall of Fame inductees. This case illustrates insufficient documented evidence to support induction under the Hall's stated criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:55:37",
   "human_reviewed": false,
-  "slug": "boyz-ii-men"
+  "data_record": "Name: Boyz II Men\nGenre: Soul/R&B\nFirst commercial recording: 1991\nEligible for induction since: 2016\nYears since eligibility: 10\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "Blind Willie McTell",
-  "genre": "Blues/Early",
+  "artist_id": 389,
   "verdict": "STRONG_CASE",
   "confidence": 0.9,
   "criteria_score": 50.0,
-  "eligible_year": 1952,
-  "wait_years": 74,
-  "data_record": "Name: Blind Willie McTell\nGenre: Blues/Early\nFirst commercial recording: 1927\nEligible for induction since: 1952\nYears since eligibility: 74\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nBlind Willie McTell was a blues/early genre artist who began his documented commercial recording career in 1927. The artist became eligible for Rock and Roll Hall of Fame induction in 1952 and has remained eligible for 74 years as of the current assessment period. The data record shows zero Rolling Stone Attention Score and no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The provided data contains no documented assessments of technical skill, vocal ability, or musical innovation.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of artists citing McTell as an influence or covering his material is provided in the data record.\n\n**Length of Career:** Documented recording career beginning in 1927, indicating a professional career spanning multiple decades in the blues/early genre period.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding number of recordings, albums, or compositions is provided.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The data record provides no documented evidence of specific contributions to the development of rock and roll music, though the artist worked in the blues/early genre category during rock's formative period.\n\n## The Gap\n\nThe documented evidence shows significant gaps in measurable qualifications compared to typical inducted artists. The zero Rolling Stone Attention Score indicates no documented critical recognition in major music publications. The absence of any nomination history over 74 years of eligibility suggests limited institutional recognition within the Hall of Fame's evaluation process. Most inducted blues/early genre artists demonstrate documented influence on rock performers and substantial critical attention, elements absent from this data record.\n\n## The Verdict\n\nThe evidence classification indicates STRONG_CASE status (confidence: 90%) based on criteria compliance scoring relative to inducted artists in the blues/early genre category. While the data record contains substantial gaps in documented musical excellence, influence metrics, and catalog depth, the computational analysis suggests the artist meets the underlying qualification thresholds when compared to historical induction patterns. This case represents a blues/early genre artist with a documented commercial recording career beginning in 1927 who has received no institutional recognition despite 74 years of eligibility.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:38:28",
   "human_reviewed": false,
-  "slug": "blind-willie-mctell"
+  "data_record": "Name: Blind Willie McTell\nGenre: Blues/Early\nFirst commercial recording: 1927\nEligible for induction since: 1952\nYears since eligibility: 74\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

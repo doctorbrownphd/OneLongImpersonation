@@ -1,15 +1,12 @@
 {
   "artist_name": "LL Cool J",
-  "genre": "Hip-Hop",
+  "artist_id": 347,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 31.65,
-  "eligible_year": 2010,
-  "wait_years": 16,
-  "data_record": "Name: LL Cool J\nGenre: Hip-Hop\nFirst commercial recording: 1985\nEligible for induction since: 2010\nYears since eligibility: 16\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# Legal Brief: LL Cool J Rock and Roll Hall of Fame Induction Case\n\n## Findings of Fact\n\nThe documented record establishes that LL Cool J is a Hip-Hop artist who released his first commercial recording in 1985. The artist became eligible for Rock and Roll Hall of Fame induction in 2010, marking 16 years since achieving eligibility status. The record shows a Rolling Stone Attention Score of 0 and documents no nominations in the artist's induction history.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented evidence of musical achievements, awards, or critical recognition is provided in the data record.\n\n**Influence on Other Performers:** Insufficient data in record. The record contains no documented evidence of the artist's influence on subsequent performers or musical movements.\n\n**Length of Career:** Documented evidence shows a career spanning from 1985 to present, representing approximately 39 years of documented activity in the music industry, which meets typical career length expectations for Hall consideration.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding album releases, hit singles, or catalog scope is documented in the provided data.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the artist is classified within the Hip-Hop genre, no specific documented contributions to rock and roll or its evolution are provided in the data record.\n\n## The Gap\n\nThe documented qualifications present significant data limitations when measured against typical inducted artist profiles. The Rolling Stone Attention Score of 0 indicates minimal documented mainstream rock journalism coverage. The absence of any documented nominations over 16 years of eligibility suggests a substantial gap between this artist's documented profile and the recognition patterns of inducted artists from similar eras and genres.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented record supports career longevity but lacks sufficient data across four of five induction criteria. This case demonstrates the challenges faced by artists from genres outside traditional rock when evaluated against the Hall's stated criteria without comprehensive documentation of achievements and influence.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:51:27",
   "human_reviewed": false,
-  "slug": "ll-cool-j"
+  "data_record": "Name: LL Cool J\nGenre: Hip-Hop\nFirst commercial recording: 1985\nEligible for induction since: 2010\nYears since eligibility: 16\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

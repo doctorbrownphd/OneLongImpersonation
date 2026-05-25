@@ -1,15 +1,12 @@
 {
   "artist_name": "Bad Brains",
-  "genre": "Punk",
+  "artist_id": 311,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 33.0,
-  "eligible_year": 2007,
-  "wait_years": 19,
-  "data_record": "Name: Bad Brains\nGenre: Punk\nFirst commercial recording: 1982\nEligible for induction since: 2007\nYears since eligibility: 19\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: BAD BRAINS INDUCTION CASE\n\n## Findings of Fact\n\nBad Brains is documented as a punk genre artist with their first commercial recording released in 1982. The band became eligible for Rock and Roll Hall of Fame induction in 2007 and has remained eligible for 19 years as of the current analysis period. The data record shows a Rolling Stone Attention Score of 0 and documents no nomination history for Hall of Fame consideration.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented evidence of critical acclaim, awards, or professional recognition metrics provided.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence of artists citing Bad Brains as an influence or of the band's impact on musical development provided.\n\n**Length of Career**: Documented evidence shows career spanning from 1982 to present, indicating substantial longevity in the industry over multiple decades.\n\n**Depth of Catalog**: Insufficient data in record. No documented information regarding album releases, song catalog size, or recorded output volume provided.\n\n**Contributions to Rock and Roll**: Insufficient data in record. The record documents the band's punk genre classification but provides no evidence of specific innovations, movements, or developments attributed to the group.\n\n## The Gap\n\nThe documented evidence shows significant gaps in measurable qualifications compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates absence of documented mainstream music industry recognition. The lack of any nomination history over 19 years of eligibility suggests limited institutional support within Hall of Fame voting processes.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports career longevity spanning multiple decades but lacks sufficient data across four of the five induction criteria to demonstrate qualification patterns consistent with inducted artists. Bad Brains presents a case with documented eligibility but insufficient documented achievements in the provided record to support induction under the Hall's stated criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:49:32",
   "human_reviewed": false,
-  "slug": "bad-brains"
+  "data_record": "Name: Bad Brains\nGenre: Punk\nFirst commercial recording: 1982\nEligible for induction since: 2007\nYears since eligibility: 19\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

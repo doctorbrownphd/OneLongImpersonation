@@ -1,15 +1,12 @@
 {
   "artist_name": "Wu-Tang Clan",
-  "genre": "Hip-Hop",
+  "artist_id": 344,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 24.7,
-  "eligible_year": 2018,
-  "wait_years": 8,
-  "data_record": "Name: Wu-Tang Clan\nGenre: Hip-Hop\nFirst commercial recording: 1993\nEligible for induction since: 2018\nYears since eligibility: 8\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nWu-Tang Clan is a documented hip-hop group whose first commercial recording was released in 1993. The group became eligible for Rock and Roll Hall of Fame induction in 2018 and has been eligible for 8 years as of the current analysis period. The group has received no documented nominations during their eligibility period. Rolling Stone magazine's attention metrics show zero recorded coverage for the group in the analyzed dataset.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided documentation contains no specific metrics or evidence regarding the group's musical achievements, critical reception, or artistic recognition.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documented evidence of influence on subsequent artists or performers is provided in the case materials.\n\n**3. Length of Career**\nDocumented evidence shows Wu-Tang Clan has maintained a career spanning from 1993 to present, representing approximately 31 years of documented activity in the recording industry.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information regarding the scope, breadth, or volume of the group's recorded output is documented in the provided materials.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. The documentation provides no specific evidence of contributions to rock and roll as a musical form or cultural movement.\n\n## The Gap\n\nThe documented qualifications present significant gaps when measured against typical induction patterns. The absence of Rolling Stone attention coverage and zero documented nominations during an 8-year eligibility period indicates limited recognition within the metrics typically associated with inducted artists. The 30% confidence rating reflects substantial deficiencies in documented evidence across multiple evaluation criteria.\n\n## The Verdict\n\nThe case classification is INSUFFICIENT with 30% confidence. The documented evidence supports only one of the five stated criteria (length of career), while four criteria lack sufficient documentation for proper evaluation. Wu-Tang Clan's case demonstrates significant evidentiary gaps that fall below the threshold typically associated with Rock and Roll Hall of Fame induction consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:57:02",
   "human_reviewed": false,
-  "slug": "wu-tang-clan"
+  "data_record": "Name: Wu-Tang Clan\nGenre: Hip-Hop\nFirst commercial recording: 1993\nEligible for induction since: 2018\nYears since eligibility: 8\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

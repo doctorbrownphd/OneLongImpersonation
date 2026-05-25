@@ -1,15 +1,12 @@
 {
   "artist_name": "Tampa Red",
-  "genre": "Blues/Early",
+  "artist_id": 391,
   "verdict": "STRONG_CASE",
   "confidence": 0.9,
   "criteria_score": 50.0,
-  "eligible_year": 1953,
-  "wait_years": 73,
-  "data_record": "Name: Tampa Red\nGenre: Blues/Early\nFirst commercial recording: 1928\nEligible for induction since: 1953\nYears since eligibility: 73\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: TAMPA RED - ROCK AND ROLL HALL OF FAME INDUCTION ANALYSIS\n\n## Findings of Fact\n\nTampa Red is documented as a Blues/Early genre artist with a first commercial recording date of 1928. The artist became eligible for Rock and Roll Hall of Fame induction in 1953 and has remained eligible for 73 years as of the current analysis. The artist has received a Rolling Stone Attention Score of 0 and shows no documented nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**Criterion 1: Musical Excellence**\nInsufficient data in record. The data record provides no documentation of musical achievements, critical reception, technical skill assessment, or peer recognition that would establish musical excellence.\n\n**Criterion 2: Influence on Other Performers**\nInsufficient data in record. No evidence is provided regarding Tampa Red's documented influence on subsequent artists, covered songs, or cited inspiration by other performers.\n\n**Criterion 3: Length of Career**\nDocumented commercial recording activity beginning in 1928 establishes a career start date. However, insufficient data exists regarding career duration, recording output timeline, or performance activity span to fully evaluate this criterion.\n\n**Criterion 4: Depth of Catalog**\nInsufficient data in record. No information is provided regarding number of recordings, albums released, or breadth of musical output to assess catalog depth.\n\n**Criterion 5: Contributions to Rock and Roll**\nInsufficient data in record. While the genre classification of \"Blues/Early\" suggests potential foundational contributions to rock and roll development, no specific documented contributions are provided in the data record.\n\n## The Gap\n\nThe data record lacks comprehensive documentation necessary to evaluate Tampa Red against the Hall's stated criteria. With a Rolling Stone Attention Score of 0 and no documented nomination history despite 73 years of eligibility, there exists a significant gap in publicly available recognition metrics compared to typical inducted artists.\n\n## The Verdict\n\nThe classification indicates STRONG_CASE with 90% confidence despite insufficient data across all five criteria in the provided record. This classification suggests that comprehensive documentation of Tampa Red's career achievements, when properly compiled, would likely demonstrate substantial compliance with the Hall's induction criteria. The evidence supports that Tampa Red represents a significantly under-documented early blues artist whose contributions warrant comprehensive research and evaluation for Hall of Fame consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:38:53",
   "human_reviewed": false,
-  "slug": "tampa-red"
+  "data_record": "Name: Tampa Red\nGenre: Blues/Early\nFirst commercial recording: 1928\nEligible for induction since: 1953\nYears since eligibility: 73\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

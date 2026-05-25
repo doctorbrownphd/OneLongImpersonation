@@ -1,15 +1,12 @@
 {
   "artist_name": "Gloria Gaynor",
-  "genre": "Disco/Dance",
+  "artist_id": 400,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 40.2,
-  "eligible_year": 1990,
-  "wait_years": 36,
-  "data_record": "Name: Gloria Gaynor\nGenre: Disco/Dance\nFirst commercial recording: 1965\nEligible for induction since: 1990\nYears since eligibility: 36\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: GLORIA GAYNOR v. ROCK AND ROLL HALL OF FAME INDUCTION\n\n## Findings of Fact\n\nGloria Gaynor began her commercial recording career in 1965 within the disco/dance genre. The documented record shows she became eligible for Rock and Roll Hall of Fame consideration in 1990, representing 36 years of eligibility as of the current assessment period. The record indicates a Rolling Stone Attention Score of 0 and no documented nominations for induction. No additional career details, chart performance, or specific recordings are provided in the available data record.\n\n## Application of Criteria\n\n**Criterion 1: Musical Excellence**\nInsufficient data in record. The provided documentation contains no information regarding technical musical ability, vocal performance standards, or critical assessments of artistic quality.\n\n**Criterion 2: Influence on Other Performers**\nInsufficient data in record. No documentation provided regarding Gloria Gaynor's impact on subsequent artists or her role in influencing musical developments within disco/dance or other genres.\n\n**Criterion 3: Length of Career**\nDocumented evidence shows a recording career spanning from 1965 to present, representing approximately 59 years of documented activity. This establishes a verified lengthy career duration meeting temporal requirements.\n\n**Criterion 4: Depth of Catalog**\nInsufficient data in record. The documentation provides no information regarding the number of albums, singles, or breadth of recorded material produced during the documented career period.\n\n**Criterion 5: Contributions to Rock and Roll**\nInsufficient data in record. While the artist's primary genre classification is documented as disco/dance, no specific information is provided regarding connections to or contributions to rock and roll music development.\n\n## The Gap\n\nThe documented qualifications show significant data limitations compared to typical inducted artist profiles. The verified 59-year career length represents substantial longevity, while the reported Rolling Stone Attention Score of 0 and absence of documented nominations indicate limited recognition within traditional rock journalism and Hall of Fame consideration processes. The disco/dance genre classification may present challenges for rock and roll contribution assessment, though insufficient genre-specific comparison data is available in the record.\n\n## The Verdict\n\nClassification: BORDERLINE (confidence: 50%). The documented evidence supports career longevity meeting basic temporal requirements, while substantial gaps exist in performance metrics, critical recognition, and genre-specific contribution documentation. The case demonstrates the challenges of evaluating disco-era artists within rock and roll institutional frameworks where insufficient comparative data limits comprehensive assessment.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:42:02",
   "human_reviewed": false,
-  "slug": "gloria-gaynor"
+  "data_record": "Name: Gloria Gaynor\nGenre: Disco/Dance\nFirst commercial recording: 1965\nEligible for induction since: 1990\nYears since eligibility: 36\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

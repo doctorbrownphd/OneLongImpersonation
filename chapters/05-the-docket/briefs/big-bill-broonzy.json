@@ -1,15 +1,12 @@
 {
   "artist_name": "Big Bill Broonzy",
-  "genre": "Blues/Early",
+  "artist_id": 392,
   "verdict": "STRONG_CASE",
   "confidence": 0.9,
   "criteria_score": 50.0,
-  "eligible_year": 1952,
-  "wait_years": 74,
-  "data_record": "Name: Big Bill Broonzy\nGenre: Blues/Early\nFirst commercial recording: 1927\nEligible for induction since: 1952\nYears since eligibility: 74\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: BIG BILL BROONZY\n## Rock and Roll Hall of Fame Induction Analysis\n\n---\n\n## Findings of Fact\n\n**Artist:** Big Bill Broonzy  \n**Genre Classification:** Blues/Early  \n**Commercial Career Inception:** Documented first commercial recording in 1927  \n**Hall of Fame Eligibility:** Achieved eligibility in 1952  \n**Duration Since Eligibility:** 74 years  \n**Nomination Status:** No documented nominations in Hall of Fame records  \n**Rolling Stone Recognition Metric:** Zero attention score recorded  \n\n---\n\n## Application of Criteria\n\n**Criterion 1: Musical Excellence**  \nInsufficient data in record. The provided documentation contains no specific evidence regarding artistic merit, technical proficiency, or critical acclaim.\n\n**Criterion 2: Influence on Other Performers**  \nInsufficient data in record. No documented evidence of direct influence on subsequent artists or musical movements is provided in the case materials.\n\n**Criterion 3: Length of Career**  \nDocumented evidence shows commercial recording activity beginning in 1927. However, the record lacks sufficient data regarding career duration, end date, or sustained activity periods.\n\n**Criterion 4: Depth of Catalog**  \nInsufficient data in record. No information provided regarding number of releases, albums, or breadth of recorded material.\n\n**Criterion 5: Contributions to Rock and Roll**  \nDocumented genre classification as \"Blues/Early\" suggests potential foundational relevance to rock and roll development. However, insufficient data in record regarding specific contributions to the rock and roll genre.\n\n---\n\n## The Gap\n\nThe documented record presents substantial evidentiary gaps across all five induction criteria. While the artist's 1927 commercial debut establishes early entry into recorded music and Blues/Early genre classification suggests potential rock and roll relevance, the absence of documented influence metrics, catalog depth information, and specific contribution evidence creates significant analytical limitations. The zero Rolling Stone attention score and absence of Hall of Fame nominations indicate potential recognition deficits relative to inducted artists.\n\n---\n\n## The Verdict\n\n**Classification:** STRONG_CASE (Confidence: 90%)\n\nThe computed classification indicates strong induction merit despite substantial gaps in the documented record. The evidence supports recognition of an early blues pioneer whose 1927 commercial debut and genre classification suggest foundational importance to rock and roll's development, though comprehensive evaluation remains limited by incomplete documentation. This case demonstrates the challenge of assessing early blues artists whose historical significance may exceed their documented recognition metrics.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:39:06",
   "human_reviewed": false,
-  "slug": "big-bill-broonzy"
+  "data_record": "Name: Big Bill Broonzy\nGenre: Blues/Early\nFirst commercial recording: 1927\nEligible for induction since: 1952\nYears since eligibility: 74\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

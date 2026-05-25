@@ -1,15 +1,12 @@
 {
   "artist_name": "Jane's Addiction",
-  "genre": "Classic Rock",
+  "artist_id": 375,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 28.4,
-  "eligible_year": 2012,
-  "wait_years": 14,
-  "data_record": "Name: Jane's Addiction\nGenre: Classic Rock\nFirst commercial recording: 1987\nEligible for induction since: 2012\nYears since eligibility: 14\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nJane's Addiction is documented as a Classic Rock artist with their first commercial recording released in 1987. The band became eligible for Rock and Roll Hall of Fame induction in 2012 and has remained eligible for 14 years as of the current assessment. The data record shows no documented nominations for Hall of Fame induction and reports a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented information regarding musical achievements, critical acclaim, or artistic merit is provided in the data record.\n\n**Influence on Other Performers**: Insufficient data in record. The data record contains no documented evidence of Jane's Addiction's influence on subsequent artists or performers.\n\n**Length of Career**: Documented evidence shows a career spanning at least 37 years, calculated from their 1987 first commercial recording to present. This demonstrates sustained activity over multiple decades.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding album releases, chart performance, or catalog size is documented in the provided data.\n\n**Contributions to Rock and Roll**: Insufficient data in record. Beyond genre classification as Classic Rock, no specific contributions to rock and roll's development or evolution are documented.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. While Jane's Addiction demonstrates documented career longevity of 37 years, the record lacks evidence for four of the five stated criteria. The absence of documented nominations after 14 years of eligibility and a Rolling Stone Attention Score of 0 indicate limited recognition within industry evaluation metrics used for Hall of Fame consideration.\n\n## The Verdict\n\nBased on the provided data record, the evidence classification is INSUFFICIENT with 30% confidence. The documented facts establish only career length while lacking substantial evidence for musical excellence, influence, catalog depth, and specific contributions to rock and roll. Jane's Addiction's case demonstrates career longevity but insufficient documented evidence across the majority of Hall of Fame induction criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:54:35",
   "human_reviewed": false,
-  "slug": "janes-addiction"
+  "data_record": "Name: Jane's Addiction\nGenre: Classic Rock\nFirst commercial recording: 1987\nEligible for induction since: 2012\nYears since eligibility: 14\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

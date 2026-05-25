@@ -1,15 +1,12 @@
 {
   "artist_name": "The Chemical Brothers",
-  "genre": "Electronic",
+  "artist_id": 336,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 25.0,
-  "eligible_year": 2017,
-  "wait_years": 9,
-  "data_record": "Name: The Chemical Brothers\nGenre: Electronic\nFirst commercial recording: 1992\nEligible for induction since: 2017\nYears since eligibility: 9\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe Chemical Brothers are documented as an electronic genre act with their first commercial recording released in 1992. The data record verifies they became eligible for Rock and Roll Hall of Fame induction in 2017, making them eligible for 9 years as of the current assessment period. The record shows a Rolling Stone Attention Score of 0 and documents no nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No specific information provided regarding technical proficiency, innovation, or critical acclaim.\n\n**Influence on Other Performers**: Insufficient data in record. No documentation provided of artists citing The Chemical Brothers as influences or evidence of their impact on subsequent performers.\n\n**Length of Career**: Documented. The record establishes a career span beginning in 1992, indicating over 30 years of documented activity in music.\n\n**Depth of Catalog**: Insufficient data in record. No information provided regarding album releases, track count, or breadth of musical output.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While the electronic genre classification is documented, no specific evidence provided of contributions to rock and roll or its evolution.\n\n## The Gap\n\nThe data record provides minimal information to assess The Chemical Brothers against the Hall's five criteria, with only career length clearly documented. The Rolling Stone Attention Score of 0 indicates limited coverage in major rock journalism outlets. The absence of any documented nominations after 9 years of eligibility suggests insufficient demonstrated qualification under the Hall's evaluation standards compared to inducted artists from their era and genre.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports career longevity spanning over three decades in the electronic music genre, but provides inadequate information to evaluate the remaining four induction criteria. The Chemical Brothers present a case with documented career duration but insufficient documented evidence across the majority of the Hall's stated qualification standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:56:37",
   "human_reviewed": false,
-  "slug": "the-chemical-brothers"
+  "data_record": "Name: The Chemical Brothers\nGenre: Electronic\nFirst commercial recording: 1992\nEligible for induction since: 2017\nYears since eligibility: 9\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

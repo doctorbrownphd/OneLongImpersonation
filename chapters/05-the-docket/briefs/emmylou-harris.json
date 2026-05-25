@@ -1,15 +1,12 @@
 {
   "artist_name": "Emmylou Harris",
-  "genre": "Folk/Country",
+  "artist_id": 398,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 39.2,
-  "eligible_year": 1994,
-  "wait_years": 32,
-  "data_record": "Name: Emmylou Harris\nGenre: Folk/Country\nFirst commercial recording: 1969\nEligible for induction since: 1994\nYears since eligibility: 32\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nEmmylou Harris is classified as a Folk/Country artist who made her first commercial recording in 1969. She became eligible for Rock and Roll Hall of Fame induction in 1994, meaning she has been eligible for 32 years as of the current assessment. The data record shows a Rolling Stone Attention Score of 0 and documents no nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No specific documentation of musical achievements, awards, or critical recognition is provided in the artist data record.\n\n**Influence on Other Performers:** Insufficient data in record. The data record contains no documentation of Harris's influence on subsequent artists or performers.\n\n**Length of Career:** Documented evidence supports this criterion. Harris's first commercial recording in 1969 establishes a career span of over 50 years, demonstrating sustained professional activity in the music industry.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding album releases, song counts, or catalog breadth is provided in the artist data record.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While Harris is classified in the Folk/Country genre, no specific documentation of rock and roll contributions is provided in the data record.\n\n## The Gap\n\nThe data record provides insufficient information to meaningfully compare Harris's documented qualifications against the average qualifications of inducted artists in her era and genre. The primary documented qualification is career longevity spanning over five decades, while other critical criteria lack supporting evidence in the provided record.\n\n## The Verdict\n\nThe case classification is BORDERLINE with 50% confidence. The documented evidence shows a sustained multi-decade career beginning in 1969, but lacks substantive documentation across four of the five Hall criteria, particularly regarding musical excellence, influence, catalog depth, and rock contributions. Emmylou Harris presents a case with demonstrated career longevity but insufficient documented evidence in the provided record to establish comprehensive qualification across the Hall's stated criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:43:08",
   "human_reviewed": false,
-  "slug": "emmylou-harris"
+  "data_record": "Name: Emmylou Harris\nGenre: Folk/Country\nFirst commercial recording: 1969\nEligible for induction since: 1994\nYears since eligibility: 32\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

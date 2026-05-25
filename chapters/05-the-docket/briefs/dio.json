@@ -1,15 +1,12 @@
 {
   "artist_name": "Dio",
-  "genre": "Heavy Metal",
+  "artist_id": 303,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 31.7,
-  "eligible_year": 2008,
-  "wait_years": 18,
-  "data_record": "Name: Dio\nGenre: Heavy Metal\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nBased on the data record provided, Dio is documented as a heavy metal artist whose first commercial recording was released in 1983. The artist became eligible for Rock and Roll Hall of Fame induction in 2008, making this 18 years since eligibility was achieved. The record shows no documented nominations for induction and registers a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No performance metrics, critical reviews, or technical assessments are documented in the provided data.\n\n**Influence on Other Performers:** Insufficient data in record. No citations of influence by subsequent artists or documented impact on musical development are provided.\n\n**Length of Career:** The record documents a first commercial recording in 1983, establishing at least 41 years of career activity through 2024. This satisfies typical length requirements, though the record does not specify career end date or continuity of recording activity.\n\n**Depth of Catalog:** Insufficient data in record. No album counts, song totals, or discography details are documented in the provided information.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the artist is classified within heavy metal genre, no specific innovations, cultural impact, or broader contributions to rock music are documented.\n\n## The Gap\n\nThe documented qualifications present significant evidentiary gaps when measured against typical induction standards. With 18 years of eligibility and no recorded nominations, the artist demonstrates extended availability without Hall recognition. The zero Rolling Stone Attention Score indicates limited documented critical attention in major music publications. Most criteria cannot be evaluated due to insufficient documentation of career achievements, influence metrics, or catalog depth.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. While career length appears adequate based on documented recording history since 1983, the absence of nomination history, critical attention scores, and detailed achievement documentation creates substantial evidentiary gaps across four of the five stated criteria. The case demonstrates how administrative data alone cannot establish the comprehensive record typically required for Rock and Roll Hall of Fame consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:51:01",
   "human_reviewed": false,
-  "slug": "dio"
+  "data_record": "Name: Dio\nGenre: Heavy Metal\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

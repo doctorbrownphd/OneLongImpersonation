@@ -1,15 +1,12 @@
 {
   "artist_name": "De La Soul",
-  "genre": "Hip-Hop",
+  "artist_id": 343,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 29.45,
-  "eligible_year": 2014,
-  "wait_years": 12,
-  "data_record": "Name: De La Soul\nGenre: Hip-Hop\nFirst commercial recording: 1989\nEligible for induction since: 2014\nYears since eligibility: 12\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nDe La Soul is a documented hip-hop group with their first commercial recording released in 1989. The group became eligible for Rock and Roll Hall of Fame induction in 2014, marking 12 years since eligibility became available. The data record shows no documented nominations to the Hall of Fame and a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented critical assessments, awards, or peer recognition indicators are provided to evaluate musical excellence.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of artists citing De La Soul as an influence or specific examples of their impact on subsequent performers.\n\n**Length of Career:** Documented evidence shows a career spanning at least 35 years (1989-2024), meeting typical longevity expectations for Hall consideration.\n\n**Depth of Catalog:** Insufficient data in record. No information provided regarding album releases, chart performance, or catalog size to assess creative output depth.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The record identifies the genre as hip-hop but provides no documented evidence of specific contributions to rock and roll's evolution or cultural impact.\n\n## The Gap\n\nThe data record lacks sufficient documented evidence across four of the five induction criteria. While the length of career criterion shows documented evidence of longevity, the absence of documented nominations, zero Rolling Stone attention score, and missing data on critical reception, influence metrics, and catalog depth indicate substantial gaps compared to typical inducted artists.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT (confidence: 30%). The documented facts show career longevity but lack supporting evidence for musical excellence, documented influence, catalog assessment, or rock and roll contributions necessary for Hall of Fame consideration. De La Soul's case demonstrates insufficient documented evidence across the majority of stated induction criteria based on the available data record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:53:47",
   "human_reviewed": false,
-  "slug": "de-la-soul"
+  "data_record": "Name: De La Soul\nGenre: Hip-Hop\nFirst commercial recording: 1989\nEligible for induction since: 2014\nYears since eligibility: 12\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

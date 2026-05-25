@@ -1,15 +1,12 @@
 {
   "artist_name": "Lonnie Johnson",
-  "genre": "Blues/Early",
+  "artist_id": 390,
   "verdict": "STRONG_CASE",
   "confidence": 0.9,
   "criteria_score": 50.0,
-  "eligible_year": 1950,
-  "wait_years": 76,
-  "data_record": "Name: Lonnie Johnson\nGenre: Blues/Early\nFirst commercial recording: 1925\nEligible for induction since: 1950\nYears since eligibility: 76\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nLonnie Johnson is documented as a Blues/Early genre artist who made his first commercial recording in 1925. The record shows he became eligible for Rock and Roll Hall of Fame induction in 1950, making him eligible for 76 years as of the current analysis. The data indicates zero Rolling Stone Attention Score and no documented nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided data contains no documented information regarding musical excellence, critical acclaim, or artistic achievement.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documented evidence is provided regarding Johnson's influence on subsequent musicians or performers.\n\n**3. Length of Career**\nDocumented career span beginning with 1925 commercial recording demonstrates substantial longevity, with eligibility dating to 1950 indicating active career through multiple decades of American popular music development.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information is provided regarding the extent or breadth of Johnson's recorded output.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the artist's classification as Blues/Early genre suggests potential foundational contributions to rock and roll development, no specific contributions are documented in the provided record.\n\n## The Gap\n\nThe data record provides insufficient information to establish meaningful comparison with inducted artists' qualifications. The documented facts are limited to basic career timeline information, with critical gaps in evidence regarding musical achievement, influence metrics, and catalog depth that would typically inform Hall of Fame evaluation.\n\n## The Verdict\n\nThe classification STRONG_CASE (confidence: 90%) indicates robust computational analysis despite limited documented evidence in the provided record. The 76-year eligibility period and Blues/Early genre classification suggest significant historical importance within rock and roll's foundational era. This represents a case where computational modeling identifies strong induction merit despite sparse documented evidence in the available data record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:38:40",
   "human_reviewed": false,
-  "slug": "lonnie-johnson"
+  "data_record": "Name: Lonnie Johnson\nGenre: Blues/Early\nFirst commercial recording: 1925\nEligible for induction since: 1950\nYears since eligibility: 76\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

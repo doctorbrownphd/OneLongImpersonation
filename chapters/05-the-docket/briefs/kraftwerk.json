@@ -1,15 +1,12 @@
 {
   "artist_name": "Kraftwerk",
-  "genre": "Electronic",
-  "verdict": "BORDERLINE",
-  "confidence": 0.5,
-  "criteria_score": 40.9,
-  "eligible_year": 1995,
-  "wait_years": 31,
-  "data_record": "Name: Kraftwerk\nGenre: Electronic\nFirst commercial recording: 1970\nEligible for induction since: 1995\nYears since eligibility: 31\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "artist_id": 330,
+  "verdict": "CASE",
+  "confidence": 0.7,
+  "criteria_score": 48.4,
+  "brief_text": "## Findings of Fact\n\nKraftwerk is documented as an electronic genre artist with their first commercial recording released in 1970. The group has been eligible for Rock and Roll Hall of Fame induction since 1995, representing 31 years of eligibility. The data record shows documented influence on performers Depeche Mode and New Order. The artist has received a Rolling Stone Attention Score of 0 and shows no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented information regarding critical acclaim, technical proficiency, or artistic achievement is provided.\n\n**Influence on Other Performers:** Documented influence exists on Depeche Mode and New Order. However, the record provides limited scope of documented influence compared to the potential breadth of impact suggested by the artist's electronic genre pioneering status.\n\n**Length of Career:** Verified career length of at least 54 years, calculated from the 1970 first commercial recording to present eligibility period. This substantially exceeds typical career length requirements.\n\n**Depth of Catalog:** Insufficient data in record. No information provided regarding album releases, catalog size, or recording output over the documented career span.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the electronic genre classification suggests potential contributions to rock music evolution, specific documented contributions are not detailed in the provided data.\n\n## The Gap\n\nThe artist demonstrates verified longevity exceeding standard requirements and documented influence on notable performers. However, significant data gaps exist across multiple criteria including musical excellence documentation, catalog depth metrics, and specific contributions to rock and roll. The Rolling Stone Attention Score of 0 and absence of documented nominations suggests limited recognition within traditional Hall of Fame evaluation channels despite the 31-year eligibility period.\n\n## The Verdict\n\nCASE (confidence: 70%). The evidence supports a case based on documented career longevity and verified influence on subsequent electronic artists, though substantial evidentiary gaps limit comprehensive evaluation. Kraftwerk presents a case with strong foundational elements but incomplete documentation across the Hall's full criteria framework.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:39:33",
   "human_reviewed": false,
-  "slug": "kraftwerk"
+  "data_record": "Name: Kraftwerk\nGenre: Electronic\nFirst commercial recording: 1970\nEligible for induction since: 1995\nYears since eligibility: 31\nRolling Stone Attention Score: 0\nDocumented influence on: Depeche Mode, New Order\nNomination history: No documented nominations"
 }

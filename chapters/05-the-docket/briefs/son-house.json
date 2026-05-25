@@ -1,15 +1,12 @@
 {
   "artist_name": "Son House",
-  "genre": "Blues/Early",
+  "artist_id": 393,
   "verdict": "STRONG_CASE",
   "confidence": 0.9,
   "criteria_score": 50.0,
-  "eligible_year": 1955,
-  "wait_years": 71,
-  "data_record": "Name: Son House\nGenre: Blues/Early\nFirst commercial recording: 1930\nEligible for induction since: 1955\nYears since eligibility: 71\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe data record establishes that Son House was a blues artist who made his first commercial recording in 1930. He became eligible for Rock and Roll Hall of Fame induction in 1955 and has remained eligible for 71 years as of the current analysis. The record shows no documented nominations for induction and assigns him a Rolling Stone Attention Score of 0. The artist is classified within the Blues/Early genre category.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. The data record provides no documented evidence of critical acclaim, awards, or professional recognition of musical skill.\n\n**Influence on Other Performers**: Insufficient data in record. No specific documentation of influence on subsequent artists or performers is provided in the available data.\n\n**Length of Career**: Documented evidence shows commercial recording activity beginning in 1930. However, the record lacks information about the duration or end point of the artist's active career period.\n\n**Depth of Catalog**: Insufficient data in record. The data establishes the existence of at least one commercial recording from 1930 but provides no documentation of the total number of recordings, albums, or body of work.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While the artist's genre classification as Blues/Early suggests potential historical significance to rock and roll's development, no specific contributions are documented in the provided data.\n\n## The Gap\n\nThe data record lacks sufficient documented evidence across four of the five stated criteria for Hall of Fame evaluation. While the artist's 1930 recording date establishes early participation in blues music, the absence of detailed career information, influence documentation, and catalog depth data prevents meaningful comparison to the average qualifications of inducted artists from the same era and genre. The 71-year eligibility period without documented nominations suggests a significant gap between this artist's documented profile and typical induction patterns.\n\n## The Verdict\n\nThe classification STRONG_CASE (confidence: 90%) indicates that despite insufficient data in the current record, the computational analysis of available factors suggests significant qualifications for induction. The evidence supports an artist with documented early blues recording history and substantial eligibility tenure, though the case relies heavily on modeled rather than documented criteria compliance. Son House presents a strong computational case for induction based on historical positioning despite limited documented evidence in the provided data record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:39:20",
   "human_reviewed": false,
-  "slug": "son-house"
+  "data_record": "Name: Son House\nGenre: Blues/Early\nFirst commercial recording: 1930\nEligible for induction since: 1955\nYears since eligibility: 71\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

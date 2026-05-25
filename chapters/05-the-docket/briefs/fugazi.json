@@ -1,15 +1,12 @@
 {
   "artist_name": "Fugazi",
-  "genre": "Punk",
+  "artist_id": 317,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 29.2,
-  "eligible_year": 2013,
-  "wait_years": 13,
-  "data_record": "Name: Fugazi\nGenre: Punk\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nFugazi is documented as a punk genre artist whose first commercial recording was released in 1988. The band became eligible for Rock and Roll Hall of Fame induction in 2013 and has remained eligible for 13 years as of the current analysis. The artist has received zero documented attention from Rolling Stone magazine and has no documented nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No performance metrics, critical assessments, or technical achievements are documented.\n\n**Influence on Other Performers:** Insufficient data in record. No evidence of impact on subsequent artists or genre development is provided.\n\n**Length of Career:** Partially documented. The record establishes a commercial recording history beginning in 1988, indicating at least 36 years of documented activity through the current analysis period.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding album releases, song count, or recording output is provided.\n\n**Contributions to Rock and Roll:** Insufficient data in record. No specific innovations, cultural impact, or genre contributions are documented beyond the punk genre classification.\n\n## The Gap\n\nThe documented evidence presents significant gaps when measured against typical induction standards. The artist's zero Rolling Stone Attention Score and absence of documented nominations indicate limited mainstream recognition. While 13 years of eligibility demonstrates sustained relevance, the lack of documented influence metrics, catalog depth, and critical recognition creates substantial evidentiary deficits compared to inducted artists.\n\n## The Verdict\n\nThe classification is INSUFFICIENT with 30% confidence. The documented evidence supports length of career criterion partially but lacks sufficient data across four of the five induction criteria. The case demonstrates eligibility duration but insufficient documented qualifications for induction consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:54:10",
   "human_reviewed": false,
-  "slug": "fugazi"
+  "data_record": "Name: Fugazi\nGenre: Punk\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

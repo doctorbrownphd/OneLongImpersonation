@@ -1,15 +1,12 @@
 {
   "artist_name": "The Pointer Sisters",
-  "genre": "Disco/Dance",
+  "artist_id": 403,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 36.4,
-  "eligible_year": 1998,
-  "wait_years": 28,
-  "data_record": "Name: The Pointer Sisters\nGenre: Disco/Dance\nFirst commercial recording: 1973\nEligible for induction since: 1998\nYears since eligibility: 28\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: THE POINTER SISTERS\n## Rock and Roll Hall of Fame Induction Analysis\n\n---\n\n## Findings of Fact\n\nThe Pointer Sisters are documented as a disco/dance genre act with their first commercial recording occurring in 1973. The group became eligible for Rock and Roll Hall of Fame induction in 1998, representing 28 years since achieving eligibility. The data record shows a Rolling Stone Attention Score of 0 and no documented nomination history for Hall of Fame consideration.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No documented evidence of critical acclaim, awards, chart performance, or professional recognition is provided to assess musical excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documented evidence of artists citing The Pointer Sisters as influences, covers of their material, or impact on subsequent performers is available.\n\n**3. Length of Career**\nDocumented evidence shows commercial recording activity beginning in 1973, establishing at minimum a foundation for career longevity assessment. However, insufficient data exists regarding career duration, periods of activity, or sustained output over time.\n\n**4. Depth of Catalog**\nInsufficient data in record. No documented information regarding album releases, single output, or catalog scope is provided beyond the initial 1973 commercial recording date.\n\n**5. Contributions to Rock and Roll**\nDocumented genre classification as disco/dance may present challenges for demonstrating contributions to rock and roll specifically. Insufficient data exists regarding crossover appeal, rock influences, or contributions to rock music development.\n\n## The Gap\n\nThe documented evidence presents significant gaps when measured against typical inducted artist profiles. The Rolling Stone Attention Score of 0 indicates absence of documented critical recognition in major music publications. The lack of documented nominations over 28 years of eligibility suggests the Hall of Fame selection committees have not identified sufficient qualifying criteria satisfaction. Artists typically inducted in the disco/dance genre demonstrate documented crossover success, critical acclaim, and verifiable influence metrics not present in this record.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts provide minimal foundation for criteria assessment, with substantial gaps in critical areas including musical excellence documentation, influence verification, and catalog depth measurement. This case exemplifies insufficient evidentiary support for Hall of Fame qualification under current documented standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:46:43",
   "human_reviewed": false,
-  "slug": "the-pointer-sisters"
+  "data_record": "Name: The Pointer Sisters\nGenre: Disco/Dance\nFirst commercial recording: 1973\nEligible for induction since: 1998\nYears since eligibility: 28\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

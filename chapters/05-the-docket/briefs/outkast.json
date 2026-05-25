@@ -1,15 +1,12 @@
 {
   "artist_name": "OutKast",
-  "genre": "Hip-Hop",
+  "artist_id": 342,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 24.4,
-  "eligible_year": 2019,
-  "wait_years": 7,
-  "data_record": "Name: OutKast\nGenre: Hip-Hop\nFirst commercial recording: 1994\nEligible for induction since: 2019\nYears since eligibility: 7\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: OutKast Rock and Roll Hall of Fame Induction Analysis\n\n## Findings of Fact\n\nOutKast is documented as a hip-hop genre artist with their first commercial recording released in 1994. The duo became eligible for Rock and Roll Hall of Fame induction in 2019, marking seven years since achieving eligibility. The record shows a Rolling Stone Attention Score of 0 and no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No documented information regarding critical reception, awards, chart performance, or industry recognition of musical quality.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documented evidence of influence on subsequent artists or the broader musical landscape.\n\n**3. Length of Career**\nDocumented evidence shows OutKast's career spans at least 25 years, from their 1994 first commercial recording to present eligibility period. This demonstrates substantial career longevity meeting typical Hall standards.\n\n**4. Depth of Catalog**\nInsufficient data in record. No documented information regarding album releases, song catalog size, or body of work scope.\n\n**5. Contributions to Rock and Roll**\nDocumented genre classification as hip-hop. The record provides no evidence of contributions to rock and roll specifically, though hip-hop artists have been inducted based on broader musical impact interpretations.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal documented mainstream rock press coverage. The absence of any documented nomination history over seven years of eligibility suggests the Hall has not recognized sufficient qualification under their stated criteria. Most inducted artists demonstrate verifiable excellence, influence, and substantial documented careers before induction consideration.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented record lacks sufficient verifiable information across four of five stated criteria, with only career length adequately demonstrated. The case for OutKast's induction cannot be substantiated based on the available documented evidence in this record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:57:48",
   "human_reviewed": false,
-  "slug": "outkast"
+  "data_record": "Name: OutKast\nGenre: Hip-Hop\nFirst commercial recording: 1994\nEligible for induction since: 2019\nYears since eligibility: 7\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

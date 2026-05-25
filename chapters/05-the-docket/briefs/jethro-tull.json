@@ -1,15 +1,12 @@
 {
   "artist_name": "Jethro Tull",
-  "genre": "Classic Rock",
+  "artist_id": 372,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 40.9,
-  "eligible_year": 1993,
-  "wait_years": 33,
-  "data_record": "Name: Jethro Tull\nGenre: Classic Rock\nFirst commercial recording: 1968\nEligible for induction since: 1993\nYears since eligibility: 33\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nJethro Tull is documented as a classic rock artist with their first commercial recording released in 1968. The band became eligible for Rock and Roll Hall of Fame induction in 1993, making them eligible for 33 years as of the current assessment period. The data record shows no documented nominations to the Hall of Fame and reports a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No performance metrics, critical assessments, or technical achievements are documented in the provided data.\n\n**Influence on Other Performers**: Insufficient data in record. No documentation of artists citing Jethro Tull as an influence or evidence of their impact on subsequent performers is provided.\n\n**Length of Career**: Documented evidence supports this criterion. With a first commercial recording in 1968, Jethro Tull demonstrates a career spanning multiple decades, satisfying the Hall's emphasis on longevity in the music industry.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding album releases, singles, or the scope of their recorded output is documented.\n\n**Contributions to Rock and Roll**: Insufficient data in record. The classic rock genre classification is noted, but specific innovations, cultural impact, or contributions to the development of rock music are not documented.\n\n## The Gap\n\nThe data record provides limited quantitative measures for comparison with inducted artists. The documented Rolling Stone Attention Score of 0 suggests minimal coverage in a major music publication. The absence of documented Hall of Fame nominations over 33 years of eligibility indicates a significant gap between Jethro Tull's recognition profile and that of successfully inducted artists from their era and genre.\n\n## The Verdict\n\nClassification: BORDERLINE (confidence: 50%). The documented evidence shows career longevity meeting Hall standards, but lacks sufficient data across four of the five induction criteria. The extended eligibility period without nominations and minimal documented attention scores suggest challenges in meeting the Hall's selection standards. This case demonstrates how limited documentation can obscure an artist's true qualifications for induction consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:40:47",
   "human_reviewed": false,
-  "slug": "jethro-tull"
+  "data_record": "Name: Jethro Tull\nGenre: Classic Rock\nFirst commercial recording: 1968\nEligible for induction since: 1993\nYears since eligibility: 33\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

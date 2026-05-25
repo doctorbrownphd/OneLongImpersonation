@@ -1,15 +1,12 @@
 {
   "artist_name": "Busta Rhymes",
-  "genre": "Hip-Hop",
+  "artist_id": 355,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 22.8,
-  "eligible_year": 2021,
-  "wait_years": 5,
-  "data_record": "Name: Busta Rhymes\nGenre: Hip-Hop\nFirst commercial recording: 1996\nEligible for induction since: 2021\nYears since eligibility: 5\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe data record documents Busta Rhymes as a Hip-Hop artist whose first commercial recording was released in 1996. The artist became eligible for Rock and Roll Hall of Fame induction in 2021, making 2024 the fifth year since eligibility began. The record shows a Rolling Stone Attention Score of 0 and indicates no documented nominations for induction. The artist operates within the Hip-Hop genre classification.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No specific documentation of critical acclaim, awards, or artistic achievements is provided in the data record.\n\n**Influence on Other Performers:** Insufficient data in record. The data record contains no information regarding the artist's documented impact on subsequent musicians or the broader musical landscape.\n\n**Length of Career:** Documented evidence shows a career span beginning in 1996, indicating approximately 28 years of documented activity through 2024. This represents a substantial career duration that meets typical longevity expectations for Hall of Fame consideration.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding album releases, hit songs, or catalog breadth is provided in the available documentation.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the artist operates within Hip-Hop, which has been recognized by the Hall as part of rock and roll's evolution, specific contributions are not documented in the provided record.\n\n## The Gap\n\nThe documented evidence reveals significant gaps in measurable qualifications compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal documented mainstream recognition in established music industry publications. The absence of any documented nominations suggests limited institutional recognition within Hall of Fame selection processes. While the 28-year career length meets duration standards, the lack of documented achievements in musical excellence, influence metrics, catalog depth, and specific contributions creates substantial evidentiary gaps.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts support a career of adequate length but lack sufficient evidence across four of the five stated criteria. While Busta Rhymes represents a Hip-Hop artist with documented longevity, the available record provides insufficient documentation of the musical excellence, influence, catalog depth, and specific contributions typically associated with Hall of Fame induction. This case demonstrates how career duration alone cannot overcome the absence of documented achievements across the Hall's comprehensive evaluation criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:59:11",
   "human_reviewed": false,
-  "slug": "busta-rhymes"
+  "data_record": "Name: Busta Rhymes\nGenre: Hip-Hop\nFirst commercial recording: 1996\nEligible for induction since: 2021\nYears since eligibility: 5\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

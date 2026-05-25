@@ -1,15 +1,12 @@
 {
   "artist_name": "KC and the Sunshine Band",
-  "genre": "Disco/Dance",
+  "artist_id": 401,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 36.4,
-  "eligible_year": 1998,
-  "wait_years": 28,
-  "data_record": "Name: KC and the Sunshine Band\nGenre: Disco/Dance\nFirst commercial recording: 1973\nEligible for induction since: 1998\nYears since eligibility: 28\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: KC AND THE SUNSHINE BAND\n## Case for Rock and Roll Hall of Fame Induction\n\n---\n\n## Findings of Fact\n\nKC and the Sunshine Band is documented as a disco/dance genre artist with their first commercial recording occurring in 1973. The band has been eligible for Rock and Roll Hall of Fame induction since 1998, representing 28 years since achieving eligibility. The data record shows a Rolling Stone Attention Score of 0 and documents no nomination history for Hall of Fame consideration.\n\n## Application of Criteria\n\n**Criterion 1: Musical Excellence**\nInsufficient data in record. The provided documentation contains no specific information regarding the band's musical achievements, chart performance, sales figures, or critical recognition that would establish musical excellence.\n\n**Criterion 2: Influence on Other Performers**\nInsufficient data in record. No documentation is provided regarding KC and the Sunshine Band's influence on subsequent artists or their role in shaping musical developments.\n\n**Criterion 3: Length of Career**\nThe documented evidence shows the band's first commercial recording in 1973, establishing at least 50 years of documented musical activity through the present era. This meets the Hall's standard career length expectations.\n\n**Criterion 4: Depth of Catalog**\nInsufficient data in record. The documentation provides no information about the size, scope, or commercial success of the band's recorded catalog.\n\n**Criterion 5: Contributions to Rock and Roll**\nThe documented genre classification as disco/dance presents a question regarding alignment with traditional rock and roll definitions, though the Hall has inducted artists from various genres. However, insufficient data exists in the record to establish specific contributions to rock and roll's development or evolution.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal recognition in major music publications, while the absence of any documented nominations suggests limited Hall of Fame consideration despite 28 years of eligibility. The lack of documented achievements in four of the five criteria represents a substantial deficit relative to inducted artists from comparable eras.\n\n## The Verdict\n\n**Classification: INSUFFICIENT (confidence: 30%)**\n\nThe documented evidence supports only one criterion (length of career) with certainty, while four criteria lack sufficient documentation for evaluation. The 28-year period of eligibility without nominations, combined with the zero Rolling Stone Attention Score, indicates limited recognition within the music industry establishment that typically precedes Hall of Fame consideration. This case demonstrates insufficient documented qualifications for Rock and Roll Hall of Fame induction based on available evidence.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:46:29",
   "human_reviewed": false,
-  "slug": "kc-and-the-sunshine-band"
+  "data_record": "Name: KC and the Sunshine Band\nGenre: Disco/Dance\nFirst commercial recording: 1973\nEligible for induction since: 1998\nYears since eligibility: 28\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "Anthrax",
-  "genre": "Heavy Metal",
+  "artist_id": 300,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 31.4,
-  "eligible_year": 2009,
-  "wait_years": 17,
-  "data_record": "Name: Anthrax\nGenre: Heavy Metal\nFirst commercial recording: 1984\nEligible for induction since: 2009\nYears since eligibility: 17\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\n**Anthrax** is documented as a Heavy Metal artist with their first commercial recording released in 1984. The artist became eligible for Rock and Roll Hall of Fame induction in 2009 and has remained eligible for 17 years as of the current analysis period. The data record shows a Rolling Stone Attention Score of 0 and indicates no documented nominations for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The provided data does not contain documentation of critical reception, technical proficiency assessments, or peer recognition of musical quality.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence is provided regarding Anthrax's influence on subsequent artists or musical movements within the Heavy Metal genre or broader rock music.\n\n**Length of Career:** Documented evidence shows a career span beginning in 1984, establishing at minimum a 40-year career duration as of 2024. This meets the criterion's requirement for sustained musical activity over time.\n\n**Depth of Catalog:** Insufficient data in record. While the first commercial recording date of 1984 is documented, no information is provided regarding total number of albums, singles, or the breadth of musical output.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The record does not contain documentation of specific contributions to rock music evolution, cultural impact, or innovations within the Heavy Metal subgenre.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. With a Rolling Stone Attention Score of 0 and no documented nominations over 17 years of eligibility, Anthrax demonstrates substantially lower media recognition and Hall consideration than artists who achieve induction. The absence of documented influence, critical acclaim, or cultural impact metrics places this case well below the threshold typically associated with successful induction candidates.\n\n## The Verdict\n\n**Classification: INSUFFICIENT (Confidence: 30%)**\n\nThe evidence supports only one of the five stated criteria (length of career), while four criteria lack sufficient documentation in the provided record. The complete absence of nominations despite 17 years of eligibility, combined with zero documented media attention score, indicates minimal recognition by the Hall's selection processes. This case demonstrates insufficient documented qualifications for Rock and Roll Hall of Fame induction based on available evidence.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:51:41",
   "human_reviewed": false,
-  "slug": "anthrax"
+  "data_record": "Name: Anthrax\nGenre: Heavy Metal\nFirst commercial recording: 1984\nEligible for induction since: 2009\nYears since eligibility: 17\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

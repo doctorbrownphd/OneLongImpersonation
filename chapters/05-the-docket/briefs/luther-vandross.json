@@ -1,15 +1,12 @@
 {
   "artist_name": "Luther Vandross",
-  "genre": "Soul/R&B",
+  "artist_id": 368,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 34.4,
-  "eligible_year": 2006,
-  "wait_years": 20,
-  "data_record": "Name: Luther Vandross\nGenre: Soul/R&B\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nLuther Vandross is documented as a Soul/R&B artist whose first commercial recording was released in 1981. He became eligible for Rock and Roll Hall of Fame induction in 2006, marking 20 years since achieving eligibility. The record shows no documented nominations for induction. His Rolling Stone Attention Score is recorded as 0.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. The data record does not contain documented assessments of artistic quality, critical reception, or musical achievements.\n\n**Influence on Other Performers**: Insufficient data in record. No documentation provided regarding Vandross's impact on subsequent artists or the broader music industry.\n\n**Length of Career**: The record documents a first commercial recording in 1981, establishing a career spanning at least 25 years from debut to eligibility. However, insufficient data exists regarding the full duration of his active recording and performing career.\n\n**Depth of Catalog**: Insufficient data in record. No information provided about album releases, chart performance, or body of recorded work.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While classified as Soul/R&B, no documentation exists regarding contributions to rock and roll specifically or cross-genre influence.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The 20-year period since eligibility without nomination suggests limited institutional recognition. The Rolling Stone Attention Score of 0 indicates minimal documented critical attention in major rock publications. No measurable criteria for musical achievement, influence, or catalog depth are provided in the record.\n\n## The Verdict\n\nThe classification is INSUFFICIENT with 30% confidence. The documented evidence shows basic eligibility requirements (25-year career minimum, genre relevance to Hall's scope) but lacks substantive data across all five induction criteria. This case demonstrates how absence of documented achievements and critical recognition creates an insufficient foundation for induction consideration under the Hall's stated standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:48:05",
   "human_reviewed": false,
-  "slug": "luther-vandross"
+  "data_record": "Name: Luther Vandross\nGenre: Soul/R&B\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "Sinead O'Connor",
-  "genre": "Pop",
+  "artist_id": 383,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 26.2,
-  "eligible_year": 2012,
-  "wait_years": 14,
-  "data_record": "Name: Sinead O'Connor\nGenre: Pop\nFirst commercial recording: 1987\nEligible for induction since: 2012\nYears since eligibility: 14\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nBased on the data record provided, Sin\u00e9ad O'Connor is documented as a pop genre artist whose first commercial recording was released in 1987. The record shows she became eligible for Rock and Roll Hall of Fame induction in 2012 and has remained eligible for 14 years since that date. The record indicates a Rolling Stone Attention Score of 0 and documents no nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. The data record provides no documented information regarding musical achievements, critical recognition, or technical proficiency to evaluate this criterion.\n\n**Influence on Other Performers**: Insufficient data in record. The data record contains no documented evidence of influence on subsequent artists or performers to assess this criterion.\n\n**Length of Career**: The documented facts show a first commercial recording in 1987, indicating a career spanning at least 37 years as of 2024. This provides verifiable evidence of sustained career longevity.\n\n**Depth of Catalog**: Insufficient data in record. The data record provides no documented information about album releases, song output, or catalog breadth to evaluate this criterion.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While the artist is classified in the pop genre, the record provides no documented evidence of specific contributions to rock and roll music to assess this criterion.\n\n## The Gap\n\nThe documented evidence shows significant gaps in meeting the Hall's stated criteria. While the length of career criterion is documented through the 1987 first recording date, the record lacks sufficient data for four of the five criteria. The Rolling Stone Attention Score of 0 and absence of documented nominations indicate limited recognition within the metrics tracked by the Hall's selection process.\n\n## The Verdict\n\nThe classification is INSUFFICIENT with 30% confidence. The documented facts support only one of the five stated criteria, with substantial gaps in evidence for musical excellence, influence, catalog depth, and rock contributions. This case demonstrates how limited documented recognition can result in minimal consideration for induction despite career longevity.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:55:25",
   "human_reviewed": false,
-  "slug": "sinead-oconnor"
+  "data_record": "Name: Sinead O'Connor\nGenre: Pop\nFirst commercial recording: 1987\nEligible for induction since: 2012\nYears since eligibility: 14\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

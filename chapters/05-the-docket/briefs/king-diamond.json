@@ -1,15 +1,12 @@
 {
   "artist_name": "King Diamond",
-  "genre": "Heavy Metal",
+  "artist_id": 310,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 30.8,
-  "eligible_year": 2011,
-  "wait_years": 15,
-  "data_record": "Name: King Diamond\nGenre: Heavy Metal\nFirst commercial recording: 1986\nEligible for induction since: 2011\nYears since eligibility: 15\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nKing Diamond is documented as a heavy metal artist whose first commercial recording was released in 1986. The artist became eligible for Rock and Roll Hall of Fame induction in 2011 and has remained eligible for 15 years as of the current analysis. The data record shows zero Rolling Stone attention score and no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documentation provided regarding technical skill, artistic achievement, or critical recognition of musical performance.\n\n**Influence on Other Performers:** Insufficient data in record. No evidence provided of other artists citing King Diamond as an influence or adopting elements of their musical approach.\n\n**Length of Career:** Documented career span of at least 38 years, calculated from first commercial recording in 1986 to present. This meets typical length expectations for Hall consideration.\n\n**Depth of Catalog:** Insufficient data in record. No information provided regarding number of albums, commercial releases, or breadth of recorded material.\n\n**Contributions to Rock and Roll:** Insufficient data in record. No documentation of innovations, cultural impact, or advancement of rock music provided in the artist profile.\n\n## The Gap\n\nThe data record contains insufficient information to establish King Diamond's qualifications relative to inducted artists in the heavy metal genre or contemporary era. While documented career length meets baseline expectations, critical gaps exist in evidence for musical excellence, influence metrics, catalog depth, and documented contributions to rock music development.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts establish career longevity but lack substantive evidence across four of the five Hall criteria, creating significant evidentiary gaps for induction consideration. King Diamond's case demonstrates the challenges facing artists with limited documented mainstream recognition despite sustained career presence.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:52:37",
   "human_reviewed": false,
-  "slug": "king-diamond"
+  "data_record": "Name: King Diamond\nGenre: Heavy Metal\nFirst commercial recording: 1986\nEligible for induction since: 2011\nYears since eligibility: 15\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

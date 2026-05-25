@@ -1,15 +1,12 @@
 {
   "artist_name": "Mastodon",
-  "genre": "Heavy Metal",
+  "artist_id": 307,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 20.2,
-  "eligible_year": 2025,
-  "wait_years": 1,
-  "data_record": "Name: Mastodon\nGenre: Heavy Metal\nFirst commercial recording: 2000\nEligible for induction since: 2025\nYears since eligibility: 1\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nMastodon is documented as a Heavy Metal artist with their first commercial recording in 2000. The band became eligible for Rock and Roll Hall of Fame induction in 2025 and has been eligible for one year as of the current assessment. The record shows a Rolling Stone Attention Score of 0 and no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented critical assessments, awards, or professional recognition metrics are provided to evaluate musical excellence.\n\n**Influence on Other Performers**: Insufficient data in record. No documentation of artists citing Mastodon as an influence or evidence of musical techniques adopted by subsequent performers.\n\n**Length of Career**: Documented career span of 25 years from first commercial recording in 2000 to present eligibility period beginning in 2025.\n\n**Depth of Catalog**: Insufficient data in record. No information provided regarding album releases, song output, or catalog scope over the documented 25-year period.\n\n**Contributions to Rock and Roll**: Insufficient data in record. No specific documented contributions to the genre's evolution, cultural impact metrics, or innovative elements are provided in the artist record.\n\n## The Gap\n\nThe record provides minimal quantifiable data for comparison with inducted artists. The documented Rolling Stone Attention Score of 0 indicates limited mainstream music press recognition relative to typical inductees. The absence of documented nominations suggests the artist has not reached the threshold of Hall recognition achieved by comparable Heavy Metal acts from the same era.\n\n## The Verdict\n\nINSUFFICIENT (confidence: 30%). The evidence supports a career of documented longevity spanning 25 years but lacks sufficient data across four of the five stated criteria to demonstrate qualification patterns typical of inducted artists. Mastodon's case presents substantial gaps in documented excellence, influence, catalog depth, and contributions relative to Hall of Fame standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 14:00:43",
   "human_reviewed": false,
-  "slug": "mastodon"
+  "data_record": "Name: Mastodon\nGenre: Heavy Metal\nFirst commercial recording: 2000\nEligible for induction since: 2025\nYears since eligibility: 1\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

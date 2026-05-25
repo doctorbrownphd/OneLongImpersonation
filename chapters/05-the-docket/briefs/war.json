@@ -1,15 +1,12 @@
 {
   "artist_name": "War",
-  "genre": "Soul/R&B",
+  "artist_id": 358,
   "verdict": "CASE",
   "confidence": 0.7,
   "criteria_score": 44.3,
-  "eligible_year": 1994,
-  "wait_years": 32,
-  "data_record": "Name: War\nGenre: Soul/R&B\nFirst commercial recording: 1969\nEligible for induction since: 1994\nYears since eligibility: 32\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nWar is classified as a Soul/R&B artist with their first commercial recording documented in 1969. The band became eligible for Rock and Roll Hall of Fame induction in 1994, representing 32 years since achieving eligibility status. The data record shows no documented nominations for induction and registers a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No specific musical achievements, critical acclaim, or artistic recognition metrics are documented in the provided data.\n\n**Influence on Other Performers:** Insufficient data in record. The data contains no documentation of War's impact on subsequent artists or their role in influencing musical development.\n\n**Length of Career:** Documented evidence shows War's recording career spans from 1969 to present, representing over 50 years of documented musical activity.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding album releases, chart performance, or catalog scope is provided in the data.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While War is classified within the Soul/R&B genre, no specific contributions to rock and roll development are documented in the provided record.\n\n## The Gap\n\nThe documented evidence reveals significant gaps in War's profile compared to typical Hall of Fame inductees. The absence of documented nominations over 32 years of eligibility, combined with a Rolling Stone Attention Score of 0, suggests limited recognition within established rock journalism and Hall of Fame consideration processes. Most inducted artists from the Soul/R&B genre demonstrate documented influence, critical recognition, and substantial catalog achievements not present in this data record.\n\n## The Verdict\n\nClassification: CASE (confidence: 70%). The evidence supports a case hampered by insufficient documentation of key qualifications, despite meeting basic eligibility requirements through career longevity. The 32-year gap between eligibility and consideration, absent any documented nominations or critical attention metrics, indicates substantial barriers to induction consideration under current Hall of Fame evaluation patterns.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:39:56",
   "human_reviewed": false,
-  "slug": "war"
+  "data_record": "Name: War\nGenre: Soul/R&B\nFirst commercial recording: 1969\nEligible for induction since: 1994\nYears since eligibility: 32\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

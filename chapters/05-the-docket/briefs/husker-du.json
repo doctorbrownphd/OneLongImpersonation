@@ -1,15 +1,12 @@
 {
   "artist_name": "Husker Du",
-  "genre": "Punk",
+  "artist_id": 314,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 33.3,
-  "eligible_year": 2006,
-  "wait_years": 20,
-  "data_record": "Name: Husker Du\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nHusker Du is documented as a punk genre artist whose first commercial recording occurred in 1981. The band became eligible for Rock and Roll Hall of Fame induction in 2006 and has remained eligible for 20 years as of the current assessment period. The artist has received no documented nominations for induction. Rolling Stone attention metrics show zero documented coverage in the publication's ranking systems.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented critical assessments, awards, or professional recognition metrics are provided to evaluate musical excellence.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence of influence on subsequent artists, cover versions, or citations by other performers is provided.\n\n**Length of Career**: Documented career span begins with first commercial recording in 1981. The 20-year eligibility period indicates documented activity spanning at least through 2006, representing a minimum 25-year documented period.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding number of albums, songs, or recording output is provided to assess catalog depth.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While genre classification as punk is documented, specific contributions to rock and roll development or evolution are not detailed.\n\n## The Gap\n\nThe documented evidence shows significant deficiencies compared to typical inducted artists. The zero Rolling Stone attention score indicates absence from mainstream critical recognition systems. The lack of documented nominations over 20 years of eligibility suggests limited industry support relative to inducted artists from the punk genre and 1980s era.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence fails to establish compliance with four of the five stated criteria due to absent supporting data, while only demonstrating partial compliance with career length requirements. This case illustrates the challenge of induction assessment when comprehensive documentation of an artist's impact and achievements is not provided in the evidentiary record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:48:56",
   "human_reviewed": false,
-  "slug": "husker-du"
+  "data_record": "Name: Husker Du\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

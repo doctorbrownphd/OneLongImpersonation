@@ -1,15 +1,12 @@
 {
   "artist_name": "Toad the Wet Sprocket",
-  "genre": "Classic Rock",
+  "artist_id": 382,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 27.8,
-  "eligible_year": 2014,
-  "wait_years": 12,
-  "data_record": "Name: Toad the Wet Sprocket\nGenre: Classic Rock\nFirst commercial recording: 1989\nEligible for induction since: 2014\nYears since eligibility: 12\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nToad the Wet Sprocket is documented as a classic rock artist with their first commercial recording released in 1989. The band became eligible for Rock and Roll Hall of Fame induction in 2014, representing 12 years since initial eligibility. The data record shows no documented nominations for Hall of Fame induction and reports a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented information regarding critical acclaim, awards, or professional recognition of musical quality.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of the band's impact on subsequent artists or musical movements.\n\n**Length of Career:** The documented facts show a career spanning from 1989, indicating at minimum 35 years of activity as of 2024, which meets typical Hall of Fame career length expectations.\n\n**Depth of Catalog:** Insufficient data in record. No documented information regarding album releases, chart performance, or body of work.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The genre classification as \"classic rock\" is documented, but specific contributions to the rock and roll genre are not detailed in the record.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to average inducted artists. The Rolling Stone Attention Score of 0 indicates minimal documented critical or media recognition. The absence of any documented nominations over 12 years of eligibility suggests limited industry recognition relative to inducted artists in the classic rock genre.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports only one clear criterion (career length), while four of the five stated criteria lack sufficient documentation in the record. The case demonstrates a substantial gap between documented qualifications and typical inductee profiles, with no recorded nominations despite over a decade of eligibility.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:55:03",
   "human_reviewed": false,
-  "slug": "toad-the-wet-sprocket"
+  "data_record": "Name: Toad the Wet Sprocket\nGenre: Classic Rock\nFirst commercial recording: 1989\nEligible for induction since: 2014\nYears since eligibility: 12\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

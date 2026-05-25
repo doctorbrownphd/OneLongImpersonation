@@ -1,15 +1,12 @@
 {
   "artist_name": "Joy Division",
-  "genre": "Punk",
-  "verdict": "INSUFFICIENT",
-  "confidence": 0.3,
-  "criteria_score": 37.6,
-  "eligible_year": 2003,
-  "wait_years": 23,
-  "data_record": "Name: Joy Division\nGenre: Punk\nFirst commercial recording: 1978\nEligible for induction since: 2003\nYears since eligibility: 23\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "artist_id": 323,
+  "verdict": "BORDERLINE",
+  "confidence": 0.5,
+  "criteria_score": 38.85,
+  "brief_text": "## Findings of Fact\n\nJoy Division is documented as a punk genre artist with their first commercial recording released in 1978. The band became eligible for Rock and Roll Hall of Fame induction in 2003 and has remained eligible for 23 years as of the current analysis. The data record shows documented influences from The Velvet Underground. Joy Division has received a Rolling Stone Attention Score of 0 and has no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The data record does not provide documentation of critical acclaim, awards, or professional recognition that would demonstrate musical excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. While the band's own influences are documented (The Velvet Underground), the record contains no evidence of Joy Division's influence on subsequent artists or performers.\n\n**3. Length of Career**\nDocumented career span begins in 1978 with first commercial recording. The record does not provide an end date for the band's active period, making assessment of career duration incomplete.\n\n**4. Depth of Catalog**\nInsufficient data in record. The record confirms commercial recording activity beginning in 1978 but provides no documentation of album releases, single releases, or catalog size.\n\n**5. Contributions to Rock and Roll**\nPartially documented. The record establishes Joy Division as a punk genre artist, placing them within rock and roll's documented subgenres. However, specific contributions to the genre's development are not detailed in the provided data.\n\n## The Gap\n\nThe data record lacks sufficient documentation across most induction criteria to enable comparison with average qualifications of inducted artists. Critical gaps exist in evidence of influence, catalog depth, career duration, and measurable excellence indicators. The 23-year eligibility period without documented nominations suggests the Hall has not recognized compelling evidence for induction during this extended timeframe.\n\n## The Verdict\n\nClassification: BORDERLINE (confidence: 50%). The available evidence establishes Joy Division's genre positioning within rock and roll and documents their historical place in punk music, but lacks the comprehensive documentation of influence, excellence, and career depth typically associated with inducted artists. This case demonstrates how limited documentation can constrain evaluation even for artists with potential cultural significance.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:43:34",
   "human_reviewed": false,
-  "slug": "joy-division"
+  "data_record": "Name: Joy Division\nGenre: Punk\nFirst commercial recording: 1978\nEligible for induction since: 2003\nYears since eligibility: 23\nRolling Stone Attention Score: 0\nDocumented influences from: The Velvet Underground\nNomination history: No documented nominations"
 }

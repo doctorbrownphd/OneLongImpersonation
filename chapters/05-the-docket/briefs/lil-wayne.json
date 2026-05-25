@@ -1,15 +1,12 @@
 {
   "artist_name": "Lil Wayne",
-  "genre": "Hip-Hop",
+  "artist_id": 350,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 20.9,
-  "eligible_year": 2024,
-  "wait_years": 2,
-  "data_record": "Name: Lil Wayne\nGenre: Hip-Hop\nFirst commercial recording: 1999\nEligible for induction since: 2024\nYears since eligibility: 2\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe documented record shows Lil Wayne as a Hip-Hop artist whose first commercial recording was released in 1999. The artist became eligible for Rock and Roll Hall of Fame induction in 2024, making 2024 the second year of eligibility. The Rolling Stone Attention Score is documented at 0, and no nominations for Hall of Fame induction appear in the record.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No information provided regarding critical recognition, awards, or technical proficiency.\n\n**Influence on Other Performers:** Insufficient data in record. No documentation of mentorship, stylistic influence, or impact on subsequent artists.\n\n**Length of Career:** Documented career span of 25 years from first commercial recording (1999) to present eligibility period (2024).\n\n**Depth of Catalog:** Insufficient data in record. No information provided regarding number of releases, album sales, or catalog breadth.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The record identifies the artist's genre as Hip-Hop but provides no documentation of cross-genre influence or contributions to rock music specifically.\n\n## The Gap\n\nThe documented evidence reveals significant gaps in meeting the Hall's stated criteria. While the length of career criterion shows a verified 25-year span, four of the five criteria lack supporting documentation in the record. The Rolling Stone Attention Score of 0 and absence of documented nominations indicate limited recognition within traditional Hall of Fame evaluation frameworks.\n\n## The Verdict\n\nThe classification is INSUFFICIENT (confidence: 30%). The documented evidence supports only one criterion conclusively, with career length meeting typical Hall standards. However, the absence of documented nominations, zero Rolling Stone Attention Score, and insufficient data across four of five criteria present substantial evidentiary gaps. The case demonstrates a fundamental mismatch between available documentation and the comprehensive evidence typically required for Hall of Fame consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 14:00:10",
   "human_reviewed": false,
-  "slug": "lil-wayne"
+  "data_record": "Name: Lil Wayne\nGenre: Hip-Hop\nFirst commercial recording: 1999\nEligible for induction since: 2024\nYears since eligibility: 2\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

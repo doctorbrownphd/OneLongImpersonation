@@ -1,15 +1,12 @@
 {
   "artist_name": "Backstreet Boys",
-  "genre": "Pop",
+  "artist_id": 385,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 20.0,
-  "eligible_year": 2021,
-  "wait_years": 5,
-  "data_record": "Name: Backstreet Boys\nGenre: Pop\nFirst commercial recording: 1996\nEligible for induction since: 2021\nYears since eligibility: 5\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe Backstreet Boys are classified as a pop genre artist with their first commercial recording documented in 1996. The group became eligible for Rock and Roll Hall of Fame induction in 2021 and has remained eligible for 5 years as of the current assessment period. The data record shows no documented nominations for Hall of Fame induction. The group's Rolling Stone Attention Score is recorded as 0, indicating minimal coverage in the publication's rankings and features.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No performance metrics, chart achievements, or critical assessments are documented to evaluate musical excellence.\n\n**Influence on Other Performers:** Insufficient data in record. No documentation of artists citing the Backstreet Boys as influences or evidence of their impact on subsequent performers.\n\n**Length of Career:** Documented evidence shows a career spanning from 1996 to present, representing approximately 28 years of documented activity, which meets the Hall's typical length of career expectations.\n\n**Depth of Catalog:** Insufficient data in record. No album count, song catalog size, or discography depth metrics are provided to assess this criterion.\n\n**Contributions to Rock and Roll:** The data record classifies the artist as pop genre, which presents questions regarding direct contributions to rock and roll as traditionally defined. Insufficient data in record to document specific contributions to rock and roll evolution or culture.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to average inducted artists. The Rolling Stone Attention Score of 0 indicates substantially lower critical recognition than typical inductees. The absence of any documented nominations after 5 years of eligibility suggests the Hall's selection committees have not prioritized this candidacy. The pop genre classification may present additional challenges for an institution focused on rock and roll contributions.\n\n## The Verdict\n\nBased on the available evidence, this case presents an INSUFFICIENT foundation for induction consideration. While the length of career criterion appears satisfied, critical gaps exist in documented musical excellence, influence metrics, catalog assessment, and rock and roll contributions. The Backstreet Boys case demonstrates how pop artists face substantial documentation and genre alignment challenges in Rock and Roll Hall of Fame evaluation processes.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 14:01:15",
   "human_reviewed": false,
-  "slug": "backstreet-boys"
+  "data_record": "Name: Backstreet Boys\nGenre: Pop\nFirst commercial recording: 1996\nEligible for induction since: 2021\nYears since eligibility: 5\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

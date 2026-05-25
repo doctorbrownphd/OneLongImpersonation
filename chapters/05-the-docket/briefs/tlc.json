@@ -1,15 +1,12 @@
 {
   "artist_name": "TLC",
-  "genre": "Soul/R&B",
+  "artist_id": 363,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 25.4,
-  "eligible_year": 2017,
-  "wait_years": 9,
-  "data_record": "Name: TLC\nGenre: Soul/R&B\nFirst commercial recording: 1992\nEligible for induction since: 2017\nYears since eligibility: 9\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# CASE BRIEF: TLC v. ROCK AND ROLL HALL OF FAME\n**Case No.: RRHOF-2024-TLC**\n**Prepared by: Legal Research Division**\n**Date: [Current Date]**\n\n---\n\n## Findings of Fact\n\n**Artist Name:** TLC  \n**Primary Genre:** Soul/R&B  \n**Commercial Recording Career:** Documented to begin in 1992  \n**Hall of Fame Eligibility:** Achieved in 2017 (25 years post-first recording)  \n**Duration Since Eligibility:** 9 years  \n**Nomination History:** No documented nominations to the Rock and Roll Hall of Fame  \n**Rolling Stone Attention Score:** 0 (indicating minimal documented coverage in Rolling Stone publications)  \n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The data record provides no documented evidence regarding musical quality, technical proficiency, or critical acclaim metrics necessary to evaluate this criterion.\n\n**2. Influence on Other Performers**  \nInsufficient data in record. No documentation provided regarding other artists citing TLC as influences, cover versions of their material, or measurable impact on subsequent musical developments.\n\n**3. Length of Career**\nDocumented evidence shows commercial recording career beginning in 1992. The record does not specify career duration or end date, making complete assessment of career longevity impossible based on provided data.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information provided regarding number of albums, singles, or scope of recorded material to assess catalog depth.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While artist is classified under Soul/R&B genre, no specific documentation provided regarding contributions to rock and roll music or culture.\n\n## The Gap\n\nThe documented facts show significant deficiencies compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal documented mainstream rock media coverage. The absence of any documented Hall of Fame nominations after 9 years of eligibility suggests limited recognition by the institution's nominating committee. No quantifiable achievements in musical excellence, influence metrics, catalog documentation, or rock contributions are provided in the record.\n\n## The Verdict\n\n**Classification: INSUFFICIENT (Confidence: 30%)**\n\nThe documented evidence fails to establish TLC's qualifications under the Hall's five stated criteria. While the artist achieved eligibility in 2017, the record contains no substantive documentation of musical excellence, influence on other performers, catalog depth, or contributions to rock and roll necessary to support induction consideration. The case demonstrates insufficient documented evidence to meet the Rock and Roll Hall of Fame's induction standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:55:51",
   "human_reviewed": false,
-  "slug": "tlc"
+  "data_record": "Name: TLC\nGenre: Soul/R&B\nFirst commercial recording: 1992\nEligible for induction since: 2017\nYears since eligibility: 9\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

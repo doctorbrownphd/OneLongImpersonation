@@ -1,15 +1,12 @@
 {
   "artist_name": "Aphex Twin",
-  "genre": "Electronic",
+  "artist_id": 332,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 25.0,
-  "eligible_year": 2017,
-  "wait_years": 9,
-  "data_record": "Name: Aphex Twin\nGenre: Electronic\nFirst commercial recording: 1992\nEligible for induction since: 2017\nYears since eligibility: 9\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe documented record establishes that Aphex Twin operates within the electronic genre with a first commercial recording documented in 1992. The artist became eligible for Rock and Roll Hall of Fame induction in 2017 and has remained eligible for 9 years as of the current analysis period. The record shows zero Rolling Stone Attention Score and no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No specific musical achievements, critical acclaim, or industry recognition metrics are documented.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence of influence on subsequent artists or musical movements is provided.\n\n**Length of Career**: Documented evidence shows a career span beginning with commercial recordings in 1992, establishing approximately 32 years of documented activity through the eligibility period.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding album releases, compilation works, or catalog breadth is documented.\n\n**Contributions to Rock and Roll**: Insufficient data in record. The documented genre classification as \"electronic\" provides no specific evidence of contributions to rock and roll as traditionally defined by the Hall's mission.\n\n## The Gap\n\nThe documented qualifications present significant gaps compared to typical inducted artists. The zero Rolling Stone Attention Score indicates absence of mainstream rock press recognition. The lack of documented nominations over 9 years of eligibility suggests limited institutional support within the Hall's nomination process. The electronic genre classification may present challenges under the Hall's rock and roll contribution criterion.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports a career of sufficient length but lacks verification of the Hall's other four primary criteria. The case demonstrates substantial gaps in documented musical excellence, influence metrics, catalog documentation, and specific rock and roll contributions necessary for induction consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:56:26",
   "human_reviewed": false,
-  "slug": "aphex-twin"
+  "data_record": "Name: Aphex Twin\nGenre: Electronic\nFirst commercial recording: 1992\nEligible for induction since: 2017\nYears since eligibility: 9\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

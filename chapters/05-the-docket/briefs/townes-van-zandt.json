@@ -1,15 +1,12 @@
 {
   "artist_name": "Townes Van Zandt",
-  "genre": "Folk/Country",
+  "artist_id": 396,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 39.2,
-  "eligible_year": 1993,
-  "wait_years": 33,
-  "data_record": "Name: Townes Van Zandt\nGenre: Folk/Country\nFirst commercial recording: 1968\nEligible for induction since: 1993\nYears since eligibility: 33\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nTownes Van Zandt is documented as a Folk/Country artist who began his commercial recording career in 1968. He became eligible for Rock and Roll Hall of Fame induction in 1993, making him eligible for 33 years as of the current assessment period. The data record shows no documented nominations for Hall of Fame induction. Rolling Stone magazine attention metrics show zero documented coverage in the available scoring system.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The provided documentation does not contain performance metrics, critical assessments, or technical evaluations of Van Zandt's musical abilities.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of artists citing Van Zandt as an influence or covering his material is provided in the available data.\n\n**Length of Career:** Documented evidence shows a commercial recording career beginning in 1968, establishing a multi-decade span of professional activity. However, the record does not specify the end date of his active recording or performing period.\n\n**Depth of Catalog:** Insufficient data in record. The documentation does not provide album counts, song counts, or catalog scope measurements necessary to evaluate this criterion.\n\n**Contributions to Rock and Roll:** The artist is classified under Folk/Country genre designation. Insufficient data in record regarding specific contributions to rock and roll musical development, innovation, or cultural impact.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical Hall of Fame inductees. The zero Rolling Stone Attention Score indicates minimal documented mainstream rock press recognition. The absence of any documented nominations over 33 years of eligibility suggests the artist has not met the threshold for serious Hall consideration under current selection patterns. Folk/Country genre classification may present additional challenges for rock and roll institution recognition.\n\n## The Verdict\n\nThe evidence classification is BORDERLINE with 50% confidence. The documented facts support a case hampered by insufficient mainstream rock recognition metrics and genre alignment questions, though career length is established. Townes Van Zandt presents a case where documented folk artistry meets institutional rock and roll recognition barriers.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:42:57",
   "human_reviewed": false,
-  "slug": "townes-van-zandt"
+  "data_record": "Name: Townes Van Zandt\nGenre: Folk/Country\nFirst commercial recording: 1968\nEligible for induction since: 1993\nYears since eligibility: 33\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

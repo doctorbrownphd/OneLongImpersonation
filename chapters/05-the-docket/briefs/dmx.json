@@ -1,15 +1,12 @@
 {
   "artist_name": "DMX",
-  "genre": "Hip-Hop",
+  "artist_id": 354,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 22.2,
-  "eligible_year": 2023,
-  "wait_years": 3,
-  "data_record": "Name: DMX\nGenre: Hip-Hop\nFirst commercial recording: 1998\nEligible for induction since: 2023\nYears since eligibility: 3\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nDMX is documented as a Hip-Hop artist whose first commercial recording was released in 1998. The artist became eligible for Rock and Roll Hall of Fame induction in 2023 and has been eligible for 3 years as of the current assessment period. The record shows no documented nominations for induction. The artist received a Rolling Stone Attention Score of 0, indicating minimal coverage in the publication's rankings or features.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The provided data contains no documentation of critical acclaim, awards, or musical achievements that would demonstrate excellence in the field.\n\n**Influence on Other Performers:** Insufficient data in record. No evidence is provided regarding DMX's impact on subsequent artists or the broader musical landscape.\n\n**Length of Career:** The documented evidence shows a career span beginning with the first commercial recording in 1998, indicating at least 25 years of documented activity through the eligibility period beginning in 2023.\n\n**Depth of Catalog:** Insufficient data in record. No information is provided regarding album releases, chart performance, or the scope of recorded work.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The record identifies the artist's genre as Hip-Hop but provides no documentation of contributions to rock and roll or its evolution.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The absence of Rolling Stone recognition, documented nominations, and measurable impact metrics indicates substantial deficiencies relative to the average qualifications of artists who have achieved induction during the modern era.\n\n## The Verdict\n\nThe classification is INSUFFICIENT with 30% confidence. The documented evidence supports career longevity spanning 25 years but lacks substantive data across four of the five stated criteria, including musical excellence, influence, catalog depth, and contributions to rock and roll. This case demonstrates how limited documentation creates substantial barriers to demonstrating qualification under the Hall's stated induction standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:59:34",
   "human_reviewed": false,
-  "slug": "dmx"
+  "data_record": "Name: DMX\nGenre: Hip-Hop\nFirst commercial recording: 1998\nEligible for induction since: 2023\nYears since eligibility: 3\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

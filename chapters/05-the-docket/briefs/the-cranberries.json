@@ -1,15 +1,12 @@
 {
   "artist_name": "The Cranberries",
-  "genre": "Classic Rock",
+  "artist_id": 373,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 23.5,
-  "eligible_year": 2018,
-  "wait_years": 8,
-  "data_record": "Name: The Cranberries\nGenre: Classic Rock\nFirst commercial recording: 1993\nEligible for induction since: 2018\nYears since eligibility: 8\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe Cranberries are documented as a Classic Rock artist with their first commercial recording in 1993. The band became eligible for Rock and Roll Hall of Fame induction in 2018 and has remained eligible for 8 years as of the current analysis period. The artist has received no documented nominations for Hall of Fame induction. Rolling Stone attention metrics show a score of 0 for the band.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented information regarding critical acclaim, awards, or professional recognition of musical quality.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of influence on subsequent artists or musical movements.\n\n**Length of Career:** Documented career span begins with first commercial recording in 1993. Insufficient data regarding career duration, album releases, or active performance periods.\n\n**Depth of Catalog:** Insufficient data in record. No documented information regarding number of albums, singles, or body of recorded work.\n\n**Contributions to Rock and Roll:** Insufficient data in record. Genre classification as Classic Rock is documented, but specific contributions to the development or evolution of rock music are not provided.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal documented critical or cultural recognition in major music publications. The absence of any documented nominations over 8 years of eligibility suggests limited industry support. No quantifiable metrics are provided for career achievements, commercial success, or critical recognition that would demonstrate qualification under the Hall's stated criteria.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The data record lacks sufficient documented evidence across all five induction criteria, with only basic eligibility facts established. The Cranberries case demonstrates the challenge of evaluation when critical documentation of career achievements and cultural impact is absent from the available record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:58:46",
   "human_reviewed": false,
-  "slug": "the-cranberries"
+  "data_record": "Name: The Cranberries\nGenre: Classic Rock\nFirst commercial recording: 1993\nEligible for induction since: 2018\nYears since eligibility: 8\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

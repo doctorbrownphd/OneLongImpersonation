@@ -1,15 +1,12 @@
 {
   "artist_name": "Slayer",
-  "genre": "Heavy Metal",
+  "artist_id": 297,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 31.7,
-  "eligible_year": 2008,
-  "wait_years": 18,
-  "data_record": "Name: Slayer\nGenre: Heavy Metal\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: SLAYER INDUCTION CASE\n\n## Findings of Fact\n\nSlayer is documented as a Heavy Metal artist with their first commercial recording in 1983. The band became eligible for Rock and Roll Hall of Fame induction in 2008 and has remained eligible for 18 years as of the current assessment period. The record shows zero Rolling Stone Attention Score and no documented nominations for Hall of Fame induction during their eligibility period.\n\n## Application of Criteria\n\n**Criterion 1: Musical Excellence**\nInsufficient data in record. The provided documentation contains no specific evidence regarding musical technique, composition quality, or critical acclaim that would demonstrate musical excellence.\n\n**Criterion 2: Influence on Other Performers**\nInsufficient data in record. While the artist operates within the Heavy Metal genre, the documentation provides no verified evidence of influence on subsequent performers or musical movements.\n\n**Criterion 3: Length of Career**\nDocumented evidence supports this criterion. With a first commercial recording in 1983, the record establishes a career span of approximately 40 years, demonstrating sustained professional activity well beyond the Hall's 25-year minimum requirement.\n\n**Criterion 4: Depth of Catalog**\nInsufficient data in record. The documentation provides no information regarding album releases, song catalog size, or recorded output beyond the initial 1983 commercial recording.\n\n**Criterion 5: Contributions to Rock and Roll**\nInsufficient data in record. While classified within Heavy Metal, a rock subgenre, the record contains no specific documentation of contributions to rock and roll's development, evolution, or cultural impact.\n\n## The Gap\n\nThe documented evidence reveals significant gaps compared to typical inducted artists. The zero Rolling Stone Attention Score indicates minimal mainstream music press recognition, contrasting with the substantial media attention typically associated with inducted performers. The absence of documented nominations during 18 years of eligibility suggests limited institutional support within Hall voting bodies.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports only one of five induction criteria with sufficient data. While the length of career criterion is clearly satisfied through verified 40-year professional activity, the record lacks essential documentation for musical excellence, influence, catalog depth, and rock contributions that characterize inducted artists. The case demonstrates how genre classification alone, without documented achievement metrics, provides insufficient foundation for induction consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:50:48",
   "human_reviewed": false,
-  "slug": "slayer"
+  "data_record": "Name: Slayer\nGenre: Heavy Metal\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "Salt-N-Pepa",
-  "genre": "Hip-Hop",
+  "artist_id": 353,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 31.35,
-  "eligible_year": 2011,
-  "wait_years": 15,
-  "data_record": "Name: Salt-N-Pepa\nGenre: Hip-Hop\nFirst commercial recording: 1986\nEligible for induction since: 2011\nYears since eligibility: 15\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nSalt-N-Pepa is documented as a Hip-Hop artist with their first commercial recording released in 1986. The group became eligible for Rock and Roll Hall of Fame induction in 2011 and has remained eligible for 15 years as of the data record date. The record shows a Rolling Stone Attention Score of 0 and documents no nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented critical assessments, awards, or technical achievements are provided to evaluate musical excellence.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of artists citing Salt-N-Pepa as an influence or measurable impact on subsequent performers is provided.\n\n**Length of Career:** Documented evidence shows career spanning from 1986 to present, indicating a career length of approximately 38 years based on the first commercial recording date.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding album releases, chart performance, or catalog scope is provided.\n\n**Contributions to Rock and Roll:** Insufficient data in record. No specific documented contributions to the broader rock and roll genre or music industry are detailed in the provided data.\n\n## The Gap\n\nThe documented evidence reveals significant gaps in the criteria traditionally associated with Hall of Fame induction. While Salt-N-Pepa demonstrates documented career longevity of 15 years beyond eligibility, the record lacks substantive evidence across four of the five stated criteria. The absence of any documented nomination history and a Rolling Stone Attention Score of 0 indicates limited recognition within the Hall's evaluation framework compared to inducted artists in similar genres and eras.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports career longevity but lacks sufficient data to demonstrate fulfillment of the Hall's other stated criteria. Salt-N-Pepa's case demonstrates extended eligibility without corresponding institutional recognition or documented achievement across the majority of evaluation criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:51:52",
   "human_reviewed": false,
-  "slug": "salt-n-pepa"
+  "data_record": "Name: Salt-N-Pepa\nGenre: Hip-Hop\nFirst commercial recording: 1986\nEligible for induction since: 2011\nYears since eligibility: 15\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

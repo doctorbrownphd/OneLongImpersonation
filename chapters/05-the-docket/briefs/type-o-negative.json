@@ -1,15 +1,12 @@
 {
   "artist_name": "Type O Negative",
-  "genre": "Heavy Metal",
+  "artist_id": 301,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 24.9,
-  "eligible_year": 2016,
-  "wait_years": 10,
-  "data_record": "Name: Type O Negative\nGenre: Heavy Metal\nFirst commercial recording: 1991\nEligible for induction since: 2016\nYears since eligibility: 10\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: TYPE O NEGATIVE\n## Rock and Roll Hall of Fame Induction Analysis\n\n---\n\n## Findings of Fact\n\nType O Negative is documented as a Heavy Metal band whose first commercial recording was released in 1991. The band has been eligible for Rock and Roll Hall of Fame induction since 2016, representing 10 years since achieving eligibility. The data record shows no documented nominations for induction. The band's Rolling Stone Attention Score is recorded as 0, indicating no measurable coverage in Rolling Stone's ranking systems within the data parameters.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented critical assessments, award recognitions, or peer acknowledgments are provided to evaluate musical excellence.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of influence on subsequent artists or musical movements is provided in the data record.\n\n**Length of Career:** Documented evidence shows the band's career spans from 1991 to present, representing approximately 33 years of documented activity based on their first commercial recording date.\n\n**Depth of Catalog:** Insufficient data in record. No information regarding number of albums, singles, or body of work is provided to assess catalog depth.\n\n**Contributions to Rock and Roll:** Insufficient data in record. Beyond genre classification as Heavy Metal, no specific contributions to rock and roll's development or evolution are documented in the provided data.\n\n## The Gap\n\nThe data record provides minimal quantifiable metrics for comparison with inducted artists. With a Rolling Stone Attention Score of 0 and no documented nominations over 10 years of eligibility, Type O Negative's documented profile lacks the measurable recognition patterns typically associated with inducted Heavy Metal acts. The absence of documented critical acclaim, influence metrics, or catalog depth data creates substantial evidentiary gaps when measured against standard induction benchmarks.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts establish eligibility and career longevity but lack sufficient evidence across four of the five stated criteria to support a strong induction case. Type O Negative represents a case where minimal documented recognition and absence of measurable influence data create significant evidentiary shortfalls relative to typical Hall of Fame standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:56:50",
   "human_reviewed": false,
-  "slug": "type-o-negative"
+  "data_record": "Name: Type O Negative\nGenre: Heavy Metal\nFirst commercial recording: 1991\nEligible for induction since: 2016\nYears since eligibility: 10\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

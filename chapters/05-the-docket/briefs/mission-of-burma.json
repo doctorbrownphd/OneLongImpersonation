@@ -1,15 +1,12 @@
 {
   "artist_name": "Mission of Burma",
-  "genre": "Punk",
+  "artist_id": 312,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 33.3,
-  "eligible_year": 2006,
-  "wait_years": 20,
-  "data_record": "Name: Mission of Burma\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: MISSION OF BURMA INDUCTION CASE\n\n## Findings of Fact\n\nMission of Burma is documented as a punk genre artist whose first commercial recording was released in 1981. The band became eligible for Rock and Roll Hall of Fame induction in 2006, representing 20 years since achieving eligibility status. The data record shows a Rolling Stone Attention Score of 0 and documents no nomination history with the Hall of Fame selection committee.\n\n## Application of Criteria\n\n**Criterion 1 - Musical Excellence:** Insufficient data in record. No documented evidence of critical acclaim, musical innovation, or technical proficiency is provided in the available data.\n\n**Criterion 2 - Influence on Other Performers:** Insufficient data in record. The data contains no documentation of artists citing Mission of Burma as an influence or evidence of the band's impact on subsequent musical development.\n\n**Criterion 3 - Length of Career:** Documented evidence shows commercial recording activity beginning in 1981, establishing a minimum career span. However, insufficient data exists regarding the duration or consistency of the band's active period.\n\n**Criterion 4 - Depth of Catalog:** Insufficient data in record. No information is provided regarding the number of albums, singles, or total recorded output to assess catalog breadth or consistency.\n\n**Criterion 5 - Contributions to Rock and Roll:** Insufficient data in record. While the punk genre classification suggests participation in rock and roll's evolution, specific contributions are not documented in the provided data.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal mainstream music press recognition, contrasting with the media attention typically associated with Hall of Fame inductees. The absence of any documented nominations over 20 years of eligibility suggests limited industry recognition compared to artists who receive induction consideration.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts provide minimal support for induction under the Hall's stated criteria, with substantial data gaps across all five evaluation standards. Mission of Burma's case demonstrates the challenge facing punk artists with limited mainstream documentation despite potential underground influence.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:48:32",
   "human_reviewed": false,
-  "slug": "mission-of-burma"
+  "data_record": "Name: Mission of Burma\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

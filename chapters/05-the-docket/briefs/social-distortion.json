@@ -1,15 +1,12 @@
 {
   "artist_name": "Social Distortion",
-  "genre": "Punk",
+  "artist_id": 326,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 33.3,
-  "eligible_year": 2006,
-  "wait_years": 20,
-  "data_record": "Name: Social Distortion\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: SOCIAL DISTORTION ROCK AND ROLL HALL OF FAME INDUCTION CASE\n\n## Findings of Fact\n\nSocial Distortion is documented as a punk genre artist with their first commercial recording released in 1981. The band became eligible for Rock and Roll Hall of Fame induction in 2006 and has maintained eligibility for 20 years as of the current assessment period. The Rolling Stone Attention Score for Social Distortion is documented as 0. No nominations for Hall of Fame induction are documented in the available record.\n\n## Application of Criteria\n\n**Criterion 1: Musical Excellence**\nInsufficient data in record. The provided documentation contains no specific evidence regarding technical proficiency, songwriting quality, or critical recognition of musical achievement.\n\n**Criterion 2: Influence on Other Performers** \nInsufficient data in record. No documented evidence is provided regarding Social Distortion's impact on subsequent artists or the broader musical landscape.\n\n**Criterion 3: Length of Career**\nDocumented evidence supports substantial career longevity. With a first commercial recording in 1981 and current eligibility spanning 20 years since 2006, the record establishes a career duration exceeding 40 years.\n\n**Criterion 4: Depth of Catalog**\nInsufficient data in record. The documentation provides no information regarding the number of releases, albums, or songs in Social Distortion's catalog.\n\n**Criterion 5: Contributions to Rock and Roll**\nInsufficient data in record. No specific evidence is provided documenting Social Distortion's contributions to the development or evolution of rock and roll music.\n\n## The Gap\n\nThe documented evidence reveals significant gaps between Social Distortion's verifiable qualifications and typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal mainstream recognition compared to inducted artists. The absence of any documented nominations over 20 years of eligibility suggests limited institutional recognition within Hall of Fame selection processes.\n\n## The Verdict\n\nThe case classification is INSUFFICIENT with 30% confidence. The documented evidence supports only one of the five stated criteria (length of career), while four criteria lack sufficient documentation for evaluation. Social Distortion's two-decade eligibility period without nominations indicates substantial barriers to induction consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:49:21",
   "human_reviewed": false,
-  "slug": "social-distortion"
+  "data_record": "Name: Social Distortion\nGenre: Punk\nFirst commercial recording: 1981\nEligible for induction since: 2006\nYears since eligibility: 20\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

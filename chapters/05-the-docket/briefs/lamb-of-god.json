@@ -1,15 +1,12 @@
 {
   "artist_name": "Lamb of God",
-  "genre": "Heavy Metal",
+  "artist_id": 308,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 20.2,
-  "eligible_year": 2025,
-  "wait_years": 1,
-  "data_record": "Name: Lamb of God\nGenre: Heavy Metal\nFirst commercial recording: 2000\nEligible for induction since: 2025\nYears since eligibility: 1\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nLamb of God is documented as a heavy metal band with their first commercial recording released in 2000. The band became eligible for Rock and Roll Hall of Fame induction in 2025, marking one year since eligibility commenced. The data record shows no documented nominations to the Hall of Fame and reports a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No performance metrics, critical acclaim data, or artistic achievement indicators are documented.\n\n**Influence on Other Performers:** Insufficient data in record. No documentation of impact on subsequent artists, musical movements, or industry developments is provided.\n\n**Length of Career:** Documented evidence shows 25 years of activity from first commercial recording (2000) to present eligibility period (2025). This represents a substantial career duration spanning multiple decades.\n\n**Depth of Catalog:** Insufficient data in record. No album count, song catalog size, or discography details are documented beyond the initial 2000 commercial recording.\n\n**Contributions to Rock and Roll:** Insufficient data in record. No specific innovations, cultural impact, or genre advancement contributions are documented, though the heavy metal genre classification is noted.\n\n## The Gap\n\nThe documented evidence reveals significant data gaps across four of the five induction criteria. While the length of career criterion shows documented 25-year span, the absence of measurable achievements in musical excellence, documented influence, catalog depth metrics, and specific contributions creates substantial evidentiary deficiencies compared to typical inducted artists' documented qualifications.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports only one criterion with verifiable data while lacking substantive documentation for musical excellence, influence, catalog depth, and rock and roll contributions. The case demonstrates insufficient documented qualifications for Hall of Fame induction based on available evidence.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 14:00:58",
   "human_reviewed": false,
-  "slug": "lamb-of-god"
+  "data_record": "Name: Lamb of God\nGenre: Heavy Metal\nFirst commercial recording: 2000\nEligible for induction since: 2025\nYears since eligibility: 1\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

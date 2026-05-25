@@ -1,15 +1,12 @@
 {
   "artist_name": "New Edition",
-  "genre": "Soul/R&B",
+  "artist_id": 361,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 32.8,
-  "eligible_year": 2008,
-  "wait_years": 18,
-  "data_record": "Name: New Edition\nGenre: Soul/R&B\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nNew Edition is documented as a Soul/R&B group with their first commercial recording released in 1983. The group has been eligible for Rock and Roll Hall of Fame induction since 2008, representing 18 years of eligibility. The data record shows no documented nominations for induction and a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No specific information provided regarding critical acclaim, technical proficiency, or artistic achievement metrics.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence of artists citing New Edition as an influence or measurable impact on subsequent performers.\n\n**Length of Career**: Documented career span begins with 1983 commercial recording. Based on eligibility timeline, the group maintained sufficient longevity to qualify for consideration after 25 years of activity.\n\n**Depth of Catalog**: Insufficient data in record. No information provided regarding album releases, chart performance, or body of recorded work.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While classified as Soul/R&B, no specific documentation of contributions to rock and roll's evolution or cultural impact.\n\n## The Gap\n\nThe documented evidence presents substantial gaps when measured against typical inducted artists. With 18 years of eligibility and zero Rolling Stone Attention Score, New Edition's documented profile falls significantly below the recognition patterns of artists who achieve induction. The absence of documented nominations further indicates limited institutional recognition within Hall of Fame consideration processes.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The available evidence demonstrates basic eligibility requirements through career longevity but lacks documentation across four of the five stated criteria. New Edition's case is severely hampered by insufficient documented evidence of the musical excellence, influence, catalog depth, and rock contributions typically required for induction.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:49:55",
   "human_reviewed": false,
-  "slug": "new-edition"
+  "data_record": "Name: New Edition\nGenre: Soul/R&B\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

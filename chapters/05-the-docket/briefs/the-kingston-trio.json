@@ -1,15 +1,12 @@
 {
   "artist_name": "The Kingston Trio",
-  "genre": "Folk/Country",
+  "artist_id": 394,
   "verdict": "CASE",
   "confidence": 0.7,
   "criteria_score": 42.0,
-  "eligible_year": 1983,
-  "wait_years": 43,
-  "data_record": "Name: The Kingston Trio\nGenre: Folk/Country\nFirst commercial recording: 1958\nEligible for induction since: 1983\nYears since eligibility: 43\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# Legal Brief: The Kingston Trio Rock and Roll Hall of Fame Induction Case\n\n## Findings of Fact\n\nThe Kingston Trio is documented as a folk/country group that made their first commercial recording in 1958. The group became eligible for Rock and Roll Hall of Fame induction in 1983, making them eligible for 43 years as of the current assessment. The data record shows no documented Rolling Stone attention (score of 0) and no documented nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No specific documentation of musical achievements, critical acclaim, or technical proficiency is provided in the available data.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documentation exists regarding The Kingston Trio's impact on subsequent artists or musical movements.\n\n**3. Length of Career**\nThe documented evidence shows a career spanning from 1958, indicating at least 25 years of activity to reach eligibility in 1983. However, specific documentation of career duration and continuity is insufficient in the record.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information is provided regarding the number of albums, songs, or the breadth of their recorded output.\n\n**5. Contributions to Rock and Roll**\nThe record documents The Kingston Trio as a folk/country act, but provides insufficient data regarding specific contributions to rock and roll music or culture.\n\n## The Gap\n\nThe data record shows significant gaps in documented qualifications compared to typical inducted artists. With zero documented Rolling Stone attention and no nomination history over 43 years of eligibility, The Kingston Trio's documented profile falls substantially below the attention and recognition patterns typically associated with Hall of Fame inductees from their era and genre classification.\n\n## The Verdict\n\nClassification: CASE (confidence: 70%). The documented evidence supports a case where an artist has maintained long-term eligibility without achieving the documented recognition metrics typically associated with Hall of Fame consideration. The evidence demonstrates a significant disparity between eligibility duration and institutional acknowledgment within rock music's primary documentation systems.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:40:35",
   "human_reviewed": false,
-  "slug": "the-kingston-trio"
+  "data_record": "Name: The Kingston Trio\nGenre: Folk/Country\nFirst commercial recording: 1958\nEligible for induction since: 1983\nYears since eligibility: 43\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

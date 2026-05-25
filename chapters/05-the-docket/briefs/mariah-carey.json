@@ -1,15 +1,12 @@
 {
   "artist_name": "Mariah Carey",
-  "genre": "Pop",
+  "artist_id": 384,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 23.8,
-  "eligible_year": 2015,
-  "wait_years": 11,
-  "data_record": "Name: Mariah Carey\nGenre: Pop\nFirst commercial recording: 1990\nEligible for induction since: 2015\nYears since eligibility: 11\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe documented record establishes that Mariah Carey is a pop genre artist whose first commercial recording was released in 1990. She became eligible for Rock and Roll Hall of Fame induction in 2015 and has remained eligible for 11 years as of the current analysis. The record shows no documented nominations to the Hall of Fame and registers a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided data contains no documentation of critical acclaim, awards, technical proficiency, or other metrics typically used to evaluate musical excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No evidence is provided regarding Carey's influence on subsequent artists, cover versions of her work, or testimonials from other performers.\n\n**3. Length of Career**\nDocumented evidence supports this criterion. With a first commercial recording in 1990 and current eligibility status, Carey demonstrates a career span of over three decades, meeting typical longevity expectations for Hall consideration.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information is provided regarding the size of her discography, number of albums, singles, or breadth of musical output.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. As a documented pop genre artist, the record provides no evidence of rock and roll contributions, collaborations with rock artists, or influence on rock music development.\n\n## The Gap\n\nThe documented evidence reveals significant gaps between Carey's verified qualifications and typical inducted artist profiles. The absence of any documented nominations over 11 years of eligibility indicates a substantial disconnect from Hall recognition patterns. The zero Rolling Stone Attention Score further suggests limited rock music press coverage compared to inducted artists.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports only one of the five stated criteria (length of career), while four criteria lack sufficient supporting data in the record. The case demonstrates a pop artist with documented longevity but insufficient evidence of rock and roll contributions or Hall of Fame recognition patterns.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:58:22",
   "human_reviewed": false,
-  "slug": "mariah-carey"
+  "data_record": "Name: Mariah Carey\nGenre: Pop\nFirst commercial recording: 1990\nEligible for induction since: 2015\nYears since eligibility: 11\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

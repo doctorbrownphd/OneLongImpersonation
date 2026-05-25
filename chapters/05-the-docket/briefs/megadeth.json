@@ -1,15 +1,12 @@
 {
   "artist_name": "Megadeth",
-  "genre": "Heavy Metal",
+  "artist_id": 299,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 31.1,
-  "eligible_year": 2010,
-  "wait_years": 16,
-  "data_record": "Name: Megadeth\nGenre: Heavy Metal\nFirst commercial recording: 1985\nEligible for induction since: 2010\nYears since eligibility: 16\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nMegadeth is documented as a Heavy Metal artist with their first commercial recording released in 1985. The band became eligible for Rock and Roll Hall of Fame induction in 2010, making them eligible for 16 years as of the current assessment period. The data record shows a Rolling Stone Attention Score of 0 and no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented evidence of critical acclaim, awards, or professional recognition is provided to assess musical excellence.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence of influence on subsequent artists or the broader Heavy Metal genre is provided.\n\n**Length of Career**: Documented evidence shows a career spanning from 1985 to present, indicating approximately 39 years of documented activity, which demonstrates substantial career longevity.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding album releases, chart performance, or catalog size is provided to assess this criterion.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While the artist operates within the Heavy Metal genre, no specific documented contributions to rock and roll's development or evolution are provided.\n\n## The Gap\n\nThe documented record presents significant evidentiary gaps when measured against typical inducted artist profiles. With a Rolling Stone Attention Score of 0 and no documented nominations despite 16 years of eligibility, the record lacks the critical acclaim and institutional recognition patterns typically associated with inducted Heavy Metal artists. The absence of documented influence metrics, catalog depth information, and specific contributions data creates substantial uncertainty in criterion assessment.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports career longevity within the Heavy Metal genre but lacks sufficient data across four of the five stated criteria to establish a compelling induction case. While Megadeth demonstrates documented career length spanning nearly four decades, the record's absence of critical recognition metrics, influence documentation, and catalog assessment data creates an insufficient evidentiary foundation for Hall of Fame consideration under the institution's stated criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:52:04",
   "human_reviewed": false,
-  "slug": "megadeth"
+  "data_record": "Name: Megadeth\nGenre: Heavy Metal\nFirst commercial recording: 1985\nEligible for induction since: 2010\nYears since eligibility: 16\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

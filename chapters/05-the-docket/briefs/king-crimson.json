@@ -1,15 +1,12 @@
 {
   "artist_name": "King Crimson",
-  "genre": "Classic Rock",
+  "artist_id": 377,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 40.9,
-  "eligible_year": 1994,
-  "wait_years": 32,
-  "data_record": "Name: King Crimson\nGenre: Classic Rock\nFirst commercial recording: 1969\nEligible for induction since: 1994\nYears since eligibility: 32\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nKing Crimson is documented as a Classic Rock artist with their first commercial recording released in 1969. The band became eligible for Rock and Roll Hall of Fame induction in 1994, making them eligible for 32 years as of the current analysis. The data record shows a Rolling Stone Attention Score of 0 and indicates no documented nominations for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. The provided data does not contain specific information about the band's musical achievements, critical acclaim, or technical proficiency.\n\n**Influence on Other Performers**: Insufficient data in record. No documentation provided regarding King Crimson's influence on subsequent artists or their role in shaping musical movements.\n\n**Length of Career**: Documented evidence shows the band's recording career began in 1969, indicating a career span of over 50 years. This demonstrates substantial longevity in the music industry.\n\n**Depth of Catalog**: Insufficient data in record. No information provided about the number of albums, singles, or breadth of musical output over their documented career period.\n\n**Contributions to Rock and Roll**: Insufficient data in record. The data confirms their classification within the Classic Rock genre but provides no specific details about their contributions to rock music's development or evolution.\n\n## The Gap\n\nThe data record lacks sufficient quantitative metrics to establish a meaningful comparison with inducted artists' average qualifications. While the documented 32-year eligibility period suggests extensive career longevity compared to many inducted artists, the absence of data on critical reception, commercial performance, and cultural impact prevents a comprehensive assessment of their standing relative to Hall of Fame inductees.\n\n## The Verdict\n\nThe evidence classification is BORDERLINE with 50% confidence. The documented facts establish King Crimson as a long-standing Classic Rock artist with over five decades of activity, but the record lacks sufficient data across four of the five stated criteria to build a comprehensive case for induction. King Crimson presents a case where career longevity is verified but overall qualifications remain underdetermined due to insufficient documented evidence.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:40:59",
   "human_reviewed": false,
-  "slug": "king-crimson"
+  "data_record": "Name: King Crimson\nGenre: Classic Rock\nFirst commercial recording: 1969\nEligible for induction since: 1994\nYears since eligibility: 32\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

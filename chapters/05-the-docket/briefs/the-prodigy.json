@@ -1,15 +1,12 @@
 {
   "artist_name": "The Prodigy",
-  "genre": "Electronic",
+  "artist_id": 333,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 25.3,
-  "eligible_year": 2016,
-  "wait_years": 10,
-  "data_record": "Name: The Prodigy\nGenre: Electronic\nFirst commercial recording: 1991\nEligible for induction since: 2016\nYears since eligibility: 10\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe Prodigy is documented as an electronic genre artist with their first commercial recording released in 1991. The artist became eligible for Rock and Roll Hall of Fame induction in 2016 and has remained eligible for 10 years as of the current record. The data shows a Rolling Stone Attention Score of 0 and no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No documented information regarding critical reception, awards, or peer recognition is provided to evaluate musical excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. The record contains no documented evidence of artists citing The Prodigy as an influence or analysis of their impact on subsequent performers.\n\n**3. Length of Career**\nDocumented evidence shows a career spanning from 1991 to present, indicating approximately 33 years of documented activity based on the first commercial recording date.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information is provided regarding album releases, track count, or catalog scope beyond the initial 1991 commercial recording.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the artist is classified in the electronic genre, no specific documented contributions to rock and roll's development or evolution are detailed in the provided record.\n\n## The Gap\n\nThe documented record shows significant data gaps across four of the five stated criteria. The artist's Rolling Stone Attention Score of 0 and absence of documented nominations indicate limited recognition within traditional rock journalism and Hall of Fame consideration processes. The 10-year eligibility period without nomination suggests the documented evidence may not meet the threshold typically required for Hall consideration.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports meeting the length of career criterion but lacks sufficient data across musical excellence, influence, catalog depth, and rock contributions. The Prodigy's case is hindered by incomplete documentation of their qualifications relative to the Hall's stated criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:56:03",
   "human_reviewed": false,
-  "slug": "the-prodigy"
+  "data_record": "Name: The Prodigy\nGenre: Electronic\nFirst commercial recording: 1991\nEligible for induction since: 2016\nYears since eligibility: 10\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "Sonic Youth",
-  "genre": "Punk",
+  "artist_id": 318,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 33.0,
-  "eligible_year": 2007,
-  "wait_years": 19,
-  "data_record": "Name: Sonic Youth\nGenre: Punk\nFirst commercial recording: 1982\nEligible for induction since: 2007\nYears since eligibility: 19\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nSonic Youth is documented as a punk genre artist whose first commercial recording was released in 1982. The band became eligible for Rock and Roll Hall of Fame induction in 2007 and has remained eligible for 19 years as of the current analysis. The record shows a Rolling Stone Attention Score of 0 and documents no nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No information provided regarding critical acclaim, awards, or professional recognition of musical achievement.\n\n**Influence on Other Performers**: Insufficient data in record. No documentation provided of artists citing Sonic Youth as an influence or evidence of their impact on subsequent performers.\n\n**Length of Career**: Documented evidence shows commercial recording activity beginning in 1982, indicating a career spanning at least 42 years from initial commercial release to present.\n\n**Depth of Catalog**: Insufficient data in record. No information provided regarding album releases, song catalog size, or body of recorded work.\n\n**Contributions to Rock and Roll**: Insufficient data in record. The genre classification as \"punk\" is documented, but no specific contributions to rock and roll's development or evolution are detailed in the record.\n\n## The Gap\n\nThe documented qualifications present significant gaps compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates absence of documented mainstream music industry recognition. The lack of any recorded nominations over 19 years of eligibility suggests the artist has not met the threshold for Hall consideration by the nominating committee. Most inducted artists demonstrate measurable influence metrics, critical acclaim documentation, and nomination histories prior to induction.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. While Sonic Youth demonstrates documented longevity through 42 years of career activity since their first commercial recording, the record lacks sufficient documentation across four of the five stated criteria, particularly regarding musical excellence, influence documentation, catalog depth, and specific rock and roll contributions. The absence of nominations despite 19 years of eligibility and zero mainstream recognition scoring indicates this case falls below the evidentiary threshold typically required for Hall of Fame induction consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:49:45",
   "human_reviewed": false,
-  "slug": "sonic-youth"
+  "data_record": "Name: Sonic Youth\nGenre: Punk\nFirst commercial recording: 1982\nEligible for induction since: 2007\nYears since eligibility: 19\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

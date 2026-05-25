@@ -1,15 +1,12 @@
 {
   "artist_name": "Underworld",
-  "genre": "Electronic",
+  "artist_id": 337,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 29.75,
-  "eligible_year": 2013,
-  "wait_years": 13,
-  "data_record": "Name: Underworld\nGenre: Electronic\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: UNDERWORLD\n## Rock and Roll Hall of Fame Induction Analysis\n\n---\n\n## Findings of Fact\n\nUnderworld is documented as an electronic genre artist with their first commercial recording occurring in 1988. The artist became eligible for Rock and Roll Hall of Fame induction in 2013, making them eligible for 13 years as of the current analysis period. The data record shows a Rolling Stone Attention Score of 0 and indicates no documented nominations for Hall of Fame induction.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No specific documentation of musical achievements, critical acclaim, or artistic recognition is provided in the data record.\n\n**2. Influence on Other Performers**\nInsufficient data in record. The record contains no documented evidence of influence on subsequent artists or the broader music community.\n\n**3. Length of Career**\nDocumented evidence shows a career spanning from 1988 to present, indicating approximately 35 years of documented activity in music, which satisfies typical longevity expectations for this criterion.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information is provided regarding the number of albums, singles, or other recorded works in the artist's catalog.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the artist operates in the electronic genre, no specific documented contributions to rock and roll music or culture are detailed in the provided record.\n\n## The Gap\n\nThe data record lacks sufficient documented evidence to evaluate most criteria against inducted artists' qualifications. The artist's 13 years of eligibility without documented nominations suggests limited recognition within Hall of Fame consideration processes. The Rolling Stone Attention Score of 0 indicates minimal documented mainstream music industry recognition compared to typically inducted artists.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports only the length of career criterion, while critical data regarding musical excellence, influence, catalog depth, and rock contributions remains undocumented. Underworld's case demonstrates significant evidentiary gaps across four of five stated induction criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:53:12",
   "human_reviewed": false,
-  "slug": "underworld"
+  "data_record": "Name: Underworld\nGenre: Electronic\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

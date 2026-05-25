@@ -1,15 +1,12 @@
 {
   "artist_name": "Cypress Hill",
-  "genre": "Hip-Hop",
+  "artist_id": 349,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 25.3,
-  "eligible_year": 2016,
-  "wait_years": 10,
-  "data_record": "Name: Cypress Hill\nGenre: Hip-Hop\nFirst commercial recording: 1991\nEligible for induction since: 2016\nYears since eligibility: 10\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nCypress Hill is a hip-hop group with a documented first commercial recording in 1991. The artist has been eligible for Rock and Roll Hall of Fame induction since 2016, representing 10 years of eligibility. The data record shows a Rolling Stone Attention Score of 0 and no documented nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**1. Musical excellence:** Insufficient data in record. No specific musical achievements, critical acclaim, or artistic recognition metrics are documented in the provided data.\n\n**2. Influence on other performers:** Insufficient data in record. The data contains no documentation of the artist's influence on subsequent musicians, collaborations, or impact on the hip-hop genre's development.\n\n**3. Length of career:** Documented evidence shows the artist began commercial recording in 1991, indicating approximately 33 years of documented career activity as of 2024.\n\n**4. Depth of catalog:** Insufficient data in record. No information regarding album releases, discography size, or body of work is provided in the data record.\n\n**5. Contributions to rock and roll:** Insufficient data in record. While the artist is classified as hip-hop genre, no specific contributions to rock and roll's evolution or the broader musical landscape are documented.\n\n## The Gap\n\nThe documented evidence reveals significant data insufficiency compared to typical inducted artist profiles. With a Rolling Stone Attention Score of 0 and no documented nominations despite 10 years of eligibility, the record shows minimal documented recognition within the metrics commonly associated with Hall of Fame consideration. The data record lacks substantive documentation across four of the five induction criteria.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports career longevity but lacks sufficient data across musical excellence, influence, catalog depth, and rock contributions criteria. Cypress Hill's case demonstrates extensive eligibility duration but insufficient documented recognition within the measurable parameters typically associated with Hall of Fame induction consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:56:14",
   "human_reviewed": false,
-  "slug": "cypress-hill"
+  "data_record": "Name: Cypress Hill\nGenre: Hip-Hop\nFirst commercial recording: 1991\nEligible for induction since: 2016\nYears since eligibility: 10\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "Rufus featuring Chaka Khan",
-  "genre": "Soul/R&B",
+  "artist_id": 359,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 40.6,
-  "eligible_year": 1998,
-  "wait_years": 28,
-  "data_record": "Name: Rufus featuring Chaka Khan\nGenre: Soul/R&B\nFirst commercial recording: 1973\nEligible for induction since: 1998\nYears since eligibility: 28\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nRufus featuring Chaka Khan is documented as a Soul/R&B group that released their first commercial recording in 1973. The group became eligible for Rock and Roll Hall of Fame induction in 1998, representing 28 years of eligibility without induction. The data record shows zero Rolling Stone Attention Score and no documented nominations to the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No performance metrics, critical acclaim measures, or artistic achievement indicators are documented in the provided data.\n\n**Influence on Other Performers:** Insufficient data in record. No documentation of artists citing Rufus featuring Chaka Khan as influences, covered songs, or measurable impact on subsequent performers.\n\n**Length of Career:** Documented evidence shows commercial recording activity beginning in 1973, establishing at minimum a career spanning the required 25-year threshold for Hall eligibility, with the group reaching eligibility status in 1998.\n\n**Depth of Catalog:** Insufficient data in record. No album counts, chart performance data, or catalog scope measurements are provided in the artist data record.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the group is classified within Soul/R&B genre categories, no specific contributions to rock and roll's development or evolution are documented in the provided data.\n\n## The Gap\n\nThe documented qualifications present significant data insufficiencies compared to typical inducted artists. The zero Rolling Stone Attention Score and absence of documented nominations indicate limited recognition within Hall of Fame consideration processes. The 28-year eligibility period without induction suggests the artist's documented credentials fall below the threshold typically required for induction in their genre and era.\n\n## The Verdict\n\nThe evidence supports a BORDERLINE classification with 50% confidence based on documented career longevity meeting basic eligibility requirements, while critical supporting evidence for musical excellence, influence, catalog depth, and rock contributions remains undocumented. Rufus featuring Chaka Khan presents a case where career duration satisfies basic criteria, but insufficient documented evidence exists to support the remaining four induction standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:41:23",
   "human_reviewed": false,
-  "slug": "rufus-featuring-chaka-khan"
+  "data_record": "Name: Rufus featuring Chaka Khan\nGenre: Soul/R&B\nFirst commercial recording: 1973\nEligible for induction since: 1998\nYears since eligibility: 28\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

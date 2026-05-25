@@ -1,15 +1,12 @@
 {
   "artist_name": "Pixies",
-  "genre": "Punk",
+  "artist_id": 328,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 29.5,
-  "eligible_year": 2012,
-  "wait_years": 14,
-  "data_record": "Name: Pixies\nGenre: Punk\nFirst commercial recording: 1987\nEligible for induction since: 2012\nYears since eligibility: 14\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# Legal Brief: Pixies Candidacy for Rock and Roll Hall of Fame Induction\n\n## Findings of Fact\n\n**Artist:** Pixies  \n**Genre Classification:** Punk  \n**Career Commencement:** First commercial recording documented in 1987  \n**Eligibility Status:** Eligible for induction since 2012, representing 14 years of eligibility  \n**Industry Recognition:** Rolling Stone Attention Score of 0  \n**Nomination Record:** No documented nominations in Hall of Fame history\n\n## Application of Criteria\n\n**1. Musical Excellence**  \nInsufficient data in record. No specific evidence provided regarding technical proficiency, songwriting quality, or critical acclaim for musical achievement.\n\n**2. Influence on Other Performers**  \nInsufficient data in record. No documented evidence provided regarding the band's impact on subsequent artists or musical movements.\n\n**3. Length of Career**  \nDocumented career span begins in 1987, establishing a minimum 37-year career duration as of 2024. This criterion appears satisfied based on longevity standards.\n\n**4. Depth of Catalog**  \nInsufficient data in record. No information provided regarding album releases, song catalog size, or body of work assessment.\n\n**5. Contributions to Rock and Roll**  \nInsufficient data in record. While genre classification as \"Punk\" suggests connection to rock and roll traditions, no specific contributions are documented in the provided record.\n\n## The Gap\n\nThe documented evidence reveals significant gaps in demonstrable Hall of Fame qualification markers. The Rolling Stone Attention Score of 0 indicates absence of major industry publication recognition. The complete lack of nominations over 14 years of eligibility suggests institutional assessment has not favored candidacy. Most critically, the data record lacks substantive evidence for four of five stated criteria.\n\n## The Verdict\n\n**Classification:** INSUFFICIENT (Confidence: 30%)\n\nThe available evidence supports career longevity but lacks documentation across the majority of Hall of Fame criteria. While the 37-year career span from 1987 demonstrates sustained presence in music, the absence of Rolling Stone recognition, nomination history, and documented evidence of influence, excellence, catalog depth, and specific contributions creates substantial evidentiary gaps. The case presents insufficient documented qualifications to support Hall of Fame candidacy under current evaluation standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:53:36",
   "human_reviewed": false,
-  "slug": "pixies"
+  "data_record": "Name: Pixies\nGenre: Punk\nFirst commercial recording: 1987\nEligible for induction since: 2012\nYears since eligibility: 14\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "System of a Down",
-  "genre": "Heavy Metal",
+  "artist_id": 295,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 21.8,
-  "eligible_year": 2023,
-  "wait_years": 3,
-  "data_record": "Name: System of a Down\nGenre: Heavy Metal\nFirst commercial recording: 1998\nEligible for induction since: 2023\nYears since eligibility: 3\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nSystem of a Down is documented as a Heavy Metal artist with their first commercial recording released in 1998. The band became eligible for Rock and Roll Hall of Fame induction in 2023, marking three years since eligibility began. The data record shows no documented nominations for induction and reports a Rolling Stone Attention Score of zero.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No documented information regarding musical technical proficiency, critical reception, or artistic achievement is provided in the data record.\n\n**2. Influence on Other Performers**\nInsufficient data in record. The data record contains no documented evidence of System of a Down's influence on subsequent artists or performers in any genre.\n\n**3. Length of Career**\nDocumented evidence shows a career span of at least 25 years, calculated from the first commercial recording in 1998 to present eligibility period beginning in 2023. This meets the Hall's minimum 25-year requirement for consideration.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information is provided regarding the number of albums, singles, or scope of recorded material produced by the artist.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. The data record provides no documented evidence of specific contributions to the development, evolution, or cultural impact of rock and roll music.\n\n## The Gap\n\nThe documented evidence reveals significant gaps in measurable criteria compared to typical inducted artists. The Rolling Stone Attention Score of zero indicates minimal documented mainstream music press recognition. The absence of any documented nominations after three years of eligibility suggests limited institutional recognition within the Hall's selection process. Only one criterion, length of career, shows documented compliance based on available data.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports meeting the basic eligibility timeline requirement but lacks sufficient data across four of the five stated criteria to demonstrate qualification patterns typical of inducted artists. The case presents insufficient documented evidence to support induction based on available data record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:59:59",
   "human_reviewed": false,
-  "slug": "system-of-a-down"
+  "data_record": "Name: System of a Down\nGenre: Heavy Metal\nFirst commercial recording: 1998\nEligible for induction since: 2023\nYears since eligibility: 3\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

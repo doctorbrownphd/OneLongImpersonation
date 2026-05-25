@@ -1,15 +1,12 @@
 {
   "artist_name": "Emerson Lake & Palmer",
-  "genre": "Classic Rock",
+  "artist_id": 378,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 38.8,
-  "eligible_year": 1995,
-  "wait_years": 31,
-  "data_record": "Name: Emerson Lake & Palmer\nGenre: Classic Rock\nFirst commercial recording: 1970\nEligible for induction since: 1995\nYears since eligibility: 31\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nEmerson Lake & Palmer documented their first commercial recording in 1970, establishing them in the Classic Rock genre. The artist achieved eligibility for Rock and Roll Hall of Fame induction in 1995, representing 31 years since becoming eligible. The record shows no documented nominations to the Hall of Fame. Rolling Stone Attention Score is documented as 0.\n\n## Application of Criteria\n\n**1. Musical excellence:** Insufficient data in record. No performance metrics, critical acclaim documentation, or technical proficiency evidence provided.\n\n**2. Influence on other performers:** Insufficient data in record. No documented evidence of artists citing Emerson Lake & Palmer as influences or testimonials from other musicians provided.\n\n**3. Length of career:** Documented evidence supports this criterion. With first commercial recording in 1970 and eligibility beginning in 1995, the record establishes a career spanning at least 25 years by the time of initial eligibility.\n\n**4. Depth of catalog:** Insufficient data in record. No album count, discography details, or catalog scope documentation provided.\n\n**5. Contributions to rock and roll:** Insufficient data in record. No documented innovations, cultural impact measures, or specific contributions to the genre provided.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to typical inducted artists. With a Rolling Stone Attention Score of 0 and no documented nominations over 31 years of eligibility, the record indicates below-average recognition metrics. The Classic Rock genre classification aligns with inducted artists, but supporting evidence for most criteria remains undocumented.\n\n## The Verdict\n\nClassification: BORDERLINE (confidence: 50%). The documented evidence supports length of career but lacks verification for four of five induction criteria, creating substantial evidentiary gaps. While 31 years of eligibility demonstrates sustained relevance, the absence of nominations and zero attention score suggests limited recognition within Hall of Fame evaluation processes. The case presents insufficient documented evidence to establish strong qualification across the Hall's stated criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:43:46",
   "human_reviewed": false,
-  "slug": "emerson-lake--palmer"
+  "data_record": "Name: Emerson Lake & Palmer\nGenre: Classic Rock\nFirst commercial recording: 1970\nEligible for induction since: 1995\nYears since eligibility: 31\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

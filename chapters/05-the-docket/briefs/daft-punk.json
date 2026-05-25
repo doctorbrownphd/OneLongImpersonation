@@ -1,15 +1,12 @@
 {
   "artist_name": "Daft Punk",
-  "genre": "Electronic",
+  "artist_id": 341,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 24.4,
-  "eligible_year": 2019,
-  "wait_years": 7,
-  "data_record": "Name: Daft Punk\nGenre: Electronic\nFirst commercial recording: 1994\nEligible for induction since: 2019\nYears since eligibility: 7\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\n**Daft Punk** is documented as an electronic genre artist whose first commercial recording was released in 1994. The duo became eligible for Rock and Roll Hall of Fame induction in 2019, making them eligible for seven years as of the current assessment period. The data record shows no documented nominations for induction and registers a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No specific documentation of musical achievements, critical acclaim, or technical innovation is provided in the artist data record.\n\n**2. Influence on Other Performers**\nInsufficient data in record. The data record contains no documented evidence of influence on subsequent artists or performers.\n\n**3. Length of Career**\nDocumented evidence shows a career spanning from 1994 to present, representing approximately 30 years of documented activity, which meets typical career length expectations for Hall consideration.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information regarding album releases, singles, or catalog breadth is provided in the data record.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the artist is classified within the electronic genre, no specific documented contributions to rock and roll are detailed in the provided data.\n\n## The Gap\n\nThe data record shows significant information gaps across four of the five stated criteria. The documented Rolling Stone Attention Score of 0 and absence of any nomination history indicates minimal recognition within the Hall's typical evaluation framework. The electronic genre classification presents additional challenges for demonstrating rock and roll contributions without supporting documentation.\n\n## The Verdict\n\n**INSUFFICIENT (confidence: 30%)**\n\nThe available evidence supports only one of five induction criteria with adequate documentation, while four criteria lack sufficient data for proper evaluation. The case demonstrates a substantial gap between documented qualifications and typical inducted artist profiles, with particular deficiencies in measurable recognition metrics and genre-specific contributions. This represents a case where insufficient documentation prevents adequate assessment of Hall of Fame qualifications.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:57:35",
   "human_reviewed": false,
-  "slug": "daft-punk"
+  "data_record": "Name: Daft Punk\nGenre: Electronic\nFirst commercial recording: 1994\nEligible for induction since: 2019\nYears since eligibility: 7\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

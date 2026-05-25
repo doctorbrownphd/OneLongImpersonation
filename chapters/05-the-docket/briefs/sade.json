@@ -1,15 +1,12 @@
 {
   "artist_name": "Sade",
-  "genre": "Soul/R&B",
+  "artist_id": 366,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 32.5,
-  "eligible_year": 2009,
-  "wait_years": 17,
-  "data_record": "Name: Sade\nGenre: Soul/R&B\nFirst commercial recording: 1984\nEligible for induction since: 2009\nYears since eligibility: 17\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: SADE - ROCK AND ROLL HALL OF FAME INDUCTION ANALYSIS\n\n## Findings of Fact\n\n**Artist:** Sade  \n**Genre Classification:** Soul/R&B  \n**Career Commencement:** Documented first commercial recording in 1984  \n**Eligibility Status:** Eligible for Rock and Roll Hall of Fame induction since 2009  \n**Nomination Record:** No documented nominations in 17 years of eligibility  \n**Media Recognition:** Rolling Stone Attention Score of 0  \n\n## Application of Criteria\n\n**1. Musical Excellence**  \nInsufficient data in record. No documented critical assessments, awards, or industry recognition metrics provided.\n\n**2. Influence on Other Performers**  \nInsufficient data in record. No documented evidence of influence on subsequent artists or musical movements.\n\n**3. Length of Career**  \nDocumented: Career span of at least 40 years since first commercial recording in 1984, exceeding the Hall's 25-year minimum eligibility requirement.\n\n**4. Depth of Catalog**  \nInsufficient data in record. No information provided regarding album releases, chart performance, or commercial success metrics.\n\n**5. Contributions to Rock and Roll**  \nInsufficient data in record. While classified in Soul/R&B genre, no specific documented contributions to rock and roll's development or evolution provided.\n\n## The Gap\n\nDocumented evidence shows significant gaps between this artist's verifiable qualifications and typical inducted artist profiles. The zero Rolling Stone Attention Score indicates minimal documented critical recognition in major music publications. The absence of any nominations despite 17 years of eligibility suggests limited industry advocacy for induction. Missing data across four of five criteria prevents comprehensive evaluation against inducted artist standards.\n\n## The Verdict\n\n**Classification:** INSUFFICIENT (confidence: 30%)\n\nThe documented evidence supports a finding of insufficient qualification based on the limited verifiable data available. While the artist meets the basic eligibility requirements through length of career, the absence of documented nominations, critical recognition, and supporting evidence for musical excellence, influence, catalog depth, and rock contributions creates substantial gaps in the evidentiary record. This case demonstrates how lack of documented recognition and industry advocacy can impede Hall of Fame consideration regardless of actual artistic merit.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:50:19",
   "human_reviewed": false,
-  "slug": "sade"
+  "data_record": "Name: Sade\nGenre: Soul/R&B\nFirst commercial recording: 1984\nEligible for induction since: 2009\nYears since eligibility: 17\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

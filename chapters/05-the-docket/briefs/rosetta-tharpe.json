@@ -1,15 +1,12 @@
 {
   "artist_name": "Rosetta Tharpe",
-  "genre": "Blues/Early",
+  "artist_id": 387,
   "verdict": "STRONG_CASE",
   "confidence": 0.9,
   "criteria_score": 50.0,
-  "eligible_year": 1963,
-  "wait_years": 63,
-  "data_record": "Name: Rosetta Tharpe\nGenre: Blues/Early\nFirst commercial recording: 1938\nEligible for induction since: 1963\nYears since eligibility: 63\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: ROSETTA THARPE INDUCTION CASE\n\n## Findings of Fact\n\nThe documented record establishes that Rosetta Tharpe recorded in the Blues/Early genre with her first commercial recording documented in 1938. The artist became eligible for Rock and Roll Hall of Fame induction in 1963 and has remained eligible for 63 years without documented nominations. The artist received a Rolling Stone Attention Score of 0, indicating no verified coverage in major rock journalism publications within the measured timeframe.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No performance metrics, critical assessments, or technical evaluations are documented in the provided data.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence of artists citing Tharpe as an influence or adopting her techniques is provided.\n\n**Length of Career**: Insufficient data in record. While the first commercial recording is documented as 1938, no end date or career duration is specified in the data.\n\n**Depth of Catalog**: Insufficient data in record. No album count, song count, or discography information is provided beyond the initial 1938 recording date.\n\n**Contributions to Rock and Roll**: The documented 1938 recording date places Tharpe's work in the pre-rock era, as her commercial activity began approximately 17 years before rock and roll's commonly accepted emergence. The Blues/Early genre classification suggests potential foundational contributions, but specific contributions to rock and roll development are not documented in the record.\n\n## The Gap\n\nThe data record provides insufficient quantitative metrics to establish meaningful comparison with inducted artists. While Tharpe's 63-year eligibility period substantially exceeds typical induction timelines, the absence of documented nominations and zero Rolling Stone Attention Score indicates a significant gap in mainstream rock journalism recognition relative to inducted artists.\n\n## The Verdict\n\nThe case classification STRONG_CASE (90% confidence) indicates substantial merit despite limited documentation in the provided record. The evidence supports recognition of an artist whose early recording activity in Blues/Early genres preceded rock and roll's formal emergence, suggesting potential foundational significance. This case presents a pioneering artist whose documented career predates rock and roll but whose specific contributions remain undocumented in the available data record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:32:31",
   "human_reviewed": false,
-  "slug": "rosetta-tharpe"
+  "data_record": "Name: Rosetta Tharpe\nGenre: Blues/Early\nFirst commercial recording: 1938\nEligible for induction since: 1963\nYears since eligibility: 63\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

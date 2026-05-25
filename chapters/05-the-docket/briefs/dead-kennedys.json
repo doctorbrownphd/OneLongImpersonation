@@ -1,15 +1,12 @@
 {
   "artist_name": "Dead Kennedys",
-  "genre": "Punk",
+  "artist_id": 316,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 36.3,
-  "eligible_year": 2004,
-  "wait_years": 22,
-  "data_record": "Name: Dead Kennedys\nGenre: Punk\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nDead Kennedys is a punk genre artist whose first commercial recording was documented in 1979. The band became eligible for Rock and Roll Hall of Fame induction in 2004 and has remained eligible for 22 years without induction. The data record shows no documented nominations for Hall of Fame consideration. The Rolling Stone Attention Score is recorded as 0.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented evidence of critical acclaim, awards, or professional recognition is provided in the data record.\n\n**Influence on Other Performers**: Insufficient data in record. The data record contains no documentation of artists citing Dead Kennedys as an influence or evidence of their impact on subsequent performers.\n\n**Length of Career**: Documented evidence shows commercial recording activity beginning in 1979, indicating at least 45 years of documented existence in the music industry as of 2024.\n\n**Depth of Catalog**: Insufficient data in record. No information regarding album releases, song catalog size, or recording output is provided in the data record.\n\n**Contributions to Rock and Roll**: Insufficient data in record. Beyond genre classification as punk, no specific contributions to rock and roll development or evolution are documented in the provided record.\n\n## The Gap\n\nThe data record provides minimal documentation of Dead Kennedys' qualifications across the Hall's five criteria. While the band demonstrates documented longevity with 45 years since their first commercial recording, the record lacks evidence for four of the five stated criteria. The zero Rolling Stone Attention Score and absence of documented nominations suggest limited recognition within traditional Hall of Fame evaluation channels.\n\n## The Verdict\n\nThe case classification is INSUFFICIENT with 30% confidence. The documented evidence supports longevity in the music industry but lacks sufficient data to demonstrate musical excellence, influence, catalog depth, or specific contributions to rock and roll as defined by the Hall's criteria. Dead Kennedys presents a case hampered by insufficient documentation rather than demonstrated disqualification across the Hall's stated evaluation standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:46:54",
   "human_reviewed": false,
-  "slug": "dead-kennedys"
+  "data_record": "Name: Dead Kennedys\nGenre: Punk\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

@@ -1,15 +1,12 @@
 {
   "artist_name": "D'Angelo",
-  "genre": "Soul/R&B",
+  "artist_id": 365,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 23.5,
-  "eligible_year": 2020,
-  "wait_years": 6,
-  "data_record": "Name: D'Angelo\nGenre: Soul/R&B\nFirst commercial recording: 1995\nEligible for induction since: 2020\nYears since eligibility: 6\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nD'Angelo is documented as a Soul/R&B artist whose first commercial recording was released in 1995. The artist became eligible for Rock and Roll Hall of Fame induction in 2020 and has remained eligible for 6 years as of the current analysis. The record shows no documented nominations for induction. The artist received a Rolling Stone Attention Score of 0, indicating no documented coverage in Rolling Stone's major retrospective features or lists.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. The provided data contains no documented evidence of critical acclaim, awards, or professional recognition that would establish musical excellence.\n\n**Influence on Other Performers**: Insufficient data in record. No documented evidence is provided regarding D'Angelo's influence on subsequent artists or the broader musical landscape.\n\n**Length of Career**: Documented evidence shows a career spanning from 1995 to present, representing approximately 29 years of documented activity in the music industry.\n\n**Depth of Catalog**: Insufficient data in record. No information is provided regarding the number of albums, singles, or the scope of the artist's recorded output.\n\n**Contributions to Rock and Roll**: Insufficient data in record. While the artist is classified within Soul/R&B genres that have historical connections to rock and roll's development, no specific contributions to the rock and roll genre are documented in the provided record.\n\n## The Gap\n\nThe documented evidence presents significant gaps when measured against typical Rock and Roll Hall of Fame induction patterns. The absence of documented nominations despite 6 years of eligibility and a Rolling Stone Attention Score of 0 indicates limited recognition within the critical establishment that typically influences Hall of Fame selections. The Soul/R&B genre classification places the artist within categories that have achieved induction, but the lack of documented influence, critical recognition, or specific contributions to rock and roll creates substantial evidentiary gaps.\n\n## The Verdict\n\nThe case classification is INSUFFICIENT with 30% confidence. The documented evidence supports a career of substantial length within genres historically recognized by the Hall of Fame, but critical gaps in documented musical excellence, influence, catalog depth, and rock and roll contributions limit the strength of the induction case. The available evidence suggests an artist with longevity but insufficient documented impact to meet typical Hall of Fame induction standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:58:34",
   "human_reviewed": false,
-  "slug": "dangelo"
+  "data_record": "Name: D'Angelo\nGenre: Soul/R&B\nFirst commercial recording: 1995\nEligible for induction since: 2020\nYears since eligibility: 6\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

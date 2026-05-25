@@ -1,15 +1,12 @@
 {
   "artist_name": "Queensryche",
-  "genre": "Heavy Metal",
+  "artist_id": 305,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 31.7,
-  "eligible_year": 2008,
-  "wait_years": 18,
-  "data_record": "Name: Queensryche\nGenre: Heavy Metal\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nQueensryche is documented as a Heavy Metal artist whose first commercial recording was released in 1983. The band has been eligible for Rock and Roll Hall of Fame induction since 2008, representing 18 years of eligibility. The record shows a Rolling Stone Attention Score of 0 and no documented nominations for induction.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record to assess performance quality, technical skill, or critical recognition of musical achievements.\n\n**Influence on Other Performers**: Insufficient data in record to document impact on subsequent artists or musical movements within the heavy metal genre or broader rock music.\n\n**Length of Career**: Documented career span from first commercial recording in 1983 to present represents approximately 41 years of documented activity in the music industry.\n\n**Depth of Catalog**: Insufficient data in record regarding album releases, commercial performance, or breadth of musical output over the documented career period.\n\n**Contributions to Rock and Roll**: Insufficient data in record to assess specific innovations, cultural impact, or lasting contributions to rock music beyond genre classification as Heavy Metal.\n\n## The Gap\n\nThe documented evidence reveals significant data gaps across four of the five stated criteria. While the length of career criterion shows substantial documented activity spanning over four decades, the absence of Rolling Stone attention (score: 0) and lack of any documented nominations suggests limited recognition within established music journalism and Hall of Fame consideration processes. The 18-year eligibility period without nomination indicates below-average qualification levels compared to inducted artists.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented facts support qualification in career longevity but lack sufficient data to demonstrate achievement in musical excellence, documented influence, catalog depth, or specific contributions to rock and roll development. The comprehensive absence of critical recognition and nomination history over an 18-year eligibility period indicates substantial gaps in demonstrable Hall of Fame qualification criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:51:14",
   "human_reviewed": false,
-  "slug": "queensryche"
+  "data_record": "Name: Queensryche\nGenre: Heavy Metal\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

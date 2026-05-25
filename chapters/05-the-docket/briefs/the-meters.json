@@ -1,15 +1,12 @@
 {
   "artist_name": "The Meters",
-  "genre": "Soul/R&B",
+  "artist_id": 357,
   "verdict": "CASE",
   "confidence": 0.7,
   "criteria_score": 44.3,
-  "eligible_year": 1994,
-  "wait_years": 32,
-  "data_record": "Name: The Meters\nGenre: Soul/R&B\nFirst commercial recording: 1969\nEligible for induction since: 1994\nYears since eligibility: 32\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# Rock and Roll Hall of Fame Induction Brief: The Meters\n\n## Findings of Fact\n\nThe Meters are documented as a soul/R&B group with their first commercial recording occurring in 1969. The band has been eligible for Rock and Roll Hall of Fame induction since 1994, representing 32 years of eligibility as of this analysis. The group has received a Rolling Stone Attention Score of 0, indicating minimal coverage in major music publications. No documented nominations for Hall of Fame induction appear in the record.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The provided documentation contains no specific information regarding the quality, innovation, or technical proficiency of The Meters' musical output.\n\n**Influence on Other Performers:** Insufficient data in record. No evidence is provided regarding The Meters' impact on subsequent artists or their role in influencing other performers' work.\n\n**Length of Career:** Documented evidence shows a career spanning from 1969 to present, indicating substantial longevity in the music industry over multiple decades.\n\n**Depth of Catalog:** Insufficient data in record. The documentation provides no information about the size, scope, or breadth of The Meters' recorded output beyond their initial 1969 commercial recording.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the group is classified within the soul/R&B genre, no specific evidence is provided regarding their contributions to rock and roll music or its development.\n\n## The Gap\n\nThe Meters demonstrate a significant gap between their documented qualifications and typical inducted artists. With 32 years of eligibility and zero Rolling Stone attention score, they fall substantially below the visibility and recognition metrics associated with most Hall of Fame inductees. The absence of any documented nominations further illustrates this disparity from the standard induction pathway.\n\n## The Verdict\n\nBased on the algorithmic classification, this represents a CASE with 70% confidence. The documented evidence supports longevity in the music industry but lacks sufficient data across most induction criteria. The Meters present a case study of an artist with extended eligibility but minimal documented recognition within the Hall of Fame evaluation framework.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:39:44",
   "human_reviewed": false,
-  "slug": "the-meters"
+  "data_record": "Name: The Meters\nGenre: Soul/R&B\nFirst commercial recording: 1969\nEligible for induction since: 1994\nYears since eligibility: 32\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

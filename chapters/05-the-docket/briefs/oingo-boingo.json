@@ -1,15 +1,12 @@
 {
   "artist_name": "Oingo Boingo",
-  "genre": "Classic Rock",
+  "artist_id": 376,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 34.9,
-  "eligible_year": 2004,
-  "wait_years": 22,
-  "data_record": "Name: Oingo Boingo\nGenre: Classic Rock\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe documented record establishes that Oingo Boingo is a Classic Rock artist whose first commercial recording was released in 1979. The band became eligible for Rock and Roll Hall of Fame induction in 2004, marking 22 years since achieving eligibility. The record shows a Rolling Stone Attention Score of 0 and documents no nomination history for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented evidence of critical acclaim, awards, or professional recognition of musical achievement.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of other artists citing Oingo Boingo as an influence or incorporating their musical innovations.\n\n**Length of Career:** Documented evidence shows commercial recording activity beginning in 1979, establishing at least some duration of professional recording career spanning multiple decades to achieve 2004 eligibility.\n\n**Depth of Catalog:** Insufficient data in record. No documented information regarding album releases, chart performance, or body of recorded work.\n\n**Contributions to Rock and Roll:** Insufficient data in record. The classification as Classic Rock indicates genre alignment, but no specific documented contributions to the development or advancement of rock music are provided.\n\n## The Gap\n\nThe documented qualifications show significant deficiencies compared to typical inducted artists. The Rolling Stone Attention Score of 0 indicates minimal documented critical recognition. The absence of any nomination history over 22 years of eligibility suggests limited industry support. Without documented evidence of musical excellence, influence, catalog depth, or specific rock contributions, the measurable qualifications fall substantially below inducted artist standards.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT with 30% confidence. The documented record provides minimal verifiable evidence supporting the five induction criteria, with only basic eligibility requirements (genre classification and career duration) partially established. This case demonstrates insufficient documented qualifications for Rock and Roll Hall of Fame induction based on the available evidence.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:47:53",
   "human_reviewed": false,
-  "slug": "oingo-boingo"
+  "data_record": "Name: Oingo Boingo\nGenre: Classic Rock\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

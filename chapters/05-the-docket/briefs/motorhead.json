@@ -1,15 +1,12 @@
 {
   "artist_name": "Motorhead",
-  "genre": "Heavy Metal",
-  "verdict": "BORDERLINE",
-  "confidence": 0.5,
+  "artist_id": 291,
+  "verdict": "INSUFFICIENT",
+  "confidence": 0.3,
   "criteria_score": 37.9,
-  "eligible_year": 2002,
-  "wait_years": 24,
-  "data_record": "Name: Motorhead\nGenre: Heavy Metal\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nMotorhead is documented as a Heavy Metal artist whose first commercial recording was released in 1977. The band became eligible for Rock and Roll Hall of Fame induction in 2002, making them eligible for 24 years as of the current assessment period. The data record shows no documented nominations for induction and reports a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. No documented evidence of critical acclaim, awards, or professional recognition is provided in the data record to assess musical excellence.\n\n**Influence on Other Performers**: Insufficient data in record. The data record contains no documented evidence of influence on subsequent artists or performers in the heavy metal genre or broader rock music.\n\n**Length of Career**: Documented evidence shows eligibility spanning 24 years since 2002, with first commercial recording in 1977, indicating a career of at least 47 years. This criterion appears satisfied based on longevity standards.\n\n**Depth of Catalog**: Insufficient data in record. No information is provided regarding album releases, song catalog, or recorded output to assess the depth and breadth of musical work.\n\n**Contributions to Rock and Roll**: Insufficient data in record. No documented evidence is provided regarding specific contributions to rock and roll music, innovation, or cultural impact.\n\n## The Gap\n\nThe data record shows significant gaps in documented qualifications compared to typical inducted artists. With a Rolling Stone Attention Score of 0 and no documented nominations despite 24 years of eligibility, Motorhead's documented profile lacks the media recognition and institutional acknowledgment typically associated with inducted heavy metal acts from their era.\n\n## The Verdict\n\nBased on the provided data record, the evidence classification is INSUFFICIENT with 30% confidence. While documented career longevity satisfies length requirements, the absence of recorded nominations, media attention scores, and documented evidence for four of the five induction criteria creates substantial evidentiary gaps. The case demonstrates how eligibility duration alone cannot overcome the lack of documented excellence, influence, catalog depth, and rock and roll contributions in the institutional record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:44:24",
   "human_reviewed": false,
-  "slug": "motorhead"
+  "data_record": "Name: Motorhead\nGenre: Heavy Metal\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

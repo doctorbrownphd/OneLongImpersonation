@@ -1,15 +1,12 @@
 {
   "artist_name": "Thin Lizzy",
-  "genre": "Heavy Metal",
+  "artist_id": 292,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 39.2,
-  "eligible_year": 1996,
-  "wait_years": 30,
-  "data_record": "Name: Thin Lizzy\nGenre: Heavy Metal\nFirst commercial recording: 1971\nEligible for induction since: 1996\nYears since eligibility: 30\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: THIN LIZZY ROCK AND ROLL HALL OF FAME INDUCTION CASE\n\n## Findings of Fact\n\nThe documented record establishes that Thin Lizzy is classified as a Heavy Metal artist who released their first commercial recording in 1971. The band became eligible for Rock and Roll Hall of Fame induction in 1996, meaning they have been eligible for 30 years as of the current analysis. The record shows a Rolling Stone Attention Score of 0, indicating minimal documented coverage in that publication. The nomination history reveals no documented nominations for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No specific information provided regarding technical proficiency, songwriting quality, or critical assessments of musical achievement.\n\n**Influence on Other Performers:** Insufficient data in record. No documentation provided of artists citing Thin Lizzy as influences or evidence of their impact on subsequent performers.\n\n**Length of Career:** Documented evidence shows commercial recording activity beginning in 1971, establishing a foundation for career longevity assessment. However, insufficient data regarding the duration and continuity of their active recording and performing period.\n\n**Depth of Catalog:** Insufficient data in record. No information provided about album releases, song composition volume, or catalog breadth and consistency.\n\n**Contributions to Rock and Roll:** Partially documented through genre classification as Heavy Metal, indicating participation in rock and roll's evolution. However, insufficient data regarding specific innovations, cultural impact, or documented contributions to the genre's development.\n\n## The Gap\n\nThe documented qualifications present significant data limitations for comprehensive evaluation. With a Rolling Stone Attention Score of 0 and no documented nominations despite 30 years of eligibility, the record suggests limited recognition within traditional music journalism and Hall of Fame consideration processes. The absence of detailed career documentation contrasts with the typical evidentiary foundation present for inducted artists in the Heavy Metal genre.\n\n## The Verdict\n\nBased on the computed Criteria Compliance Score, this case receives a BORDERLINE classification with 50% confidence. The documented evidence shows basic eligibility requirements met through genre classification and career duration, but lacks the detailed documentation of achievements typically associated with inducted artists. The 30-year gap between eligibility and recognition, combined with zero documented nominations, indicates significant barriers to induction despite potential qualifications that remain undocumented in the provided record. This case demonstrates the challenge of evaluating artists with limited documented evidence of their contributions to rock and roll history.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:42:32",
   "human_reviewed": false,
-  "slug": "thin-lizzy"
+  "data_record": "Name: Thin Lizzy\nGenre: Heavy Metal\nFirst commercial recording: 1971\nEligible for induction since: 1996\nYears since eligibility: 30\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

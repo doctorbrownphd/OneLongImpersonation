@@ -1,15 +1,12 @@
 {
   "artist_name": "Rick James",
-  "genre": "Soul/R&B",
+  "artist_id": 370,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 39.0,
-  "eligible_year": 2003,
-  "wait_years": 23,
-  "data_record": "Name: Rick James\nGenre: Soul/R&B\nFirst commercial recording: 1978\nEligible for induction since: 2003\nYears since eligibility: 23\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nRick James is documented as a Soul/R&B artist whose first commercial recording was released in 1978. He became eligible for Rock and Roll Hall of Fame induction in 2003 and has remained eligible for 23 years as of the current analysis. The record shows no documented nominations to the Hall of Fame. His Rolling Stone Attention Score is recorded as 0.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No specific documentation of musical achievements, critical acclaim, or technical proficiency is provided in the artist data record.\n\n**Influence on Other Performers:** Insufficient data in record. The data record contains no documentation of Rick James's influence on subsequent artists or musical movements.\n\n**Length of Career:** The record documents a career beginning in 1978 with his first commercial recording. However, insufficient data exists regarding the endpoint or total duration of his active recording and performing career.\n\n**Depth of Catalog:** Insufficient data in record. No information is provided regarding the number of albums, singles, or total body of recorded work produced by Rick James.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the artist is classified under Soul/R&B genre, no specific documentation exists in the record detailing contributions to rock and roll music or culture.\n\n## The Gap\n\nThe documented qualifications show significant data gaps across all five induction criteria. With 23 years of eligibility and no documented nominations, Rick James's case presents insufficient verifiable evidence in the provided record to assess his standing relative to inducted artists in the Soul/R&B genre or his era.\n\n## The Verdict\n\nThe classification is BORDERLINE with 50% confidence. The extensive data gaps in the artist record prevent a comprehensive evaluation against the Hall's five stated criteria, though the 23-year eligibility period without nomination suggests potential institutional oversight or insufficient advocacy. Rick James's case represents an incomplete evidentiary record that neither strongly supports nor definitively excludes Hall of Fame qualification.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:43:22",
   "human_reviewed": false,
-  "slug": "rick-james"
+  "data_record": "Name: Rick James\nGenre: Soul/R&B\nFirst commercial recording: 1978\nEligible for induction since: 2003\nYears since eligibility: 23\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

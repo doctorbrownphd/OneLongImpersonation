@@ -1,15 +1,12 @@
 {
   "artist_name": "Mississippi John Hurt",
-  "genre": "Blues/Early",
+  "artist_id": 388,
   "verdict": "STRONG_CASE",
   "confidence": 0.9,
   "criteria_score": 50.0,
-  "eligible_year": 1953,
-  "wait_years": 73,
-  "data_record": "Name: Mississippi John Hurt\nGenre: Blues/Early\nFirst commercial recording: 1928\nEligible for induction since: 1953\nYears since eligibility: 73\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: MISSISSIPPI JOHN HURT\n**Case for Rock and Roll Hall of Fame Induction**\n\n## Findings of Fact\n\nMississippi John Hurt recorded his first commercial recordings in 1928, establishing a documented career in blues music. The artist has been eligible for Rock and Roll Hall of Fame induction since 1953, representing 73 years of eligibility. The data record classifies Hurt within the Blues/Early genre category. The artist has received a Rolling Stone Attention Score of 0 and shows no documented nomination history with the Rock and Roll Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The provided data contains no documentation of musical technique, critical reception, or artistic achievement metrics.\n\n**Influence on Other Performers:** Insufficient data in record. No evidence is provided regarding Hurt's documented influence on subsequent musicians or performers.\n\n**Length of Career:** Documented career spans from 1928 commercial recordings through the eligibility threshold of 1953, representing a minimum 25-year career span based on the eligibility calculation.\n\n**Depth of Catalog:** Insufficient data in record. The data confirms commercial recording activity beginning in 1928 but provides no documentation of catalog size, recording frequency, or output volume.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the artist is classified within Blues/Early genre, no specific contributions to rock and roll development are documented in the provided data.\n\n## The Gap\n\nThe data record provides insufficient comparative metrics to assess this artist's qualifications against inducted artists in the Blues/Early genre category. No criteria scoring, commercial performance data, or peer comparison metrics are documented in the provided record.\n\n## The Verdict\n\nThe classification indicates STRONG_CASE with 90% confidence. The documented evidence supports a career spanning the early commercial blues period with established recording history from 1928. However, the strength of this classification relies primarily on computational analysis rather than the limited factual documentation provided in this data record, which lacks substantial detail across four of the five stated criteria. Mississippi John Hurt presents a mathematically strong case for induction despite significant gaps in documented evidence within the available data record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:38:15",
   "human_reviewed": false,
-  "slug": "mississippi-john-hurt"
+  "data_record": "Name: Mississippi John Hurt\nGenre: Blues/Early\nFirst commercial recording: 1928\nEligible for induction since: 1953\nYears since eligibility: 73\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

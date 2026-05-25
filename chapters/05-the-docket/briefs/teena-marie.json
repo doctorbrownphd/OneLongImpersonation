@@ -1,15 +1,12 @@
 {
   "artist_name": "Teena Marie",
-  "genre": "Soul/R&B",
+  "artist_id": 369,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 37.7,
-  "eligible_year": 2004,
-  "wait_years": 22,
-  "data_record": "Name: Teena Marie\nGenre: Soul/R&B\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe documented record establishes that Teena Marie operated within the Soul/R&B genre with her first commercial recording released in 1979. The artist became eligible for Rock and Roll Hall of Fame induction in 2004, creating a 22-year window since eligibility commenced. The record reflects no documented nominations to the Hall during this period, and the artist received a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence**: Insufficient data in record. The provided documentation contains no specific evidence regarding technical proficiency, vocal ability, or critical acclaim of musical performances.\n\n**Influence on Other Performers**: Insufficient data in record. No documentation exists in the record regarding other artists citing Teena Marie as an influence or adopting elements from her musical approach.\n\n**Length of Career**: The record documents a commercial recording career beginning in 1979, establishing a foundation for career longevity assessment, though the record lacks documentation of career duration or activity through subsequent decades.\n\n**Depth of Catalog**: Insufficient data in record. No information exists regarding number of albums, singles, or breadth of recorded material throughout the documented career.\n\n**Contributions to Rock and Roll**: The documented Soul/R&B genre classification provides context for evaluating contributions to the broader rock and roll tradition, though the record lacks specific evidence of innovations or developments within this musical framework.\n\n## The Gap\n\nThe documented evidence presents substantial information gaps across all five induction criteria compared to the typical evidentiary foundation supporting inducted artists. The 22-year eligibility period without documented nominations, combined with the Rolling Stone Attention Score of 0, indicates limited recognition within industry evaluation systems that typically precede induction consideration.\n\n## The Verdict\n\nThe classification INSUFFICIENT reflects the documented evidence gaps across multiple induction criteria, particularly regarding musical excellence, influence documentation, and catalog depth. While the record establishes basic career parameters within Soul/R&B, the absence of documented nominations and critical recognition metrics indicates insufficient evidentiary support for induction consideration. The documented facts present an incomplete case that falls below the evidentiary threshold typically associated with Hall of Fame recognition.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:45:26",
   "human_reviewed": false,
-  "slug": "teena-marie"
+  "data_record": "Name: Teena Marie\nGenre: Soul/R&B\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

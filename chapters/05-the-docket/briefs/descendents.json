@@ -1,15 +1,12 @@
 {
   "artist_name": "Descendents",
-  "genre": "Punk",
+  "artist_id": 325,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 36.3,
-  "eligible_year": 2004,
-  "wait_years": 22,
-  "data_record": "Name: Descendents\nGenre: Punk\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nDescendents is a punk genre artist whose first commercial recording was documented in 1979. The band became eligible for Rock and Roll Hall of Fame induction in 2004 and has maintained eligibility for 22 years as of the current analysis period. The data record shows a Rolling Stone Attention Score of 0 and indicates no documented nominations for Hall of Fame induction.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented critical assessments, awards, or professional recognition metrics are provided to evaluate musical quality or technical proficiency.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of artists citing Descendents as influences, no recorded instances of covers or tributes, and no verified accounts of impact on subsequent performers.\n\n**Length of Career:** Documented evidence supports this criterion. With a first commercial recording in 1979, Descendents demonstrates a career span of approximately 45 years, exceeding the Hall's typical minimum career length expectations.\n\n**Depth of Catalog:** Insufficient data in record. No information provided regarding number of albums, singles, or total recorded output to assess catalog breadth or consistency.\n\n**Contributions to Rock and Roll:** Insufficient data in record. No documented innovations, cultural impact measures, or specific contributions to rock and roll's development are provided beyond genre classification as punk.\n\n## The Gap\n\nThe data record provides minimal quantifiable evidence for evaluation against Hall of Fame standards. While Descendents meets the career length requirement with 45 documented years of activity, critical gaps exist in documented musical excellence, verifiable influence metrics, catalog depth assessments, and measurable contributions to rock and roll's evolution. The Rolling Stone Attention Score of 0 and absence of documented nominations indicate limited recognition within music industry evaluation systems.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports career longevity but lacks sufficient data across four of five induction criteria to demonstrate Hall of Fame qualification standards. Descendents presents a case with substantial evidentiary gaps that prevent comprehensive evaluation against the institution's stated criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:47:17",
   "human_reviewed": false,
-  "slug": "descendents"
+  "data_record": "Name: Descendents\nGenre: Punk\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

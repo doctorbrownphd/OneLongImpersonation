@@ -1,15 +1,12 @@
 {
   "artist_name": "Chic",
-  "genre": "Disco/Dance",
+  "artist_id": 402,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 35.1,
-  "eligible_year": 2002,
-  "wait_years": 24,
-  "data_record": "Name: Chic\nGenre: Disco/Dance\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: CHIC\n## Rock and Roll Hall of Fame Induction Analysis\n\n---\n\n## Findings of Fact\n\n**Artist:** Chic  \n**Genre Classification:** Disco/Dance  \n**Commercial Career Inception:** Documented first commercial recording in 1977  \n**Hall of Fame Eligibility:** Achieved eligibility in 2002  \n**Eligibility Duration:** 24 years since becoming eligible  \n**Critical Recognition:** Rolling Stone Attention Score of 0  \n**Nomination Status:** No documented nominations in Hall of Fame records  \n\n---\n\n## Application of Criteria\n\n**Criterion 1: Musical Excellence**  \nInsufficient data in record. The provided data contains no documentation of musical achievements, critical acclaim, or performance quality assessments.\n\n**Criterion 2: Influence on Other Performers**  \nInsufficient data in record. No evidence provided regarding Chic's impact on subsequent artists or musical developments.\n\n**Criterion 3: Length of Career**  \nDocumented evidence shows a career spanning from 1977 to present, representing approximately 47 years of activity. This satisfies typical longevity expectations for Hall consideration.\n\n**Criterion 4: Depth of Catalog**  \nInsufficient data in record. No information provided regarding album releases, singles, or body of work volume.\n\n**Criterion 5: Contributions to Rock and Roll**  \nInsufficient data in record. While the artist is classified in the Disco/Dance genre, no specific contributions to rock and roll's development are documented in the provided record.\n\n---\n\n## The Gap\n\nThe documented evidence reveals significant gaps in four of the five stated criteria. The artist's Rolling Stone Attention Score of 0 indicates minimal critical recognition in mainstream rock journalism. The absence of any documented Hall of Fame nominations over 24 years of eligibility suggests limited institutional support. Only the length of career criterion shows clear compliance with Hall standards.\n\n---\n\n## The Verdict\n\n**Classification:** INSUFFICIENT (Confidence: 30%)\n\nThe available evidence supports qualification in one criterion (career length) while providing insufficient documentation for the remaining four criteria. The zero attention score and lack of nominations indicate limited recognition within rock music's institutional framework. This case demonstrates how genre classification and documentation gaps can impact Hall of Fame consideration despite career longevity.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:47:41",
   "human_reviewed": false,
-  "slug": "chic"
+  "data_record": "Name: Chic\nGenre: Disco/Dance\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

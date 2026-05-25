@@ -1,15 +1,12 @@
 {
   "artist_name": "Tool",
-  "genre": "Heavy Metal",
+  "artist_id": 294,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 24.3,
-  "eligible_year": 2018,
-  "wait_years": 8,
-  "data_record": "Name: Tool\nGenre: Heavy Metal\nFirst commercial recording: 1993\nEligible for induction since: 2018\nYears since eligibility: 8\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nTool is documented as a Heavy Metal artist whose first commercial recording was released in 1993. The band became eligible for Rock and Roll Hall of Fame induction in 2018 and has remained eligible for 8 years. Tool has received a Rolling Stone Attention Score of 0 and has no documented nomination history with the Hall of Fame.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No documented information regarding critical recognition, technical proficiency, or artistic achievement.\n\n**Influence on Other Performers:** Insufficient data in record. No documented evidence of impact on subsequent artists or musical movements within the Heavy Metal genre or broader rock music.\n\n**Length of Career:** Documented career span of at least 31 years, calculated from first commercial recording in 1993 to present. This meets the Hall's minimum 25-year eligibility requirement.\n\n**Depth of Catalog:** Insufficient data in record. No documented information regarding album releases, commercial performance, or body of work.\n\n**Contributions to Rock and Roll:** Insufficient data in record. No documented evidence of innovation, cultural impact, or advancement of rock music as an art form.\n\n## The Gap\n\nThe documented record provides minimal data for meaningful comparison to inducted Heavy Metal artists. Of the five criteria, only length of career can be verified from the available information. The Rolling Stone Attention Score of 0 indicates limited documented critical recognition compared to inducted artists of similar vintage and genre.\n\n## The Verdict\n\nBased on the available evidence, this case is classified as INSUFFICIENT with 30% confidence. While Tool's 31-year career span meets the Hall's temporal requirements, the absence of documented evidence for four of the five induction criteria prevents a comprehensive evaluation of the band's qualifications relative to inducted Heavy Metal artists. The case demonstrates the critical importance of documented recognition and influence in Hall of Fame consideration.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:58:10",
   "human_reviewed": false,
-  "slug": "tool"
+  "data_record": "Name: Tool\nGenre: Heavy Metal\nFirst commercial recording: 1993\nEligible for induction since: 2018\nYears since eligibility: 8\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

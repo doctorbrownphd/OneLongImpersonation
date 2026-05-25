@@ -1,15 +1,12 @@
 {
   "artist_name": "Bauhaus",
-  "genre": "Punk",
+  "artist_id": 319,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 36.3,
-  "eligible_year": 2004,
-  "wait_years": 22,
-  "data_record": "Name: Bauhaus\nGenre: Punk\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nBauhaus is documented as a punk genre artist with their first commercial recording released in 1979. The band became eligible for Rock and Roll Hall of Fame induction in 2004, representing 22 years since eligibility. The artist has received a Rolling Stone Attention Score of 0, indicating no documented coverage in major music publications. No nominations to the Rock and Roll Hall of Fame have been documented in the artist's record.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No information provided regarding critical reception, technical proficiency, or artistic achievement.\n\n**2. Influence on Other Performers**  \nInsufficient data in record. No documented evidence of influence on subsequent artists or musical movements.\n\n**3. Length of Career**\nDocumented career span begins in 1979 with first commercial recording. However, the record does not specify career duration or periods of activity.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information provided regarding album releases, song catalog size, or recorded output.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While classified under punk genre, no specific contributions to rock and roll development are documented.\n\n## The Gap\n\nThe documented evidence shows significant gaps across all five induction criteria compared to typical inducted artists. The zero Rolling Stone Attention Score indicates absence of mainstream music press recognition. The 22-year period since eligibility without nomination suggests limited industry advocacy for induction.\n\n## The Verdict\n\nINSUFFICIENT (confidence: 30%). The available evidence lacks documentation across four of the five stated criteria, with only partial information available for career length. Bauhaus presents an insufficient case for Rock and Roll Hall of Fame induction based on the limited documented qualifications in the provided record.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:47:05",
   "human_reviewed": false,
-  "slug": "bauhaus"
+  "data_record": "Name: Bauhaus\nGenre: Punk\nFirst commercial recording: 1979\nEligible for induction since: 2004\nYears since eligibility: 22\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

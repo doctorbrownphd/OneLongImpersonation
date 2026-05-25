@@ -1,15 +1,12 @@
 {
   "artist_name": "Kanye West",
-  "genre": "Hip-Hop",
+  "artist_id": 351,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 20.3,
-  "eligible_year": 2026,
-  "wait_years": 0,
-  "data_record": "Name: Kanye West\nGenre: Hip-Hop\nFirst commercial recording: 2001\nEligible for induction since: 2026\nYears since eligibility: 0\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nBased on the provided data record, Kanye West is documented as a Hip-Hop genre artist whose first commercial recording occurred in 2001. The record establishes his eligibility for Rock and Roll Hall of Fame induction beginning in 2026, with zero years elapsed since achieving eligibility status. The record shows no documented nominations for induction and a Rolling Stone Attention Score of 0.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. No specific information provided regarding musical achievements, critical reception, or technical proficiency.\n\n**Influence on Other Performers:** Insufficient data in record. No documentation provided of impact on subsequent artists or musical movements.\n\n**Length of Career:** Documented career span from 2001 to present represents approximately 23 years of documented activity, though specific details of career milestones are not provided in the record.\n\n**Depth of Catalog:** Insufficient data in record. No information provided regarding number of albums, songs, or scope of recorded output.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the artist is classified within the Hip-Hop genre, no specific documentation provided of contributions to rock and roll music or culture.\n\n## The Gap\n\nThe provided data record lacks sufficient detail to establish meaningful comparison with average qualifications of inducted artists in the Hip-Hop genre or contemporary era. The documented zero years since eligibility and absence of nomination history represent measurable gaps relative to typical induction patterns.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence shows an artist at the initial threshold of eligibility with minimal recorded attention from Hall of Fame selectors, though comprehensive career achievement data remains undocumented in this record. This case demonstrates insufficient documented evidence to support current induction consideration under the Hall's stated criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 14:00:28",
   "human_reviewed": false,
-  "slug": "kanye-west"
+  "data_record": "Name: Kanye West\nGenre: Hip-Hop\nFirst commercial recording: 2001\nEligible for induction since: 2026\nYears since eligibility: 0\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

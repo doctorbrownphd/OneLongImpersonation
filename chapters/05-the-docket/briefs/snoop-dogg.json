@@ -1,15 +1,12 @@
 {
   "artist_name": "Snoop Dogg",
-  "genre": "Hip-Hop",
+  "artist_id": 346,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 24.7,
-  "eligible_year": 2018,
-  "wait_years": 8,
-  "data_record": "Name: Snoop Dogg\nGenre: Hip-Hop\nFirst commercial recording: 1993\nEligible for induction since: 2018\nYears since eligibility: 8\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe data record documents that Snoop Dogg is a hip-hop artist whose first commercial recording occurred in 1993. The artist became eligible for Rock and Roll Hall of Fame induction in 2018 and has remained eligible for 8 years. The record shows no documented nominations for induction. The artist's Rolling Stone Attention Score is recorded as 0.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided data contains no information regarding musical achievements, critical recognition, or industry awards that would demonstrate musical excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. The provided data contains no documentation of the artist's influence on subsequent performers or musical movements.\n\n**3. Length of Career**\nThe documented facts show a career span beginning with the first commercial recording in 1993, indicating approximately 31 years of documented activity through the present analysis period.\n\n**4. Depth of Catalog**\nInsufficient data in record. The provided data contains no information regarding the number of albums, songs, or breadth of musical output.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the artist is classified within the hip-hop genre, the provided data contains no specific documentation of contributions to rock and roll as defined by the Hall of Fame's criteria.\n\n## The Gap\n\nThe documented qualifications present significant gaps when measured against the Hall of Fame's stated criteria. While the length of career criterion shows documented evidence spanning three decades, the remaining four criteria lack sufficient documentation in the provided record. The Rolling Stone Attention Score of 0 and absence of documented nominations indicate limited recognition within the metrics tracked by this analysis.\n\n## The Verdict\n\nThe evidence classification is INSUFFICIENT (confidence: 30%). The documented facts establish career longevity but fail to provide adequate evidence for four of the five stated induction criteria. This case demonstrates how limited documentation can constrain the evaluation of an artist's qualifications regardless of their actual achievements in the music industry.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:57:13",
   "human_reviewed": false,
-  "slug": "snoop-dogg"
+  "data_record": "Name: Snoop Dogg\nGenre: Hip-Hop\nFirst commercial recording: 1993\nEligible for induction since: 2018\nYears since eligibility: 8\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

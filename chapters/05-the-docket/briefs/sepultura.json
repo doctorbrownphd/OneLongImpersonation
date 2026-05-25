@@ -1,15 +1,12 @@
 {
   "artist_name": "Sepultura",
-  "genre": "Heavy Metal",
+  "artist_id": 302,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 30.8,
-  "eligible_year": 2011,
-  "wait_years": 15,
-  "data_record": "Name: Sepultura\nGenre: Heavy Metal\nFirst commercial recording: 1986\nEligible for induction since: 2011\nYears since eligibility: 15\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# LEGAL BRIEF: SEPULTURA INDUCTION CASE\n\n## Findings of Fact\n\nSepultura is documented as a heavy metal artist whose first commercial recording was released in 1986. The band became eligible for Rock and Roll Hall of Fame induction in 2011, marking 15 years since achieving eligibility status. The record shows a Rolling Stone Attention Score of 0 and documents no nominations for Hall of Fame induction to date.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No documentation of critical acclaim, awards, or professional recognition metrics provided.\n\n**2. Influence on Other Performers** \nInsufficient data in record. No documented evidence of influence on subsequent artists or musical movements provided.\n\n**3. Length of Career**\nDocumented: Career spans from 1986 to present, representing approximately 38 years of documented activity in heavy metal music.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information provided regarding album releases, song catalog, or recorded output volume.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. No documented evidence of specific contributions to rock music development, innovation, or cultural impact provided.\n\n## The Gap\n\nThe data record provides minimal documentation across the Hall's five criteria. While career length is verified at 38 years, four of five criteria lack sufficient supporting evidence. The 15-year gap between eligibility and present, combined with zero documented nominations and a Rolling Stone Attention Score of 0, suggests limited recognition within industry evaluation systems used by the Hall.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports career longevity but lacks substantive data across musical excellence, influence, catalog depth, and rock contributions criteria. The case demonstrates a significant documentation gap that undermines comprehensive evaluation against Hall standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:52:26",
   "human_reviewed": false,
-  "slug": "sepultura"
+  "data_record": "Name: Sepultura\nGenre: Heavy Metal\nFirst commercial recording: 1986\nEligible for induction since: 2011\nYears since eligibility: 15\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

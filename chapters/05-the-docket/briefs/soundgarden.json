@@ -1,15 +1,12 @@
 {
   "artist_name": "Soundgarden",
-  "genre": "Heavy Metal",
+  "artist_id": 293,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 29.2,
-  "eligible_year": 2013,
-  "wait_years": 13,
-  "data_record": "Name: Soundgarden\nGenre: Heavy Metal\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nSoundgarden is documented as a Heavy Metal artist whose first commercial recording was released in 1988. The band became eligible for Rock and Roll Hall of Fame induction in 2013 and has remained eligible for 13 years as of the current analysis. The data record shows no documented nominations for induction. Rolling Stone Attention Score is recorded as 0.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. No information provided regarding critical reception, awards, or professional recognition of musical quality.\n\n**2. Influence on Other Performers**  \nInsufficient data in record. No documentation provided of the band's influence on subsequent artists or performers.\n\n**3. Length of Career**\nDocumented evidence shows commercial recording activity beginning in 1988, indicating a career spanning at least 25 years to eligibility date. This meets typical career longevity expectations for Hall consideration.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information provided regarding number of albums, singles, or scope of recorded output.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the band's Heavy Metal genre classification places them within rock and roll's broader taxonomy, no specific contributions to the genre's development or evolution are documented.\n\n## The Gap\n\nThe documented qualifications show significant gaps compared to inducted artists. The Rolling Stone Attention Score of 0 indicates minimal coverage in major rock journalism outlets. The absence of any documented nominations over 13 years of eligibility suggests the band's case has not met the threshold for serious Hall consideration. Most inducted Heavy Metal artists demonstrate verifiable influence, critical acclaim, and industry recognition not present in this record.\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The evidence supports minimal qualification under current documentation, with only career length meeting clear criteria standards while musical excellence, influence, catalog depth, and contributions remain unsubstantiated. Soundgarden's case demonstrates how genre classification alone cannot substitute for documented achievement across the Hall's comprehensive evaluation criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:53:59",
   "human_reviewed": false,
-  "slug": "soundgarden"
+  "data_record": "Name: Soundgarden\nGenre: Heavy Metal\nFirst commercial recording: 1988\nEligible for induction since: 2013\nYears since eligibility: 13\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

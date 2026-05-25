@@ -1,15 +1,12 @@
 {
   "artist_name": "Boston",
-  "genre": "Classic Rock",
+  "artist_id": 380,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 36.8,
-  "eligible_year": 2001,
-  "wait_years": 25,
-  "data_record": "Name: Boston\nGenre: Classic Rock\nFirst commercial recording: 1976\nEligible for induction since: 2001\nYears since eligibility: 25\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "# CASE BRIEF: BOSTON v. ROCK AND ROLL HALL OF FAME\n**Legal Analysis for Induction Eligibility**\n\n---\n\n## Findings of Fact\n\nBoston is documented as a classic rock artist with their first commercial recording released in 1976. The band became eligible for Rock and Roll Hall of Fame induction in 2001, marking 25 years since achieving eligibility. The data record shows no documented nominations for induction during this extended eligibility period. Boston's Rolling Stone Attention Score is recorded as 0, indicating minimal documented coverage in critical rock journalism publications.\n\n---\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided documentation contains no specific evidence regarding technical proficiency, songwriting quality, or critical recognition of musical achievement.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documentation provided regarding Boston's impact on subsequent artists, cited influences, or measurable effect on musical development.\n\n**3. Length of Career**\nDocumented evidence shows career spanning from 1976 to present, representing approximately 48 years of activity. This satisfies typical longevity expectations for Hall consideration.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information provided regarding album releases, chart performance, or body of work composition.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. The classic rock genre classification is documented, but no specific innovations, cultural impact, or advancement of the musical form is evidenced in the record.\n\n---\n\n## The Gap\n\nThe documented qualifications present significant deficiencies compared to typical inducted artists. The 25-year eligibility period without documented nominations indicates substantial gaps in meeting Hall standards. The zero Rolling Stone Attention Score demonstrates absence of critical recognition typically associated with inducted classic rock artists from the 1970s era.\n\n---\n\n## The Verdict\n\nClassification: INSUFFICIENT (confidence: 30%). The documented evidence supports career longevity but lacks sufficient data across four of the five stated criteria. While Boston demonstrates the minimum career length requirement, the absence of documented nominations over 25 years of eligibility and zero critical attention score indicate insufficient qualification under current induction standards. This case exemplifies how career duration alone cannot overcome deficiencies in documented musical excellence, influence, catalog depth, and rock and roll contributions.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:46:02",
   "human_reviewed": false,
-  "slug": "boston"
+  "data_record": "Name: Boston\nGenre: Classic Rock\nFirst commercial recording: 1976\nEligible for induction since: 2001\nYears since eligibility: 25\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

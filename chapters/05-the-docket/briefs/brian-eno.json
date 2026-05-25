@@ -1,15 +1,12 @@
 {
   "artist_name": "Brian Eno",
-  "genre": "Electronic",
+  "artist_id": 339,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 39.9,
-  "eligible_year": 1998,
-  "wait_years": 28,
-  "data_record": "Name: Brian Eno\nGenre: Electronic\nFirst commercial recording: 1973\nEligible for induction since: 1998\nYears since eligibility: 28\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe data record documents Brian Eno as an electronic genre artist whose first commercial recording occurred in 1973. Eno became eligible for Rock and Roll Hall of Fame induction in 1998 and has remained eligible for 28 years as of the current analysis period. The record shows no documented nominations to the Hall during this eligibility period. Eno received a Rolling Stone Attention Score of 0, indicating no documented coverage in the publication's rankings or lists.\n\n## Application of Criteria\n\n**Musical Excellence:** Insufficient data in record. The data record does not contain documentation of critical acclaim, awards, technical proficiency metrics, or peer recognition that would demonstrate musical excellence.\n\n**Influence on Other Performers:** Insufficient data in record. While the record identifies Eno as working in the electronic genre, it provides no documented evidence of specific artists influenced by his work or citations of his impact on subsequent performers.\n\n**Length of Career:** Documented evidence supports this criterion. With a first commercial recording in 1973 and eligibility since 1998, the record establishes a career span of at least 25 years by the time of initial eligibility, extending to 50+ years in the current period.\n\n**Depth of Catalog:** Insufficient data in record. The record confirms commercial recording activity beginning in 1973 but provides no documentation of album releases, chart performance, or catalog breadth metrics.\n\n**Contributions to Rock and Roll:** Insufficient data in record. While the record places Eno in the electronic genre, it does not document specific innovations, genre development, or contributions to rock and roll's evolution.\n\n## The Gap\n\nThe data record reveals significant documentation gaps between Eno's case file and typical inducted artist profiles. Documented facts establish only career longevity and electronic genre classification. Missing documentation includes influence metrics, critical recognition, commercial performance data, and specific contributions to rock music development. The 28-year eligibility period without documented nominations suggests the Hall's evaluation committees have not found sufficient evidence to advance his candidacy through available documentation channels.\n\n## The Verdict\n\nThe evidence classification is BORDERLINE with 50% confidence. The documented facts establish career longevity meeting Hall standards but lack supporting evidence for four of the five stated criteria. The absence of documented nominations during a 28-year eligibility window indicates insufficient documented evidence has been presented to Hall evaluation processes. Brian Eno's case demonstrates how career longevity alone cannot overcome the absence of documented evidence supporting the Hall's other four induction criteria.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:42:16",
   "human_reviewed": false,
-  "slug": "brian-eno"
+  "data_record": "Name: Brian Eno\nGenre: Electronic\nFirst commercial recording: 1973\nEligible for induction since: 1998\nYears since eligibility: 28\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

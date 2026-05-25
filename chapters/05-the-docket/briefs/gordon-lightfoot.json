@@ -1,15 +1,12 @@
 {
   "artist_name": "Gordon Lightfoot",
-  "genre": "Folk/Country",
+  "artist_id": 395,
   "verdict": "BORDERLINE",
   "confidence": 0.5,
   "criteria_score": 40.2,
-  "eligible_year": 1991,
-  "wait_years": 35,
-  "data_record": "Name: Gordon Lightfoot\nGenre: Folk/Country\nFirst commercial recording: 1966\nEligible for induction since: 1991\nYears since eligibility: 35\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nGordon Lightfoot is documented as a Folk/Country artist who made his first commercial recording in 1966. The artist became eligible for Rock and Roll Hall of Fame induction in 1991 and has remained eligible for 35 years. The data record shows no documented nominations for induction. The artist's Rolling Stone Attention Score is recorded as 0.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided data contains no information regarding critical acclaim, awards, chart performance, or other measures of musical excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No information is provided regarding documented influence on other artists or performers.\n\n**3. Length of Career**\nDocumented evidence supports this criterion. With a first commercial recording in 1966 and eligibility beginning in 1991, the artist demonstrates a career spanning at least 25 years by the eligibility threshold, with continued career activity extending the total to at least 35 years.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information is provided regarding the number of albums, songs, or breadth of recorded material.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the artist is classified in the Folk/Country genre, no specific information is provided regarding contributions to rock and roll music or its development.\n\n## The Gap\n\nThe data record provides insufficient information to meaningfully compare Gordon Lightfoot's qualifications against inducted artists in the Folk/Country genre or contemporary era. The documented facts establish only career longevity and genre classification, while lacking evidence for musical excellence, influence, catalog depth, and rock contributions that would typically support induction cases.\n\n## The Verdict\n\nThe classification is BORDERLINE with 50% confidence. The documented evidence establishes career longevity meeting Hall standards but lacks sufficient data across the remaining four criteria to build a complete induction case. This case demonstrates how limited documentation can constrain the evaluation of an artist's qualifications despite potentially meeting induction standards.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:41:46",
   "human_reviewed": false,
-  "slug": "gordon-lightfoot"
+  "data_record": "Name: Gordon Lightfoot\nGenre: Folk/Country\nFirst commercial recording: 1966\nEligible for induction since: 1991\nYears since eligibility: 35\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }

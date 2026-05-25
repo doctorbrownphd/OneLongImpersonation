@@ -1,15 +1,12 @@
 {
   "artist_name": "Nas",
-  "genre": "Hip-Hop",
+  "artist_id": 345,
   "verdict": "INSUFFICIENT",
   "confidence": 0.3,
   "criteria_score": 24.4,
-  "eligible_year": 2019,
-  "wait_years": 7,
-  "data_record": "Name: Nas\nGenre: Hip-Hop\nFirst commercial recording: 1994\nEligible for induction since: 2019\nYears since eligibility: 7\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
-  "brief_text": null,
+  "brief_text": "## Findings of Fact\n\nThe data record documents that Nas is a Hip-Hop artist whose first commercial recording was released in 1994. The artist became eligible for Rock and Roll Hall of Fame induction in 2019 and has been eligible for 7 years as of the current analysis. The record shows a Rolling Stone Attention Score of 0 and indicates no documented nominations to the Hall of Fame.\n\n## Application of Criteria\n\n**1. Musical Excellence**\nInsufficient data in record. The provided data does not contain information regarding critical reception, awards, or musical achievements that would demonstrate excellence.\n\n**2. Influence on Other Performers**\nInsufficient data in record. No documentation is provided regarding the artist's influence on subsequent performers or the broader musical landscape.\n\n**3. Length of Career**\nThe record documents a career spanning from 1994 to present, indicating approximately 30 years of activity in the music industry based on the first commercial recording date.\n\n**4. Depth of Catalog**\nInsufficient data in record. No information is provided regarding the number of albums, songs, or scope of musical output over the documented career period.\n\n**5. Contributions to Rock and Roll**\nInsufficient data in record. While the artist operates within the Hip-Hop genre, no specific contributions to rock and roll or its evolution are documented in the provided data.\n\n## The Gap\n\nThe data record provides minimal information to assess this artist's qualifications against the Hall's stated criteria. With a Rolling Stone Attention Score of 0 and no documented nominations after 7 years of eligibility, the available metrics suggest limited recognition within the Hall's evaluation framework. The record lacks crucial data points including critical acclaim, commercial success metrics, influence documentation, and catalog depth that would typically support an induction case.\n\n## The Verdict\n\nBased on the provided data record, the evidence is INSUFFICIENT to support Rock and Roll Hall of Fame induction. While the artist meets the basic eligibility requirements with a 30-year career documented from 1994, the record lacks substantive evidence across four of the five stated criteria. The case demonstrates the limitations of incomplete data records in evaluating artistic merit and Hall of Fame qualifications.",
   "model_version": "claude-sonnet-4-20250514",
-  "generated_at": "2026-05-25 13:10:27",
+  "generated_at": "2026-05-25 13:57:59",
   "human_reviewed": false,
-  "slug": "nas"
+  "data_record": "Name: Nas\nGenre: Hip-Hop\nFirst commercial recording: 1994\nEligible for induction since: 2019\nYears since eligibility: 7\nRolling Stone Attention Score: 0\nNomination history: No documented nominations"
 }
