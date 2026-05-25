@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Download Data -- One Long Impersonation</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="All data from One Long Impersonation is CC0 licensed. Download the complete dataset.">
+<link rel="stylesheet" href="../../shared/design-tokens.css">
+</head>
+<body>
+
+<script>
+  fetch('../../shared/platform-nav.html')
+    .then(function(r) { return r.text(); })
+    .then(function(html) {
+      var d = document.createElement('div');
+      d.innerHTML = html;
+      document.body.insertBefore(d, document.body.firstChild);
+      d.querySelectorAll('script').forEach(function(s) {
+        var ns = document.createElement('script');
+        ns.textContent = s.textContent;
+        document.body.appendChild(ns);
+      });
+    });
+</script>
+
+<section class="section section--ink" style="padding-top:160px; min-height:80vh">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:48px">
+      <span>Data Downloads</span>
+    </div>
+
+    <h1 class="display" style="font-size:clamp(36px,6vw,64px); margin:0 0 32px">
+      The data is yours.
+    </h1>
+
+    <p style="font-size:17px; color:var(--cream-2); max-width:600px; line-height:1.6; margin:0 0 48px">
+      All data produced by this platform is released under CC0 1.0 Universal.
+      No rights reserved. Freely reusable by journalists, historians, music
+      researchers, and anyone else. Use it, cite it, build on it.
+    </p>
+
+    <hr class="rule rule--gold" style="max-width:80px; margin-bottom:48px">
+
+    <div style="display:flex; flex-direction:column; gap:24px">
+
+      <div style="padding:24px; background:var(--ink-2); border:1px solid var(--rule); border-radius:4px">
+        <div class="smallcaps" style="color:var(--gold); margin-bottom:8px">Chapter Data Files</div>
+        <p style="font-size:14px; color:var(--cream-2); margin:0 0 12px">
+          Pre-computed visualization data for each chapter. JavaScript files
+          containing the complete datasets that power every chart.
+        </p>
+        <p class="mono" style="font-size:12px; color:var(--mute); margin:0">
+          Located in: chapters/[chapter-name]/*-data.js
+        </p>
+      </div>
+
+      <div style="padding:24px; background:var(--ink-2); border:1px solid var(--rule); border-radius:4px">
+        <div class="smallcaps" style="color:var(--gold); margin-bottom:8px">Curated Influence Pairs</div>
+        <p style="font-size:14px; color:var(--cream-2); margin:0 0 12px">
+          73 documented teacher-student influence relationships with primary
+          source citations. YAML format.
+        </p>
+        <p class="mono" style="font-size:12px; color:var(--mute); margin:0">
+          Located in: pipeline/data/curated/influence_pairs*.yaml
+        </p>
+      </div>
+
+      <div style="padding:24px; background:var(--ink-2); border:1px solid var(--rule); border-radius:4px">
+        <div class="smallcaps" style="color:var(--gold); margin-bottom:8px">Docket Briefs</div>
+        <p style="font-size:14px; color:var(--cream-2); margin:0 0 12px">
+          Individual JSON files for each eligible non-inducted artist.
+          Criteria scores, verdict classifications, and AI-generated briefs.
+        </p>
+        <p class="mono" style="font-size:12px; color:var(--mute); margin:0">
+          Located in: chapters/05-the-docket/briefs/[artist-slug].json
+        </p>
+      </div>
+
+      <div style="padding:24px; background:var(--ink-2); border:1px solid var(--rule); border-radius:4px">
+        <div class="smallcaps" style="color:var(--gold); margin-bottom:8px">Pipeline Source Code</div>
+        <p style="font-size:14px; color:var(--cream-2); margin:0 0 12px">
+          Complete Python pipeline: ingestion scripts, ML models, export tools.
+          MIT licensed. Reproduce every finding from scratch.
+        </p>
+        <p class="mono" style="font-size:12px; color:var(--mute); margin:0">
+          Located in: pipeline/src/
+        </p>
+      </div>
+
+    </div>
+
+    <div style="margin-top:48px; padding:24px; border-left:3px solid var(--gold)">
+      <p class="mono" style="font-size:12px; color:var(--gold); margin:0 0 8px; letter-spacing:0.1em">CC0 1.0 UNIVERSAL</p>
+      <p style="font-size:14px; color:var(--cream-2); margin:0; line-height:1.6">
+        The person who associated a work with this deed has dedicated the work
+        to the public domain by waiving all rights worldwide under copyright law.
+        You can copy, modify, distribute and perform the work, even for commercial
+        purposes, all without asking permission.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

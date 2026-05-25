@@ -55,10 +55,13 @@
     // Sort by gap descending
     vizPairs.sort(function(a, b) { return b.gap_years - a.gap_years; });
 
-    // Dimensions
-    var margin = { top: 40, right: 120, bottom: 50, left: 220 };
-    var rowHeight = 28;
-    var width = Math.max(container.clientWidth, 700);
+    // Dimensions -- responsive
+    var isMobile = container.clientWidth < 600;
+    var margin = isMobile
+      ? { top: 30, right: 60, bottom: 40, left: 130 }
+      : { top: 40, right: 120, bottom: 50, left: 220 };
+    var rowHeight = isMobile ? 24 : 28;
+    var width = Math.max(container.clientWidth, isMobile ? 360 : 700);
     var height = margin.top + vizPairs.length * rowHeight + margin.bottom;
 
     // Year range
