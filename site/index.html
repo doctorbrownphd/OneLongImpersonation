@@ -15,12 +15,24 @@
 <meta name="twitter:description" content="A data-driven prosecution of the Rock and Roll Hall of Fame using their own stated criteria.">
 <link rel="stylesheet" href="../shared/design-tokens.css">
 <style>
+  /* ============================================
+     HERO -- full-height with pyramid
+     ============================================ */
   .shell-hero {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 120px 0 80px;
+    padding: 120px 0 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
   }
 
   .shell-quote {
@@ -28,11 +40,10 @@
     font-variation-settings: "SOFT" 100, "opsz" 144;
     font-style: italic;
     font-weight: 400;
-    font-size: clamp(20px, 3vw, 32px);
+    font-size: clamp(18px, 2.5vw, 28px);
     color: var(--gold);
     line-height: 1.2;
     margin: 0 0 12px;
-    max-width: 640px;
   }
 
   .shell-attribution {
@@ -40,29 +51,145 @@
     font-size: 11px;
     letter-spacing: 0.15em;
     color: var(--mute);
-    margin: 0 0 64px;
+    margin: 0 0 48px;
   }
 
   .shell-title {
     font-family: var(--serif);
     font-weight: 500;
     font-variation-settings: "SOFT" 30, "opsz" 144, "WONK" 0;
-    font-size: clamp(48px, 9vw, 110px);
+    font-size: clamp(44px, 7vw, 96px);
     letter-spacing: -0.025em;
     line-height: 0.92;
     color: var(--cream);
-    margin: 0 0 32px;
+    margin: 0 0 28px;
   }
 
   .shell-subtitle {
-    font-size: 17px;
+    font-size: 16px;
     color: var(--cream-2);
-    max-width: 560px;
+    max-width: 520px;
     line-height: 1.6;
-    margin: 0 0 64px;
+    margin: 0;
   }
 
-  /* Chapter grid */
+  /* Pyramid container */
+  .pyramid-exhibit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ============================================
+     DOCKET STRIP -- the defendant named
+     ============================================ */
+  .docket-strip {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    background: var(--ink-2);
+  }
+
+  .docket-strip__item {
+    flex: 1;
+    padding: 20px 32px;
+    text-align: center;
+    border-right: 1px solid var(--rule);
+  }
+
+  .docket-strip__item:last-child {
+    border-right: none;
+  }
+
+  .docket-strip__label {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--mute);
+    margin-bottom: 6px;
+  }
+
+  .docket-strip__value {
+    font-family: var(--serif);
+    font-size: 15px;
+    color: var(--cream);
+    font-weight: 500;
+  }
+
+  /* ============================================
+     MARQUEE -- scrolling prosecution facts
+     ============================================ */
+  .marquee-strip {
+    overflow: hidden;
+    white-space: nowrap;
+    background: var(--ink-3);
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 0;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+
+  .marquee-inner {
+    display: inline-block;
+    animation: marquee-scroll 80s linear infinite;
+  }
+
+  .marquee-inner span {
+    padding: 0 32px;
+  }
+
+  .marquee-star {
+    color: var(--mute);
+    padding: 0 8px;
+  }
+
+  @keyframes marquee-scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ============================================
+     THREE AXES -- the prosecution's structure
+     ============================================ */
+  .axes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    margin-top: 48px;
+  }
+
+  .axis-card__number {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .axis-card__title {
+    font-family: var(--serif);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cream);
+    margin-bottom: 8px;
+  }
+
+  .axis-card__desc {
+    font-size: 14px;
+    color: var(--cream-2);
+    line-height: 1.6;
+  }
+
+  /* ============================================
+     CHAPTER GRID
+     ============================================ */
   .chapter-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -82,9 +209,7 @@
     color: inherit;
   }
 
-  .chapter-card:hover {
-    background: var(--ink-3);
-  }
+  .chapter-card:hover { background: var(--ink-3); }
 
   .chapter-card__number {
     font-family: var(--mono);
@@ -142,20 +267,20 @@
     color: var(--mute);
     line-height: 1.7;
   }
+  .colophon a { color: var(--gold); text-decoration: none; }
+  .colophon a:hover { text-decoration: underline; }
 
-  .colophon a {
-    color: var(--gold);
-    text-decoration: none;
-  }
-
-  .colophon a:hover {
-    text-decoration: underline;
-  }
-
+  /* ============================================
+     RESPONSIVE
+     ============================================ */
   @media (max-width: 768px) {
-    .chapter-grid {
-      grid-template-columns: 1fr;
-    }
+    .hero-layout { grid-template-columns: 1fr; gap: 40px; }
+    .pyramid-exhibit { order: -1; }
+    .axes-grid { grid-template-columns: 1fr; gap: 32px; }
+    .chapter-grid { grid-template-columns: 1fr; }
+    .docket-strip { flex-direction: column; }
+    .docket-strip__item { border-right: none; border-bottom: 1px solid var(--rule); padding: 14px 24px; }
+    .docket-strip__item:last-child { border-bottom: none; }
   }
 </style>
 </head>
@@ -167,43 +292,156 @@
   <span>v1.0 / May 2026</span>
 </div>
 
-<!-- Hero -->
+<!-- =====================================================
+     HERO -- Quote + Title + Pyramid Exhibit
+     ===================================================== -->
 <section class="section section--ink shell-hero">
-  <div class="container container--narrow">
+  <div class="container">
+    <div class="hero-layout">
 
-    <blockquote class="shell-quote">
-      "My whole career has been one long Sister Rosetta Tharpe impersonation."
-    </blockquote>
-    <p class="shell-attribution">Chuck Berry, Rock and Roll Hall of Fame induction ceremony, 1986</p>
+      <div>
+        <blockquote class="shell-quote">
+          "My whole career has been one long Sister Rosetta Tharpe impersonation."
+        </blockquote>
+        <p class="shell-attribution">Attributed to Chuck Berry</p>
 
-    <h1 class="shell-title">One long<br>impersonation.</h1>
+        <h1 class="shell-title">One long<br>impersonation.</h1>
 
-    <p class="shell-subtitle">
-      A data-driven prosecution of the Rock and Roll Hall of Fame using their own stated criteria
-      as the instrument of indictment. Every finding sourced. Every verdict rendered by the data.
-      The reader is the jury.
-    </p>
+        <p class="shell-subtitle">
+          A data-driven prosecution of the Rock and Roll Hall of Fame using their own stated criteria
+          as the instrument of indictment. Every finding sourced. Every verdict rendered by the data.
+          The reader is the jury.
+        </p>
+      </div>
 
-    <hr class="rule rule--gold" style="max-width:80px">
+      <div class="pyramid-exhibit">
+        <div class="exhibit-label" style="margin-bottom:16px; align-self:flex-start">
+          <span>Ex. 000 -- The Defendant</span>
+        </div>
+        <div id="pyramid-svg"></div>
+      </div>
 
+    </div>
   </div>
 </section>
 
-<!-- Chapters -->
-<section class="section section--ink2" style="padding-top:80px" id="chapters">
-  <div class="container">
+<!-- =====================================================
+     DOCKET STRIP -- Filed / Defendant / Standard
+     ===================================================== -->
+<div class="docket-strip">
+  <div class="docket-strip__item">
+    <div class="docket-strip__label">Filed</div>
+    <div class="docket-strip__value">May 2026</div>
+  </div>
+  <div class="docket-strip__item">
+    <div class="docket-strip__label">Defendant</div>
+    <div class="docket-strip__value">The Rock and Roll Hall of Fame Foundation</div>
+  </div>
+  <div class="docket-strip__item">
+    <div class="docket-strip__label">Location</div>
+    <div class="docket-strip__value">1100 E 9th St, Cleveland, OH</div>
+  </div>
+  <div class="docket-strip__item">
+    <div class="docket-strip__label">Standard of Proof</div>
+    <div class="docket-strip__value">Their own criteria</div>
+  </div>
+</div>
 
+<!-- =====================================================
+     MARQUEE -- Scrolling prosecution facts
+     ===================================================== -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span>Sister Rosetta Tharpe: inducted 2018. Her student Chuck Berry: 1986.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>Big Mama Thornton wrote Hound Dog. Never inducted. Elvis: first class.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>First heavy metal induction: 2006. The Hall opened in 1986.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>Electronic music inductions under Wenner: zero.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>Wenner, 2022: "Foreigner, Boston, Styx -- that whole era never came up."</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>RS coverage vs wait time: rho = -0.43. 4 years with coverage. 13 without.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>Genre diversity improved 1.19x after Wenner exited.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>113 eligible artists. 113 cases built. The docket is open.</span>
+    <span class="marquee-star">&#9733;</span>
+    <!-- Duplicate for seamless loop -->
+    <span>Sister Rosetta Tharpe: inducted 2018. Her student Chuck Berry: 1986.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>Big Mama Thornton wrote Hound Dog. Never inducted. Elvis: first class.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>First heavy metal induction: 2006. The Hall opened in 1986.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>Electronic music inductions under Wenner: zero.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>Wenner, 2022: "Foreigner, Boston, Styx -- that whole era never came up."</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>RS coverage vs wait time: rho = -0.43. 4 years with coverage. 13 without.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>Genre diversity improved 1.19x after Wenner exited.</span>
+    <span class="marquee-star">&#9733;</span>
+    <span>113 eligible artists. 113 cases built. The docket is open.</span>
+    <span class="marquee-star">&#9733;</span>
+  </div>
+</div>
+
+<!-- =====================================================
+     THREE AXES OF PROSECUTION
+     ===================================================== -->
+<section class="section section--ink2">
+  <div class="container">
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>The Three Axes of Prosecution</span>
+    </div>
+
+    <div class="axes-grid">
+      <div class="axis-card">
+        <div class="axis-card__number">Axis One</div>
+        <div class="axis-card__title">The Pioneers</div>
+        <div class="axis-card__desc">
+          Black artists, women, and genre inventors who created the music the Hall celebrates
+          and were not inducted, or were inducted decades after their students.
+        </div>
+      </div>
+      <div class="axis-card">
+        <div class="axis-card__number">Axis Two</div>
+        <div class="axis-card__title">The Genres</div>
+        <div class="axis-card__desc">
+          Entire musical traditions with massive cultural footprints that the Hall
+          systematically excluded or tokenized for decades.
+        </div>
+      </div>
+      <div class="axis-card">
+        <div class="axis-card__number">Axis Three</div>
+        <div class="axis-card__title">The Voters</div>
+        <div class="axis-card__desc">
+          The nominating committee and voting body, documented. Who they were.
+          How long they served. What their documented preferences show.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     CHAPTERS
+     ===================================================== -->
+<section class="section section--ink" style="padding-top:80px" id="chapters">
+  <div class="container">
     <div class="exhibit-label" style="margin-bottom:32px">
       <span>The Prosecution</span>
     </div>
-
     <div class="chapter-grid" id="chapter-grid"></div>
-
   </div>
 </section>
 
-<!-- Colophon -->
-<section class="section section--ink" style="padding:80px 0; border-top:1px solid var(--rule)">
+<!-- =====================================================
+     COLOPHON
+     ===================================================== -->
+<section class="section section--ink2" style="padding:80px 0; border-top:1px solid var(--rule)">
   <div class="container container--narrow colophon">
     <p><strong style="color:var(--cream)">One Long Impersonation</strong> is a museum-quality data journalism
     platform. Code is MIT licensed. All data is CC0 -- freely reusable by journalists, historians,
@@ -225,30 +463,119 @@
   </div>
 </section>
 
+<!-- =====================================================
+     SCRIPTS
+     ===================================================== -->
 <script>
 (function() {
-  // Load chapters from chapters.json
+  // ---- PYRAMID SVG (I.M. Pei's Rock Hall) ----
+  var W = 460, H = 320;
+  var accent = '#d4a017', ink = '#efe8d6';
+  var apex = { x: W * 0.50, y: 30 };
+  var baseL = { x: W * 0.03, y: H - 60 };
+  var baseR = { x: W * 0.97, y: H - 60 };
+  var bands = 6;
+
+  function lerp(a, b, t) { return { x: a.x + (b.x - a.x) * t, y: a.y + (b.y - a.y) * t }; }
+
+  var bandLines = [];
+  for (var i = 1; i <= bands; i++) {
+    var t = i / bands;
+    bandLines.push({ a: lerp(apex, baseL, t), b: lerp(apex, baseR, t), t: t });
+  }
+
+  // Trusses
+  var trussPaths = '';
+  for (var i = 1; i <= bands; i++) {
+    var top = i === 1 ? { a: apex, b: apex } : { a: bandLines[i - 2].a, b: bandLines[i - 2].b };
+    var bottom = bandLines[i - 1];
+    var segs = i + 1, segsT = i;
+    var ptsTop = [], ptsBot = [];
+    for (var k = 0; k <= segsT; k++) {
+      var tt = segsT === 0 ? 0 : k / segsT;
+      ptsTop.push({ x: top.a.x + (top.b.x - top.a.x) * tt, y: top.a.y + (top.b.y - top.a.y) * tt });
+    }
+    for (var k = 0; k <= segs; k++) {
+      var tt = k / segs;
+      ptsBot.push({ x: bottom.a.x + (bottom.b.x - bottom.a.x) * tt, y: bottom.a.y + (bottom.b.y - bottom.a.y) * tt });
+    }
+    for (var k = 0; k < ptsBot.length; k++) {
+      var bp = ptsBot[k];
+      var leftIdx = Math.max(0, Math.floor(k * segsT / segs));
+      var rightIdx = Math.min(segsT, leftIdx + 1);
+      if (ptsTop[leftIdx]) trussPaths += '<line x1="'+bp.x+'" y1="'+bp.y+'" x2="'+ptsTop[leftIdx].x+'" y2="'+ptsTop[leftIdx].y+'"/>';
+      if (ptsTop[rightIdx] && rightIdx !== leftIdx) trussPaths += '<line x1="'+bp.x+'" y1="'+bp.y+'" x2="'+ptsTop[rightIdx].x+'" y2="'+ptsTop[rightIdx].y+'"/>';
+    }
+  }
+
+  // Tower
+  var towerW = 56, towerH = 170;
+  var towerX = W * 0.72, towerY = H - 60 - towerH;
+  var towerLines = '';
+  for (var i = 1; i <= 12; i++) towerLines += '<line x1="'+towerX+'" x2="'+(towerX+towerW)+'" y1="'+(towerY+i*towerH/13)+'" y2="'+(towerY+i*towerH/13)+'" stroke="'+ink+'" stroke-opacity="0.18" stroke-width="0.5"/>';
+  for (var i = 1; i <= 3; i++) towerLines += '<line x1="'+(towerX+i*towerW/4)+'" x2="'+(towerX+i*towerW/4)+'" y1="'+towerY+'" y2="'+(towerY+towerH)+'" stroke="'+ink+'" stroke-opacity="0.18" stroke-width="0.5"/>';
+
+  // Band lines
+  var bandPaths = '';
+  for (var i = 0; i < bandLines.length; i++) {
+    var b = bandLines[i];
+    bandPaths += '<line x1="'+b.a.x+'" y1="'+b.a.y+'" x2="'+b.b.x+'" y2="'+b.b.y+'"/>';
+  }
+
+  var svg = '<svg viewBox="0 0 '+W+' '+H+'" width="100%" style="display:block;max-width:460px" role="img" aria-label="I.M. Pei Rock and Roll Hall of Fame building, Cleveland OH. Prosecution Exhibit 000: The Defendant.">' +
+    '<defs>' +
+      '<linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="'+accent+'" stop-opacity="0.22"/><stop offset="55%" stop-color="'+accent+'" stop-opacity="0.10"/><stop offset="100%" stop-color="'+accent+'" stop-opacity="0.04"/></linearGradient>' +
+      '<linearGradient id="pgw" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="'+accent+'" stop-opacity="0"/><stop offset="100%" stop-color="'+accent+'" stop-opacity="0.18"/></linearGradient>' +
+      '<filter id="ps" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>' +
+    '</defs>' +
+    // Ground
+    '<line x1="0" y1="'+(H-58)+'" x2="'+W+'" y2="'+(H-58)+'" stroke="'+ink+'" stroke-opacity="0.35" stroke-width="0.5"/>' +
+    // Glow
+    '<ellipse cx="'+(W/2)+'" cy="'+(H-58)+'" rx="'+(W*0.46)+'" ry="10" fill="'+accent+'" fill-opacity="0.18" filter="url(#ps)"/>' +
+    // Tower
+    '<g opacity="0.85"><rect x="'+towerX+'" y="'+towerY+'" width="'+towerW+'" height="'+towerH+'" fill="none" stroke="'+ink+'" stroke-opacity="0.55" stroke-width="0.8"/>'+towerLines+'</g>' +
+    // Glass fill
+    '<polygon points="'+apex.x+','+apex.y+' '+baseL.x+','+baseL.y+' '+baseR.x+','+baseR.y+'" fill="url(#pg)"/>' +
+    // Trusses
+    '<g stroke="'+accent+'" stroke-opacity="0.55" stroke-width="0.7">'+trussPaths+'</g>' +
+    // Band lines
+    '<g stroke="'+accent+'" stroke-opacity="0.85" stroke-width="0.9">'+bandPaths+'</g>' +
+    // Outer edges
+    '<polygon points="'+apex.x+','+apex.y+' '+baseL.x+','+baseL.y+' '+baseR.x+','+baseR.y+'" fill="none" stroke="'+accent+'" stroke-width="1.6"/>' +
+    // Apex
+    '<circle cx="'+apex.x+'" cy="'+apex.y+'" r="2.4" fill="'+accent+'"/><circle cx="'+apex.x+'" cy="'+apex.y+'" r="6" fill="'+accent+'" fill-opacity="0.25"/>' +
+    // Floor reflection
+    '<polygon points="'+baseL.x+','+baseL.y+' '+baseR.x+','+baseR.y+' '+(baseR.x-40)+','+(baseR.y+28)+' '+(baseL.x+40)+','+(baseL.y+28)+'" fill="url(#pgw)" opacity="0.55"/>' +
+    // Crosshair ticks
+    '<g stroke="'+ink+'" stroke-opacity="0.55" stroke-width="0.8" fill="none">' +
+      '<path d="M6,6 L18,6 M6,6 L6,18"/>' +
+      '<path d="M'+(W-6)+',6 L'+(W-18)+',6 M'+(W-6)+',6 L'+(W-6)+',18"/>' +
+      '<path d="M6,'+(H-6)+' L18,'+(H-6)+' M6,'+(H-6)+' L6,'+(H-18)+'"/>' +
+      '<path d="M'+(W-6)+','+(H-6)+' L'+(W-18)+','+(H-6)+' M'+(W-6)+','+(H-6)+' L'+(W-6)+','+(H-18)+'"/>' +
+    '</g>' +
+    // Exhibit label
+    '<text x="'+apex.x+'" y="'+(H-26)+'" fill="'+accent+'" text-anchor="middle" font-family="\'JetBrains Mono\',monospace" font-size="8" letter-spacing="0.2em" text-transform="uppercase" opacity="0.75">STATE\'S EXHIBIT 000 &#183; THE DEFENDANT &#183; CLEVELAND OH &#183; OPENED 1995</text>' +
+  '</svg>';
+
+  document.getElementById('pyramid-svg').innerHTML = svg;
+
+  // ---- CHAPTER GRID ----
   fetch('../chapters.json')
     .then(function(r) { return r.json(); })
     .then(function(data) {
       var grid = document.getElementById('chapter-grid');
       if (!grid || !data.chapters) return;
-
       data.chapters.forEach(function(ch) {
         var a = document.createElement('a');
         a.className = 'chapter-card';
         a.href = '..' + ch.url;
-
         var statusClass = ch.status === 'live' ? 'chapter-card__status--live' : 'chapter-card__status--coming';
-
         a.innerHTML =
           '<div class="chapter-card__number">Chapter ' + ch.number + '</div>' +
           '<div class="chapter-card__title">' + ch.title + '</div>' +
           '<div class="chapter-card__desc">' + ch.description + '</div>' +
           '<div class="chapter-card__meta">' + ch.meta +
-            ' &nbsp;<span class="chapter-card__status ' + statusClass + '">' + ch.status + '</span>' +
-          '</div>';
-
+            ' &nbsp;<span class="chapter-card__status ' + statusClass + '">' + ch.status + '</span></div>';
         grid.appendChild(a);
       });
     });
