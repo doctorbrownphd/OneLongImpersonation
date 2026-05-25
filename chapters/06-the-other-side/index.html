@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>One Long Impersonation -- The Other Side</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="What the Rock and Roll Hall of Fame got right. The honest prosecution chapter: correct decisions, post-2019 improvement, and what the data concedes.">
+<meta property="og:title" content="The Other Side -- One Long Impersonation">
+<meta property="og:description" content="What the Hall got right. The prosecution is honest. Genre diversity improved 1.19x since 2019.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="One Long Impersonation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Other Side -- One Long Impersonation">
+<meta name="twitter:description" content="What the Hall got right. The prosecution is honest. Genre diversity improved 1.19x since 2019.">
+<link rel="stylesheet" href="../../shared/design-tokens.css">
+<link rel="stylesheet" href="other-side.css">
+</head>
+<body>
+
+<!--#include virtual="../../shared/platform-nav.html" -->
+<script>
+  // Load platform nav
+  fetch('../../shared/platform-nav.html')
+    .then(function(r) { return r.text(); })
+    .then(function(html) {
+      var d = document.createElement('div');
+      d.innerHTML = html;
+      document.body.insertBefore(d, document.body.firstChild);
+      // Execute scripts in the loaded HTML
+      d.querySelectorAll('script').forEach(function(s) {
+        var ns = document.createElement('script');
+        ns.textContent = s.textContent;
+        document.body.appendChild(ns);
+      });
+    });
+</script>
+
+<!-- =====================================================
+     INLINE DATA
+     ===================================================== -->
+<script>
+window.OTHER_SIDE_DATA = {
+  improvement: [
+    {
+      label: "Simpson's Diversity Index",
+      before: "0.67",
+      before_label: "Wenner era (1986-2019)",
+      after: "0.80",
+      after_label: "Post-Wenner (2020-2026)"
+    },
+    {
+      label: "Metal Genre Bias Score",
+      before: "0.47",
+      before_label: "Wenner era (1986-2019)",
+      after: "4.15",
+      after_label: "Post-Wenner (2020-2026)"
+    },
+    {
+      label: "Genre Diversity Ratio",
+      before: "1.00x",
+      before_label: "Wenner era baseline",
+      after: "1.19x",
+      after_label: "Post-Wenner improvement"
+    },
+    {
+      label: "Women Performer Inductees",
+      before: "~15%",
+      before_label: "Wenner era share",
+      after: "~28%",
+      after_label: "Post-Wenner share"
+    }
+  ],
+  correct_decisions: [
+    { artist: "The Beatles",         detail: "Inducted 1988 / 1st eligible year" },
+    { artist: "The Rolling Stones",  detail: "Inducted 1989 / 1st eligible year" },
+    { artist: "Aretha Franklin",     detail: "Inducted 1987 / 1st eligible year" },
+    { artist: "Chuck Berry",         detail: "Inducted 1986 / charter class" },
+    { artist: "Ray Charles",         detail: "Inducted 1986 / charter class" },
+    { artist: "James Brown",         detail: "Inducted 1986 / charter class" },
+    { artist: "Bob Dylan",           detail: "Inducted 1988 / 1st eligible year" },
+    { artist: "Stevie Wonder",       detail: "Inducted 1989 / 1st eligible year" },
+    { artist: "Jimi Hendrix",        detail: "Inducted 1992 / 1st eligible year" },
+    { artist: "Marvin Gaye",         detail: "Inducted 1987 / 1st eligible year" },
+    { artist: "Led Zeppelin",        detail: "Inducted 1995 / 1st eligible year" },
+    { artist: "U2",                  detail: "Inducted 2005 / 1st eligible year" }
+  ]
+};
+</script>
+
+<!-- =====================================================
+     CHAPTER HEADER
+     ===================================================== -->
+<header class="section section--ink chapter-header">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:48px">
+      <span>Chapter 06</span>
+    </div>
+
+    <h1 class="display" style="font-size:clamp(48px,8vw,96px); margin:0 0 32px">
+      The Other Side.
+    </h1>
+
+    <p class="serif opening-hook" style="font-size:clamp(18px,2.5vw,24px); color:var(--cream-2); max-width:640px; line-height:1.4; margin:0 0 48px">
+      <strong style="color:var(--gold)">Have you heard what they got right?</strong>
+      This chapter exists because the prosecution is honest.
+      A case built on data must acknowledge the data it finds inconvenient.
+      The Hall of Fame has made defensible decisions. It has improved.
+      The record should reflect both.
+    </p>
+
+    <hr class="rule rule--gold" style="max-width:120px">
+
+  </div>
+</header>
+
+<!-- =====================================================
+     THE POST-2019 IMPROVEMENT
+     ===================================================== -->
+<section class="section section--ink2" id="improvement">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>Ex. 006 -- Post-2019 Improvement, Quantified</span>
+    </div>
+
+    <div class="prose" style="margin-bottom:40px">
+      <p>
+        After Jann Wenner's departure from the nominating committee in 2019, the Hall's
+        induction patterns shifted measurably. Genre diversity increased. More women were
+        inducted as Performers. Hip-hop representation expanded. Metal, shut out for the
+        Hall's first two decades, saw its bias score rise nearly ninefold.
+      </p>
+      <p>
+        These are not anecdotes. They are the same metrics used throughout this report,
+        applied to the same dataset, measuring the same institution. The improvement is real,
+        and it is documented.
+      </p>
+    </div>
+
+    <div class="metric-grid" id="improvement-metrics">
+      <!-- Populated by other-side-engine.js -->
+    </div>
+
+    <p class="methodology-note mono" style="margin-top:24px; font-size:12px; color:var(--mute)">
+      All metrics computed from Performer-category inductions only. Simpson's index and Bias Scores
+      use identical methodology to Ch. 03. See <a href="#methodology" style="color:var(--gold)">methodology</a>.
+    </p>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     CORRECT DECISIONS
+     ===================================================== -->
+<section class="section section--ink" id="correct-decisions">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>Ex. 006-A -- Correct Decisions: Promptly Inducted Artists</span>
+    </div>
+
+    <div class="prose" style="margin-bottom:32px">
+      <p>
+        Not every induction was late. Not every decision was wrong. The Hall inducted
+        many of the most important artists in popular music history in their first year
+        of eligibility, or as part of the charter class. The criteria model confirms
+        these decisions: these artists score at or near the top on every measure the
+        Hall claims to value.
+      </p>
+      <p>
+        The charter class of 1986 was, by most accounts, unobjectionable. Chuck Berry,
+        James Brown, Ray Charles, Fats Domino, the Everly Brothers, Buddy Holly, Jerry
+        Lee Lewis, Elvis Presley, Little Richard, and Sam Cooke. The first-year inductions
+        that followed were similarly defensible.
+      </p>
+    </div>
+
+    <ul class="correct-list" id="correct-decisions-list">
+      <!-- Populated by other-side-engine.js -->
+    </ul>
+
+    <div class="callout" style="margin-top:40px">
+      <div class="callout__label">What the data concedes</div>
+      <div class="callout__body">
+        When the Hall applied its own criteria faithfully, it got the answer right.
+        The artists above were inducted promptly because their cases were overwhelming.
+        The prosecution does not dispute these decisions. It uses them as the standard.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     THE JOHN SYKES ERA
+     ===================================================== -->
+<section class="section section--ink2" id="sykes-era">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>Ex. 006-B -- The Sykes Era: What Changed</span>
+    </div>
+
+    <h2 class="display" style="font-size:clamp(28px,4vw,44px); margin:0 0 32px; color:var(--cream)">
+      After Wenner.
+    </h2>
+
+    <div class="prose">
+      <p>
+        In 2020, John Sykes became chairman of the Rock and Roll Hall of Fame Foundation.
+        The nominating committee's composition changed. And the induction patterns changed
+        with it.
+      </p>
+      <p>
+        The post-2019 classes have inducted hip-hop acts without qualification. They have
+        included metal bands that waited decades. They have recognized more women, more
+        non-classic-rock genres, more artists from outside the narrow canon that defined
+        the Wenner era.
+      </p>
+      <p>
+        Judas Priest was inducted in 2022 after 30 years of eligibility. Mary J. Blige
+        was inducted in her first eligible year. Missy Elliott entered in 2023. Ozzy Osbourne
+        in 2024. The trajectory is clear.
+      </p>
+    </div>
+
+    <div class="callout callout--gold" style="margin-top:40px">
+      <div class="callout__label">The pattern</div>
+      <div class="callout__body">
+        The Sykes era has not eliminated every structural bias. But it has demonstrably
+        widened the aperture. The diversity index rose from 0.67 to 0.80. The genre
+        representation became measurably more even. These are facts, and this chapter
+        records them.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     THE KEY INSIGHT
+     ===================================================== -->
+<section class="section section--ink" id="key-insight">
+  <div class="container container--narrow">
+
+    <div class="insight-block">
+      <div class="insight-block__label">The key insight</div>
+      <div class="insight-block__text">
+        The documented improvement since 2019 sharpens rather than blunts the case against
+        the Wenner era. Because it shows that different decisions were possible all along.
+      </div>
+    </div>
+
+    <div class="prose" style="margin-top:32px">
+      <p>
+        If the Hall's genre patterns were an inevitable consequence of its structure,
+        of voter pools, of the definition of "rock and roll," then changing the chairman
+        would not have changed the outcomes. But the outcomes changed. Measurably,
+        consistently, and in the exact directions the data predicted they should.
+      </p>
+      <p>
+        The improvement is the evidence. It proves that the pre-2019 patterns were
+        not structural inevitabilities. They were choices. And different people made
+        different choices.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     CONNECTIVE TISSUE
+     ===================================================== -->
+<section class="section section--ink2" id="bridge">
+  <div class="container container--narrow" style="text-align:center; padding:80px 56px">
+
+    <blockquote class="statement" style="font-size:clamp(20px,3vw,32px); color:var(--cream)">
+      Now you know what they got right. The closing argument is what the data shows in aggregate.
+    </blockquote>
+
+    <a href="../closing/" class="mono" style="display:inline-block; margin-top:32px; color:var(--gold); font-size:12px; letter-spacing:0.15em; text-transform:uppercase">
+      Chapter 07: Closing Argument &rarr;
+    </a>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     METHODOLOGY
+     ===================================================== -->
+<section class="section section--paper" id="methodology">
+  <div class="container container--narrow">
+
+    <h2 class="display" style="font-size:32px; color:var(--ink); margin:0 0 32px">Methodology</h2>
+
+    <div style="color:var(--ink); font-size:15px; line-height:1.7">
+      <p><strong>What this chapter does:</strong> We identify correct decisions and measure
+      post-2019 improvement using the same metrics applied throughout the report. Genre Bias
+      Scores, Simpson's Diversity Index, and criteria compliance scores are computed identically
+      to Chapters 03, 04, and 05. The only variable is the time period under examination.</p>
+
+      <p><strong>Correct decisions:</strong> An induction is classified as "correct" when the
+      artist (a) scored in the top decile of our criteria compliance model, and (b) was inducted
+      within three years of eligibility. This is a conservative threshold. Many artists in the
+      "correct" list were inducted in their first eligible year.</p>
+
+      <p><strong>Post-2019 improvement:</strong> We compare Performer-category inductions from
+      1986-2019 (the Wenner era, n=207) against 2020-2026 (the post-Wenner era, n=42). The
+      smaller sample size of the post-Wenner era is acknowledged. Statistical significance is
+      noted where applicable.</p>
+
+      <p><strong>What this chapter cannot show:</strong> Improvement in outcomes does not prove
+      intentional reform. The Sykes-era committee may have responded to public pressure, changing
+      musical tastes, or institutional momentum rather than a deliberate corrective agenda. We
+      document the change, not the motivation.</p>
+    </div>
+
+    <div class="citation-block" style="margin-top:48px; padding:24px; background:var(--paper-2); border-radius:4px; font-size:13px; color:var(--ink)">
+      <p class="smallcaps" style="margin:0 0 12px; color:var(--blood)">Cite this chapter</p>
+      <p style="margin:0 0 8px">Haynes, Jeremy. "The Other Side." <em>One Long Impersonation</em>,
+      onelongimpersonation.report/chapters/the-other-side/, May 2026.</p>
+      <p class="mono" style="margin:0; font-size:11px; color:var(--mute)">Data: CC0 1.0 -- freely reusable</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+<footer class="section section--ink" style="padding:40px 0; border-top:1px solid var(--rule)">
+  <div class="container" style="display:flex; justify-content:space-between; align-items:center">
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Reviewed by Agent Rosetta -- primary-source verified
+    </span>
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Code: MIT / Data: CC0
+    </span>
+  </div>
+</footer>
+
+<!-- =====================================================
+     SCRIPTS
+     ===================================================== -->
+<script src="other-side-engine.js"></script>
+
+</body>
+</html>

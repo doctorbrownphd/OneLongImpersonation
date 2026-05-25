@@ -1,0 +1,15 @@
+{
+  "artist_name": "Thin Lizzy",
+  "genre": "Heavy Metal",
+  "verdict": "BORDERLINE",
+  "confidence": 0.5,
+  "criteria_score": 39.2,
+  "eligible_year": 1996,
+  "wait_years": 30,
+  "data_record": "Name: Thin Lizzy\nGenre: Heavy Metal\nFirst commercial recording: 1971\nEligible for induction since: 1996\nYears since eligibility: 30\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "thin-lizzy"
+}

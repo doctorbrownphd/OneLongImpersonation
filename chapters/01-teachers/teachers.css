@@ -1,0 +1,155 @@
+/* One Long Impersonation -- Chapter 01: Teachers */
+
+/* Chapter header */
+.chapter-header {
+  padding-top: 160px;  /* Account for fixed nav */
+  min-height: 60vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.opening-hook em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+/* Finding stats grid */
+.finding-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  max-width: 960px;
+}
+
+.finding-stat__value {
+  font-size: clamp(48px, 7vw, 80px);
+  color: var(--cream);
+  margin-bottom: 8px;
+}
+
+.finding-stat__label {
+  margin-bottom: 4px;
+  color: var(--cream-2);
+}
+
+.finding-stat__sub {
+  font-size: 13px;
+  color: var(--mute);
+  line-height: 1.4;
+}
+
+/* Legend */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.legend__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend__swatch {
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  border-radius: 1px;
+}
+
+/* Featured cases */
+.case-card {
+  padding: 32px 0;
+  border-bottom: 1px solid var(--rule-paper);
+}
+
+.case-card:last-child {
+  border-bottom: none;
+}
+
+.case-card__header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.case-card__names {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.case-card__gap {
+  font-family: var(--mono);
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: var(--blood);
+  font-weight: 600;
+}
+
+.case-card__gap--never {
+  color: var(--blood-deep);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.case-card__years {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--mute);
+  margin-bottom: 12px;
+}
+
+.case-card__citation {
+  font-size: 14px;
+  color: #4a4a40;
+  line-height: 1.6;
+}
+
+.case-card__citation em {
+  color: var(--ink);
+  font-style: italic;
+}
+
+/* Methodology note */
+.methodology-note a:hover {
+  text-decoration: underline;
+}
+
+/* Gap chart -- SVG responsive */
+#gap-chart svg {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .finding-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .chapter-header {
+    padding-top: 120px;
+    min-height: auto;
+  }
+
+  .case-card__header {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .legend {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .finding-stat__value {
+    font-size: 48px;
+  }
+}

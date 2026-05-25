@@ -1,0 +1,15 @@
+{
+  "artist_name": "Boston",
+  "genre": "Classic Rock",
+  "verdict": "INSUFFICIENT",
+  "confidence": 0.3,
+  "criteria_score": 36.8,
+  "eligible_year": 2001,
+  "wait_years": 25,
+  "data_record": "Name: Boston\nGenre: Classic Rock\nFirst commercial recording: 1976\nEligible for induction since: 2001\nYears since eligibility: 25\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "boston"
+}

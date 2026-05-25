@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>One Long Impersonation -- The Teacher-Student Gap</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="The teacher-student gap: who taught the stars the Hall inducted, and how long did the teachers wait?">
+<meta property="og:title" content="One Long Impersonation -- The Teacher-Student Gap">
+<meta property="og:description" content="32-year median gap between when the teachers were inducted and when their students were. The racial breakdown is not random.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="One Long Impersonation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="One Long Impersonation -- The Teacher-Student Gap">
+<meta name="twitter:description" content="32-year median gap between when the teachers were inducted and when their students were. The racial breakdown is not random.">
+<link rel="stylesheet" href="../../shared/design-tokens.css">
+<link rel="stylesheet" href="teachers.css">
+</head>
+<body>
+
+<!--#include virtual="../../shared/platform-nav.html" -->
+<script>
+  // Load platform nav
+  fetch('../../shared/platform-nav.html')
+    .then(function(r) { return r.text(); })
+    .then(function(html) {
+      var d = document.createElement('div');
+      d.innerHTML = html;
+      document.body.insertBefore(d, document.body.firstChild);
+      // Execute scripts in the loaded HTML
+      d.querySelectorAll('script').forEach(function(s) {
+        var ns = document.createElement('script');
+        ns.textContent = s.textContent;
+        document.body.appendChild(ns);
+      });
+    });
+</script>
+
+<!-- =====================================================
+     CHAPTER HEADER
+     ===================================================== -->
+<header class="section section--ink chapter-header">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:48px">
+      <span>Chapter 01</span>
+    </div>
+
+    <h1 class="display" style="font-size:clamp(48px,8vw,96px); margin:0 0 32px">
+      One long<br>impersonation.
+    </h1>
+
+    <p class="serif opening-hook" style="font-size:clamp(18px,2.5vw,24px); color:var(--cream-2); max-width:640px; line-height:1.4; margin:0 0 48px">
+      <strong style="color:var(--gold)">Have you heard of Sister Rosetta Tharpe?</strong>
+      She invented the electric guitar style that Chuck Berry built his career on.
+      Berry was inducted in 1986, the first ceremony. He said it himself at the podium:
+      <em>"My whole career has been one long Sister Rosetta Tharpe impersonation."</em>
+      Tharpe was inducted in 2018. Thirty-two years later.
+    </p>
+
+    <hr class="rule rule--gold" style="max-width:120px">
+
+  </div>
+</header>
+
+<!-- =====================================================
+     THE FINDING
+     ===================================================== -->
+<section class="section section--ink2" id="finding">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>Ex. 001 -- The Teacher-Student Gap</span>
+    </div>
+
+    <div class="finding-grid">
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-bw-gap">--</div>
+        <div class="finding-stat__label smallcaps">Median gap (years)</div>
+        <div class="finding-stat__sub">Black teacher, white student</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-same-gap" style="color:var(--gold)">--</div>
+        <div class="finding-stat__label smallcaps">Median gap (years)</div>
+        <div class="finding-stat__sub">Same-race pairs</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-diff" style="color:var(--blood)">--</div>
+        <div class="finding-stat__label smallcaps">Unexplained difference</div>
+        <div class="finding-stat__sub">After the same criteria, the same era</div>
+      </div>
+    </div>
+
+    <p class="methodology-note mono" style="margin-top:32px; font-size:12px; color:var(--mute)">
+      Modeled from <span id="stat-n-pairs">--</span> documented influence pairs.
+      All pairs sourced to interviews, liner notes, published biographies, or MusicBrainz relationships.
+      See <a href="#methodology" style="color:var(--gold)">methodology</a>.
+    </p>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     TEACHER-STUDENT GAP VISUALIZATION
+     ===================================================== -->
+<section class="section section--ink" id="gap-viz">
+  <div class="container container--wide">
+
+    <div class="exhibit-label" style="margin-bottom:24px">
+      <span>Ex. 001-A -- Documented Influence Pairs</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--cream-2); max-width:720px; margin:0 0 40px">
+      Every line connects a teacher to a student. The length is the gap in years
+      between their inductions. If the teacher was never inducted, the line
+      reaches to the right edge. Color shows the racial composition of the pair.
+    </p>
+
+    <div id="gap-chart" style="width:100%; overflow-x:auto"></div>
+
+    <div class="legend" style="margin-top:24px">
+      <div class="legend__item">
+        <span class="legend__swatch" style="background:var(--blood)"></span>
+        <span class="mono" style="font-size:11px">Black teacher, white student</span>
+      </div>
+      <div class="legend__item">
+        <span class="legend__swatch" style="background:var(--gold)"></span>
+        <span class="mono" style="font-size:11px">Same-race pair</span>
+      </div>
+      <div class="legend__item">
+        <span class="legend__swatch" style="background:var(--mute)"></span>
+        <span class="mono" style="font-size:11px">White teacher, white student</span>
+      </div>
+      <div class="legend__item">
+        <span class="legend__swatch" style="background:var(--cream-2); opacity:0.5"></span>
+        <span class="mono" style="font-size:11px">Other composition</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     FEATURED CASES
+     ===================================================== -->
+<section class="section section--bone" id="cases">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:32px; color:var(--blood)">
+      <span>Ex. 001-B -- The Prosecution's Witnesses</span>
+    </div>
+
+    <div id="featured-cases"></div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     CONNECTIVE TISSUE
+     ===================================================== -->
+<section class="section section--ink" id="bridge">
+  <div class="container container--narrow" style="text-align:center; padding:80px 56px">
+
+    <blockquote class="statement" style="font-size:clamp(20px,3vw,32px); color:var(--cream)">
+      Now you know who taught them. The next chapter measures how long they waited.
+    </blockquote>
+
+    <a href="../02-the-wait/" class="mono" style="display:inline-block; margin-top:32px; color:var(--gold); font-size:12px; letter-spacing:0.15em; text-transform:uppercase">
+      Chapter 02: The Wait &rarr;
+    </a>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     METHODOLOGY
+     ===================================================== -->
+<section class="section section--paper" id="methodology">
+  <div class="container container--narrow">
+
+    <h2 class="display" style="font-size:32px; color:var(--ink); margin:0 0 32px">Methodology</h2>
+
+    <div style="color:var(--ink); font-size:15px; line-height:1.7">
+      <p><strong>What this chapter does:</strong> For every inducted artist, we identify
+      documented teacher-student influence relationships from primary sources. We then
+      measure the gap between when the student was inducted and when the teacher was inducted
+      (or whether the teacher was ever inducted at all). The distribution of this gap,
+      broken down by the racial composition of each pair, is the chapter's central finding.</p>
+
+      <p><strong>Data sources:</strong> Curated influence pairs verified from interviews,
+      liner notes, published biographies, and MusicBrainz artist relationship data. Every
+      pair is individually sourced. See <code>pipeline/data/curated/influence_pairs.yaml</code>.</p>
+
+      <p><strong>Confidence level:</strong> All featured pairs are labeled "Documented" --
+      sourced to primary evidence. The median gap statistics are computed from this
+      documented dataset only. As the MusicBrainz-sourced influence graph grows, these
+      numbers may shift. We will document any changes in the version history.</p>
+
+      <p><strong>What this chapter cannot show:</strong> The gap metric documents a disparity
+      in induction timing. It does not prove that the disparity was intentional. The racial
+      breakdown is calculated, not asserted. The reader draws conclusions.</p>
+    </div>
+
+    <div class="citation-block" style="margin-top:48px; padding:24px; background:var(--paper-2); border-radius:4px; font-size:13px; color:var(--ink)">
+      <p class="smallcaps" style="margin:0 0 12px; color:var(--blood)">Cite this chapter</p>
+      <p style="margin:0 0 8px">Haynes, Jeremy. "One Long Impersonation." <em>One Long Impersonation</em>,
+      onelongimpersonation.report/chapters/teachers/, May 2026.</p>
+      <p class="mono" style="margin:0; font-size:11px; color:var(--mute)">Data: CC0 1.0 -- freely reusable</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+<footer class="section section--ink" style="padding:40px 0; border-top:1px solid var(--rule)">
+  <div class="container" style="display:flex; justify-content:space-between; align-items:center">
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Reviewed by Agent Rosetta -- primary-source verified
+    </span>
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Code: MIT / Data: CC0
+    </span>
+  </div>
+</footer>
+
+<!-- =====================================================
+     SCRIPTS
+     ===================================================== -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="teachers-data.js"></script>
+<script src="teachers-engine.js"></script>
+
+</body>
+</html>

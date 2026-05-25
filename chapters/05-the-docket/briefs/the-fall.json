@@ -1,0 +1,15 @@
+{
+  "artist_name": "The Fall",
+  "genre": "Punk",
+  "verdict": "INSUFFICIENT",
+  "confidence": 0.3,
+  "criteria_score": 37.6,
+  "eligible_year": 2003,
+  "wait_years": 23,
+  "data_record": "Name: The Fall\nGenre: Punk\nFirst commercial recording: 1978\nEligible for induction since: 2003\nYears since eligibility: 23\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "the-fall"
+}

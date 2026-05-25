@@ -1,0 +1,15 @@
+{
+  "artist_name": "Gordon Lightfoot",
+  "genre": "Folk/Country",
+  "verdict": "BORDERLINE",
+  "confidence": 0.5,
+  "criteria_score": 40.2,
+  "eligible_year": 1991,
+  "wait_years": 35,
+  "data_record": "Name: Gordon Lightfoot\nGenre: Folk/Country\nFirst commercial recording: 1966\nEligible for induction since: 1991\nYears since eligibility: 35\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "gordon-lightfoot"
+}

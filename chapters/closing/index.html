@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>One Long Impersonation -- Closing Argument</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Closing argument: what the data tells us the Rock and Roll Hall of Fame did.">
+<meta property="og:title" content="Closing Argument -- One Long Impersonation">
+<meta property="og:description" content="They built a hall of fame for the music. They forgot who built the music.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="One Long Impersonation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Closing Argument -- One Long Impersonation">
+<meta name="twitter:description" content="They built a hall of fame for the music. They forgot who built the music.">
+<link rel="stylesheet" href="../../shared/design-tokens.css">
+<link rel="stylesheet" href="closing.css">
+</head>
+<body>
+
+<!--#include virtual="../../shared/platform-nav.html" -->
+<script>
+  fetch('../../shared/platform-nav.html')
+    .then(function(r) { return r.text(); })
+    .then(function(html) {
+      var d = document.createElement('div');
+      d.innerHTML = html;
+      document.body.insertBefore(d, document.body.firstChild);
+      d.querySelectorAll('script').forEach(function(s) {
+        var ns = document.createElement('script');
+        ns.textContent = s.textContent;
+        document.body.appendChild(ns);
+      });
+    });
+</script>
+
+<!-- =====================================================
+     CHAPTER HEADER
+     ===================================================== -->
+<header class="section section--ink chapter-header">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:48px">
+      <span>Closing</span>
+    </div>
+
+    <h1 class="display chapter-header__title">
+      Closing<br>Argument.
+    </h1>
+
+    <hr class="rule rule--gold" style="max-width:120px; margin-top:48px">
+
+  </div>
+</header>
+
+<!-- =====================================================
+     FOUR FINDINGS
+     ===================================================== -->
+<section class="section section--bone findings">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:56px">
+      <span>What the Data Found</span>
+    </div>
+
+    <div class="findings__grid">
+
+      <article class="finding" data-finding="teacher-gap">
+        <span class="mono finding__number">01</span>
+        <h3 class="finding__title serif">The Teacher-Student Gap</h3>
+        <p class="finding__stat display">
+          <span class="finding__big tnum" style="color:var(--blood)">32.0<span class="finding__unit">y</span></span>
+          <span class="finding__vs mono">vs</span>
+          <span class="finding__big tnum">4.0<span class="finding__unit">y</span></span>
+        </p>
+        <p class="finding__gloss">
+          Black-white teacher-student gap vs. same-race gap.
+          <strong class="tnum">28.0 years</strong> unexplained by any musical criterion.
+        </p>
+      </article>
+
+      <article class="finding" data-finding="rs-attention">
+        <span class="mono finding__number">02</span>
+        <h3 class="finding__title serif">Rolling Stone Attention Score</h3>
+        <p class="finding__stat display">
+          <span class="mono finding__rho">rho = <span class="tnum" style="color:var(--blood)">-0.43</span></span>
+        </p>
+        <p class="finding__gloss">
+          Correlation between critical coverage and wait time.
+          <strong class="tnum">4-year</strong> median wait with coverage vs. <strong class="tnum">13 years</strong> without.
+        </p>
+      </article>
+
+      <article class="finding" data-finding="genre-bias">
+        <span class="mono finding__number">03</span>
+        <h3 class="finding__title serif">Genre Representation</h3>
+        <p class="finding__stat display">
+          <span class="finding__big tnum">0.47</span>
+          <span class="finding__arrow">&rarr;</span>
+          <span class="finding__big tnum" style="color:var(--moss)">4.15</span>
+        </p>
+        <p class="finding__gloss">
+          Heavy Metal bias ratio: Wenner era to post-Wenner.
+          Electronic music representation was <strong>zero</strong>.
+        </p>
+      </article>
+
+      <article class="finding" data-finding="diversity">
+        <span class="mono finding__number">04</span>
+        <h3 class="finding__title serif">Simpson's Diversity Index</h3>
+        <p class="finding__stat display">
+          <span class="finding__big tnum">0.67</span>
+          <span class="finding__arrow">&rarr;</span>
+          <span class="finding__big tnum" style="color:var(--moss)">0.80</span>
+        </p>
+        <p class="finding__gloss">
+          Diversity index before and after 2019.
+          <strong class="tnum">1.19x</strong> improvement in the post-reform era.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     THE VERDICT
+     ===================================================== -->
+<section class="section section--ink verdict">
+  <div class="container container--narrow">
+
+    <hr class="rule rule--gold" style="max-width:120px; margin-bottom:64px">
+
+    <p class="serif verdict__text">
+      The data does not tell the Hall what to do.<br>
+      <strong style="color:var(--gold)">The data tells you what the Hall did.</strong>
+    </p>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     FULL-BLEED LAST LINE
+     ===================================================== -->
+<section class="section section--ink last-line">
+  <div class="container">
+
+    <p class="display last-line__text">
+      They built a hall of fame for the music.<br>
+      <span style="color:var(--gold)">They forgot who built the music.</span>
+    </p>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     COLOPHON
+     ===================================================== -->
+<footer class="section section--ink2 colophon">
+  <div class="container">
+
+    <div class="colophon__grid">
+
+      <div class="colophon__block">
+        <span class="smallcaps colophon__label">Project</span>
+        <p class="mono colophon__value">onelongimpersonation.report</p>
+      </div>
+
+      <div class="colophon__block">
+        <span class="smallcaps colophon__label">Version</span>
+        <p class="mono colophon__value">v1.0 / May 2026</p>
+      </div>
+
+      <div class="colophon__block">
+        <span class="smallcaps colophon__label">Data Sources</span>
+        <p class="colophon__value">
+          Rock and Roll Hall of Fame official inductee records,
+          Rolling Stone 500 Greatest Albums and Greatest Songs lists,
+          Grammy Awards database, AllMusic genre taxonomy,
+          peer-reviewed musicology citations.
+        </p>
+      </div>
+
+      <div class="colophon__block">
+        <span class="smallcaps colophon__label">License</span>
+        <p class="colophon__value">
+          Analysis and prose: CC BY-SA 4.0.
+          Underlying data: see DATA_LICENSE.
+        </p>
+      </div>
+
+      <div class="colophon__block">
+        <span class="smallcaps colophon__label">Sibling Project</span>
+        <p class="colophon__value">
+          <a href="https://theotherboxscore.com" style="color:var(--gold); border-bottom:1px solid var(--gold)">The Other Box Score</a>
+        </p>
+      </div>
+
+      <div class="colophon__block">
+        <span class="smallcaps colophon__label">Agent Team</span>
+        <p class="colophon__value">
+          Built by Jeremy Haynes with Claude Code (Anthropic).
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="rule" style="margin:48px 0 24px">
+
+    <p class="mono colophon__copyright" style="font-size:11px; color:var(--mute); text-align:center">
+      The facts are the facts.
+    </p>
+
+  </div>
+</footer>
+
+</body>
+</html>

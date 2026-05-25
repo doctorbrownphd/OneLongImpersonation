@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>One Long Impersonation -- The Rolling Stone Connection</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Correlation between Rolling Stone magazine editorial coverage and Rock Hall induction timing: who got covered, and who got in faster.">
+<meta property="og:title" content="The Rolling Stone Connection -- One Long Impersonation">
+<meta property="og:description" content="Artists with Rolling Stone coverage: 4-year median wait. Without: 13 years. Correlation, not causation. But the correlation is -0.43.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="One Long Impersonation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Rolling Stone Connection -- One Long Impersonation">
+<meta name="twitter:description" content="Artists with Rolling Stone coverage: 4-year median wait. Without: 13 years. Correlation, not causation. But the correlation is -0.43.">
+<link rel="stylesheet" href="../../shared/design-tokens.css">
+<link rel="stylesheet" href="rolling-stone.css">
+</head>
+<body>
+
+<!--#include virtual="../../shared/platform-nav.html" -->
+<script>
+  // Load platform nav
+  fetch('../../shared/platform-nav.html')
+    .then(function(r) { return r.text(); })
+    .then(function(html) {
+      var d = document.createElement('div');
+      d.innerHTML = html;
+      document.body.insertBefore(d, document.body.firstChild);
+      // Execute scripts in the loaded HTML
+      d.querySelectorAll('script').forEach(function(s) {
+        var ns = document.createElement('script');
+        ns.textContent = s.textContent;
+        document.body.appendChild(ns);
+      });
+    });
+</script>
+
+<!-- =====================================================
+     CHAPTER HEADER
+     ===================================================== -->
+<header class="section section--ink chapter-header">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:48px">
+      <span>Chapter 04</span>
+    </div>
+
+    <h1 class="display" style="font-size:clamp(48px,8vw,96px); margin:0 0 32px">
+      The Rolling Stone Connection.
+    </h1>
+
+    <p class="serif opening-hook" style="font-size:clamp(18px,2.5vw,24px); color:var(--cream-2); max-width:640px; line-height:1.4; margin:0 0 32px">
+      <strong style="color:var(--gold)">Have you heard who built the Rock and Roll Hall of Fame?</strong>
+      In 1983, Ahmet Ertegun, the Atlantic Records founder, and Jann Wenner, the Rolling Stone
+      publisher, created the Rock and Roll Hall of Fame Foundation. Wenner served on the
+      nominating committee from 1986 to 2006, then as Chairman of the Foundation from 2006 to
+      2019. In September 2023, he was removed from the board after a New York Times interview.
+    </p>
+
+    <p class="serif" style="font-size:clamp(16px,2vw,18px); color:var(--cream-2); max-width:640px; line-height:1.5; margin:0 0 48px">
+      This chapter asks a simple question: is there a correlation between the editorial attention
+      an artist received in Rolling Stone magazine and how quickly they were inducted? The data
+      says yes. What that means is up to you.
+    </p>
+
+    <hr class="rule rule--gold" style="max-width:120px">
+
+  </div>
+</header>
+
+<!-- =====================================================
+     CAUSATION CAVEAT (PRIMARY)
+     ===================================================== -->
+<section class="section section--ink2" id="caveat-top">
+  <div class="container container--narrow">
+
+    <div class="causation-box">
+      <div class="causation-box__header mono">CORRELATION, NOT CAUSATION</div>
+      <p class="causation-box__body">
+        This analysis documents a <strong>correlation</strong> between Rolling Stone editorial
+        coverage and Rock Hall induction timing. It does <strong>not</strong> prove that coverage
+        caused faster induction. The correlation may reflect shared aesthetic preferences, overlapping
+        social networks, or simple genre alignment rather than direct editorial influence.
+        The chapter states this explicitly. The reader draws conclusions.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     HEADLINE STATISTICS
+     ===================================================== -->
+<section class="section section--ink" id="finding">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>Ex. 004 -- The Wenner Coefficient</span>
+    </div>
+
+    <div class="finding-grid">
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-wait-with" style="color:var(--gold)">--</div>
+        <div class="finding-stat__label smallcaps">Median wait (years)</div>
+        <div class="finding-stat__sub">Artists with RS coverage</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-wait-without">--</div>
+        <div class="finding-stat__label smallcaps">Median wait (years)</div>
+        <div class="finding-stat__sub">Artists without RS coverage</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-rho" style="color:var(--blood)">--</div>
+        <div class="finding-stat__label smallcaps">Spearman rho</div>
+        <div class="finding-stat__sub">RS score vs. wait time</div>
+      </div>
+    </div>
+
+    <div class="finding-grid finding-grid--secondary">
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-n-with" style="color:var(--mute)">--</div>
+        <div class="finding-stat__label smallcaps">Artists</div>
+        <div class="finding-stat__sub">With RS list appearances</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-n-without" style="color:var(--mute)">--</div>
+        <div class="finding-stat__label smallcaps">Artists</div>
+        <div class="finding-stat__sub">Without RS list appearances</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-pearson" style="color:var(--mute)">--</div>
+        <div class="finding-stat__label smallcaps">Pearson r</div>
+        <div class="finding-stat__sub">Linear correlation</div>
+      </div>
+    </div>
+
+    <p class="methodology-note mono" style="margin-top:32px; font-size:12px; color:var(--mute)">
+      RS Attention Score: weighted composite of appearances across 4 major Rolling Stone published
+      lists. Not a measure of artistic quality. A measure of editorial attention.
+      See <a href="#methodology" style="color:var(--gold)">methodology</a>.
+    </p>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     SCATTER PLOT (Ex. 004-A)
+     ===================================================== -->
+<section class="section section--ink2" id="scatter-viz">
+  <div class="container container--wide">
+
+    <div class="exhibit-label" style="margin-bottom:24px">
+      <span>Ex. 004-A -- RS Attention Score vs. Wait Time</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--cream-2); max-width:720px; margin:0 0 40px">
+      Each dot is an inducted Performer-category artist. The horizontal axis measures editorial
+      attention from Rolling Stone (higher = more list appearances and higher rankings). The
+      vertical axis measures how many years they waited for induction after becoming eligible.
+      The trend line shows the negative correlation: more RS coverage, shorter wait.
+    </p>
+
+    <div id="scatter-chart" style="width:100%; overflow-x:auto"></div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     WENNER QUOTES (Ex. 004-B)
+     ===================================================== -->
+<section class="section section--ink" id="wenner-quotes">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>Ex. 004-B -- Committee Record</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--cream-2); max-width:720px; margin:0 0 40px">
+      The nominating committee's composition is not fully public. What is public: Jann Wenner's own
+      statements about his role, his criteria, and the artists he excluded.
+    </p>
+
+    <div class="committee-timeline" id="committee-timeline">
+      <!-- Populated by wenner-engine.js -->
+    </div>
+
+    <div class="wenner-quotes" id="wenner-quotes-block">
+      <!-- Populated by wenner-engine.js -->
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     CAUSATION CAVEAT (REPEATED)
+     ===================================================== -->
+<section class="section section--ink2" id="caveat-bottom">
+  <div class="container container--narrow">
+
+    <div class="causation-box">
+      <div class="causation-box__header mono">REMINDER: CORRELATION, NOT CAUSATION</div>
+      <p class="causation-box__body">
+        The scatter plot shows that artists who received more Rolling Stone editorial attention
+        were inducted faster. This does <strong>not</strong> prove that Rolling Stone coverage
+        <strong>caused</strong> faster induction. Spearman rho = <span id="caveat-rho">-0.43</span>.
+        Correlation only. No motives are imputed. All claims about named individuals are sourced
+        to documented public statements.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     CONNECTIVE TISSUE
+     ===================================================== -->
+<section class="section section--ink" id="bridge">
+  <div class="container container--narrow" style="text-align:center; padding:80px 56px">
+
+    <blockquote class="statement" style="font-size:clamp(20px,3vw,32px); color:var(--cream)">
+      Now you know who was making the decisions. The next chapter applies the criteria to everyone they left out.
+    </blockquote>
+
+    <a href="../05-the-excluded/" class="mono" style="display:inline-block; margin-top:32px; color:var(--gold); font-size:12px; letter-spacing:0.15em; text-transform:uppercase">
+      Chapter 05: The Excluded &rarr;
+    </a>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     METHODOLOGY
+     ===================================================== -->
+<section class="section section--paper" id="methodology">
+  <div class="container container--narrow">
+
+    <h2 class="display" style="font-size:32px; color:var(--ink); margin:0 0 32px">Methodology</h2>
+
+    <div style="color:var(--ink); font-size:15px; line-height:1.7">
+      <p><strong>What this chapter does:</strong> We measure the correlation between Rolling Stone
+      magazine editorial attention and Rock Hall induction wait time for Performer-category inductees.
+      The RS Attention Score is a weighted composite of appearances across four major Rolling Stone
+      published lists (500 Greatest Albums, 100 Greatest Artists, 500 Greatest Songs, and related
+      lists). A score of 0 means the artist never appeared on any RS list. Higher scores indicate
+      more frequent and more prominent appearances.</p>
+
+      <p><strong>Correlation metrics:</strong> Spearman rank correlation (rho) is reported as the
+      primary metric because the relationship is monotonic but not necessarily linear. Pearson r
+      is reported as a secondary metric. Both measure the strength of the negative association
+      between RS coverage and wait time.</p>
+
+      <p><strong>Committee composition:</strong> Jann Wenner's committee tenure and public statements
+      are sourced from Rock Hall Foundation public records, the New York Times (David Marchese
+      interview, September 15, 2023), and Billboard reporting on a 2022 podcast interview. No
+      confidential sources are used. No motives are imputed.</p>
+
+      <p><strong>What this chapter cannot show:</strong> Correlation does not equal causation. The
+      Wenner Coefficient documents an association. It does not prove that Rolling Stone editorial
+      coverage caused faster induction. Shared aesthetic preferences, generational familiarity,
+      and genre overlap may explain some or all of the correlation. The reader draws conclusions.</p>
+    </div>
+
+    <div class="citation-block" style="margin-top:48px; padding:24px; background:var(--paper-2); border-radius:4px; font-size:13px; color:var(--ink)">
+      <p class="smallcaps" style="margin:0 0 12px; color:var(--blood)">Cite this chapter</p>
+      <p style="margin:0 0 8px">Haynes, Jeremy. "The Rolling Stone Connection." <em>One Long Impersonation</em>,
+      onelongimpersonation.report/chapters/rolling-stone/, May 2026.</p>
+      <p class="mono" style="margin:0; font-size:11px; color:var(--mute)">Data: CC0 1.0 -- freely reusable</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+<footer class="section section--ink" style="padding:40px 0; border-top:1px solid var(--rule)">
+  <div class="container" style="display:flex; justify-content:space-between; align-items:center">
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Reviewed by Agent Rosetta -- primary-source verified
+    </span>
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Code: MIT / Data: CC0
+    </span>
+  </div>
+</footer>
+
+<!-- =====================================================
+     SCRIPTS
+     ===================================================== -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="wenner-data.js"></script>
+<script src="wenner-engine.js"></script>
+
+</body>
+</html>

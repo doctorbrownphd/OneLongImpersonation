@@ -1,0 +1,218 @@
+/* One Long Impersonation -- Chapter 02: The Wait */
+
+/* Chapter header */
+.chapter-header {
+  padding-top: 160px;
+  min-height: 60vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.opening-hook em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+/* Finding stats grid */
+.finding-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  max-width: 960px;
+}
+
+.finding-grid--secondary {
+  margin-top: 48px;
+}
+
+.finding-stat__value {
+  font-size: clamp(48px, 7vw, 80px);
+  color: var(--cream);
+  margin-bottom: 8px;
+}
+
+.finding-stat__label {
+  margin-bottom: 4px;
+  color: var(--cream-2);
+}
+
+.finding-stat__sub {
+  font-size: 13px;
+  color: var(--mute);
+  line-height: 1.4;
+}
+
+/* Legend */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.legend__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend__swatch {
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  border-radius: 1px;
+}
+
+/* Survival chart */
+#survival-chart svg {
+  width: 100%;
+  height: auto;
+}
+
+/* Metal chart */
+#metal-chart svg {
+  width: 100%;
+  height: auto;
+}
+
+/* Cox model results */
+.cox-results {
+  display: grid;
+  gap: 0;
+}
+
+.cox-row {
+  display: grid;
+  grid-template-columns: 200px 80px 1fr 80px;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.cox-row--header {
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 8px;
+}
+
+.cox-row__label {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--cream);
+}
+
+.cox-row--header .cox-row__label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+
+.cox-row__hr {
+  font-family: var(--mono);
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.cox-row__bar {
+  position: relative;
+  height: 16px;
+}
+
+.cox-row__bar-fill {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border-radius: 2px;
+  opacity: 0.85;
+}
+
+.cox-row__bar-center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--cream-2);
+  opacity: 0.4;
+}
+
+.cox-row__p {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--mute);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.cox-row__p--sig {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+/* Methodology note */
+.methodology-note a:hover {
+  text-decoration: underline;
+}
+
+/* Metal bar labels */
+.metal-label {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.metal-value {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .finding-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .finding-grid--secondary {
+    margin-top: 32px;
+  }
+
+  .chapter-header {
+    padding-top: 120px;
+    min-height: auto;
+  }
+
+  .legend {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .cox-row {
+    grid-template-columns: 140px 60px 1fr 60px;
+    gap: 8px;
+  }
+
+  .cox-row__label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .finding-stat__value {
+    font-size: 48px;
+  }
+
+  .cox-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .cox-row__bar {
+    display: none;
+  }
+}

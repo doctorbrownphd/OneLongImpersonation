@@ -1,0 +1,108 @@
+{
+  "chapters": [
+    {
+      "id": "opening",
+      "number": "00",
+      "part": 0,
+      "part_title": "Opening Argument",
+      "part_hook": "Have you heard what they said they would do?",
+      "title": "The Criteria",
+      "slug": "opening",
+      "description": "Before the prosecution begins, the jury must know the law.",
+      "status": "coming",
+      "url": "/chapters/opening/",
+      "meta": "Criteria Compliance Model / Violation Index"
+    },
+    {
+      "id": "teachers",
+      "number": "01",
+      "part": 1,
+      "part_title": "The Teachers",
+      "part_hook": "Have you heard of Sister Rosetta Tharpe?",
+      "title": "One Long Impersonation",
+      "slug": "teachers",
+      "description": "The teacher-student gap. The founding exhibit.",
+      "status": "coming",
+      "url": "/chapters/teachers/",
+      "meta": "Network analysis / Influence graph / Racial decomposition"
+    },
+    {
+      "id": "the-wait",
+      "number": "02",
+      "part": 1,
+      "part_title": "The Teachers",
+      "part_hook": "Have you heard how long Judas Priest waited?",
+      "title": "The Wait",
+      "slug": "the-wait",
+      "description": "Time is not neutral. Who waited longest, and why.",
+      "status": "coming",
+      "url": "/chapters/the-wait/",
+      "meta": "Cox proportional hazards / Survival curves / Hazard ratios"
+    },
+    {
+      "id": "genre",
+      "number": "03",
+      "part": 2,
+      "part_title": "The Genres",
+      "part_hook": "Have you heard that the first heavy metal band was not inducted until 2006?",
+      "title": "The Genre Desertification",
+      "slug": "genre",
+      "description": "What the Hall decided rock and roll was, and what it actually was.",
+      "status": "coming",
+      "url": "/chapters/genre/",
+      "meta": "Simpson's diversity index / Genre Bias Score / Timeline"
+    },
+    {
+      "id": "rolling-stone",
+      "number": "04",
+      "part": 3,
+      "part_title": "The Machine",
+      "part_hook": "Have you heard who built the Rock and Roll Hall of Fame?",
+      "title": "The Rolling Stone Connection",
+      "slug": "rolling-stone",
+      "description": "The Wenner Coefficient. How one publication's taste became an institution's selection criteria.",
+      "status": "coming",
+      "url": "/chapters/rolling-stone/",
+      "meta": "Logistic regression / Wenner Coefficient / Committee composition"
+    },
+    {
+      "id": "the-docket",
+      "number": "05",
+      "part": 4,
+      "part_title": "The Verdict",
+      "part_hook": "Have you heard the case for your favorite artist?",
+      "title": "The Docket",
+      "slug": "the-docket",
+      "description": "Every eligible artist who has not been inducted. The criteria applied. The verdict rendered.",
+      "status": "coming",
+      "url": "/chapters/the-docket/",
+      "meta": "Claude API / AI-generated briefs / Searchable / Annual update"
+    },
+    {
+      "id": "the-other-side",
+      "number": "06",
+      "part": 4,
+      "part_title": "The Verdict",
+      "part_hook": "Have you heard what they got right?",
+      "title": "The Other Side",
+      "slug": "the-other-side",
+      "description": "What the Hall has gotten right. The cases that were correct. The trend since 2019.",
+      "status": "coming",
+      "url": "/chapters/the-other-side/",
+      "meta": "Post-2019 improvement / Criteria alignment analysis"
+    },
+    {
+      "id": "closing",
+      "number": "07",
+      "part": 5,
+      "part_title": "Closing Argument",
+      "part_hook": "They built a hall of fame for the music. They forgot who built the music.",
+      "title": "Closing Argument",
+      "slug": "closing",
+      "description": "The record, stated plainly.",
+      "status": "coming",
+      "url": "/chapters/closing/",
+      "meta": "Four findings / The verdict"
+    }
+  ]
+}

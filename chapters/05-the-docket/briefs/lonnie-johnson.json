@@ -1,0 +1,15 @@
+{
+  "artist_name": "Lonnie Johnson",
+  "genre": "Blues/Early",
+  "verdict": "STRONG_CASE",
+  "confidence": 0.9,
+  "criteria_score": 50.0,
+  "eligible_year": 1950,
+  "wait_years": 76,
+  "data_record": "Name: Lonnie Johnson\nGenre: Blues/Early\nFirst commercial recording: 1925\nEligible for induction since: 1950\nYears since eligibility: 76\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "lonnie-johnson"
+}

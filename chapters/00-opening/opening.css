@@ -1,0 +1,244 @@
+/* One Long Impersonation -- Chapter 00: Opening */
+
+/* ------------------------------------------------
+   COVER
+   ------------------------------------------------ */
+
+.cover {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 160px 0 120px;
+}
+
+.cover__inner {
+  text-align: center;
+}
+
+.cover__title {
+  font-size: clamp(56px, 10vw, 120px);
+  margin: 0 0 64px;
+  color: var(--cream);
+}
+
+.cover__quote {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cover__quote p {
+  font-size: clamp(20px, 3vw, 32px);
+  color: var(--cream-2);
+  margin: 0 0 20px;
+}
+
+.cover__cite {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--mute);
+}
+
+/* ------------------------------------------------
+   METADATA STRIP
+   ------------------------------------------------ */
+
+.meta-strip {
+  padding: 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.meta-strip__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.meta-strip__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 28px 0;
+  border-right: 1px solid var(--rule);
+}
+
+.meta-strip__item:last-child {
+  border-right: none;
+}
+
+.meta-strip__item:not(:first-child) {
+  padding-left: 32px;
+}
+
+.meta-strip__label {
+  color: var(--mute);
+  font-size: 10px;
+}
+
+.meta-strip__value {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--cream);
+}
+
+/* ------------------------------------------------
+   THREE AXES
+   ------------------------------------------------ */
+
+.axes {
+  padding: 120px 0;
+}
+
+.axes__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+.axes__card {
+  border-top: 2px solid var(--gold);
+  padding-top: 32px;
+}
+
+.axes__card-title {
+  font-size: clamp(28px, 4vw, 44px);
+  margin: 0 0 16px;
+}
+
+.axes__card-body {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--cream-2);
+  margin: 0;
+}
+
+/* ------------------------------------------------
+   CRITERIA PREAMBLE
+   ------------------------------------------------ */
+
+.criteria {
+  padding: 120px 0;
+}
+
+.criteria__heading {
+  font-size: clamp(36px, 6vw, 72px);
+  color: var(--ink);
+  margin: 0 0 32px;
+}
+
+.criteria__intro {
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink);
+  max-width: 640px;
+  margin: 0 0 56px;
+  opacity: 0.8;
+}
+
+.criteria__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.criteria__table thead th {
+  text-align: left;
+  padding: 12px 16px 12px 0;
+  border-bottom: 2px solid var(--ink);
+  font-size: 10px;
+  color: var(--ink);
+  opacity: 0.5;
+}
+
+.criteria__table thead th:last-child {
+  padding-left: 24px;
+}
+
+.criteria__table tbody tr {
+  border-bottom: 1px solid var(--rule-paper);
+}
+
+.criteria__table tbody tr:last-child {
+  border-bottom: 2px solid var(--ink);
+}
+
+.criteria__name {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--ink);
+  padding: 20px 24px 20px 0;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.criteria__proxy {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink);
+  opacity: 0.75;
+  padding: 20px 0 20px 24px;
+  vertical-align: top;
+}
+
+.criteria__bridge {
+  margin: 0;
+}
+
+/* ------------------------------------------------
+   RESPONSIVE
+   ------------------------------------------------ */
+
+@media (max-width: 768px) {
+  .cover {
+    padding: 120px 0 80px;
+  }
+
+  .meta-strip__list {
+    flex-direction: column;
+  }
+
+  .meta-strip__item {
+    border-right: none;
+    border-bottom: 1px solid var(--rule);
+    padding: 20px 0;
+  }
+
+  .meta-strip__item:last-child {
+    border-bottom: none;
+  }
+
+  .meta-strip__item:not(:first-child) {
+    padding-left: 0;
+  }
+
+  .axes__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .criteria__name {
+    white-space: normal;
+    display: block;
+    padding: 16px 0 4px;
+  }
+
+  .criteria__proxy {
+    padding: 4px 0 16px;
+  }
+
+  .criteria__table thead {
+    display: none;
+  }
+
+  .criteria__table tbody tr {
+    display: flex;
+    flex-direction: column;
+  }
+}

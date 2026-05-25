@@ -1,0 +1,15 @@
+{
+  "artist_name": "Big Bill Broonzy",
+  "genre": "Blues/Early",
+  "verdict": "STRONG_CASE",
+  "confidence": 0.9,
+  "criteria_score": 50.0,
+  "eligible_year": 1952,
+  "wait_years": 74,
+  "data_record": "Name: Big Bill Broonzy\nGenre: Blues/Early\nFirst commercial recording: 1927\nEligible for induction since: 1952\nYears since eligibility: 74\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "big-bill-broonzy"
+}

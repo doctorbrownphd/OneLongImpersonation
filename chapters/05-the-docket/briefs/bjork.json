@@ -1,0 +1,15 @@
+{
+  "artist_name": "Bjork",
+  "genre": "Electronic",
+  "verdict": "BORDERLINE",
+  "confidence": 0.5,
+  "criteria_score": 38.6,
+  "eligible_year": 2002,
+  "wait_years": 24,
+  "data_record": "Name: Bjork\nGenre: Electronic\nFirst commercial recording: 1977\nEligible for induction since: 2002\nYears since eligibility: 24\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "bjork"
+}

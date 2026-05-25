@@ -1,0 +1,15 @@
+{
+  "artist_name": "Iron Butterfly",
+  "genre": "Heavy Metal",
+  "verdict": "CASE",
+  "confidence": 0.7,
+  "criteria_score": 42.6,
+  "eligible_year": 1993,
+  "wait_years": 33,
+  "data_record": "Name: Iron Butterfly\nGenre: Heavy Metal\nFirst commercial recording: 1968\nEligible for induction since: 1993\nYears since eligibility: 33\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "iron-butterfly"
+}

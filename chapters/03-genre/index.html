@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>One Long Impersonation -- The Genre Desertification</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Genre representation patterns across 40 years of Rock Hall inductions: which genres thrived and which were erased.">
+<meta property="og:title" content="The Genre Desertification -- One Long Impersonation">
+<meta property="og:description" content="The first heavy metal band was not inducted until 2006. Electronic music had zero inductions under Wenner. The timeline is the argument.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="One Long Impersonation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Genre Desertification -- One Long Impersonation">
+<meta name="twitter:description" content="The first heavy metal band was not inducted until 2006. Electronic music had zero inductions under Wenner. The timeline is the argument.">
+<link rel="stylesheet" href="../../shared/design-tokens.css">
+<link rel="stylesheet" href="genre.css">
+</head>
+<body>
+
+<!--#include virtual="../../shared/platform-nav.html" -->
+<script>
+  // Load platform nav
+  fetch('../../shared/platform-nav.html')
+    .then(function(r) { return r.text(); })
+    .then(function(html) {
+      var d = document.createElement('div');
+      d.innerHTML = html;
+      document.body.insertBefore(d, document.body.firstChild);
+      // Execute scripts in the loaded HTML
+      d.querySelectorAll('script').forEach(function(s) {
+        var ns = document.createElement('script');
+        ns.textContent = s.textContent;
+        document.body.appendChild(ns);
+      });
+    });
+</script>
+
+<!-- =====================================================
+     CHAPTER HEADER
+     ===================================================== -->
+<header class="section section--ink chapter-header">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:48px">
+      <span>Chapter 03</span>
+    </div>
+
+    <h1 class="display" style="font-size:clamp(48px,8vw,96px); margin:0 0 32px">
+      The Genre Desertification.
+    </h1>
+
+    <p class="serif opening-hook" style="font-size:clamp(18px,2.5vw,24px); color:var(--cream-2); max-width:640px; line-height:1.4; margin:0 0 48px">
+      <strong style="color:var(--gold)">Have you heard that the first heavy metal band was not inducted until 2006?</strong>
+      Black Sabbath, the genre's founding act, waited 31 years after the Hall opened.
+      For two decades, entire genres were invisible. The data shows exactly which ones,
+      and exactly when they disappeared.
+    </p>
+
+    <hr class="rule rule--gold" style="max-width:120px">
+
+  </div>
+</header>
+
+<!-- =====================================================
+     GENRE BIAS SCORE TABLE
+     ===================================================== -->
+<section class="section section--ink2" id="bias-scores">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>Ex. 003 -- Genre Bias Scores by Era</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--cream-2); max-width:720px; margin:0 0 40px">
+      A Genre Bias Score of 1.0 means a genre was inducted at exactly its overall historical rate.
+      Below 1.0 means underrepresentation. Above 1.0 means overrepresentation. The table compares
+      the Wenner era (1986-2019) to the post-Wenner era (2020-2026).
+    </p>
+
+    <div class="bias-table-wrap">
+      <table class="bias-table" id="bias-table">
+        <thead>
+          <tr>
+            <th>Genre</th>
+            <th>Wenner Era</th>
+            <th>Post-Wenner</th>
+            <th>Change</th>
+          </tr>
+        </thead>
+        <tbody id="bias-table-body">
+          <!-- Populated by genre-engine.js -->
+        </tbody>
+      </table>
+    </div>
+
+    <p class="methodology-note mono" style="margin-top:24px; font-size:12px; color:var(--mute)">
+      Bias = era genre share / overall genre share. Performer category only.
+      See <a href="#methodology" style="color:var(--gold)">methodology</a>.
+    </p>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     GENRE TIMELINE (Ex. 003-A)
+     ===================================================== -->
+<section class="section section--ink" id="timeline-viz">
+  <div class="container container--wide">
+
+    <div class="exhibit-label" style="margin-bottom:24px">
+      <span>Ex. 003-A -- Genre Timeline: 40 Years of Inductions</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--cream-2); max-width:720px; margin:0 0 40px">
+      Each row is one year. The colored segments show how many Performer inductees came from each
+      genre. Below the bars, Simpson's Diversity Index tracks how evenly genres were represented
+      each year. The vertical dashed line marks 2019, when Jann Wenner exited.
+    </p>
+
+    <div id="genre-timeline" style="width:100%; overflow-x:auto"></div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     SIMPSON'S INDEX CALLOUT
+     ===================================================== -->
+<section class="section section--ink2" id="simpson-callout">
+  <div class="container container--narrow" style="text-align:center">
+
+    <div class="exhibit-label" style="margin-bottom:32px; justify-content:center">
+      <span>Simpson's Diversity Index by Era</span>
+    </div>
+
+    <div class="simpson-callout" id="simpson-comparison" style="margin:0 auto 32px">
+      <!-- Populated by genre-engine.js -->
+    </div>
+
+    <p class="serif" style="font-size:16px; color:var(--cream-2); max-width:560px; margin:24px auto 0; line-height:1.5">
+      Simpson's index ranges from 0 (monoculture) to 1 (perfect diversity).
+      The post-Wenner era shows measurable improvement, though the sample is smaller.
+    </p>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     NEVER-INDUCTED GALLERY
+     ===================================================== -->
+<section class="section section--ink" id="never-inducted">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:24px">
+      <span>Ex. 003-B -- Still Waiting: Notable Artists Never Inducted</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--cream-2); max-width:720px; margin:0 0 40px">
+      These artists have been eligible for years, in some cases decades. They represent
+      the genres the Hall has most consistently overlooked. Some died waiting.
+    </p>
+
+    <div class="gallery-grid" id="gallery-grid">
+      <!-- Populated by genre-engine.js -->
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     CONNECTIVE TISSUE
+     ===================================================== -->
+<section class="section section--ink2" id="bridge">
+  <div class="container container--narrow" style="text-align:center; padding:80px 56px">
+
+    <blockquote class="statement" style="font-size:clamp(20px,3vw,32px); color:var(--cream)">
+      Now you know which genres disappeared. The next chapter shows who was making the decisions.
+    </blockquote>
+
+    <a href="../04-rolling-stone/" class="mono" style="display:inline-block; margin-top:32px; color:var(--gold); font-size:12px; letter-spacing:0.15em; text-transform:uppercase">
+      Chapter 04: The Rolling Stone Connection &rarr;
+    </a>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     METHODOLOGY
+     ===================================================== -->
+<section class="section section--paper" id="methodology">
+  <div class="container container--narrow">
+
+    <h2 class="display" style="font-size:32px; color:var(--ink); margin:0 0 32px">Methodology</h2>
+
+    <div style="color:var(--ink); font-size:15px; line-height:1.7">
+      <p><strong>What this chapter does:</strong> We measure genre diversity across 40 years of
+      Rock and Roll Hall of Fame Performer-category inductions (1986-2026). Each inducted artist is
+      classified into one of ten genre categories. Two metrics quantify the pattern: a per-genre
+      Bias Score and Simpson's Diversity Index per year and per era.</p>
+
+      <p><strong>Genre Bias Score:</strong> For each genre, we compute its share of inductions
+      within an era (Wenner: 1986-2019, post-Wenner: 2020-2026) and divide by its overall
+      historical share. A score of 1.0 means proportional representation. Below 1.0 means the
+      genre was underrepresented in that era. Above 1.0 means overrepresentation.</p>
+
+      <p><strong>Simpson's Diversity Index:</strong> Computed as 1 minus the sum of squared genre
+      proportions for each year. Ranges from 0 (all inductees in one genre) to approaching 1
+      (inductees evenly distributed across genres). We report per-year values and era aggregates.</p>
+
+      <p><strong>Data sources:</strong> Rock and Roll Hall of Fame official inductee database.
+      Genre classifications derived from primary biographical sources and MusicBrainz tags, reviewed
+      by Agent Rosetta.</p>
+
+      <p><strong>What this chapter cannot show:</strong> Genre underrepresentation documents an
+      outcome. It does not prove that genre was a deliberate selection criterion. Nominating
+      committee composition, voter familiarity, and genre boundary definitions all contribute to
+      these patterns. The reader draws conclusions.</p>
+    </div>
+
+    <div class="citation-block" style="margin-top:48px; padding:24px; background:var(--paper-2); border-radius:4px; font-size:13px; color:var(--ink)">
+      <p class="smallcaps" style="margin:0 0 12px; color:var(--blood)">Cite this chapter</p>
+      <p style="margin:0 0 8px">Haynes, Jeremy. "The Genre Desertification." <em>One Long Impersonation</em>,
+      onelongimpersonation.report/chapters/genre/, May 2026.</p>
+      <p class="mono" style="margin:0; font-size:11px; color:var(--mute)">Data: CC0 1.0 -- freely reusable</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+<footer class="section section--ink" style="padding:40px 0; border-top:1px solid var(--rule)">
+  <div class="container" style="display:flex; justify-content:space-between; align-items:center">
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Reviewed by Agent Rosetta -- primary-source verified
+    </span>
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Code: MIT / Data: CC0
+    </span>
+  </div>
+</footer>
+
+<!-- =====================================================
+     SCRIPTS
+     ===================================================== -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="genre-data.js"></script>
+<script src="genre-engine.js"></script>
+
+</body>
+</html>

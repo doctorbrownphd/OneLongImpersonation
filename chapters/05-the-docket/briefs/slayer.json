@@ -1,0 +1,15 @@
+{
+  "artist_name": "Slayer",
+  "genre": "Heavy Metal",
+  "verdict": "INSUFFICIENT",
+  "confidence": 0.3,
+  "criteria_score": 31.7,
+  "eligible_year": 2008,
+  "wait_years": 18,
+  "data_record": "Name: Slayer\nGenre: Heavy Metal\nFirst commercial recording: 1983\nEligible for induction since: 2008\nYears since eligibility: 18\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "slayer"
+}

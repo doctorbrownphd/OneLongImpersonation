@@ -1,0 +1,7 @@
+pipeline/.venv/
+pipeline/rockhall.db
+__pycache__/
+*.pyc
+.DS_Store
+Mockup/
+*.db-journal

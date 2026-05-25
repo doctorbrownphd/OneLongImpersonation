@@ -1,0 +1,15 @@
+{
+  "artist_name": "Sonic Youth",
+  "genre": "Punk",
+  "verdict": "INSUFFICIENT",
+  "confidence": 0.3,
+  "criteria_score": 33.0,
+  "eligible_year": 2007,
+  "wait_years": 19,
+  "data_record": "Name: Sonic Youth\nGenre: Punk\nFirst commercial recording: 1982\nEligible for induction since: 2007\nYears since eligibility: 19\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "sonic-youth"
+}

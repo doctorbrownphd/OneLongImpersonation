@@ -1,0 +1,207 @@
+/* One Long Impersonation -- Shared Design Tokens */
+/* Import this in every chapter and the shell */
+/* Full design system documented in docs/design.md */
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..900,0..100,0..1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap");
+
+:root {
+  /* Backgrounds */
+  --ink:        #14142b;
+  --ink-2:      #1d1d3a;
+  --ink-3:      #262648;
+  --rule:       #2e2e55;
+
+  /* Paper surfaces (for light sections) */
+  --paper:      #f1ece1;
+  --paper-2:    #e8e1d1;
+  --paper-3:    #ddd3bd;
+  --bone:       #f6f2ea;
+
+  /* Text */
+  --cream:      #efe8d6;
+  --cream-2:    #d8cfb6;
+  --mute:       #8a8aa3;
+  --rule-paper: #c8bea3;
+
+  /* Accents */
+  --gold:       #d4a017;
+  --gold-hot:   #e8b727;
+  --blood:      #b03434;
+  --blood-deep: #7a1f1f;
+  --moss:       #5f7d56;
+
+  /* Typography */
+  --serif:   "Fraunces", Georgia, serif;
+  --sans:    "Inter", system-ui, sans-serif;
+  --mono:    "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* ------------------------------------------------
+   TYPE SYSTEM
+   ------------------------------------------------ */
+
+/* Display -- large headlines */
+.display {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-variation-settings: "SOFT" 30, "opsz" 144, "WONK" 0;
+  letter-spacing: -0.02em;
+  line-height: 0.96;
+}
+
+/* Display with wonk axis -- stylistic alternates */
+.display-wonk {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-variation-settings: "SOFT" 60, "opsz" 144, "WONK" 1;
+  letter-spacing: -0.025em;
+  line-height: 0.95;
+}
+
+/* Serif body -- for pull quotes and opening statements */
+.serif {
+  font-family: var(--serif);
+  font-variation-settings: "SOFT" 30, "opsz" 24;
+}
+
+/* Monospace -- for data labels, exhibit labels, annotations */
+.mono {
+  font-family: var(--mono);
+  font-feature-settings: "ss02", "ss03";
+}
+
+/* Small caps -- for section labels and metadata */
+.smallcaps {
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+/* ------------------------------------------------
+   SECTION PRIMITIVES
+   ------------------------------------------------ */
+
+.section { position: relative; padding: 120px 0; }
+.section--paper { background: var(--paper); color: var(--ink); }
+.section--bone  { background: var(--bone); color: var(--ink); }
+.section--ink   { background: var(--ink); color: var(--cream); }
+.section--ink2  { background: var(--ink-2); color: var(--cream); }
+
+.container        { max-width: 1240px; margin: 0 auto; padding: 0 56px; }
+.container--wide  { max-width: 1480px; }
+.container--narrow { max-width: 880px; }
+
+/* ------------------------------------------------
+   COMPONENT TOKENS
+   ------------------------------------------------ */
+
+/* Horizontal rule */
+.rule {
+  height: 1px;
+  background: currentColor;
+  opacity: 0.18;
+  border: 0;
+  margin: 0;
+}
+.rule--gold {
+  background: var(--gold);
+  opacity: 0.55;
+  height: 2px;
+}
+
+/* Exhibit label -- above every visualization */
+.exhibit-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.exhibit-label::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: var(--gold);
+}
+
+/* Pull-quote / opening statement */
+blockquote.statement {
+  margin: 0;
+  padding: 0;
+  font-family: var(--serif);
+  font-variation-settings: "SOFT" 100, "opsz" 144;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  line-height: 1.05;
+}
+
+/* Verdict stamp */
+.stamp {
+  display: inline-block;
+  border: 2px solid var(--blood);
+  color: var(--blood);
+  padding: 6px 14px 4px;
+  font-family: var(--serif);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transform: rotate(-3deg);
+  font-size: 12px;
+}
+
+/* Cross-hatched accent pattern */
+.hatch {
+  background-image:
+    repeating-linear-gradient(45deg,
+      rgba(212,160,23,0.55) 0 1px,
+      transparent 1px 6px);
+}
+
+/* Tabular numbers for data displays */
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* ------------------------------------------------
+   GLOBAL DEFAULTS
+   ------------------------------------------------ */
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--ink);
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "cv11";
+}
+
+a { color: inherit; text-decoration: none; }
+
+::selection { background: var(--gold); color: var(--ink); }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(212,160,23,0.3); border-radius: 4px; }
+
+/* ------------------------------------------------
+   RESPONSIVE
+   ------------------------------------------------ */
+
+@media (max-width: 768px) {
+  .container { padding: 0 24px; }
+  .section { padding: 80px 0; }
+}
+
+@media (max-width: 375px) {
+  .container { padding: 0 16px; }
+  .section { padding: 60px 0; }
+  body { font-size: 15px; }
+}

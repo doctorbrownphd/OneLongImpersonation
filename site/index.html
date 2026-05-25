@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>One Long Impersonation -- A data-driven prosecution of the Rock and Roll Hall of Fame</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A data-driven prosecution of the Rock and Roll Hall of Fame using their own stated criteria. Museum quality. Legally defensible. CC0 data.">
+<meta property="og:title" content="One Long Impersonation">
+<meta property="og:description" content="A data-driven prosecution of the Rock and Roll Hall of Fame using their own stated criteria. Museum quality. CC0 data.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://onelongimpersonation.report/">
+<meta property="og:site_name" content="One Long Impersonation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="One Long Impersonation">
+<meta name="twitter:description" content="A data-driven prosecution of the Rock and Roll Hall of Fame using their own stated criteria.">
+<link rel="stylesheet" href="../shared/design-tokens.css">
+<style>
+  .shell-hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 0 80px;
+  }
+
+  .shell-quote {
+    font-family: var(--serif);
+    font-variation-settings: "SOFT" 100, "opsz" 144;
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(20px, 3vw, 32px);
+    color: var(--gold);
+    line-height: 1.2;
+    margin: 0 0 12px;
+    max-width: 640px;
+  }
+
+  .shell-attribution {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    color: var(--mute);
+    margin: 0 0 64px;
+  }
+
+  .shell-title {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-variation-settings: "SOFT" 30, "opsz" 144, "WONK" 0;
+    font-size: clamp(48px, 9vw, 110px);
+    letter-spacing: -0.025em;
+    line-height: 0.92;
+    color: var(--cream);
+    margin: 0 0 32px;
+  }
+
+  .shell-subtitle {
+    font-size: 17px;
+    color: var(--cream-2);
+    max-width: 560px;
+    line-height: 1.6;
+    margin: 0 0 64px;
+  }
+
+  /* Chapter grid */
+  .chapter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
+
+  .chapter-card {
+    background: var(--ink-2);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: background 0.15s;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .chapter-card:hover {
+    background: var(--ink-3);
+  }
+
+  .chapter-card__number {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+
+  .chapter-card__title {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--cream);
+    line-height: 1.2;
+  }
+
+  .chapter-card__desc {
+    font-size: 14px;
+    color: var(--cream-2);
+    line-height: 1.5;
+  }
+
+  .chapter-card__meta {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--mute);
+    margin-top: auto;
+  }
+
+  .chapter-card__status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .chapter-card__status--live {
+    background: rgba(212,166,74,0.15);
+    color: var(--gold);
+  }
+
+  .chapter-card__status--coming {
+    background: rgba(138,138,163,0.15);
+    color: var(--mute);
+  }
+
+  /* Colophon */
+  .colophon {
+    font-size: 13px;
+    color: var(--mute);
+    line-height: 1.7;
+  }
+
+  .colophon a {
+    color: var(--gold);
+    text-decoration: none;
+  }
+
+  .colophon a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .chapter-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Masthead -->
+<div style="position:fixed; top:0; left:0; right:0; z-index:40; display:flex; justify-content:space-between; align-items:center; padding:20px 36px; mix-blend-mode:difference; color:var(--cream); pointer-events:none; font-family:var(--mono); font-size:10.5px; letter-spacing:0.22em; text-transform:uppercase">
+  <span><span style="color:var(--gold)">&#9679;</span>&nbsp;&nbsp;onelongimpersonation.report</span>
+  <span>v1.0 / May 2026</span>
+</div>
+
+<!-- Hero -->
+<section class="section section--ink shell-hero">
+  <div class="container container--narrow">
+
+    <blockquote class="shell-quote">
+      "My whole career has been one long Sister Rosetta Tharpe impersonation."
+    </blockquote>
+    <p class="shell-attribution">Chuck Berry, Rock and Roll Hall of Fame induction ceremony, 1986</p>
+
+    <h1 class="shell-title">One long<br>impersonation.</h1>
+
+    <p class="shell-subtitle">
+      A data-driven prosecution of the Rock and Roll Hall of Fame using their own stated criteria
+      as the instrument of indictment. Every finding sourced. Every verdict rendered by the data.
+      The reader is the jury.
+    </p>
+
+    <hr class="rule rule--gold" style="max-width:80px">
+
+  </div>
+</section>
+
+<!-- Chapters -->
+<section class="section section--ink2" style="padding-top:80px" id="chapters">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>The Prosecution</span>
+    </div>
+
+    <div class="chapter-grid" id="chapter-grid"></div>
+
+  </div>
+</section>
+
+<!-- Colophon -->
+<section class="section section--ink" style="padding:80px 0; border-top:1px solid var(--rule)">
+  <div class="container container--narrow colophon">
+    <p><strong style="color:var(--cream)">One Long Impersonation</strong> is a museum-quality data journalism
+    platform. Code is MIT licensed. All data is CC0 -- freely reusable by journalists, historians,
+    and music researchers.</p>
+
+    <p>Sibling project: <a href="https://theotherboxscore.org">The Other Box Score</a> --
+    the same mission, different institution, same standard.</p>
+
+    <p style="margin-top:24px">
+      <span class="mono" style="font-size:10px; letter-spacing:0.15em; text-transform:uppercase; color:var(--gold)">
+        Agent team: Rosetta / Elias / Vera / Ida / Gates
+      </span>
+    </p>
+
+    <p style="margin-top:32px; font-size:11px; color:var(--mute)">
+      Data sources: Rock Hall official records, MusicBrainz (CC0), Discogs (CC0),
+      Billboard, RIAA, Rolling Stone published lists, Future Rock Legends, Wikidata (CC0)
+    </p>
+  </div>
+</section>
+
+<script>
+(function() {
+  // Load chapters from chapters.json
+  fetch('../chapters.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var grid = document.getElementById('chapter-grid');
+      if (!grid || !data.chapters) return;
+
+      data.chapters.forEach(function(ch) {
+        var a = document.createElement('a');
+        a.className = 'chapter-card';
+        a.href = '..' + ch.url;
+
+        var statusClass = ch.status === 'live' ? 'chapter-card__status--live' : 'chapter-card__status--coming';
+
+        a.innerHTML =
+          '<div class="chapter-card__number">Chapter ' + ch.number + '</div>' +
+          '<div class="chapter-card__title">' + ch.title + '</div>' +
+          '<div class="chapter-card__desc">' + ch.description + '</div>' +
+          '<div class="chapter-card__meta">' + ch.meta +
+            ' &nbsp;<span class="chapter-card__status ' + statusClass + '">' + ch.status + '</span>' +
+          '</div>';
+
+        grid.appendChild(a);
+      });
+    });
+})();
+</script>
+
+</body>
+</html>

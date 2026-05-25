@@ -1,0 +1,15 @@
+{
+  "artist_name": "Emerson Lake & Palmer",
+  "genre": "Classic Rock",
+  "verdict": "BORDERLINE",
+  "confidence": 0.5,
+  "criteria_score": 38.8,
+  "eligible_year": 1995,
+  "wait_years": 31,
+  "data_record": "Name: Emerson Lake & Palmer\nGenre: Classic Rock\nFirst commercial recording: 1970\nEligible for induction since: 1995\nYears since eligibility: 31\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "emerson-lake--palmer"
+}

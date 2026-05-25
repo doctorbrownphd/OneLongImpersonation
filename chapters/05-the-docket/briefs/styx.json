@@ -1,0 +1,15 @@
+{
+  "artist_name": "Styx",
+  "genre": "Classic Rock",
+  "verdict": "BORDERLINE",
+  "confidence": 0.5,
+  "criteria_score": 37.8,
+  "eligible_year": 1997,
+  "wait_years": 29,
+  "data_record": "Name: Styx\nGenre: Classic Rock\nFirst commercial recording: 1972\nEligible for induction since: 1997\nYears since eligibility: 29\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "styx"
+}

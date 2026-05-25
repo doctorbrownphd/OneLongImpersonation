@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>One Long Impersonation</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="One Long Impersonation: a data-driven investigation of the Rock and Roll Hall of Fame's induction record.">
+<meta property="og:title" content="The Criteria -- One Long Impersonation">
+<meta property="og:description" content="The Rock and Roll Hall of Fame has published its criteria since 1983. This platform holds them to it.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="One Long Impersonation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Criteria -- One Long Impersonation">
+<meta name="twitter:description" content="The Rock and Roll Hall of Fame has published its criteria since 1983. This platform holds them to it.">
+<link rel="stylesheet" href="../../shared/design-tokens.css">
+<link rel="stylesheet" href="opening.css">
+</head>
+<body>
+
+<!--#include virtual="../../shared/platform-nav.html" -->
+<script>
+  fetch('../../shared/platform-nav.html')
+    .then(function(r) { return r.text(); })
+    .then(function(html) {
+      var d = document.createElement('div');
+      d.innerHTML = html;
+      document.body.insertBefore(d, document.body.firstChild);
+      d.querySelectorAll('script').forEach(function(s) {
+        var ns = document.createElement('script');
+        ns.textContent = s.textContent;
+        document.body.appendChild(ns);
+      });
+    });
+</script>
+
+<!-- =====================================================
+     COVER
+     ===================================================== -->
+<header class="section section--ink cover">
+  <div class="container container--narrow cover__inner">
+
+    <h1 class="display cover__title">
+      One long<br>impersonation.
+    </h1>
+
+    <blockquote class="statement cover__quote">
+      <p>"My whole career has been one long Sister Rosetta Tharpe impersonation."</p>
+      <cite class="mono cover__cite">-- Chuck Berry, 1986 induction ceremony</cite>
+    </blockquote>
+
+  </div>
+</header>
+
+<!-- =====================================================
+     METADATA STRIP
+     ===================================================== -->
+<div class="section section--ink2 meta-strip">
+  <div class="container">
+    <ul class="meta-strip__list">
+      <li class="meta-strip__item">
+        <span class="smallcaps meta-strip__label">Filed</span>
+        <span class="mono meta-strip__value">May 2026</span>
+      </li>
+      <li class="meta-strip__item">
+        <span class="smallcaps meta-strip__label">Defendant</span>
+        <span class="mono meta-strip__value">The Rock and Roll Hall of Fame</span>
+      </li>
+      <li class="meta-strip__item">
+        <span class="smallcaps meta-strip__label">Standard of Proof</span>
+        <span class="mono meta-strip__value">Their own criteria</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- =====================================================
+     THREE AXES OF PROSECUTION
+     ===================================================== -->
+<section class="section section--ink axes">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:48px">
+      <span>Three Axes of Prosecution</span>
+    </div>
+
+    <div class="axes__grid">
+
+      <div class="axes__card">
+        <h3 class="display axes__card-title" style="color:var(--gold)">Pioneers</h3>
+        <p class="axes__card-body">
+          Black artists, women, and genre inventors who built the music the Hall celebrates.
+          How long did the teachers wait while the students walked in first?
+        </p>
+      </div>
+
+      <div class="axes__card">
+        <h3 class="display axes__card-title" style="color:var(--gold)">Genres</h3>
+        <p class="axes__card-body">
+          Entire musical traditions excluded or systematically underrepresented.
+          Which genres got a seat at the table and which were left outside?
+        </p>
+      </div>
+
+      <div class="axes__card">
+        <h3 class="display axes__card-title" style="color:var(--gold)">Voters</h3>
+        <p class="axes__card-body">
+          The nominating committee, documented.
+          Who decides what counts as rock and roll, and what patterns emerge from their choices?
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     CRITERIA PREAMBLE
+     ===================================================== -->
+<section class="section section--paper criteria">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:48px">
+      <span>The Hall's Own Criteria</span>
+    </div>
+
+    <h2 class="display criteria__heading">
+      What they said they would do.
+    </h2>
+
+    <p class="criteria__intro">
+      The Rock and Roll Hall of Fame publishes five criteria for induction.
+      Every claim in this report is measured against them.
+      Below is each criterion, paired with the proxy measures we use to operationalize it.
+    </p>
+
+    <table class="criteria__table">
+      <thead>
+        <tr>
+          <th class="smallcaps">Criterion</th>
+          <th class="smallcaps">Proxy Measures</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="criteria__name serif">Musical Excellence</td>
+          <td class="criteria__proxy">
+            Grammy wins and nominations, critical consensus scores, peer recognition (tributes, cover recordings, sampled works).
+          </td>
+        </tr>
+        <tr>
+          <td class="criteria__name serif">Influence on Other Performers</td>
+          <td class="criteria__proxy">
+            Teacher-student links documented in liner notes, interviews, and biographies.
+            Induction-gap delta between influencer and influenced.
+          </td>
+        </tr>
+        <tr>
+          <td class="criteria__name serif">Length of Career</td>
+          <td class="criteria__proxy">
+            Years from first commercial release to present.
+            Eligibility wait time (years between eligibility and induction).
+          </td>
+        </tr>
+        <tr>
+          <td class="criteria__name serif">Depth of Catalog</td>
+          <td class="criteria__proxy">
+            Studio album count, charted singles, catalog persistence (streams, reissues, sync licenses).
+          </td>
+        </tr>
+        <tr>
+          <td class="criteria__name serif">Contributions to Rock and Roll</td>
+          <td class="criteria__proxy">
+            Genre origination or transformation documented by musicologists.
+            Cross-genre pollination. Innovation in production, performance, or form.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr class="rule rule--gold" style="max-width:120px; margin:64px 0">
+
+    <p class="serif criteria__bridge" style="font-size:clamp(18px,2.5vw,24px); color:var(--ink); line-height:1.4; max-width:640px">
+      Now you know what they said they would do.
+      <strong>The next chapter is the first thing they did instead.</strong>
+    </p>
+
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+# One Long Impersonation -- Expanded Influence Pairs
+# Additional documented teacher-student relationships beyond the core 28.
+# All pairs sourced to published biographical/interview/academic sources.
+
+pairs:
+
+  # -------------------------------------------------------
+  # BLUES -> ROCK TRANSMISSION CHAIN
+  # -------------------------------------------------------
+  - teacher: "Muddy Waters"
+    student: "Jimi Hendrix"
+    source_type: biography
+    citation: "Charles R. Cross, 'Room Full of Mirrors' (2005). Hendrix cited Waters' electric blues as foundational."
+    confidence: documented
+
+  - teacher: "Muddy Waters"
+    student: "Eric Clapton"
+    source_type: interview
+    citation: "Clapton, 'Clapton: The Autobiography' (2007). Named Waters as primary blues influence."
+    confidence: documented
+
+  - teacher: "Howlin' Wolf"
+    student: "The Rolling Stones"
+    source_type: interview
+    citation: "Richards, 'Life' (2010). Stones recorded with Wolf on 'The London Howlin' Wolf Sessions' (1971)."
+    confidence: documented
+
+  - teacher: "Chuck Berry"
+    student: "The Beatles"
+    source_type: interview
+    citation: "Lennon: 'If you tried to give rock and roll another name, you might call it Chuck Berry.' Multiple documented interviews."
+    confidence: documented
+
+  - teacher: "Chuck Berry"
+    student: "The Rolling Stones"
+    source_type: interview
+    citation: "Richards documented extensive Berry influence. Stones covered Berry throughout career."
+    confidence: documented
+
+  - teacher: "Chuck Berry"
+    student: "The Beach Boys"
+    source_type: academic
+    citation: "'Surfin' U.S.A.' melody directly from Berry's 'Sweet Little Sixteen.' Berry received songwriting credit."
+    confidence: documented
+
+  - teacher: "Little Richard"
+    student: "The Beatles"
+    source_type: interview
+    citation: "McCartney's vocal style documented as directly influenced by Little Richard. Multiple interviews."
+    confidence: documented
+
+  - teacher: "Little Richard"
+    student: "James Brown"
+    source_type: biography
+    citation: "RJ Smith, 'The One' (2012). Brown and Richard competed and influenced each other in the Macon, GA scene."
+    confidence: documented
+
+  - teacher: "Little Richard"
+    student: "Jimi Hendrix"
+    source_type: biography
+    citation: "Hendrix toured with Little Richard's band 1964-1965. Direct apprenticeship documented in Cross (2005)."
+    confidence: documented
+
+  - teacher: "Little Richard"
+    student: "Prince"
+    source_type: interview
+    citation: "Prince cited Little Richard as a primary influence. Documented in multiple interviews and Rolling Stone profiles."
+    confidence: documented
+
+  - teacher: "Elvis Presley"
+    student: "The Beatles"
+    source_type: interview
+    citation: "Lennon: 'Before Elvis, there was nothing.' Documented in multiple Beatles biographies."
+    confidence: documented
+
+  - teacher: "Bo Diddley"
+    student: "The Rolling Stones"
+    source_type: interview
+    citation: "The 'Bo Diddley beat' is documented as foundational to the Stones' early sound."
+    confidence: documented
+
+  - teacher: "Ray Charles"
+    student: "Stevie Wonder"
+    source_type: interview
+    citation: "Wonder has cited Charles as his primary influence in multiple documented interviews."
+    confidence: documented
+
+  - teacher: "Ray Charles"
+    student: "Van Morrison"
+    source_type: interview
+    citation: "Morrison has extensively documented Charles' influence on his vocal approach."
+    confidence: documented
+
+  - teacher: "Sam Cooke"
+    student: "Marvin Gaye"
+    source_type: biography
+    citation: "David Ritz, 'Divided Soul: The Life of Marvin Gaye' (1985). Gaye cited Cooke as his primary vocal model."
+    confidence: documented
+
+  - teacher: "Sam Cooke"
+    student: "Otis Redding"
+    source_type: biography
+    citation: "Jonathan Gould, 'Otis Redding: An Unfinished Life' (2017). Redding's early style modeled directly on Cooke."
+    confidence: documented
+
+  - teacher: "Sam Cooke"
+    student: "Al Green"
+    source_type: interview
+    citation: "Green has cited Cooke as his primary influence in multiple documented interviews."
+    confidence: documented
+
+  - teacher: "James Brown"
+    student: "Sly & The Family Stone"
+    source_type: academic
+    citation: "Documented in Rickey Vincent, 'Funk: The Music, The People, and the Rhythm of the One' (1996)."
+    confidence: documented
+
+  - teacher: "James Brown"
+    student: "Prince"
+    source_type: interview
+    citation: "Prince cited Brown's funk as foundational. Documented in multiple Prince biographies."
+    confidence: documented
+
+  - teacher: "James Brown"
+    student: "Michael Jackson"
+    source_type: interview
+    citation: "Jackson cited Brown as his primary performance influence. Documented in 'Moonwalk' (1988)."
+    confidence: documented
+
+  - teacher: "James Brown"
+    student: "Public Enemy"
+    source_type: interview
+    citation: "Chuck D has extensively documented Brown's influence on hip-hop production and performance."
+    confidence: documented
+
+  # -------------------------------------------------------
+  # CROSS-GENRE INFLUENCE
+  # -------------------------------------------------------
+  - teacher: "The Velvet Underground"
+    student: "David Bowie"
+    source_type: interview
+    citation: "Bowie produced Lou Reed's 'Transformer' (1972). Extensive documented mutual influence."
+    confidence: documented
+
+  - teacher: "The Velvet Underground"
+    student: "Patti Smith"
+    source_type: biography
+    citation: "Victor Bockris, 'Patti Smith: An Unauthorized Biography' (1999). VU as primary influence."
+    confidence: documented
+
+  - teacher: "The Velvet Underground"
+    student: "Joy Division"
+    source_type: interview
+    citation: "Ian Curtis and Bernard Sumner cited VU as foundational. Documented in 'Touching from a Distance' (1995)."
+    confidence: documented
+
+  - teacher: "David Bowie"
+    student: "The Cure"
+    source_type: interview
+    citation: "Robert Smith has cited Bowie as a formative influence in multiple interviews."
+    confidence: documented
+
+  - teacher: "Kraftwerk"
+    student: "Depeche Mode"
+    source_type: interview
+    citation: "Martin Gore and Andy Fletcher cited Kraftwerk as primary electronic influence."
+    confidence: documented
+
+  - teacher: "Kraftwerk"
+    student: "New Order"
+    source_type: interview
+    citation: "Bernard Sumner documented Kraftwerk's influence on New Order's electronic direction post-Joy Division."
+    confidence: documented
+
+  - teacher: "Grandmaster Flash & The Furious Five"
+    student: "Run-D.M.C."
+    source_type: biography
+    citation: "Bill Adler, 'Tougher Than Leather' (1987). Direct lineage from Flash to Run-DMC documented."
+    confidence: documented
+
+  - teacher: "Run-D.M.C."
+    student: "Beastie Boys"
+    source_type: biography
+    citation: "Beastie Boys toured with Run-DMC. Direct influence documented in 'Beastie Boys Book' (2018)."
+    confidence: documented
+
+  - teacher: "Run-D.M.C."
+    student: "Public Enemy"
+    source_type: interview
+    citation: "Chuck D has cited Run-DMC as making hip-hop viable as album-length art."
+    confidence: documented
+
+  - teacher: "N.W.A"
+    student: "Tupac Shakur"
+    source_type: biography
+    citation: "Michael Eric Dyson, 'Holler If You Hear Me' (2001). West Coast lineage documented."
+    confidence: documented
+
+  - teacher: "N.W.A"
+    student: "The Notorious B.I.G."
+    source_type: interview
+    citation: "Biggie cited N.W.A and West Coast rap as influences in documented interviews."
+    confidence: reported
+
+  - teacher: "Black Sabbath"
+    student: "Iron Maiden"
+    source_type: interview
+    citation: "Steve Harris cited Sabbath as foundational in multiple documented interviews."
+    confidence: documented
+
+  - teacher: "Black Sabbath"
+    student: "AC/DC"
+    source_type: interview
+    citation: "Angus Young acknowledged Sabbath's riff-based approach as influential."
+    confidence: reported
+
+  - teacher: "Ramones"
+    student: "The Clash"
+    source_type: interview
+    citation: "Joe Strummer documented the Ramones' 1976 London show as catalytic. Multiple sources."
+    confidence: documented
+
+  - teacher: "Ramones"
+    student: "Sex Pistols"
+    source_type: academic
+    citation: "Documented timeline: Ramones' 1976 London show preceded Sex Pistols' formation."
+    confidence: documented
+
+  - teacher: "Ramones"
+    student: "Green Day"
+    source_type: interview
+    citation: "Billie Joe Armstrong has extensively documented Ramones influence."
+    confidence: documented
+
+  - teacher: "Aretha Franklin"
+    student: "Whitney Houston"
+    source_type: interview
+    citation: "Houston cited Franklin as her primary vocal model. Franklin was Houston's godmother."
+    confidence: documented
+
+  - teacher: "Joni Mitchell"
+    student: "Prince"
+    source_type: interview
+    citation: "Prince cited Mitchell as a primary influence on his songwriting and artistic ambition."
+    confidence: documented
+
+  - teacher: "Stevie Wonder"
+    student: "Prince"
+    source_type: interview
+    citation: "Prince's multi-instrumentalist approach directly modeled on Wonder. Documented extensively."
+    confidence: documented
+
+  - teacher: "Curtis Mayfield"
+    student: "Public Enemy"
+    source_type: interview
+    citation: "Chuck D cited Mayfield's politically conscious songwriting as a direct influence on PE."
+    confidence: documented
+
+  - teacher: "Otis Redding"
+    student: "Al Green"
+    source_type: interview
+    citation: "Green documented Redding's vocal influence in 'Take Me to the River' autobiography (2000)."
+    confidence: documented
+
+  - teacher: "Marvin Gaye"
+    student: "Prince"
+    source_type: interview
+    citation: "Prince cited Gaye's 'What's Going On' as a foundational album. Multiple documented sources."
+    confidence: documented
+
+  - teacher: "Sly & The Family Stone"
+    student: "Parliament-Funkadelic"
+    source_type: academic
+    citation: "Rickey Vincent, 'Funk' (1996). Sly's integrated band model directly influenced P-Funk."
+    confidence: documented
+
+  - teacher: "Sly & The Family Stone"
+    student: "Prince"
+    source_type: interview
+    citation: "Prince cited Sly as a primary influence on his genre-blending approach."
+    confidence: documented

@@ -1,0 +1,246 @@
+/* One Long Impersonation -- Chapter 04: The Rolling Stone Connection */
+
+/* Chapter header */
+.chapter-header {
+  padding-top: 160px;
+  min-height: 60vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.opening-hook em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+/* ------------------------------------------------
+   FINDING STATS GRID
+   ------------------------------------------------ */
+.finding-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  max-width: 960px;
+}
+
+.finding-grid--secondary {
+  margin-top: 48px;
+}
+
+.finding-stat__value {
+  font-size: clamp(48px, 7vw, 80px);
+  color: var(--cream);
+  margin-bottom: 8px;
+}
+
+.finding-stat__label {
+  margin-bottom: 4px;
+  color: var(--cream-2);
+}
+
+.finding-stat__sub {
+  font-size: 13px;
+  color: var(--mute);
+  line-height: 1.4;
+}
+
+/* ------------------------------------------------
+   CAUSATION CAVEAT BOX
+   ------------------------------------------------ */
+.causation-box {
+  padding: 28px 32px;
+  border: 2px solid var(--blood);
+  background: rgba(176, 52, 52, 0.08);
+  border-radius: 4px;
+}
+
+.causation-box__header {
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--blood);
+  margin-bottom: 12px;
+}
+
+.causation-box__body {
+  font-size: 15px;
+  color: var(--cream-2);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.causation-box__body strong {
+  color: var(--cream);
+}
+
+/* ------------------------------------------------
+   SCATTER CHART (Ex. 004-A)
+   ------------------------------------------------ */
+#scatter-chart svg {
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------------------------------------
+   COMMITTEE TIMELINE
+   ------------------------------------------------ */
+.committee-timeline {
+  display: grid;
+  gap: 0;
+  margin-bottom: 48px;
+}
+
+.committee-row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 24px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.committee-row__years {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+}
+
+.committee-row__role {
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--cream-2);
+}
+
+.committee-row__source {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--mute);
+  margin-top: 4px;
+}
+
+/* ------------------------------------------------
+   WENNER QUOTES
+   ------------------------------------------------ */
+.wenner-quotes {
+  display: grid;
+  gap: 32px;
+}
+
+.wenner-quote {
+  padding: 24px 28px;
+  border-left: 3px solid var(--gold);
+  background: rgba(20, 20, 43, 0.5);
+  border-radius: 0 4px 4px 0;
+}
+
+.wenner-quote__text {
+  font-family: var(--serif);
+  font-size: 17px;
+  font-style: italic;
+  color: var(--cream);
+  line-height: 1.55;
+  margin: 0 0 12px;
+  font-variation-settings: "SOFT" 30, "opsz" 24;
+}
+
+.wenner-quote__context {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--cream-2);
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+.wenner-quote__source {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--mute);
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ------------------------------------------------
+   METHODOLOGY NOTE
+   ------------------------------------------------ */
+.methodology-note a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------
+   SCATTER LEGEND
+   ------------------------------------------------ */
+.scatter-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.scatter-legend__item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--cream-2);
+}
+
+.scatter-legend__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* ------------------------------------------------
+   RESPONSIVE
+   ------------------------------------------------ */
+@media (max-width: 768px) {
+  .finding-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .finding-grid--secondary {
+    margin-top: 32px;
+  }
+
+  .chapter-header {
+    padding-top: 120px;
+    min-height: auto;
+  }
+
+  .committee-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .causation-box {
+    padding: 20px 24px;
+  }
+
+  .wenner-quote {
+    padding: 20px 24px;
+  }
+
+  .scatter-legend {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 375px) {
+  .finding-stat__value {
+    font-size: 48px;
+  }
+
+  .causation-box {
+    padding: 16px 20px;
+  }
+
+  .wenner-quote {
+    padding: 16px 20px;
+  }
+}

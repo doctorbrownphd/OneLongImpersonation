@@ -1,0 +1,186 @@
+/* One Long Impersonation -- Chapter 05: The Docket */
+
+.chapter-header {
+  padding-top: 160px;
+  min-height: 50vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Search and filters */
+.docket-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.docket-input {
+  width: 100%;
+  padding: 14px 20px;
+  background: var(--ink-3);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.docket-input:focus {
+  border-color: var(--gold);
+}
+
+.docket-input::placeholder {
+  color: var(--mute);
+}
+
+.docket-filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.docket-select {
+  padding: 10px 16px;
+  background: var(--ink-3);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  color: var(--cream);
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  outline: none;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+.docket-select:focus {
+  border-color: var(--gold);
+}
+
+/* Docket table */
+.docket-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 0.8fr 0.8fr 1fr;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+  align-items: center;
+  transition: background 0.1s;
+}
+
+.docket-row:hover {
+  background: rgba(212,160,23,0.03);
+}
+
+.docket-row__name {
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--cream);
+  font-weight: 500;
+}
+
+.docket-row__genre {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.docket-row__year {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--mute);
+}
+
+.docket-row__wait {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cream);
+}
+
+.docket-row__verdict {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.verdict--strong {
+  background: rgba(212,160,23,0.15);
+  color: var(--gold);
+  border: 1px solid rgba(212,160,23,0.3);
+}
+
+.verdict--case {
+  background: rgba(95,125,86,0.15);
+  color: var(--moss);
+  border: 1px solid rgba(95,125,86,0.3);
+}
+
+.verdict--borderline {
+  background: rgba(138,138,163,0.1);
+  color: var(--mute);
+  border: 1px solid rgba(138,138,163,0.2);
+}
+
+.verdict--insufficient {
+  background: rgba(176,52,52,0.1);
+  color: var(--blood);
+  border: 1px solid rgba(176,52,52,0.2);
+}
+
+/* Table header */
+.docket-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 0.8fr 0.8fr 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 2px solid var(--gold);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* AI disclosure */
+.ai-disclosure-block {
+  padding: 32px;
+  background: var(--paper-2);
+  border-left: 4px solid var(--blood);
+  border-radius: 0 4px 4px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .docket-row,
+  .docket-header {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .docket-row__genre,
+  .docket-row__year {
+    display: none;
+  }
+
+  .docket-header span:nth-child(2),
+  .docket-header span:nth-child(3) {
+    display: none;
+  }
+
+  .docket-filters {
+    flex-direction: column;
+  }
+
+  .docket-select {
+    min-width: unset;
+    width: 100%;
+  }
+}

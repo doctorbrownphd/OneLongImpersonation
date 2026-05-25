@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>One Long Impersonation -- The Wait</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Survival analysis of Rock Hall induction wait times: who waits longest, and why?">
+<meta property="og:title" content="The Wait -- One Long Impersonation">
+<meta property="og:description" content="Female artists wait 14 years. Classic Rock waits 6. Heavy Metal waits 12. The survival curves tell the story.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="One Long Impersonation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Wait -- One Long Impersonation">
+<meta name="twitter:description" content="Female artists wait 14 years. Classic Rock waits 6. Heavy Metal waits 12. The survival curves tell the story.">
+<link rel="stylesheet" href="../../shared/design-tokens.css">
+<link rel="stylesheet" href="wait.css">
+</head>
+<body>
+
+<!--#include virtual="../../shared/platform-nav.html" -->
+<script>
+  // Load platform nav
+  fetch('../../shared/platform-nav.html')
+    .then(function(r) { return r.text(); })
+    .then(function(html) {
+      var d = document.createElement('div');
+      d.innerHTML = html;
+      document.body.insertBefore(d, document.body.firstChild);
+      // Execute scripts in the loaded HTML
+      d.querySelectorAll('script').forEach(function(s) {
+        var ns = document.createElement('script');
+        ns.textContent = s.textContent;
+        document.body.appendChild(ns);
+      });
+    });
+</script>
+
+<!-- =====================================================
+     CHAPTER HEADER
+     ===================================================== -->
+<header class="section section--ink chapter-header">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:48px">
+      <span>Chapter 02</span>
+    </div>
+
+    <h1 class="display" style="font-size:clamp(48px,8vw,96px); margin:0 0 32px">
+      The Wait.
+    </h1>
+
+    <p class="serif opening-hook" style="font-size:clamp(18px,2.5vw,24px); color:var(--cream-2); max-width:640px; line-height:1.4; margin:0 0 48px">
+      <strong style="color:var(--gold)">Have you heard how long Judas Priest waited?</strong>
+      They became eligible in 1999. Twenty-three years later, they still haven't been inducted
+      as Performers. Iron Maiden waited 21 years. Ozzy waited 29.
+      The clock runs differently depending on what you sound like.
+    </p>
+
+    <hr class="rule rule--gold" style="max-width:120px">
+
+  </div>
+</header>
+
+<!-- =====================================================
+     HEADLINE STATISTICS
+     ===================================================== -->
+<section class="section section--ink2" id="finding">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>Ex. 002 -- Who Waits Longest</span>
+    </div>
+
+    <div class="finding-grid">
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-female-wait">--</div>
+        <div class="finding-stat__label smallcaps">Median wait (years)</div>
+        <div class="finding-stat__sub">Female artists</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-male-wait" style="color:var(--gold)">--</div>
+        <div class="finding-stat__label smallcaps">Median wait (years)</div>
+        <div class="finding-stat__sub">Male artists</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-black-wait" style="color:var(--blood)">--</div>
+        <div class="finding-stat__label smallcaps">Median wait (years)</div>
+        <div class="finding-stat__sub">Black artists</div>
+      </div>
+    </div>
+
+    <div class="finding-grid finding-grid--secondary">
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-white-wait" style="color:var(--mute)">--</div>
+        <div class="finding-stat__label smallcaps">Median wait (years)</div>
+        <div class="finding-stat__sub">White artists</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-metal-wait">--</div>
+        <div class="finding-stat__label smallcaps">Median wait (years)</div>
+        <div class="finding-stat__sub">Heavy Metal</div>
+      </div>
+      <div class="finding-stat">
+        <div class="finding-stat__value display" id="stat-hiphop-wait" style="color:var(--moss)">--</div>
+        <div class="finding-stat__label smallcaps">Median wait (years)</div>
+        <div class="finding-stat__sub">Hip-Hop</div>
+      </div>
+    </div>
+
+    <p class="methodology-note mono" style="margin-top:32px; font-size:12px; color:var(--mute)">
+      Modeled from <span id="stat-n-artists">--</span> inducted Performer artists.
+      Wait = years from first eligibility (25 years after first recording) to induction.
+      See <a href="#methodology" style="color:var(--gold)">methodology</a>.
+    </p>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     SURVIVAL CURVES (Ex. 002-A)
+     ===================================================== -->
+<section class="section section--ink" id="survival-viz">
+  <div class="container container--wide">
+
+    <div class="exhibit-label" style="margin-bottom:24px">
+      <span>Ex. 002-A -- Survival Curves: Time to Induction</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--cream-2); max-width:720px; margin:0 0 40px">
+      Each curve tracks the percentage of artists in a stratum who are still waiting
+      for induction, year by year after becoming eligible. The faster a curve drops,
+      the quicker that group gets inducted. A dashed line marks the median wait --
+      the point where half the group has been inducted.
+    </p>
+
+    <div id="survival-chart" style="width:100%; overflow-x:auto"></div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     METAL WAIT BARS (Ex. 002-B)
+     ===================================================== -->
+<section class="section section--bone" id="metal-viz">
+  <div class="container container--wide">
+
+    <div class="exhibit-label" style="margin-bottom:24px; color:var(--blood)">
+      <span>Ex. 002-B -- The Metal Docket</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--ink); max-width:720px; margin:0 0 40px">
+      Every metal artist who has been inducted as a Performer, and how long they waited.
+      The genre's median wait of 12 years is double that of Classic Rock.
+    </p>
+
+    <div id="metal-chart" style="width:100%; overflow-x:auto"></div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     COX MODEL CALLOUT
+     ===================================================== -->
+<section class="section section--ink2" id="cox-model">
+  <div class="container container--narrow">
+
+    <div class="exhibit-label" style="margin-bottom:32px">
+      <span>Ex. 002-C -- Cox Proportional Hazards Model</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--cream-2); max-width:720px; margin:0 0 32px">
+      A survival model estimates each covariate's effect on the annual probability
+      of induction. A hazard ratio below 1.0 means slower induction; above 1.0 means faster.
+    </p>
+
+    <div id="cox-results" class="cox-results"></div>
+
+    <div class="causation-caveat" style="margin-top:32px; padding:20px 24px; border-left:3px solid var(--blood); background:rgba(176,52,52,0.08)">
+      <p class="mono" style="font-size:12px; color:var(--blood); margin:0 0 8px; letter-spacing:0.1em; text-transform:uppercase; font-weight:600">
+        Causation caveat
+      </p>
+      <p style="font-size:14px; color:var(--cream-2); margin:0; line-height:1.6" id="cox-caveat">
+        This model documents disparities in induction rates. It does not prove intentional discrimination.
+        Observational data, correlation only.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     CONNECTIVE TISSUE
+     ===================================================== -->
+<section class="section section--ink" id="bridge">
+  <div class="container container--narrow" style="text-align:center; padding:80px 56px">
+
+    <blockquote class="statement" style="font-size:clamp(20px,3vw,32px); color:var(--cream)">
+      Now you know how long they waited. The next chapter shows which genres disappeared entirely.
+    </blockquote>
+
+    <a href="../03-the-genres/" class="mono" style="display:inline-block; margin-top:32px; color:var(--gold); font-size:12px; letter-spacing:0.15em; text-transform:uppercase">
+      Chapter 03: The Genres &rarr;
+    </a>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     METHODOLOGY
+     ===================================================== -->
+<section class="section section--paper" id="methodology">
+  <div class="container container--narrow">
+
+    <h2 class="display" style="font-size:32px; color:var(--ink); margin:0 0 32px">Methodology</h2>
+
+    <div style="color:var(--ink); font-size:15px; line-height:1.7">
+      <p><strong>What this chapter does:</strong> We model time-to-induction using a Cox
+      Proportional Hazards model fitted to 256 inducted Performer-category artists. Each
+      artist's wait time is measured from first eligibility (25 years after first commercial
+      recording) to induction year. Covariates include race, sex, solo/group status, primary
+      genre, and eligibility era (pre- vs. post-2000).</p>
+
+      <p><strong>Survival curves:</strong> Kaplan-Meier estimates are shown for four strata:
+      White male Classic Rock artists (the baseline), Black Soul/R&B artists, Female artists,
+      and Heavy Metal artists. These are empirical survival functions, not model predictions.</p>
+
+      <p><strong>Data sources:</strong> Rock and Roll Hall of Fame official inductee database.
+      Eligibility year computed from MusicBrainz first-release dates. Race, sex, and genre
+      classified from primary biographical sources.</p>
+
+      <p><strong>What this chapter cannot show:</strong> The Cox model documents disparities.
+      A hazard ratio of 0.66 for female artists means they are inducted roughly 34% slower per
+      year than the baseline group, controlling for other covariates. This does not prove
+      intentional bias. The reader draws conclusions.</p>
+    </div>
+
+    <div class="citation-block" style="margin-top:48px; padding:24px; background:var(--paper-2); border-radius:4px; font-size:13px; color:var(--ink)">
+      <p class="smallcaps" style="margin:0 0 12px; color:var(--blood)">Cite this chapter</p>
+      <p style="margin:0 0 8px">Haynes, Jeremy. "The Wait." <em>One Long Impersonation</em>,
+      onelongimpersonation.report/chapters/the-wait/, May 2026.</p>
+      <p class="mono" style="margin:0; font-size:11px; color:var(--mute)">Data: CC0 1.0 -- freely reusable</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+<footer class="section section--ink" style="padding:40px 0; border-top:1px solid var(--rule)">
+  <div class="container" style="display:flex; justify-content:space-between; align-items:center">
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Reviewed by Agent Rosetta -- primary-source verified
+    </span>
+    <span class="mono" style="font-size:10px; color:var(--mute)">
+      Code: MIT / Data: CC0
+    </span>
+  </div>
+</footer>
+
+<!-- =====================================================
+     SCRIPTS
+     ===================================================== -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="wait-data.js"></script>
+<script src="wait-engine.js"></script>
+
+</body>
+</html>

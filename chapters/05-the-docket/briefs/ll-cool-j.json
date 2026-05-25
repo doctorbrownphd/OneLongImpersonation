@@ -1,0 +1,15 @@
+{
+  "artist_name": "LL Cool J",
+  "genre": "Hip-Hop",
+  "verdict": "INSUFFICIENT",
+  "confidence": 0.3,
+  "criteria_score": 31.65,
+  "eligible_year": 2010,
+  "wait_years": 16,
+  "data_record": "Name: LL Cool J\nGenre: Hip-Hop\nFirst commercial recording: 1985\nEligible for induction since: 2010\nYears since eligibility: 16\nRolling Stone Attention Score: 0\nNomination history: No documented nominations",
+  "brief_text": null,
+  "model_version": "claude-sonnet-4-20250514",
+  "generated_at": "2026-05-25 13:10:27",
+  "human_reviewed": false,
+  "slug": "ll-cool-j"
+}
