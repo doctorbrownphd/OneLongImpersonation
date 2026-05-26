@@ -4,6 +4,51 @@
 window.DOCKET_DATA = {
   "artists": [
     {
+      "name": "Big Bill Broonzy",
+      "genre": "Blues/Early",
+      "eligible_year": 1952,
+      "wait_years": 74,
+      "criteria_score": 65.27,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 1.08,
+        "influence": 60.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 100.0
+      }
+    },
+    {
+      "name": "Lonnie Johnson",
+      "genre": "Blues/Early",
+      "eligible_year": 1950,
+      "wait_years": 76,
+      "criteria_score": 65.08,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 0.33,
+        "influence": 60.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 100.0
+      }
+    },
+    {
+      "name": "Blind Willie McTell",
+      "genre": "Blues/Early",
+      "eligible_year": 1952,
+      "wait_years": 74,
+      "criteria_score": 59.2,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 6.78,
+        "influence": 30.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 100.0
+      }
+    },
+    {
       "name": "Joy Division",
       "genre": "Punk",
       "eligible_year": 2003,
@@ -49,6 +94,36 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Son House",
+      "genre": "Blues/Early",
+      "eligible_year": 1955,
+      "wait_years": 71,
+      "criteria_score": 55.34,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 6.36,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 100.0
+      }
+    },
+    {
+      "name": "Mississippi John Hurt",
+      "genre": "Blues/Early",
+      "eligible_year": 1953,
+      "wait_years": 73,
+      "criteria_score": 54.59,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 3.36,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 100.0
+      }
+    },
+    {
       "name": "Kraftwerk",
       "genre": "Electronic",
       "eligible_year": 1995,
@@ -61,6 +136,21 @@ window.DOCKET_DATA = {
         "career": 100.0,
         "catalog": 93.33,
         "contribution": 59.5
+      }
+    },
+    {
+      "name": "Tampa Red",
+      "genre": "Blues/Early",
+      "eligible_year": 1953,
+      "wait_years": 73,
+      "criteria_score": 53.77,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 0.09,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 100.0
       }
     },
     {
@@ -79,33 +169,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Blind Willie McTell",
-      "genre": "Blues/Early",
-      "eligible_year": 1952,
-      "wait_years": 74,
-      "criteria_score": 51.7,
+      "name": "Bjork",
+      "genre": "Electronic",
+      "eligible_year": 2002,
+      "wait_years": 24,
+      "criteria_score": 51.41,
       "verdict": "STRONG_CASE",
       "scores": {
-        "excellence": 6.78,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 100.0
-      }
-    },
-    {
-      "name": "Son House",
-      "genre": "Blues/Early",
-      "eligible_year": 1955,
-      "wait_years": 71,
-      "criteria_score": 51.59,
-      "verdict": "STRONG_CASE",
-      "scores": {
-        "excellence": 6.36,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 100.0
+        "excellence": 36.23,
+        "influence": 15.0,
+        "career": 98.0,
+        "catalog": 80.0,
+        "contribution": 59.5
       }
     },
     {
@@ -139,21 +214,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Mississippi John Hurt",
-      "genre": "Blues/Early",
-      "eligible_year": 1953,
-      "wait_years": 73,
-      "criteria_score": 50.84,
-      "verdict": "STRONG_CASE",
-      "scores": {
-        "excellence": 3.36,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 100.0
-      }
-    },
-    {
       "name": "Thin Lizzy",
       "genre": "Heavy Metal",
       "eligible_year": 1996,
@@ -184,18 +244,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Big Bill Broonzy",
-      "genre": "Blues/Early",
-      "eligible_year": 1952,
-      "wait_years": 74,
-      "criteria_score": 50.27,
+      "name": "The Kingston Trio",
+      "genre": "Folk/Country",
+      "eligible_year": 1983,
+      "wait_years": 43,
+      "criteria_score": 50.18,
       "verdict": "STRONG_CASE",
       "scores": {
-        "excellence": 1.08,
-        "influence": 0.0,
+        "excellence": 2.73,
+        "influence": 30.0,
         "career": 100.0,
         "catalog": 100.0,
-        "contribution": 100.0
+        "contribution": 60.0
       }
     },
     {
@@ -211,36 +271,6 @@ window.DOCKET_DATA = {
         "career": 98.0,
         "catalog": 80.0,
         "contribution": 56.0
-      }
-    },
-    {
-      "name": "Lonnie Johnson",
-      "genre": "Blues/Early",
-      "eligible_year": 1950,
-      "wait_years": 76,
-      "criteria_score": 50.08,
-      "verdict": "STRONG_CASE",
-      "scores": {
-        "excellence": 0.33,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 100.0
-      }
-    },
-    {
-      "name": "Tampa Red",
-      "genre": "Blues/Early",
-      "eligible_year": 1953,
-      "wait_years": 73,
-      "criteria_score": 50.02,
-      "verdict": "STRONG_CASE",
-      "scores": {
-        "excellence": 0.09,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 100.0
       }
     },
     {
@@ -271,21 +301,6 @@ window.DOCKET_DATA = {
         "career": 100.0,
         "catalog": 93.33,
         "contribution": 51.0
-      }
-    },
-    {
-      "name": "Bjork",
-      "genre": "Electronic",
-      "eligible_year": 2002,
-      "wait_years": 24,
-      "criteria_score": 47.66,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 36.23,
-        "influence": 0.0,
-        "career": 98.0,
-        "catalog": 80.0,
-        "contribution": 59.5
       }
     },
     {
@@ -409,6 +424,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Townes Van Zandt",
+      "genre": "Folk/Country",
+      "eligible_year": 1993,
+      "wait_years": 33,
+      "criteria_score": 45.38,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 9.72,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 93.33,
+        "contribution": 51.0
+      }
+    },
+    {
       "name": "Pantera",
       "genre": "Heavy Metal",
       "eligible_year": 2008,
@@ -514,6 +544,36 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Rufus featuring Chaka Khan",
+      "genre": "Soul/R&B",
+      "eligible_year": 1998,
+      "wait_years": 28,
+      "criteria_score": 44.35,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 86.67,
+        "contribution": 63.0
+      }
+    },
+    {
+      "name": "Luther Vandross",
+      "genre": "Soul/R&B",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "criteria_score": 44.26,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 24.45,
+        "influence": 15.0,
+        "career": 90.0,
+        "catalog": 73.33,
+        "contribution": 49.5
+      }
+    },
+    {
       "name": "Wire",
       "genre": "Punk",
       "eligible_year": 2002,
@@ -526,6 +586,21 @@ window.DOCKET_DATA = {
         "career": 98.0,
         "catalog": 80.0,
         "contribution": 56.0
+      }
+    },
+    {
+      "name": "LL Cool J",
+      "genre": "Hip-Hop",
+      "eligible_year": 2010,
+      "wait_years": 16,
+      "criteria_score": 43.89,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 18.97,
+        "influence": 30.0,
+        "career": 82.0,
+        "catalog": 66.67,
+        "contribution": 46.75
       }
     },
     {
@@ -594,7 +669,7 @@ window.DOCKET_DATA = {
       "eligible_year": 2008,
       "wait_years": 18,
       "criteria_score": 42.81,
-      "verdict": "CASE",
+      "verdict": "BORDERLINE",
       "scores": {
         "excellence": 4.44,
         "influence": 40.0,
@@ -604,27 +679,12 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "The Kingston Trio",
-      "genre": "Folk/Country",
-      "eligible_year": 1983,
-      "wait_years": 43,
-      "criteria_score": 42.68,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 2.73,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 60.0
-      }
-    },
-    {
       "name": "Bad Brains",
       "genre": "Punk",
       "eligible_year": 2007,
       "wait_years": 19,
       "criteria_score": 42.36,
-      "verdict": "CASE",
+      "verdict": "BORDERLINE",
       "scores": {
         "excellence": 7.44,
         "influence": 30.0,
@@ -639,13 +699,28 @@ window.DOCKET_DATA = {
       "eligible_year": 2001,
       "wait_years": 25,
       "criteria_score": 42.05,
-      "verdict": "CASE",
+      "verdict": "BORDERLINE",
       "scores": {
         "excellence": 0.4,
         "influence": 15.0,
         "career": 100.0,
         "catalog": 80.0,
         "contribution": 56.0
+      }
+    },
+    {
+      "name": "Mission of Burma",
+      "genre": "Punk",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "criteria_score": 41.82,
+      "verdict": "BORDERLINE",
+      "scores": {
+        "excellence": 4.08,
+        "influence": 30.0,
+        "career": 90.0,
+        "catalog": 73.33,
+        "contribution": 44.0
       }
     },
     {
@@ -676,21 +751,6 @@ window.DOCKET_DATA = {
         "career": 100.0,
         "catalog": 86.67,
         "contribution": 49.0
-      }
-    },
-    {
-      "name": "Townes Van Zandt",
-      "genre": "Folk/Country",
-      "eligible_year": 1993,
-      "wait_years": 33,
-      "criteria_score": 41.63,
-      "verdict": "BORDERLINE",
-      "scores": {
-        "excellence": 9.72,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 93.33,
-        "contribution": 51.0
       }
     },
     {
@@ -784,21 +844,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Rufus featuring Chaka Khan",
-      "genre": "Soul/R&B",
-      "eligible_year": 1998,
-      "wait_years": 28,
-      "criteria_score": 40.6,
-      "verdict": "BORDERLINE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 86.67,
-        "contribution": 63.0
-      }
-    },
-    {
       "name": "Soundgarden",
       "genre": "Heavy Metal",
       "eligible_year": 2013,
@@ -814,21 +859,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Luther Vandross",
-      "genre": "Soul/R&B",
-      "eligible_year": 2006,
-      "wait_years": 20,
-      "criteria_score": 40.51,
-      "verdict": "BORDERLINE",
-      "scores": {
-        "excellence": 24.45,
-        "influence": 0.0,
-        "career": 90.0,
-        "catalog": 73.33,
-        "contribution": 49.5
-      }
-    },
-    {
       "name": "OutKast",
       "genre": "Hip-Hop",
       "eligible_year": 2019,
@@ -841,6 +871,21 @@ window.DOCKET_DATA = {
         "career": 64.0,
         "catalog": 53.33,
         "contribution": 34.0
+      }
+    },
+    {
+      "name": "Descendents",
+      "genre": "Punk",
+      "eligible_year": 2004,
+      "wait_years": 22,
+      "criteria_score": 40.05,
+      "verdict": "BORDERLINE",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 94.0,
+        "catalog": 73.33,
+        "contribution": 56.0
       }
     },
     {
@@ -1039,21 +1084,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "LL Cool J",
-      "genre": "Hip-Hop",
-      "eligible_year": 2010,
-      "wait_years": 16,
-      "criteria_score": 36.39,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 18.97,
-        "influence": 0.0,
-        "career": 82.0,
-        "catalog": 66.67,
-        "contribution": 46.75
-      }
-    },
-    {
       "name": "Sade",
       "genre": "Soul/R&B",
       "eligible_year": 2009,
@@ -1066,21 +1096,6 @@ window.DOCKET_DATA = {
         "career": 84.0,
         "catalog": 66.67,
         "contribution": 49.5
-      }
-    },
-    {
-      "name": "Descendents",
-      "genre": "Punk",
-      "eligible_year": 2004,
-      "wait_years": 22,
-      "criteria_score": 36.3,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 94.0,
-        "catalog": 73.33,
-        "contribution": 56.0
       }
     },
     {
@@ -1159,6 +1174,36 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Salt-N-Pepa",
+      "genre": "Hip-Hop",
+      "eligible_year": 2011,
+      "wait_years": 15,
+      "criteria_score": 35.23,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 0.52,
+        "influence": 15.0,
+        "career": 80.0,
+        "catalog": 66.67,
+        "contribution": 46.75
+      }
+    },
+    {
+      "name": "Anthrax",
+      "genre": "Heavy Metal",
+      "eligible_year": 2009,
+      "wait_years": 17,
+      "criteria_score": 35.15,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 84.0,
+        "catalog": 66.67,
+        "contribution": 44.0
+      }
+    },
+    {
       "name": "Oingo Boingo",
       "genre": "Classic Rock",
       "eligible_year": 2004,
@@ -1171,21 +1216,6 @@ window.DOCKET_DATA = {
         "career": 94.0,
         "catalog": 73.33,
         "contribution": 49.0
-      }
-    },
-    {
-      "name": "Mission of Burma",
-      "genre": "Punk",
-      "eligible_year": 2006,
-      "wait_years": 20,
-      "criteria_score": 34.32,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 4.08,
-        "influence": 0.0,
-        "career": 90.0,
-        "catalog": 73.33,
-        "contribution": 44.0
       }
     },
     {
@@ -1234,6 +1264,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Underworld",
+      "genre": "Electronic",
+      "eligible_year": 2013,
+      "wait_years": 13,
+      "criteria_score": 33.5,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 76.0,
+        "catalog": 60.0,
+        "contribution": 46.75
+      }
+    },
+    {
       "name": "New Edition",
       "genre": "Soul/R&B",
       "eligible_year": 2008,
@@ -1249,6 +1294,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Phish",
+      "genre": "Classic Rock",
+      "eligible_year": 2013,
+      "wait_years": 13,
+      "criteria_score": 31.99,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 0.56,
+        "influence": 15.0,
+        "career": 76.0,
+        "catalog": 60.0,
+        "contribution": 38.5
+      }
+    },
+    {
       "name": "Queensryche",
       "genre": "Heavy Metal",
       "eligible_year": 2008,
@@ -1259,36 +1319,6 @@ window.DOCKET_DATA = {
         "excellence": 0.0,
         "influence": 0.0,
         "career": 86.0,
-        "catalog": 66.67,
-        "contribution": 44.0
-      }
-    },
-    {
-      "name": "Salt-N-Pepa",
-      "genre": "Hip-Hop",
-      "eligible_year": 2011,
-      "wait_years": 15,
-      "criteria_score": 31.48,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.52,
-        "influence": 0.0,
-        "career": 80.0,
-        "catalog": 66.67,
-        "contribution": 46.75
-      }
-    },
-    {
-      "name": "Anthrax",
-      "genre": "Heavy Metal",
-      "eligible_year": 2009,
-      "wait_years": 17,
-      "criteria_score": 31.4,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 84.0,
         "catalog": 66.67,
         "contribution": 44.0
       }
@@ -1366,21 +1396,6 @@ window.DOCKET_DATA = {
         "career": 68.0,
         "catalog": 53.33,
         "contribution": 34.0
-      }
-    },
-    {
-      "name": "Underworld",
-      "genre": "Electronic",
-      "eligible_year": 2013,
-      "wait_years": 13,
-      "criteria_score": 29.75,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 76.0,
-        "catalog": 60.0,
-        "contribution": 46.75
       }
     },
     {
@@ -1471,21 +1486,6 @@ window.DOCKET_DATA = {
         "career": 74.0,
         "catalog": 60.0,
         "contribution": 44.0
-      }
-    },
-    {
-      "name": "Phish",
-      "genre": "Classic Rock",
-      "eligible_year": 2013,
-      "wait_years": 13,
-      "criteria_score": 28.24,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.56,
-        "influence": 0.0,
-        "career": 76.0,
-        "catalog": 60.0,
-        "contribution": 38.5
       }
     },
     {
@@ -1686,7 +1686,7 @@ window.DOCKET_DATA = {
   ],
   "thresholds": {
     "p25": 38.5,
-    "p50": 42.0,
+    "p50": 43.03,
     "p75": 49.0
   },
   "current_year": 2026,
