@@ -84,8 +84,8 @@
    ------------------------------------------------ */
 
 .section { position: relative; padding: 120px 0; }
-.section--paper { background: var(--paper); color: var(--ink); }
-.section--bone  { background: var(--bone); color: var(--ink); }
+.section--paper { background: var(--ink-3); color: var(--cream); }
+.section--bone  { background: #1a1a38; color: var(--cream); }
 .section--ink   { background: var(--ink); color: var(--cream); }
 .section--ink2  { background: var(--ink-2); color: var(--cream); }
 
