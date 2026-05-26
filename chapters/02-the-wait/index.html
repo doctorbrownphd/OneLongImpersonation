@@ -213,6 +213,32 @@
   </div>
 </section>
 
+<!-- =====================================================
+     PROJECTION -- 20-year simulated induction classes
+     ===================================================== -->
+<section class="section section--ink2" id="projection">
+  <div class="container">
+
+    <div class="exhibit-label" style="margin-bottom:24px">
+      <span>Ex. 002-E -- The Queue</span>
+    </div>
+
+    <p class="serif" style="font-size:18px; color:var(--cream-2); max-width:720px; line-height:1.5; margin:0 0 12px">
+      If the Hall inducted six artists every year for the next twenty years, who would get in and when?
+      This model scores every eligible artist and simulates annual classes from 2027 to 2046.
+      New artists enter the pool each year as their first recording turns 25.
+    </p>
+    <p style="font-size:13px; color:var(--mute); max-width:720px; line-height:1.5; margin:0 0 40px">
+      This is a model, not a prediction. Actual inductions depend on the nominating committee,
+      public campaigns, cultural moments, and factors no model captures. The model assumes the
+      Hall continues its post-2019 pattern of genre diversification.
+    </p>
+
+    <div id="projection-timeline"></div>
+
+  </div>
+</section>
+
   <div class="container container--narrow" style="text-align:center; padding:80px 56px">
 
     <blockquote class="statement" style="font-size:clamp(20px,3vw,32px); color:var(--cream)">
@@ -286,6 +312,78 @@
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="wait-data.js"></script>
 <script src="wait-engine.js"></script>
+<script src="projection-data.js"></script>
+<script>
+// Projection Timeline Renderer
+(function() {
+  var data = window.PROJECTION_DATA;
+  if (!data) return;
+
+  var container = document.getElementById('projection-timeline');
+  if (!container) return;
+
+  var classes = data.projected_classes;
+  var stillWaiting = data.still_waiting_after_20_years || [];
+
+  var genreColors = {
+    'Blues/Early': '#b03434',
+    'Soul/R&B': '#b03434',
+    'Classic Rock': '#d4a017',
+    'Heavy Metal': '#3d5a80',
+    'Punk': '#7a4a8a',
+    'Electronic': '#5f7d56',
+    'Hip-Hop': '#5a6f8a',
+    'Folk/Country': '#8a7d48',
+    'Pop': '#c47a3a',
+    'Disco/Dance': '#8a5a6f'
+  };
+
+  var html = '';
+
+  classes.forEach(function(cls) {
+    html += '<div style="margin-bottom:4px">';
+    html += '<div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px; padding-top:20px; border-top:1px solid rgba(46,46,85,0.3)">';
+    html += '<span style="font-family:var(--mono); font-size:20px; font-weight:600; color:var(--gold); min-width:56px">' + cls.year + '</span>';
+    html += '<span style="font-family:var(--mono); font-size:9px; color:var(--mute); letter-spacing:0.1em">' + cls.pool_size + ' IN POOL</span>';
+    if (cls.new_eligible > 0) {
+      html += '<span style="font-family:var(--mono); font-size:9px; color:var(--gold); letter-spacing:0.1em; opacity:0.6">+' + cls.new_eligible + ' NEW</span>';
+    }
+    html += '</div>';
+
+    html += '<div style="display:flex; flex-wrap:wrap; gap:6px; padding-left:72px; margin-bottom:12px">';
+    cls.artists.forEach(function(a) {
+      var gc = genreColors[a.genre] || '#8a8aa3';
+      var isNew = a.projected;
+      var border = isNew ? 'border:1px dashed ' + gc : 'border:1px solid ' + gc;
+      html += '<div style="' + border + '; padding:6px 12px; border-radius:3px; display:flex; align-items:baseline; gap:8px">';
+      html += '<span style="font-family:var(--serif); font-size:14px; font-weight:500; color:var(--cream)">' + a.name + '</span>';
+      html += '<span style="font-family:var(--mono); font-size:9px; color:' + gc + '">' + a.genre + '</span>';
+      html += '<span style="font-family:var(--mono); font-size:9px; color:var(--mute)">' + a.wait_years + 'y</span>';
+      if (isNew) {
+        html += '<span style="font-family:var(--mono); font-size:8px; color:var(--gold); opacity:0.5">NEW</span>';
+      }
+      html += '</div>';
+    });
+    html += '</div>';
+    html += '</div>';
+  });
+
+  // Still waiting callout
+  if (stillWaiting.length > 0) {
+    html += '<div style="margin-top:48px; padding:32px; background:rgba(176,52,52,0.08); border:1px solid rgba(176,52,52,0.2); border-radius:4px">';
+    html += '<div style="font-family:var(--mono); font-size:11px; letter-spacing:0.15em; text-transform:uppercase; color:var(--blood); margin-bottom:16px">Still Waiting After 20 More Years</div>';
+    html += '<div style="display:flex; flex-wrap:wrap; gap:8px">';
+    stillWaiting.forEach(function(a) {
+      html += '<span style="font-family:var(--serif); font-size:15px; color:var(--cream); padding:6px 14px; border:1px solid rgba(176,52,52,0.3); border-radius:3px">' + a.name + ' <span style="font-family:var(--mono); font-size:9px; color:var(--mute)">' + a.genre + '</span></span>';
+    });
+    html += '</div>';
+    html += '<p style="font-family:var(--sans); font-size:12px; color:var(--mute); margin:16px 0 0; font-style:italic">The queue never clears. The debt compounds.</p>';
+    html += '</div>';
+  }
+
+  container.innerHTML = html;
+})();
+</script>
 
 <script src="../../shared/pyramid.js"></script>
 <script src="../../shared/next-chapter.js"></script>
