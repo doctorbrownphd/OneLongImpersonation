@@ -146,9 +146,9 @@
 
     // Legend
     var legendY = margin.top - 16;
-    // Teacher marker
+    // Teacher marker (filled)
     svg.append('circle').attr('cx', margin.left).attr('cy', legendY).attr('r', 4)
-      .attr('fill', 'none').attr('stroke', '#d4a017').attr('stroke-width', 2);
+      .attr('fill', '#d4a017').attr('stroke', '#d4a017').attr('stroke-width', 1.5);
     svg.append('text').attr('x', margin.left + 10).attr('y', legendY + 4)
       .attr('fill', '#8a8aa3').attr('font-family', '"Inter", sans-serif').attr('font-size', 10)
       .text('Teacher inducted');
@@ -220,9 +220,8 @@
         .attr('stroke', color)
         .attr('stroke-width', 1.5);
 
-      // Teacher dot (hollow ring if inducted, X if never)
+      // Teacher dot: filled if inducted, hollow red ring if never
       if (p.teacher_never_inducted) {
-        // Red hollow ring for never inducted
         svg.append('circle')
           .attr('cx', teacherX)
           .attr('cy', cy)
@@ -231,14 +230,13 @@
           .attr('stroke', '#b03434')
           .attr('stroke-width', 2);
       } else {
-        // Gold ring for inducted (eventually)
         svg.append('circle')
           .attr('cx', teacherX)
           .attr('cy', cy)
           .attr('r', 4)
-          .attr('fill', 'none')
+          .attr('fill', color)
           .attr('stroke', color)
-          .attr('stroke-width', 2);
+          .attr('stroke-width', 1.5);
       }
 
       // Gap label (right side)
