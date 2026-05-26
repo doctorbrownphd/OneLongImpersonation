@@ -49,6 +49,126 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Kraftwerk",
+      "genre": "Electronic",
+      "eligible_year": 1995,
+      "wait_years": 31,
+      "criteria_score": 54.02,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 17.48,
+        "influence": 35.0,
+        "career": 100.0,
+        "catalog": 93.33,
+        "contribution": 59.5
+      }
+    },
+    {
+      "name": "War",
+      "genre": "Soul/R&B",
+      "eligible_year": 1994,
+      "wait_years": 32,
+      "criteria_score": 51.79,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 14.97,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 93.33,
+        "contribution": 76.5
+      }
+    },
+    {
+      "name": "Blind Willie McTell",
+      "genre": "Blues/Early",
+      "eligible_year": 1952,
+      "wait_years": 74,
+      "criteria_score": 51.7,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 6.78,
+        "influence": 0.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 100.0
+      }
+    },
+    {
+      "name": "Son House",
+      "genre": "Blues/Early",
+      "eligible_year": 1955,
+      "wait_years": 71,
+      "criteria_score": 51.59,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 6.36,
+        "influence": 0.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 100.0
+      }
+    },
+    {
+      "name": "Scorpions",
+      "genre": "Heavy Metal",
+      "eligible_year": 1997,
+      "wait_years": 29,
+      "criteria_score": 51.16,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 2.82,
+        "influence": 45.0,
+        "career": 100.0,
+        "catalog": 86.67,
+        "contribution": 56.0
+      }
+    },
+    {
+      "name": "The Meters",
+      "genre": "Soul/R&B",
+      "eligible_year": 1994,
+      "wait_years": 32,
+      "criteria_score": 51.1,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 12.2,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 93.33,
+        "contribution": 76.5
+      }
+    },
+    {
+      "name": "Mississippi John Hurt",
+      "genre": "Blues/Early",
+      "eligible_year": 1953,
+      "wait_years": 73,
+      "criteria_score": 50.84,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 3.36,
+        "influence": 0.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 100.0
+      }
+    },
+    {
+      "name": "Thin Lizzy",
+      "genre": "Heavy Metal",
+      "eligible_year": 1996,
+      "wait_years": 30,
+      "criteria_score": 50.69,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 15.94,
+        "influence": 30.0,
+        "career": 100.0,
+        "catalog": 86.67,
+        "contribution": 56.0
+      }
+    },
+    {
       "name": "Emerson Lake & Palmer",
       "genre": "Classic Rock",
       "eligible_year": 1995,
@@ -64,48 +184,33 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Scorpions",
-      "genre": "Heavy Metal",
-      "eligible_year": 1997,
-      "wait_years": 29,
-      "criteria_score": 50.45,
-      "verdict": "STRONG_CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 45.0,
-        "career": 100.0,
-        "catalog": 86.67,
-        "contribution": 56.0
-      }
-    },
-    {
-      "name": "Mississippi John Hurt",
-      "genre": "Blues/Early",
-      "eligible_year": 1953,
-      "wait_years": 73,
-      "criteria_score": 50.0,
-      "verdict": "STRONG_CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 100.0
-      }
-    },
-    {
-      "name": "Blind Willie McTell",
+      "name": "Big Bill Broonzy",
       "genre": "Blues/Early",
       "eligible_year": 1952,
       "wait_years": 74,
-      "criteria_score": 50.0,
+      "criteria_score": 50.27,
       "verdict": "STRONG_CASE",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 1.08,
         "influence": 0.0,
         "career": 100.0,
         "catalog": 100.0,
         "contribution": 100.0
+      }
+    },
+    {
+      "name": "Motorhead",
+      "genre": "Heavy Metal",
+      "eligible_year": 2002,
+      "wait_years": 24,
+      "criteria_score": 50.08,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 3.72,
+        "influence": 45.0,
+        "career": 98.0,
+        "catalog": 80.0,
+        "contribution": 56.0
       }
     },
     {
@@ -113,10 +218,10 @@ window.DOCKET_DATA = {
       "genre": "Blues/Early",
       "eligible_year": 1950,
       "wait_years": 76,
-      "criteria_score": 50.0,
+      "criteria_score": 50.08,
       "verdict": "STRONG_CASE",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 0.33,
         "influence": 0.0,
         "career": 100.0,
         "catalog": 100.0,
@@ -128,89 +233,14 @@ window.DOCKET_DATA = {
       "genre": "Blues/Early",
       "eligible_year": 1953,
       "wait_years": 73,
-      "criteria_score": 50.0,
+      "criteria_score": 50.02,
       "verdict": "STRONG_CASE",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 0.09,
         "influence": 0.0,
         "career": 100.0,
         "catalog": 100.0,
         "contribution": 100.0
-      }
-    },
-    {
-      "name": "Big Bill Broonzy",
-      "genre": "Blues/Early",
-      "eligible_year": 1952,
-      "wait_years": 74,
-      "criteria_score": 50.0,
-      "verdict": "STRONG_CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 100.0
-      }
-    },
-    {
-      "name": "Son House",
-      "genre": "Blues/Early",
-      "eligible_year": 1955,
-      "wait_years": 71,
-      "criteria_score": 50.0,
-      "verdict": "STRONG_CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 100.0
-      }
-    },
-    {
-      "name": "Kraftwerk",
-      "genre": "Electronic",
-      "eligible_year": 1995,
-      "wait_years": 31,
-      "criteria_score": 49.65,
-      "verdict": "STRONG_CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 35.0,
-        "career": 100.0,
-        "catalog": 93.33,
-        "contribution": 59.5
-      }
-    },
-    {
-      "name": "The Meters",
-      "genre": "Soul/R&B",
-      "eligible_year": 1994,
-      "wait_years": 32,
-      "criteria_score": 48.05,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 15.0,
-        "career": 100.0,
-        "catalog": 93.33,
-        "contribution": 76.5
-      }
-    },
-    {
-      "name": "War",
-      "genre": "Soul/R&B",
-      "eligible_year": 1994,
-      "wait_years": 32,
-      "criteria_score": 48.05,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 15.0,
-        "career": 100.0,
-        "catalog": 93.33,
-        "contribution": 76.5
       }
     },
     {
@@ -226,6 +256,21 @@ window.DOCKET_DATA = {
         "career": 100.0,
         "catalog": 93.33,
         "contribution": 59.5
+      }
+    },
+    {
+      "name": "Emmylou Harris",
+      "genre": "Folk/Country",
+      "eligible_year": 1994,
+      "wait_years": 32,
+      "criteria_score": 47.83,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 19.51,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 93.33,
+        "contribution": 51.0
       }
     },
     {
@@ -289,48 +334,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Thin Lizzy",
-      "genre": "Heavy Metal",
-      "eligible_year": 1996,
-      "wait_years": 30,
-      "criteria_score": 46.7,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 30.0,
-        "career": 100.0,
-        "catalog": 86.67,
-        "contribution": 56.0
-      }
-    },
-    {
       "name": "Iron Butterfly",
       "genre": "Heavy Metal",
       "eligible_year": 1993,
       "wait_years": 33,
-      "criteria_score": 46.35,
+      "criteria_score": 46.58,
       "verdict": "CASE",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 0.92,
         "influence": 15.0,
         "career": 100.0,
         "catalog": 93.33,
         "contribution": 68.0
-      }
-    },
-    {
-      "name": "Motorhead",
-      "genre": "Heavy Metal",
-      "eligible_year": 2002,
-      "wait_years": 24,
-      "criteria_score": 46.33,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 3.72,
-        "influence": 30.0,
-        "career": 98.0,
-        "catalog": 80.0,
-        "contribution": 56.0
       }
     },
     {
@@ -368,14 +383,44 @@ window.DOCKET_DATA = {
       "genre": "Punk",
       "eligible_year": 2002,
       "wait_years": 24,
-      "criteria_score": 45.4,
+      "criteria_score": 45.44,
       "verdict": "CASE",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 0.16,
         "influence": 30.0,
         "career": 98.0,
         "catalog": 80.0,
         "contribution": 56.0
+      }
+    },
+    {
+      "name": "Rick James",
+      "genre": "Soul/R&B",
+      "eligible_year": 2003,
+      "wait_years": 23,
+      "criteria_score": 45.43,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 10.71,
+        "influence": 15.0,
+        "career": 96.0,
+        "catalog": 80.0,
+        "contribution": 63.0
+      }
+    },
+    {
+      "name": "Pantera",
+      "genre": "Heavy Metal",
+      "eligible_year": 2008,
+      "wait_years": 18,
+      "criteria_score": 44.99,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 8.17,
+        "influence": 45.0,
+        "career": 86.0,
+        "catalog": 66.67,
+        "contribution": 44.0
       }
     },
     {
@@ -409,6 +454,36 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Bauhaus",
+      "genre": "Punk",
+      "eligible_year": 2004,
+      "wait_years": 22,
+      "criteria_score": 44.66,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 3.44,
+        "influence": 30.0,
+        "career": 94.0,
+        "catalog": 73.33,
+        "contribution": 56.0
+      }
+    },
+    {
+      "name": "The Commodores",
+      "genre": "Soul/R&B",
+      "eligible_year": 1999,
+      "wait_years": 27,
+      "criteria_score": 44.63,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 1.12,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 86.67,
+        "contribution": 63.0
+      }
+    },
+    {
       "name": "Dead Kennedys",
       "genre": "Punk",
       "eligible_year": 2004,
@@ -439,21 +514,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "The Commodores",
-      "genre": "Soul/R&B",
-      "eligible_year": 1999,
-      "wait_years": 27,
-      "criteria_score": 44.35,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 15.0,
-        "career": 100.0,
-        "catalog": 86.67,
-        "contribution": 63.0
-      }
-    },
-    {
       "name": "Wire",
       "genre": "Punk",
       "eligible_year": 2002,
@@ -465,21 +525,6 @@ window.DOCKET_DATA = {
         "influence": 15.0,
         "career": 98.0,
         "catalog": 80.0,
-        "contribution": 56.0
-      }
-    },
-    {
-      "name": "Bauhaus",
-      "genre": "Punk",
-      "eligible_year": 2004,
-      "wait_years": 22,
-      "criteria_score": 43.8,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 30.0,
-        "career": 94.0,
-        "catalog": 73.33,
         "contribution": 56.0
       }
     },
@@ -514,6 +559,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Gloria Gaynor",
+      "genre": "Disco/Dance",
+      "eligible_year": 1990,
+      "wait_years": 36,
+      "criteria_score": 43.18,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 11.91,
+        "influence": 0.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 51.0
+      }
+    },
+    {
       "name": "Pixies",
       "genre": "Punk",
       "eligible_year": 2012,
@@ -526,36 +586,6 @@ window.DOCKET_DATA = {
         "career": 78.0,
         "catalog": 60.0,
         "contribution": 44.0
-      }
-    },
-    {
-      "name": "Pantera",
-      "genre": "Heavy Metal",
-      "eligible_year": 2008,
-      "wait_years": 18,
-      "criteria_score": 42.95,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 45.0,
-        "career": 86.0,
-        "catalog": 66.67,
-        "contribution": 44.0
-      }
-    },
-    {
-      "name": "Emmylou Harris",
-      "genre": "Folk/Country",
-      "eligible_year": 1994,
-      "wait_years": 32,
-      "criteria_score": 42.95,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 15.0,
-        "career": 100.0,
-        "catalog": 93.33,
-        "contribution": 51.0
       }
     },
     {
@@ -574,18 +604,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Rick James",
-      "genre": "Soul/R&B",
-      "eligible_year": 2003,
-      "wait_years": 23,
-      "criteria_score": 42.75,
+      "name": "The Kingston Trio",
+      "genre": "Folk/Country",
+      "eligible_year": 1983,
+      "wait_years": 43,
+      "criteria_score": 42.68,
       "verdict": "CASE",
       "scores": {
-        "excellence": 0.0,
-        "influence": 15.0,
-        "career": 96.0,
-        "catalog": 80.0,
-        "contribution": 63.0
+        "excellence": 2.73,
+        "influence": 0.0,
+        "career": 100.0,
+        "catalog": 100.0,
+        "contribution": 60.0
       }
     },
     {
@@ -604,29 +634,14 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "The Kingston Trio",
-      "genre": "Folk/Country",
-      "eligible_year": 1983,
-      "wait_years": 43,
-      "criteria_score": 42.0,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 60.0
-      }
-    },
-    {
       "name": "The Damned",
       "genre": "Punk",
       "eligible_year": 2001,
       "wait_years": 25,
-      "criteria_score": 41.95,
-      "verdict": "BORDERLINE",
+      "criteria_score": 42.05,
+      "verdict": "CASE",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 0.4,
         "influence": 15.0,
         "career": 100.0,
         "catalog": 80.0,
@@ -661,6 +676,21 @@ window.DOCKET_DATA = {
         "career": 100.0,
         "catalog": 86.67,
         "contribution": 49.0
+      }
+    },
+    {
+      "name": "Townes Van Zandt",
+      "genre": "Folk/Country",
+      "eligible_year": 1993,
+      "wait_years": 33,
+      "criteria_score": 41.63,
+      "verdict": "BORDERLINE",
+      "scores": {
+        "excellence": 9.72,
+        "influence": 0.0,
+        "career": 100.0,
+        "catalog": 93.33,
+        "contribution": 51.0
       }
     },
     {
@@ -784,6 +814,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Luther Vandross",
+      "genre": "Soul/R&B",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "criteria_score": 40.51,
+      "verdict": "BORDERLINE",
+      "scores": {
+        "excellence": 24.45,
+        "influence": 0.0,
+        "career": 90.0,
+        "catalog": 73.33,
+        "contribution": 49.5
+      }
+    },
+    {
       "name": "OutKast",
       "genre": "Hip-Hop",
       "eligible_year": 2019,
@@ -799,33 +844,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Gloria Gaynor",
-      "genre": "Disco/Dance",
-      "eligible_year": 1990,
-      "wait_years": 36,
-      "criteria_score": 40.2,
+      "name": "Anita Baker",
+      "genre": "Soul/R&B",
+      "eligible_year": 2008,
+      "wait_years": 18,
+      "criteria_score": 38.99,
       "verdict": "BORDERLINE",
       "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 100.0,
-        "contribution": 51.0
-      }
-    },
-    {
-      "name": "Townes Van Zandt",
-      "genre": "Folk/Country",
-      "eligible_year": 1993,
-      "wait_years": 33,
-      "criteria_score": 39.2,
-      "verdict": "BORDERLINE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 93.33,
-        "contribution": 51.0
+        "excellence": 9.77,
+        "influence": 15.0,
+        "career": 86.0,
+        "catalog": 66.67,
+        "contribution": 49.5
       }
     },
     {
@@ -904,6 +934,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "KC and the Sunshine Band",
+      "genre": "Disco/Dance",
+      "eligible_year": 1998,
+      "wait_years": 28,
+      "criteria_score": 37.72,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 5.28,
+        "influence": 0.0,
+        "career": 100.0,
+        "catalog": 86.67,
+        "contribution": 42.0
+      }
+    },
+    {
       "name": "Lauryn Hill",
       "genre": "Hip-Hop",
       "eligible_year": 2023,
@@ -916,21 +961,6 @@ window.DOCKET_DATA = {
         "career": 56.0,
         "catalog": 46.67,
         "contribution": 34.0
-      }
-    },
-    {
-      "name": "Luther Vandross",
-      "genre": "Soul/R&B",
-      "eligible_year": 2006,
-      "wait_years": 20,
-      "criteria_score": 37.45,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 12.22,
-        "influence": 0.0,
-        "career": 90.0,
-        "catalog": 73.33,
-        "contribution": 49.5
       }
     },
     {
@@ -949,6 +979,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Social Distortion",
+      "genre": "Punk",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "criteria_score": 37.3,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 1.0,
+        "influence": 15.0,
+        "career": 90.0,
+        "catalog": 73.33,
+        "contribution": 44.0
+      }
+    },
+    {
       "name": "Nas",
       "genre": "Hip-Hop",
       "eligible_year": 2019,
@@ -961,21 +1006,6 @@ window.DOCKET_DATA = {
         "career": 64.0,
         "catalog": 53.33,
         "contribution": 34.0
-      }
-    },
-    {
-      "name": "Social Distortion",
-      "genre": "Punk",
-      "eligible_year": 2006,
-      "wait_years": 20,
-      "criteria_score": 37.05,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 15.0,
-        "career": 90.0,
-        "catalog": 73.33,
-        "contribution": 44.0
       }
     },
     {
@@ -994,36 +1024,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Anita Baker",
-      "genre": "Soul/R&B",
-      "eligible_year": 2008,
-      "wait_years": 18,
-      "criteria_score": 36.55,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 15.0,
-        "career": 86.0,
-        "catalog": 66.67,
-        "contribution": 49.5
-      }
-    },
-    {
-      "name": "KC and the Sunshine Band",
-      "genre": "Disco/Dance",
-      "eligible_year": 1998,
-      "wait_years": 28,
-      "criteria_score": 36.4,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 86.67,
-        "contribution": 42.0
-      }
-    },
-    {
       "name": "The Pointer Sisters",
       "genre": "Disco/Dance",
       "eligible_year": 1998,
@@ -1036,6 +1036,36 @@ window.DOCKET_DATA = {
         "career": 100.0,
         "catalog": 86.67,
         "contribution": 42.0
+      }
+    },
+    {
+      "name": "LL Cool J",
+      "genre": "Hip-Hop",
+      "eligible_year": 2010,
+      "wait_years": 16,
+      "criteria_score": 36.39,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 18.97,
+        "influence": 0.0,
+        "career": 82.0,
+        "catalog": 66.67,
+        "contribution": 46.75
+      }
+    },
+    {
+      "name": "Sade",
+      "genre": "Soul/R&B",
+      "eligible_year": 2009,
+      "wait_years": 17,
+      "criteria_score": 36.39,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 15.54,
+        "influence": 0.0,
+        "career": 84.0,
+        "catalog": 66.67,
+        "contribution": 49.5
       }
     },
     {
@@ -1099,6 +1129,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Sinead O'Connor",
+      "genre": "Pop",
+      "eligible_year": 2012,
+      "wait_years": 14,
+      "criteria_score": 35.45,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 36.98,
+        "influence": 0.0,
+        "career": 78.0,
+        "catalog": 60.0,
+        "contribution": 27.5
+      }
+    },
+    {
       "name": "Snoop Dogg",
       "genre": "Hip-Hop",
       "eligible_year": 2018,
@@ -1118,14 +1163,29 @@ window.DOCKET_DATA = {
       "genre": "Classic Rock",
       "eligible_year": 2004,
       "wait_years": 22,
-      "criteria_score": 34.9,
+      "criteria_score": 34.92,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 0.08,
         "influence": 0.0,
         "career": 94.0,
         "catalog": 73.33,
         "contribution": 49.0
+      }
+    },
+    {
+      "name": "Mission of Burma",
+      "genre": "Punk",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "criteria_score": 34.32,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 4.08,
+        "influence": 0.0,
+        "career": 90.0,
+        "catalog": 73.33,
+        "contribution": 44.0
       }
     },
     {
@@ -1144,6 +1204,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "TLC",
+      "genre": "Soul/R&B",
+      "eligible_year": 2017,
+      "wait_years": 9,
+      "criteria_score": 33.93,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 34.12,
+        "influence": 0.0,
+        "career": 68.0,
+        "catalog": 53.33,
+        "contribution": 36.0
+      }
+    },
+    {
       "name": "Ice Cube",
       "genre": "Hip-Hop",
       "eligible_year": 2015,
@@ -1159,36 +1234,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Mission of Burma",
-      "genre": "Punk",
-      "eligible_year": 2006,
-      "wait_years": 20,
-      "criteria_score": 33.3,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 90.0,
-        "catalog": 73.33,
-        "contribution": 44.0
-      }
-    },
-    {
-      "name": "Sinead O'Connor",
-      "genre": "Pop",
-      "eligible_year": 2012,
-      "wait_years": 14,
-      "criteria_score": 33.18,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 27.91,
-        "influence": 0.0,
-        "career": 78.0,
-        "catalog": 60.0,
-        "contribution": 27.5
-      }
-    },
-    {
       "name": "New Edition",
       "genre": "Soul/R&B",
       "eligible_year": 2008,
@@ -1199,21 +1244,6 @@ window.DOCKET_DATA = {
         "excellence": 0.0,
         "influence": 0.0,
         "career": 86.0,
-        "catalog": 66.67,
-        "contribution": 49.5
-      }
-    },
-    {
-      "name": "Sade",
-      "genre": "Soul/R&B",
-      "eligible_year": 2009,
-      "wait_years": 17,
-      "criteria_score": 32.5,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 84.0,
         "catalog": 66.67,
         "contribution": 49.5
       }
@@ -1234,16 +1264,16 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "LL Cool J",
+      "name": "Salt-N-Pepa",
       "genre": "Hip-Hop",
-      "eligible_year": 2010,
-      "wait_years": 16,
-      "criteria_score": 31.65,
+      "eligible_year": 2011,
+      "wait_years": 15,
+      "criteria_score": 31.48,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 0.52,
         "influence": 0.0,
-        "career": 82.0,
+        "career": 80.0,
         "catalog": 66.67,
         "contribution": 46.75
       }
@@ -1264,21 +1294,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Salt-N-Pepa",
-      "genre": "Hip-Hop",
-      "eligible_year": 2011,
-      "wait_years": 15,
-      "criteria_score": 31.35,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 80.0,
-        "catalog": 66.67,
-        "contribution": 46.75
-      }
-    },
-    {
       "name": "Mariah Carey",
       "genre": "Pop",
       "eligible_year": 2015,
@@ -1291,21 +1306,6 @@ window.DOCKET_DATA = {
         "career": 72.0,
         "catalog": 60.0,
         "contribution": 20.0
-      }
-    },
-    {
-      "name": "TLC",
-      "genre": "Soul/R&B",
-      "eligible_year": 2017,
-      "wait_years": 9,
-      "criteria_score": 31.04,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 22.54,
-        "influence": 0.0,
-        "career": 68.0,
-        "catalog": 53.33,
-        "contribution": 36.0
       }
     },
     {
@@ -1478,10 +1478,10 @@ window.DOCKET_DATA = {
       "genre": "Classic Rock",
       "eligible_year": 2013,
       "wait_years": 13,
-      "criteria_score": 28.1,
+      "criteria_score": 28.24,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 0.56,
         "influence": 0.0,
         "career": 76.0,
         "catalog": 60.0,
@@ -1504,6 +1504,36 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Boyz II Men",
+      "genre": "Soul/R&B",
+      "eligible_year": 2016,
+      "wait_years": 10,
+      "criteria_score": 27.13,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 5.73,
+        "influence": 0.0,
+        "career": 70.0,
+        "catalog": 53.33,
+        "contribution": 36.0
+      }
+    },
+    {
+      "name": "Busta Rhymes",
+      "genre": "Hip-Hop",
+      "eligible_year": 2021,
+      "wait_years": 5,
+      "criteria_score": 26.89,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 1.36,
+        "influence": 15.0,
+        "career": 60.0,
+        "catalog": 46.67,
+        "contribution": 34.0
+      }
+    },
+    {
       "name": "Lil Wayne",
       "genre": "Hip-Hop",
       "eligible_year": 2024,
@@ -1523,28 +1553,13 @@ window.DOCKET_DATA = {
       "genre": "Hip-Hop",
       "eligible_year": 2016,
       "wait_years": 10,
-      "criteria_score": 26.55,
+      "criteria_score": 26.63,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 0.32,
         "influence": 5.0,
         "career": 70.0,
         "catalog": 53.33,
-        "contribution": 34.0
-      }
-    },
-    {
-      "name": "Busta Rhymes",
-      "genre": "Hip-Hop",
-      "eligible_year": 2021,
-      "wait_years": 5,
-      "criteria_score": 26.55,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 15.0,
-        "career": 60.0,
-        "catalog": 46.67,
         "contribution": 34.0
       }
     },
@@ -1553,29 +1568,14 @@ window.DOCKET_DATA = {
       "genre": "Hip-Hop",
       "eligible_year": 2023,
       "wait_years": 3,
-      "criteria_score": 25.95,
+      "criteria_score": 26.39,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 1.76,
         "influence": 15.0,
         "career": 56.0,
         "catalog": 46.67,
         "contribution": 34.0
-      }
-    },
-    {
-      "name": "Boyz II Men",
-      "genre": "Soul/R&B",
-      "eligible_year": 2016,
-      "wait_years": 10,
-      "criteria_score": 25.7,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 70.0,
-        "catalog": 53.33,
-        "contribution": 36.0
       }
     },
     {
@@ -1598,10 +1598,10 @@ window.DOCKET_DATA = {
       "genre": "Classic Rock",
       "eligible_year": 2018,
       "wait_years": 8,
-      "criteria_score": 23.89,
+      "criteria_score": 24.5,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 1.56,
+        "excellence": 3.99,
         "influence": 0.0,
         "career": 66.0,
         "catalog": 53.33,
@@ -1613,10 +1613,10 @@ window.DOCKET_DATA = {
       "genre": "Pop",
       "eligible_year": 2017,
       "wait_years": 9,
-      "criteria_score": 22.2,
+      "criteria_score": 24.1,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 7.59,
         "influence": 0.0,
         "career": 68.0,
         "catalog": 53.33,
@@ -1628,10 +1628,10 @@ window.DOCKET_DATA = {
       "genre": "Heavy Metal",
       "eligible_year": 2023,
       "wait_years": 3,
-      "criteria_score": 21.8,
+      "criteria_score": 22.29,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 0.0,
+        "excellence": 1.96,
         "influence": 0.0,
         "career": 56.0,
         "catalog": 46.67,

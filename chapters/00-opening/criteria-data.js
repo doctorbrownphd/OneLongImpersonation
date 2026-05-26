@@ -32,6 +32,78 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
+      "name": "Kraftwerk",
+      "criteria_score": 54.02,
+      "genre": "Electronic",
+      "eligible_year": 1995,
+      "wait_years": 31,
+      "gap_vs_inducted_median": 12.02,
+      "above_inducted_median": true
+    },
+    {
+      "name": "War",
+      "criteria_score": 51.79,
+      "genre": "Soul/R&B",
+      "eligible_year": 1994,
+      "wait_years": 32,
+      "gap_vs_inducted_median": 9.79,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Blind Willie McTell",
+      "criteria_score": 51.7,
+      "genre": "Blues/Early",
+      "eligible_year": 1952,
+      "wait_years": 74,
+      "gap_vs_inducted_median": 9.7,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Son House",
+      "criteria_score": 51.59,
+      "genre": "Blues/Early",
+      "eligible_year": 1955,
+      "wait_years": 71,
+      "gap_vs_inducted_median": 9.59,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Scorpions",
+      "criteria_score": 51.16,
+      "genre": "Heavy Metal",
+      "eligible_year": 1997,
+      "wait_years": 29,
+      "gap_vs_inducted_median": 9.16,
+      "above_inducted_median": true
+    },
+    {
+      "name": "The Meters",
+      "criteria_score": 51.1,
+      "genre": "Soul/R&B",
+      "eligible_year": 1994,
+      "wait_years": 32,
+      "gap_vs_inducted_median": 9.1,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Mississippi John Hurt",
+      "criteria_score": 50.84,
+      "genre": "Blues/Early",
+      "eligible_year": 1953,
+      "wait_years": 73,
+      "gap_vs_inducted_median": 8.84,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Thin Lizzy",
+      "criteria_score": 50.69,
+      "genre": "Heavy Metal",
+      "eligible_year": 1996,
+      "wait_years": 30,
+      "gap_vs_inducted_median": 8.69,
+      "above_inducted_median": true
+    },
+    {
       "name": "Emerson Lake & Palmer",
       "criteria_score": 50.5,
       "genre": "Classic Rock",
@@ -41,75 +113,39 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "Mississippi John Hurt",
-      "criteria_score": 50.0,
-      "genre": "Blues/Early",
-      "eligible_year": 1953,
-      "wait_years": 73,
-      "gap_vs_inducted_median": 8.0,
-      "above_inducted_median": true
-    },
-    {
-      "name": "Blind Willie McTell",
-      "criteria_score": 50.0,
+      "name": "Big Bill Broonzy",
+      "criteria_score": 50.27,
       "genre": "Blues/Early",
       "eligible_year": 1952,
       "wait_years": 74,
-      "gap_vs_inducted_median": 8.0,
+      "gap_vs_inducted_median": 8.27,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Motorhead",
+      "criteria_score": 50.08,
+      "genre": "Heavy Metal",
+      "eligible_year": 2002,
+      "wait_years": 24,
+      "gap_vs_inducted_median": 8.08,
       "above_inducted_median": true
     },
     {
       "name": "Lonnie Johnson",
-      "criteria_score": 50.0,
+      "criteria_score": 50.08,
       "genre": "Blues/Early",
       "eligible_year": 1950,
       "wait_years": 76,
-      "gap_vs_inducted_median": 8.0,
+      "gap_vs_inducted_median": 8.08,
       "above_inducted_median": true
     },
     {
       "name": "Tampa Red",
-      "criteria_score": 50.0,
+      "criteria_score": 50.02,
       "genre": "Blues/Early",
       "eligible_year": 1953,
       "wait_years": 73,
-      "gap_vs_inducted_median": 8.0,
-      "above_inducted_median": true
-    },
-    {
-      "name": "Big Bill Broonzy",
-      "criteria_score": 50.0,
-      "genre": "Blues/Early",
-      "eligible_year": 1952,
-      "wait_years": 74,
-      "gap_vs_inducted_median": 8.0,
-      "above_inducted_median": true
-    },
-    {
-      "name": "Son House",
-      "criteria_score": 50.0,
-      "genre": "Blues/Early",
-      "eligible_year": 1955,
-      "wait_years": 71,
-      "gap_vs_inducted_median": 8.0,
-      "above_inducted_median": true
-    },
-    {
-      "name": "Kraftwerk",
-      "criteria_score": 48.4,
-      "genre": "Electronic",
-      "eligible_year": 1995,
-      "wait_years": 31,
-      "gap_vs_inducted_median": 6.4,
-      "above_inducted_median": true
-    },
-    {
-      "name": "The Meters",
-      "criteria_score": 48.05,
-      "genre": "Soul/R&B",
-      "eligible_year": 1994,
-      "wait_years": 32,
-      "gap_vs_inducted_median": 6.05,
+      "gap_vs_inducted_median": 8.02,
       "above_inducted_median": true
     },
     {
@@ -119,6 +155,15 @@ window.CRITERIA_DATA = {
       "eligible_year": 1993,
       "wait_years": 33,
       "gap_vs_inducted_median": 5.91,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Emmylou Harris",
+      "criteria_score": 47.83,
+      "genre": "Folk/Country",
+      "eligible_year": 1994,
+      "wait_years": 32,
+      "gap_vs_inducted_median": 5.83,
       "above_inducted_median": true
     },
     {
@@ -140,6 +185,15 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
+      "name": "Tangerine Dream",
+      "criteria_score": 47.2,
+      "genre": "Electronic",
+      "eligible_year": 1992,
+      "wait_years": 34,
+      "gap_vs_inducted_median": 5.2,
+      "above_inducted_median": true
+    },
+    {
       "name": "Chaka Khan",
       "criteria_score": 47.09,
       "genre": "Soul/R&B",
@@ -149,30 +203,12 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "Thin Lizzy",
-      "criteria_score": 46.7,
-      "genre": "Heavy Metal",
-      "eligible_year": 1996,
-      "wait_years": 30,
-      "gap_vs_inducted_median": 4.7,
-      "above_inducted_median": true
-    },
-    {
-      "name": "Scorpions",
-      "criteria_score": 46.7,
-      "genre": "Heavy Metal",
-      "eligible_year": 1997,
-      "wait_years": 29,
-      "gap_vs_inducted_median": 4.7,
-      "above_inducted_median": true
-    },
-    {
       "name": "Iron Butterfly",
-      "criteria_score": 46.35,
+      "criteria_score": 46.58,
       "genre": "Heavy Metal",
       "eligible_year": 1993,
       "wait_years": 33,
-      "gap_vs_inducted_median": 4.35,
+      "gap_vs_inducted_median": 4.58,
       "above_inducted_median": true
     },
     {
@@ -194,6 +230,33 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
+      "name": "The Misfits",
+      "criteria_score": 45.44,
+      "genre": "Punk",
+      "eligible_year": 2002,
+      "wait_years": 24,
+      "gap_vs_inducted_median": 3.44,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Rick James",
+      "criteria_score": 45.43,
+      "genre": "Soul/R&B",
+      "eligible_year": 2003,
+      "wait_years": 23,
+      "gap_vs_inducted_median": 3.43,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Pantera",
+      "criteria_score": 44.99,
+      "genre": "Heavy Metal",
+      "eligible_year": 2008,
+      "wait_years": 18,
+      "gap_vs_inducted_median": 2.99,
+      "above_inducted_median": true
+    },
+    {
       "name": "New Order",
       "criteria_score": 44.77,
       "genre": "Electronic",
@@ -209,6 +272,24 @@ window.CRITERIA_DATA = {
       "eligible_year": 1991,
       "wait_years": 35,
       "gap_vs_inducted_median": 2.72,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Bauhaus",
+      "criteria_score": 44.66,
+      "genre": "Punk",
+      "eligible_year": 2004,
+      "wait_years": 22,
+      "gap_vs_inducted_median": 2.66,
+      "above_inducted_median": true
+    },
+    {
+      "name": "The Commodores",
+      "criteria_score": 44.63,
+      "genre": "Soul/R&B",
+      "eligible_year": 1999,
+      "wait_years": 27,
+      "gap_vs_inducted_median": 2.63,
       "above_inducted_median": true
     },
     {
@@ -230,30 +311,12 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "War",
-      "criteria_score": 44.3,
-      "genre": "Soul/R&B",
-      "eligible_year": 1994,
-      "wait_years": 32,
-      "gap_vs_inducted_median": 2.3,
-      "above_inducted_median": true
-    },
-    {
       "name": "Wire",
       "criteria_score": 43.93,
       "genre": "Punk",
       "eligible_year": 2002,
       "wait_years": 24,
       "gap_vs_inducted_median": 1.93,
-      "above_inducted_median": true
-    },
-    {
-      "name": "Bauhaus",
-      "criteria_score": 43.8,
-      "genre": "Punk",
-      "eligible_year": 2004,
-      "wait_years": 22,
-      "gap_vs_inducted_median": 1.8,
       "above_inducted_median": true
     },
     {
@@ -266,21 +329,21 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "Tangerine Dream",
-      "criteria_score": 43.45,
-      "genre": "Electronic",
-      "eligible_year": 1992,
-      "wait_years": 34,
-      "gap_vs_inducted_median": 1.45,
-      "above_inducted_median": true
-    },
-    {
       "name": "Husker Du",
       "criteria_score": 43.2,
       "genre": "Punk",
       "eligible_year": 2006,
       "wait_years": 20,
       "gap_vs_inducted_median": 1.2,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Gloria Gaynor",
+      "criteria_score": 43.18,
+      "genre": "Disco/Dance",
+      "eligible_year": 1990,
+      "wait_years": 36,
+      "gap_vs_inducted_median": 1.18,
       "above_inducted_median": true
     },
     {
@@ -293,12 +356,21 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "Emmylou Harris",
-      "criteria_score": 42.95,
+      "name": "Slayer",
+      "criteria_score": 42.81,
+      "genre": "Heavy Metal",
+      "eligible_year": 2008,
+      "wait_years": 18,
+      "gap_vs_inducted_median": 0.81,
+      "above_inducted_median": true
+    },
+    {
+      "name": "The Kingston Trio",
+      "criteria_score": 42.68,
       "genre": "Folk/Country",
-      "eligible_year": 1994,
-      "wait_years": 32,
-      "gap_vs_inducted_median": 0.95,
+      "eligible_year": 1983,
+      "wait_years": 43,
+      "gap_vs_inducted_median": 0.68,
       "above_inducted_median": true
     },
     {
@@ -311,21 +383,21 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "The Kingston Trio",
-      "criteria_score": 42.0,
-      "genre": "Folk/Country",
-      "eligible_year": 1983,
-      "wait_years": 43,
-      "gap_vs_inducted_median": 0.0,
-      "above_inducted_median": false
-    },
-    {
       "name": "The Damned",
-      "criteria_score": 41.95,
+      "criteria_score": 42.05,
       "genre": "Punk",
       "eligible_year": 2001,
       "wait_years": 25,
-      "gap_vs_inducted_median": -0.05,
+      "gap_vs_inducted_median": 0.05,
+      "above_inducted_median": true
+    },
+    {
+      "name": "The Fall",
+      "criteria_score": 41.7,
+      "genre": "Punk",
+      "eligible_year": 2003,
+      "wait_years": 23,
+      "gap_vs_inducted_median": -0.3,
       "above_inducted_median": false
     },
     {
@@ -338,6 +410,42 @@ window.CRITERIA_DATA = {
       "above_inducted_median": false
     },
     {
+      "name": "Townes Van Zandt",
+      "criteria_score": 41.63,
+      "genre": "Folk/Country",
+      "eligible_year": 1993,
+      "wait_years": 33,
+      "gap_vs_inducted_median": -0.37,
+      "above_inducted_median": false
+    },
+    {
+      "name": "Teena Marie",
+      "criteria_score": 41.45,
+      "genre": "Soul/R&B",
+      "eligible_year": 2004,
+      "wait_years": 22,
+      "gap_vs_inducted_median": -0.55,
+      "above_inducted_median": false
+    },
+    {
+      "name": "Kanye West",
+      "criteria_score": 41.12,
+      "genre": "Hip-Hop",
+      "eligible_year": 2026,
+      "wait_years": 0,
+      "gap_vs_inducted_median": -0.88,
+      "above_inducted_median": false
+    },
+    {
+      "name": "Minor Threat",
+      "criteria_score": 41.01,
+      "genre": "Punk",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "gap_vs_inducted_median": -0.99,
+      "above_inducted_median": false
+    },
+    {
       "name": "Boston",
       "criteria_score": 40.97,
       "genre": "Classic Rock",
@@ -345,120 +453,12 @@ window.CRITERIA_DATA = {
       "wait_years": 25,
       "gap_vs_inducted_median": -1.03,
       "above_inducted_median": false
-    },
-    {
-      "name": "John Prine",
-      "criteria_score": 40.75,
-      "genre": "Folk/Country",
-      "eligible_year": 1996,
-      "wait_years": 30,
-      "gap_vs_inducted_median": -1.25,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Rufus featuring Chaka Khan",
-      "criteria_score": 40.6,
-      "genre": "Soul/R&B",
-      "eligible_year": 1998,
-      "wait_years": 28,
-      "gap_vs_inducted_median": -1.4,
-      "above_inducted_median": false
-    },
-    {
-      "name": "The Commodores",
-      "criteria_score": 40.6,
-      "genre": "Soul/R&B",
-      "eligible_year": 1999,
-      "wait_years": 27,
-      "gap_vs_inducted_median": -1.4,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Soundgarden",
-      "criteria_score": 40.52,
-      "genre": "Heavy Metal",
-      "eligible_year": 2013,
-      "wait_years": 13,
-      "gap_vs_inducted_median": -1.48,
-      "above_inducted_median": false
-    },
-    {
-      "name": "OutKast",
-      "criteria_score": 40.23,
-      "genre": "Hip-Hop",
-      "eligible_year": 2019,
-      "wait_years": 7,
-      "gap_vs_inducted_median": -1.77,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Gloria Gaynor",
-      "criteria_score": 40.2,
-      "genre": "Disco/Dance",
-      "eligible_year": 1990,
-      "wait_years": 36,
-      "gap_vs_inducted_median": -1.8,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Kanye West",
-      "criteria_score": 39.88,
-      "genre": "Hip-Hop",
-      "eligible_year": 2026,
-      "wait_years": 0,
-      "gap_vs_inducted_median": -2.12,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Townes Van Zandt",
-      "criteria_score": 39.2,
-      "genre": "Folk/Country",
-      "eligible_year": 1993,
-      "wait_years": 33,
-      "gap_vs_inducted_median": -2.8,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Rick James",
-      "criteria_score": 39.0,
-      "genre": "Soul/R&B",
-      "eligible_year": 2003,
-      "wait_years": 23,
-      "gap_vs_inducted_median": -3.0,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Motorhead",
-      "criteria_score": 38.83,
-      "genre": "Heavy Metal",
-      "eligible_year": 2002,
-      "wait_years": 24,
-      "gap_vs_inducted_median": -3.17,
-      "above_inducted_median": false
-    },
-    {
-      "name": "REO Speedwagon",
-      "criteria_score": 38.02,
-      "genre": "Classic Rock",
-      "eligible_year": 1996,
-      "wait_years": 30,
-      "gap_vs_inducted_median": -3.98,
-      "above_inducted_median": false
-    },
-    {
-      "name": "The Fall",
-      "criteria_score": 37.95,
-      "genre": "Punk",
-      "eligible_year": 2003,
-      "wait_years": 23,
-      "gap_vs_inducted_median": -4.05,
-      "above_inducted_median": false
     }
   ],
-  "inducted_average_score": 43.93,
+  "inducted_average_score": 44.02,
   "inducted_median_score": 42.0,
   "total_eligible": 112,
-  "above_inducted_median": 34,
+  "above_inducted_median": 43,
   "weights": {
     "excellence": 0.25,
     "influence": 0.25,
