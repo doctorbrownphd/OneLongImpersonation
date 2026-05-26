@@ -50,8 +50,10 @@
     var container = document.getElementById('gap-chart');
     if (!container) return;
 
-    // Filter to pairs where student is inducted
-    var vizPairs = pairs.filter(function(p) { return p.student_inducted_year; });
+    // Filter to prosecution cases: student inducted, teacher waited longer or never inducted
+    var vizPairs = pairs.filter(function(p) {
+      return p.student_inducted_year && p.gap_direction !== 'teacher_first';
+    });
 
     // Sort by gap descending
     vizPairs.sort(function(a, b) { return b.gap_years - a.gap_years; });
@@ -260,9 +262,12 @@
     var container = document.getElementById('featured-cases');
     if (!container) return;
 
-    // Top cases by gap
+    // Top cases by gap (only where teacher waited longer or was never inducted)
     var featured = pairs
-      .filter(function(p) { return p.gap_years >= 30 || p.teacher_never_inducted; })
+      .filter(function(p) {
+        return (p.gap_direction !== 'teacher_first') &&
+               (p.gap_years >= 30 || p.teacher_never_inducted);
+      })
       .sort(function(a, b) { return b.gap_years - a.gap_years; })
       .slice(0, 6);
 
