@@ -1,10 +1,10 @@
 /* One Long Impersonation -- Chapter 05: The Docket */
 
 .chapter-header {
-  padding-top: 160px;
-  min-height: 50vh;
+  padding-top: 80px;
+  min-height: 100vh; min-height: 100dvh;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 /* Search and filters */

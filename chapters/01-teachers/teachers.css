@@ -2,10 +2,10 @@
 
 /* Chapter header */
 .chapter-header {
-  padding-top: 160px;  /* Account for fixed nav */
-  min-height: 60vh;
+  padding-top: 80px;  /* Account for fixed nav */
+  min-height: 100vh; min-height: 100dvh;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .opening-hook em {
