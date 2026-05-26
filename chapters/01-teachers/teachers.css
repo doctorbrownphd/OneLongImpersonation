@@ -77,9 +77,10 @@
 
 .case-card__names {
   font-family: var(--serif);
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500;
   color: var(--cream);
+  line-height: 1.2;
 }
 
 .case-card__gap {
@@ -91,7 +92,7 @@
 }
 
 .case-card__gap--never {
-  color: var(--blood-deep);
+  color: var(--blood);
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -105,7 +106,7 @@
 
 .case-card__citation {
   font-size: 14px;
-  color: #4a4a40;
+  color: var(--cream-2);
   line-height: 1.6;
 }
 
