@@ -587,11 +587,11 @@
   }
 
   function init() {
-    populateStats();
-    renderSurvivalCurves();
-    renderMetalDocket();
-    renderCoxModel();
-    renderTooLate();
+    try { populateStats(); } catch(e) { console.error('[wait] populateStats:', e); }
+    try { renderSurvivalCurves(); } catch(e) { console.error('[wait] survivalCurves:', e); }
+    try { renderMetalDocket(); } catch(e) { console.error('[wait] metalDocket:', e); }
+    try { renderCoxModel(); } catch(e) { console.error('[wait] coxModel:', e); }
+    try { renderTooLate(); } catch(e) { console.error('[wait] tooLate:', e); }
   }
 
   if (document.readyState === 'loading') {
