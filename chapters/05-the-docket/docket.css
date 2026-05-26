@@ -152,9 +152,11 @@
 /* AI disclosure */
 .ai-disclosure-block {
   padding: 32px;
-  background: var(--paper-2);
+  background: var(--ink-2);
+  border: 1px solid var(--rule);
   border-left: 4px solid var(--blood);
   border-radius: 0 4px 4px 0;
+  color: var(--cream-2);
 }
 
 /* Responsive */
