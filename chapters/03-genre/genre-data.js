@@ -829,6 +829,30 @@ window.GENRE_DATA = {
   },
   "never_inducted_notable": [
     {
+      "name": "Dick Dale",
+      "genre": "Classic Rock",
+      "eligible_year": 1984,
+      "note": "Invented surf guitar. Influenced Hendrix, Beach Boys. Died 2019."
+    },
+    {
+      "name": "Big Mama Thornton",
+      "genre": "Blues/Early",
+      "eligible_year": 1986,
+      "note": "Wrote 'Hound Dog.' Elvis: first class. Thornton: never."
+    },
+    {
+      "name": "Mary Wells",
+      "genre": "Soul/R&B",
+      "eligible_year": 1986,
+      "note": "First Motown #1. Nominated inaugural ballot 1986. Still waiting."
+    },
+    {
+      "name": "The Meters",
+      "genre": "Soul/R&B",
+      "eligible_year": 1995,
+      "note": "Founded New Orleans funk. Four nominations, four rejections."
+    },
+    {
       "name": "Motorhead",
       "genre": "Heavy Metal",
       "eligible_year": 2002,
@@ -838,43 +862,55 @@ window.GENRE_DATA = {
       "name": "Thin Lizzy",
       "genre": "Heavy Metal",
       "eligible_year": 1996,
-      "note": "Phil Lynott died 1986. Never nominated."
+      "note": "Phil Lynott died 1986. Twin-guitar template for Maiden, Metallica."
     },
     {
       "name": "Soundgarden",
       "genre": "Heavy Metal",
       "eligible_year": 2016,
-      "note": "Chris Cornell died 2017. Multiple nominations, never inducted."
+      "note": "First grunge band on a major label. Cornell died 2017."
     },
     {
       "name": "Tool",
       "genre": "Heavy Metal",
       "eligible_year": 2018,
-      "note": "Consistently tops fan votes. Not inducted."
-    },
-    {
-      "name": "System of a Down",
-      "genre": "Heavy Metal",
-      "eligible_year": 2023,
-      "note": "Recently eligible. Not yet nominated."
+      "note": "Four Grammys. Tops fan votes repeatedly. Not inducted."
     },
     {
       "name": "Bad Brains",
       "genre": "Punk",
       "eligible_year": 2007,
-      "note": "Black punk pioneers. Never nominated."
+      "note": "Black hardcore punk pioneers. Never nominated."
     },
     {
-      "name": "Kraftwerk",
-      "genre": "Electronic",
+      "name": "New York Dolls",
+      "genre": "Punk",
+      "eligible_year": 1999,
+      "note": "Proto-punk foundation for Ramones, Sex Pistols. Three nominations."
+    },
+    {
+      "name": "Captain Beefheart",
+      "genre": "Classic Rock",
+      "eligible_year": 1991,
+      "note": "Cited by Tom Waits, PJ Harvey, White Stripes. Never nominated."
+    },
+    {
+      "name": "Big Star",
+      "genre": "Classic Rock",
+      "eligible_year": 1997,
+      "note": "Power pop template. Cited by R.E.M., Replacements. Never nominated."
+    },
+    {
+      "name": "King Crimson",
+      "genre": "Classic Rock",
       "eligible_year": 1995,
-      "note": "Invented electronic music. Never inducted."
+      "note": "Founded prog rock. Robert Fripp says induction 'highly unlikely.'"
     },
     {
-      "name": "New Order",
-      "genre": "Electronic",
-      "eligible_year": 2008,
-      "note": "Bridged post-punk and electronic. Never nominated."
+      "name": "Chic",
+      "genre": "Disco/Dance",
+      "eligible_year": 2003,
+      "note": "Nominated 11 times. Rodgers inducted 2017 (not as Performer)."
     },
     {
       "name": "Aphex Twin",
@@ -886,7 +922,67 @@ window.GENRE_DATA = {
       "name": "Iron Butterfly",
       "genre": "Heavy Metal",
       "eligible_year": 1993,
-      "note": "Proto-metal pioneers. Never nominated."
+      "note": "Proto-metal. 'In-A-Gadda-Da-Vida' inspired Ringo's Abbey Road solo."
+    },
+    {
+      "name": "Gram Parsons",
+      "genre": "Folk/Country",
+      "eligible_year": 1993,
+      "note": "Invented country-rock. Eagles, Emmylou Harris descend from him."
+    },
+    {
+      "name": "Harry Nilsson",
+      "genre": "Classic Rock",
+      "eligible_year": 1989,
+      "note": "Beatles' favorite artist. 37 years eligible. Never nominated."
+    },
+    {
+      "name": "Blue Oyster Cult",
+      "genre": "Heavy Metal",
+      "eligible_year": 1997,
+      "note": "Proto-metal meets prog. '(Don't Fear) The Reaper.' Never nominated."
+    },
+    {
+      "name": "The Monkees",
+      "genre": "Pop",
+      "eligible_year": 1992,
+      "note": "Music video pioneers. Outsold Beatles briefly. Never nominated."
+    },
+    {
+      "name": "Styx",
+      "genre": "Classic Rock",
+      "eligible_year": 1997,
+      "note": "Five platinum albums. Eight top-ten hits. Never nominated."
+    },
+    {
+      "name": "Three Dog Night",
+      "genre": "Classic Rock",
+      "eligible_year": 1994,
+      "note": "21 straight top-40 hits. Never nominated. 'Didn't write their own songs.'"
+    },
+    {
+      "name": "Boston",
+      "genre": "Classic Rock",
+      "eligible_year": 2002,
+      "note": "Second best-selling debut album ever. Pioneered AOR. Never nominated."
+    },
+    {
+      "name": "Kansas",
+      "genre": "Classic Rock",
+      "eligible_year": 2000,
+      "note": "'Carry On Wayward Son,' 'Dust in the Wind.' Never nominated."
+    },
+    {
+      "name": "Sonic Youth",
+      "genre": "Punk",
+      "eligible_year": 2008,
+      "note": "Redefined guitar in alt-rock. Influenced Nirvana. Never nominated."
+    },
+    {
+      "name": "Television",
+      "genre": "Punk",
+      "eligible_year": 2002,
+      "note": "Marquee Moon (1977). Predated every NYC punk inductee. Tom Verlaine died 2023."
     }
   ],
   "genre_colors": {
