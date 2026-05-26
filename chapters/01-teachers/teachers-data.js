@@ -38,6 +38,22 @@ window.TEACHERS_DATA = {
       "confidence": "documented"
     },
     {
+      "teacher": "Mary Wells",
+      "student": "The Supremes",
+      "teacher_inducted_year": null,
+      "student_inducted_year": 1988,
+      "gap_years": 38,
+      "gap_direction": "teacher_waited",
+      "teacher_never_inducted": true,
+      "status": "teacher_never_inducted",
+      "teacher_race": "Black",
+      "student_race": "Black",
+      "composition": "BB",
+      "teacher_category": null,
+      "source_type": "biography",
+      "confidence": "documented"
+    },
+    {
       "teacher": "Charley Patton",
       "student": "Muddy Waters",
       "teacher_inducted_year": 2021,
@@ -214,6 +230,22 @@ window.TEACHERS_DATA = {
       "confidence": "documented"
     },
     {
+      "teacher": "Gram Parsons",
+      "student": "The Eagles",
+      "teacher_inducted_year": null,
+      "student_inducted_year": 1998,
+      "gap_years": 28,
+      "gap_direction": "teacher_waited",
+      "teacher_never_inducted": true,
+      "status": "teacher_never_inducted",
+      "teacher_race": "white",
+      "student_race": "white",
+      "composition": "WW",
+      "teacher_category": null,
+      "source_type": "biography",
+      "confidence": "documented"
+    },
+    {
       "teacher": "James Brown",
       "student": "Public Enemy",
       "teacher_inducted_year": 1986,
@@ -227,6 +259,38 @@ window.TEACHERS_DATA = {
       "composition": "BB",
       "teacher_category": "P",
       "source_type": "interview",
+      "confidence": "documented"
+    },
+    {
+      "teacher": "New York Dolls",
+      "student": "Ramones",
+      "teacher_inducted_year": null,
+      "student_inducted_year": 2002,
+      "gap_years": 24,
+      "gap_direction": "teacher_waited",
+      "teacher_never_inducted": true,
+      "status": "teacher_never_inducted",
+      "teacher_race": "white",
+      "student_race": "white",
+      "composition": "WW",
+      "teacher_category": null,
+      "source_type": "biography",
+      "confidence": "documented"
+    },
+    {
+      "teacher": "T. Rex",
+      "student": "David Bowie",
+      "teacher_inducted_year": 2020,
+      "student_inducted_year": 1996,
+      "gap_years": 24,
+      "gap_direction": "teacher_waited",
+      "teacher_never_inducted": false,
+      "status": "both_inducted",
+      "teacher_race": "white",
+      "student_race": "white",
+      "composition": "WW",
+      "teacher_category": "P",
+      "source_type": "biography",
       "confidence": "documented"
     },
     {
@@ -291,6 +355,38 @@ window.TEACHERS_DATA = {
       "composition": "BW",
       "teacher_category": "P",
       "source_type": "academic",
+      "confidence": "documented"
+    },
+    {
+      "teacher": "New York Dolls",
+      "student": "Sex Pistols",
+      "teacher_inducted_year": null,
+      "student_inducted_year": 2006,
+      "gap_years": 20,
+      "gap_direction": "teacher_waited",
+      "teacher_never_inducted": true,
+      "status": "teacher_never_inducted",
+      "teacher_race": "white",
+      "student_race": "white",
+      "composition": "WW",
+      "teacher_category": null,
+      "source_type": "biography",
+      "confidence": "documented"
+    },
+    {
+      "teacher": "Big Star",
+      "student": "R.E.M.",
+      "teacher_inducted_year": null,
+      "student_inducted_year": 2007,
+      "gap_years": 19,
+      "gap_direction": "teacher_waited",
+      "teacher_never_inducted": true,
+      "status": "teacher_never_inducted",
+      "teacher_race": "white",
+      "student_race": "white",
+      "composition": "WW",
+      "teacher_category": null,
+      "source_type": "interview",
       "confidence": "documented"
     },
     {
@@ -390,6 +486,22 @@ window.TEACHERS_DATA = {
       "confidence": "documented"
     },
     {
+      "teacher": "Blue \u00d6yster Cult",
+      "student": "Metallica",
+      "teacher_inducted_year": null,
+      "student_inducted_year": 2009,
+      "gap_years": 17,
+      "gap_direction": "teacher_waited",
+      "teacher_never_inducted": true,
+      "status": "teacher_never_inducted",
+      "teacher_race": "white",
+      "student_race": "white",
+      "composition": "WW",
+      "teacher_category": null,
+      "source_type": "interview",
+      "confidence": "documented"
+    },
+    {
       "teacher": "Black Sabbath",
       "student": "Judas Priest",
       "teacher_inducted_year": 2006,
@@ -450,6 +562,22 @@ window.TEACHERS_DATA = {
       "student_race": "Black",
       "composition": "BB",
       "teacher_category": "P",
+      "source_type": "interview",
+      "confidence": "documented"
+    },
+    {
+      "teacher": "Captain Beefheart",
+      "student": "Tom Waits",
+      "teacher_inducted_year": null,
+      "student_inducted_year": 2011,
+      "gap_years": 15,
+      "gap_direction": "teacher_waited",
+      "teacher_never_inducted": true,
+      "status": "teacher_never_inducted",
+      "teacher_race": "white",
+      "student_race": "white",
+      "composition": "WW",
+      "teacher_category": null,
       "source_type": "interview",
       "confidence": "documented"
     },
@@ -835,6 +963,22 @@ window.TEACHERS_DATA = {
       "composition": "BB",
       "teacher_category": "P",
       "source_type": "biography",
+      "confidence": "documented"
+    },
+    {
+      "teacher": "Donna Summer",
+      "student": "Madonna",
+      "teacher_inducted_year": 2013,
+      "student_inducted_year": 2008,
+      "gap_years": 5,
+      "gap_direction": "teacher_waited",
+      "teacher_never_inducted": false,
+      "status": "both_inducted",
+      "teacher_race": "Black",
+      "student_race": "white",
+      "composition": "BW",
+      "teacher_category": "P",
+      "source_type": "interview",
       "confidence": "documented"
     },
     {
@@ -1415,32 +1559,32 @@ window.TEACHERS_DATA = {
     }
   ],
   "stats": {
-    "total_pairs": 88,
-    "teacher_waited_or_never": 38,
+    "total_pairs": 97,
+    "teacher_waited_or_never": 47,
     "composition_counts": {
-      "BW": 24,
-      "BB": 41,
-      "WW": 19,
+      "BW": 25,
+      "BB": 42,
+      "WW": 26,
       "WB": 2,
       "other": 2
     },
-    "bw_median_gap": 5.5,
-    "bw_mean_gap": 11.0,
-    "bw_count": 24,
-    "same_race_median_gap": 6.5,
-    "same_race_mean_gap": 10.7,
-    "same_race_count": 60,
-    "raw_median_difference": -1.0,
-    "tw_bw_median_gap": 20,
-    "tw_bw_count": 9,
-    "tw_same_race_median_gap": 7.0,
-    "tw_same_race_count": 26,
-    "tw_raw_difference": 13.0
+    "bw_median_gap": 5,
+    "bw_mean_gap": 10.7,
+    "bw_count": 25,
+    "same_race_median_gap": 9.5,
+    "same_race_mean_gap": 12.1,
+    "same_race_count": 68,
+    "raw_median_difference": -4.5,
+    "tw_bw_median_gap": 18.5,
+    "tw_bw_count": 10,
+    "tw_same_race_median_gap": 14.5,
+    "tw_same_race_count": 34,
+    "tw_raw_difference": 4.0
   },
   "centrality": [
     {
       "name": "Sister Rosetta Tharpe",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2018,
@@ -1448,31 +1592,31 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Chuck Berry",
-      "pagerank": 0.010626,
-      "betweenness": 0.000765,
+      "pagerank": 0.009194,
+      "betweenness": 0.000565,
       "inducted": true,
       "inducted_year": 1986,
       "race": "Black"
     },
     {
       "name": "Little Richard",
-      "pagerank": 0.010626,
-      "betweenness": 0.001477,
+      "pagerank": 0.009194,
+      "betweenness": 0.001091,
       "inducted": true,
       "inducted_year": 1986,
       "race": "Black"
     },
     {
       "name": "Elvis Presley",
-      "pagerank": 0.01221,
-      "betweenness": 0.000211,
+      "pagerank": 0.010565,
+      "betweenness": 0.000156,
       "inducted": true,
       "inducted_year": 1986,
       "race": "white"
     },
     {
       "name": "Jerry Lee Lewis",
-      "pagerank": 0.009041,
+      "pagerank": 0.007823,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1986,
@@ -1480,7 +1624,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Big Mama Thornton",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": false,
       "inducted_year": null,
@@ -1488,7 +1632,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Janis Joplin",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1995,
@@ -1496,7 +1640,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Louis Jordan",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1987,
@@ -1504,31 +1648,31 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Ray Charles",
-      "pagerank": 0.009041,
-      "betweenness": 0.000316,
+      "pagerank": 0.007823,
+      "betweenness": 0.000234,
       "inducted": true,
       "inducted_year": 1986,
       "race": "Black"
     },
     {
       "name": "James Brown",
-      "pagerank": 0.011299,
-      "betweenness": 0.001978,
+      "pagerank": 0.009777,
+      "betweenness": 0.001461,
       "inducted": true,
       "inducted_year": 1986,
       "race": "Black"
     },
     {
       "name": "Muddy Waters",
-      "pagerank": 0.013795,
-      "betweenness": 0.001424,
+      "pagerank": 0.011936,
+      "betweenness": 0.001052,
       "inducted": true,
       "inducted_year": 1987,
       "race": "Black"
     },
     {
       "name": "The Rolling Stones",
-      "pagerank": 0.032413,
+      "pagerank": 0.028045,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1989,
@@ -1536,15 +1680,15 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Led Zeppelin",
-      "pagerank": 0.019895,
-      "betweenness": 0.003956,
+      "pagerank": 0.017214,
+      "betweenness": 0.002922,
       "inducted": true,
       "inducted_year": 1995,
       "race": "white"
     },
     {
       "name": "Howlin' Wolf",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1991,
@@ -1552,7 +1696,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Robert Johnson",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1986,
@@ -1560,7 +1704,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Mahalia Jackson",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1997,
@@ -1568,15 +1712,15 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Aretha Franklin",
-      "pagerank": 0.020133,
-      "betweenness": 0.000316,
+      "pagerank": 0.01742,
+      "betweenness": 0.000234,
       "inducted": true,
       "inducted_year": 1987,
       "race": "Black"
     },
     {
       "name": "The Soul Stirrers",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1989,
@@ -1584,23 +1728,23 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Sam Cooke",
-      "pagerank": 0.013795,
-      "betweenness": 0.000633,
+      "pagerank": 0.011936,
+      "betweenness": 0.000468,
       "inducted": true,
       "inducted_year": 1986,
       "race": "Black"
     },
     {
       "name": "Black Sabbath",
-      "pagerank": 0.024367,
-      "betweenness": 0.003797,
+      "pagerank": 0.021085,
+      "betweenness": 0.002805,
       "inducted": true,
       "inducted_year": 2006,
       "race": "white"
     },
     {
       "name": "Metallica",
-      "pagerank": 0.022142,
+      "pagerank": 0.024641,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2009,
@@ -1608,7 +1752,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Judas Priest",
-      "pagerank": 0.012635,
+      "pagerank": 0.010932,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2022,
@@ -1616,7 +1760,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Ink Spots",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1989,
@@ -1624,7 +1768,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Platters",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1990,
@@ -1632,7 +1776,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Drifters",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1988,
@@ -1640,7 +1784,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Charley Patton",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2021,
@@ -1648,7 +1792,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "B.B. King",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1987,
@@ -1656,7 +1800,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Jimi Hendrix",
-      "pagerank": 0.018984,
+      "pagerank": 0.016426,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1992,
@@ -1664,7 +1808,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Eric Clapton",
-      "pagerank": 0.013557,
+      "pagerank": 0.01173,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2000,
@@ -1672,7 +1816,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Curtis Mayfield",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1999,
@@ -1680,7 +1824,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Bob Marley",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1994,
@@ -1688,7 +1832,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Nina Simone",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2018,
@@ -1696,15 +1840,15 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Fats Domino",
-      "pagerank": 0.013795,
-      "betweenness": 0.000158,
+      "pagerank": 0.011936,
+      "betweenness": 0.000117,
       "inducted": true,
       "inducted_year": 1986,
       "race": "Black"
     },
     {
       "name": "The Beatles",
-      "pagerank": 0.034829,
+      "pagerank": 0.030138,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1988,
@@ -1712,7 +1856,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Beach Boys",
-      "pagerank": 0.013636,
+      "pagerank": 0.011799,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1988,
@@ -1720,7 +1864,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Prince",
-      "pagerank": 0.041908,
+      "pagerank": 0.03626,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2004,
@@ -1728,7 +1872,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Bo Diddley",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1987,
@@ -1736,15 +1880,15 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Stevie Wonder",
-      "pagerank": 0.011299,
-      "betweenness": 0.000158,
+      "pagerank": 0.009777,
+      "betweenness": 0.000117,
       "inducted": true,
       "inducted_year": 1989,
       "race": "Black"
     },
     {
       "name": "Van Morrison",
-      "pagerank": 0.011299,
+      "pagerank": 0.009777,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1993,
@@ -1752,15 +1896,15 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Marvin Gaye",
-      "pagerank": 0.011365,
-      "betweenness": 0.000316,
+      "pagerank": 0.009834,
+      "betweenness": 0.000234,
       "inducted": true,
       "inducted_year": 1987,
       "race": "Black"
     },
     {
       "name": "Otis Redding",
-      "pagerank": 0.011365,
+      "pagerank": 0.009834,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1989,
@@ -1768,7 +1912,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Al Green",
-      "pagerank": 0.021026,
+      "pagerank": 0.018192,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1995,
@@ -1776,15 +1920,15 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Sly & The Family Stone",
-      "pagerank": 0.009858,
-      "betweenness": 0.000633,
+      "pagerank": 0.008529,
+      "betweenness": 0.000468,
       "inducted": true,
       "inducted_year": 1993,
       "race": "Black"
     },
     {
       "name": "Michael Jackson",
-      "pagerank": 0.009858,
+      "pagerank": 0.008529,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2001,
@@ -1792,7 +1936,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Public Enemy",
-      "pagerank": 0.027719,
+      "pagerank": 0.023984,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2013,
@@ -1800,7 +1944,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Velvet Underground",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1996,
@@ -1808,15 +1952,15 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "David Bowie",
-      "pagerank": 0.009569,
-      "betweenness": 0.000158,
+      "pagerank": 0.013764,
+      "betweenness": 0.000234,
       "inducted": true,
       "inducted_year": 1996,
       "race": "white"
     },
     {
       "name": "Patti Smith",
-      "pagerank": 0.009569,
+      "pagerank": 0.00828,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2007,
@@ -1824,7 +1968,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Joy Division",
-      "pagerank": 0.009569,
+      "pagerank": 0.00828,
       "betweenness": 0.0,
       "inducted": false,
       "inducted_year": null,
@@ -1832,7 +1976,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Cure",
-      "pagerank": 0.01559,
+      "pagerank": 0.018152,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2019,
@@ -1840,7 +1984,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Kraftwerk",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2021,
@@ -1848,7 +1992,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Depeche Mode",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2020,
@@ -1856,7 +2000,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "New Order",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": false,
       "inducted_year": null,
@@ -1864,7 +2008,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Grandmaster Flash & The Furious Five",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2007,
@@ -1872,15 +2016,15 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Run-D.M.C.",
-      "pagerank": 0.019657,
-      "betweenness": 0.000633,
+      "pagerank": 0.017009,
+      "betweenness": 0.000468,
       "inducted": true,
       "inducted_year": 2009,
       "race": "Black"
     },
     {
       "name": "Beastie Boys",
-      "pagerank": 0.015811,
+      "pagerank": 0.013681,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2012,
@@ -1888,7 +2032,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "N.W.A",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2016,
@@ -1896,7 +2040,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Tupac Shakur",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2017,
@@ -1904,7 +2048,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Notorious B.I.G.",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2020,
@@ -1912,7 +2056,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Iron Maiden",
-      "pagerank": 0.015804,
+      "pagerank": 0.013674,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2026,
@@ -1920,7 +2064,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "AC/DC",
-      "pagerank": 0.012635,
+      "pagerank": 0.010932,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2003,
@@ -1928,15 +2072,15 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Ramones",
-      "pagerank": 0.013795,
-      "betweenness": 0.000633,
+      "pagerank": 0.014678,
+      "betweenness": 0.000701,
       "inducted": true,
       "inducted_year": 2002,
       "race": "white"
     },
     {
       "name": "The Clash",
-      "pagerank": 0.011365,
+      "pagerank": 0.010611,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2003,
@@ -1944,7 +2088,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Sex Pistols",
-      "pagerank": 0.017703,
+      "pagerank": 0.018837,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2006,
@@ -1952,7 +2096,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Green Day",
-      "pagerank": 0.011365,
+      "pagerank": 0.010611,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2015,
@@ -1960,7 +2104,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Whitney Houston",
-      "pagerank": 0.024569,
+      "pagerank": 0.021261,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2020,
@@ -1968,7 +2112,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Joni Mitchell",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1997,
@@ -1976,7 +2120,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Parliament-Funkadelic",
-      "pagerank": 0.011646,
+      "pagerank": 0.010077,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1997,
@@ -1984,7 +2128,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Link Wray",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2023,
@@ -1992,7 +2136,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Who",
-      "pagerank": 0.010626,
+      "pagerank": 0.009194,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1990,
@@ -2000,7 +2144,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Dick Dale",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": false,
       "inducted_year": null,
@@ -2008,7 +2152,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Stooges",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2010,
@@ -2016,7 +2160,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "MC5",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2024,
@@ -2024,7 +2168,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "DJ Kool Herc",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2023,
@@ -2032,7 +2176,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Gil Scott-Heron",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2021,
@@ -2040,7 +2184,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Professor Longhair",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 1992,
@@ -2048,7 +2192,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Bobby Womack",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2009,
@@ -2056,7 +2200,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "The Meters",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": false,
       "inducted_year": null,
@@ -2064,7 +2208,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Red Hot Chili Peppers",
-      "pagerank": 0.013795,
+      "pagerank": 0.011936,
       "betweenness": 0.0,
       "inducted": true,
       "inducted_year": 2012,
@@ -2072,7 +2216,7 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Mot\u00f6rhead",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": false,
       "inducted_year": null,
@@ -2080,11 +2224,115 @@ window.TEACHERS_DATA = {
     },
     {
       "name": "Thin Lizzy",
-      "pagerank": 0.007457,
+      "pagerank": 0.006452,
       "betweenness": 0.0,
       "inducted": false,
       "inducted_year": null,
       "race": "Black"
+    },
+    {
+      "name": "Captain Beefheart",
+      "pagerank": 0.006452,
+      "betweenness": 0.0,
+      "inducted": false,
+      "inducted_year": null,
+      "race": "white"
+    },
+    {
+      "name": "Tom Waits",
+      "pagerank": 0.011936,
+      "betweenness": 0.0,
+      "inducted": true,
+      "inducted_year": 2011,
+      "race": "white"
+    },
+    {
+      "name": "Gram Parsons",
+      "pagerank": 0.006452,
+      "betweenness": 0.0,
+      "inducted": false,
+      "inducted_year": null,
+      "race": "white"
+    },
+    {
+      "name": "The Eagles",
+      "pagerank": 0.011936,
+      "betweenness": 0.0,
+      "inducted": true,
+      "inducted_year": 1998,
+      "race": "white"
+    },
+    {
+      "name": "Big Star",
+      "pagerank": 0.006452,
+      "betweenness": 0.0,
+      "inducted": false,
+      "inducted_year": null,
+      "race": "white"
+    },
+    {
+      "name": "R.E.M.",
+      "pagerank": 0.011936,
+      "betweenness": 0.0,
+      "inducted": true,
+      "inducted_year": 2007,
+      "race": "white"
+    },
+    {
+      "name": "New York Dolls",
+      "pagerank": 0.006452,
+      "betweenness": 0.0,
+      "inducted": false,
+      "inducted_year": null,
+      "race": "white"
+    },
+    {
+      "name": "Mary Wells",
+      "pagerank": 0.006452,
+      "betweenness": 0.0,
+      "inducted": false,
+      "inducted_year": null,
+      "race": "Black"
+    },
+    {
+      "name": "The Supremes",
+      "pagerank": 0.011936,
+      "betweenness": 0.0,
+      "inducted": true,
+      "inducted_year": 1988,
+      "race": "Black"
+    },
+    {
+      "name": "T. Rex",
+      "pagerank": 0.006452,
+      "betweenness": 0.0,
+      "inducted": true,
+      "inducted_year": 2020,
+      "race": "white"
+    },
+    {
+      "name": "Blue \u00d6yster Cult",
+      "pagerank": 0.006452,
+      "betweenness": 0.0,
+      "inducted": false,
+      "inducted_year": null,
+      "race": "white"
+    },
+    {
+      "name": "Donna Summer",
+      "pagerank": 0.006452,
+      "betweenness": 0.0,
+      "inducted": true,
+      "inducted_year": 2013,
+      "race": "Black"
+    },
+    {
+      "name": "Madonna",
+      "pagerank": 0.011936,
+      "betweenness": 0.0,
+      "inducted": true,
+      "inducted_year": 2008,
+      "race": "white"
     }
   ],
   "metadata": {

@@ -555,3 +555,128 @@ pairs:
       guitar sound. Documented in multiple interviews.
     url: null
     confidence: documented
+
+  # -------------------------------------------------------
+  # CAPTAIN BEEFHEART -- experimental rock (never inducted)
+  # -------------------------------------------------------
+  - teacher: "Captain Beefheart"
+    student: "Tom Waits"
+    source_type: interview
+    citation: >
+      Tom Waits cited Captain Beefheart in his 2011 Rock Hall induction
+      speech. Documented influence on Waits' experimental vocal style
+      and avant-garde approach to recording.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # GRAM PARSONS -- founded country-rock (never inducted)
+  # -------------------------------------------------------
+  - teacher: "Gram Parsons"
+    student: "The Eagles"
+    source_type: biography
+    citation: >
+      Parsons drove The Byrds' "Sweetheart of the Rodeo" (1968) and
+      co-founded the Flying Burrito Brothers. Bernie Leadon, founding
+      Eagle, played in the Burritos with Parsons. The Eagles' country-rock
+      sound is directly documented as descending from Parsons' template.
+      Ben Fong-Torres, "Hickory Wind: The Life and Times of Gram Parsons"
+      (Pocket Books, 1991).
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # BIG STAR -- power pop pioneers (never inducted)
+  # -------------------------------------------------------
+  - teacher: "Big Star"
+    student: "R.E.M."
+    source_type: interview
+    citation: >
+      Peter Buck has repeatedly cited Big Star as R.E.M.'s foundational
+      influence. Buck, Spin interview (1987): named "#1 Record" and
+      "Radio City" as the albums that made him want to start a band.
+      R.E.M. covered Big Star's "September Gurls" on tour.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # NEW YORK DOLLS -- proto-punk (never inducted)
+  # -------------------------------------------------------
+  - teacher: "New York Dolls"
+    student: "Ramones"
+    source_type: biography
+    citation: >
+      Legs McNeil and Gillian McCain, "Please Kill Me" (Grove Press,
+      1996). The Ramones formed in the direct wake of the New York Dolls'
+      NYC scene. Johnny Ramone cited the Dolls as a key early influence.
+    url: null
+    confidence: documented
+
+  - teacher: "New York Dolls"
+    student: "Sex Pistols"
+    source_type: biography
+    citation: >
+      Malcolm McLaren managed the New York Dolls before forming the
+      Sex Pistols. Jon Savage, "England's Dreaming" (Faber, 1991)
+      documents McLaren importing the Dolls' aesthetic directly into
+      the Pistols' conception.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # MARY WELLS -- first Motown star (never inducted)
+  # -------------------------------------------------------
+  - teacher: "Mary Wells"
+    student: "The Supremes"
+    source_type: biography
+    citation: >
+      Wells scored Motown's first US #1 with "My Guy" (1964) before
+      Diana Ross became dominant. Wells was nominated on the inaugural
+      Rock Hall ballot (1986) and again in 1987. Gerald Posner, "Motown:
+      Music, Money, Sex, and Power" (Random House, 2002) documents Wells
+      as the template for Motown's female artists.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # T. REX -- glam rock progenitor (inducted 2020)
+  # -------------------------------------------------------
+  - teacher: "T. Rex"
+    student: "David Bowie"
+    source_type: biography
+    citation: >
+      Marc Bolan launched glam rock with "Ride a White Swan" (1970)
+      before Bowie's "Ziggy Stardust" (1972). Bolan and Bowie were
+      documented friends and rivals. Paul Trynka, "Starman: David
+      Bowie" (Little, Brown, 2011) documents Bowie's acknowledged
+      debt to Bolan's glam innovation.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # BLUE ÖYSTER CULT -- hard rock/metal pioneers (never inducted)
+  # -------------------------------------------------------
+  - teacher: "Blue Öyster Cult"
+    student: "Metallica"
+    source_type: interview
+    citation: >
+      Lars Ulrich cited Blue Öyster Cult as a formative influence.
+      BOC's combination of hard rock, proto-metal, and literary lyrics
+      influenced the entire early thrash scene. Documented in multiple
+      interviews and Metallica biographies.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # DONNA SUMMER -- disco queen (inducted 2013)
+  # -------------------------------------------------------
+  - teacher: "Donna Summer"
+    student: "Madonna"
+    source_type: interview
+    citation: >
+      Madonna has cited Summer as an influence on her dance-pop sound.
+      Summer's "I Feel Love" (1977, produced by Giorgio Moroder) is
+      documented as the template for electronic dance music that
+      Madonna later brought to the mainstream.
+    url: null
+    confidence: documented
