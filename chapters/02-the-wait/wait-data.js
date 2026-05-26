@@ -462,5 +462,24 @@ window.WAIT_DATA = {
     "censoring": "No right-censoring in current model (inducted performers only). Full model would add eligible non-inducted artists as right-censored.",
     "baseline": "White male Classic Rock artist, eligible pre-2000",
     "n_artists_in_model": 256
-  }
+  },
+  "too_late": [
+    {"name": "The Notorious B.I.G.", "inducted": 2020, "died": 1997, "gap": 23, "race": "Black", "genre": "Hip-Hop"},
+    {"name": "Tupac Shakur", "inducted": 2017, "died": 1996, "gap": 21, "race": "Black", "genre": "Hip-Hop"},
+    {"name": "Link Wray", "inducted": 2023, "died": 2005, "gap": 18, "race": "Native American", "genre": "Rock"},
+    {"name": "Laura Nyro", "inducted": 2012, "died": 1997, "gap": 15, "race": "white", "genre": "Rock"},
+    {"name": "Nina Simone", "inducted": 2018, "died": 2003, "gap": 15, "race": "Black", "genre": "Jazz/Soul"},
+    {"name": "Whitney Houston", "inducted": 2020, "died": 2012, "gap": 8, "race": "Black", "genre": "Pop/R&B"},
+    {"name": "Phife Dawg (A Tribe Called Quest)", "inducted": 2024, "died": 2016, "gap": 8, "race": "Black", "genre": "Hip-Hop"},
+    {"name": "Donna Summer", "inducted": 2013, "died": 2012, "gap": 1, "race": "Black", "genre": "Disco"},
+    {"name": "Dusty Springfield", "inducted": 1999, "died": 1999, "gap": 0, "race": "white", "genre": "Pop/Soul"}
+  ],
+  "died_waiting": [
+    {"name": "Big Mama Thornton", "died": 1984, "genre": "Blues", "race": "Black", "note": "Wrote 'Hound Dog.' Elvis: first class. Thornton: never."},
+    {"name": "Phil Lynott", "died": 1986, "genre": "Hard Rock", "race": "Black", "note": "Thin Lizzy never inducted."},
+    {"name": "Lemmy Kilmister", "died": 2015, "genre": "Heavy Metal", "race": "white", "note": "Motorhead never inducted as Performers."},
+    {"name": "Chris Cornell", "died": 2017, "genre": "Grunge", "race": "white", "note": "Soundgarden never inducted."},
+    {"name": "Dick Dale", "died": 2019, "genre": "Surf Rock", "race": "white", "note": "Invented surf guitar. Never inducted."},
+    {"name": "Wayne Kramer", "died": 2024, "genre": "Punk", "race": "white", "note": "MC5 inducted months after his death."}
+  ]
 };

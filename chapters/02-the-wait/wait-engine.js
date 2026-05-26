@@ -539,6 +539,61 @@
     renderCoxModel();
   }
 
+  // -------------------------------------------------------
+  // Ex. 002-D: Too Late -- Posthumous and died-waiting
+  // -------------------------------------------------------
+  function renderTooLate() {
+    var container = document.getElementById('too-late-chart');
+    if (!container) return;
+
+    var tooLate = data.too_late || [];
+    var diedWaiting = data.died_waiting || [];
+    var all = [];
+
+    tooLate.forEach(function(d) {
+      all.push({ name: d.name, died: d.died, inducted: d.inducted, gap: d.gap, race: d.race, genre: d.genre, type: 'posthumous' });
+    });
+    diedWaiting.forEach(function(d) {
+      all.push({ name: d.name, died: d.died, inducted: null, gap: 2026 - d.died, race: d.race, genre: d.genre, type: 'never', note: d.note });
+    });
+
+    all.sort(function(a, b) { return b.gap - a.gap; });
+
+    var html = '<div style="display:flex; flex-direction:column; gap:2px">';
+
+    all.forEach(function(d) {
+      var isNever = d.type === 'never';
+      var barColor = isNever ? COLORS.blood : COLORS.gold;
+      var barWidth = Math.min(d.gap / 30 * 100, 100);
+      var label = isNever ? 'NEVER INDUCTED' : 'Inducted ' + d.inducted;
+      var labelColor = isNever ? COLORS.blood : COLORS.mute;
+
+      html +=
+        '<div style="display:grid; grid-template-columns:200px 1fr 100px; align-items:center; padding:10px 0; border-bottom:1px solid rgba(46,46,85,0.4)">' +
+          '<div>' +
+            '<span style="font-family:var(--serif); font-size:15px; font-weight:500; color:' + (isNever ? COLORS.blood : 'var(--cream)') + '">' + d.name + '</span>' +
+            '<span style="font-family:var(--mono); font-size:9px; color:var(--mute); margin-left:8px">d. ' + d.died + '</span>' +
+          '</div>' +
+          '<div style="position:relative; height:16px; background:rgba(46,46,85,0.3); border-radius:2px; overflow:hidden">' +
+            '<div style="position:absolute; left:0; top:0; height:100%; width:' + barWidth + '%; background:' + barColor + '; opacity:0.7; border-radius:2px"></div>' +
+            '<span style="position:absolute; left:8px; top:1px; font-family:var(--mono); font-size:10px; color:var(--cream); font-weight:600">' + d.gap + ' years</span>' +
+          '</div>' +
+          '<div style="text-align:right; font-family:var(--mono); font-size:9px; letter-spacing:0.08em; color:' + labelColor + '">' + label + '</div>' +
+        '</div>';
+    });
+
+    html += '</div>';
+    container.innerHTML = html;
+  }
+
+  function init() {
+    populateStats();
+    renderSurvivalCurves();
+    renderMetalDocket();
+    renderCoxModel();
+    renderTooLate();
+  }
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
