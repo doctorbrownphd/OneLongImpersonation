@@ -72,15 +72,26 @@
   }
   .platform-nav__chapters a .nav-title {
     display: none;
-    font-size: 8.5px;
-    color: var(--cream-2, #d8cfb6);
-    letter-spacing: 0.08em;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8px;
+    color: var(--cream, #efe8d6);
+    letter-spacing: 0.06em;
+    background: rgba(20,20,43,0.95);
+    border: 1px solid rgba(212,160,23,0.2);
+    padding: 5px 10px;
+    border-radius: 3px;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 10;
   }
   .platform-nav__chapters a:hover {
     color: var(--cream, #efe8d6);
   }
   .platform-nav__chapters a:hover .nav-title {
-    display: inline;
+    display: block;
   }
   .platform-nav__chapters a.is-active {
     color: var(--gold, #d4a017);
