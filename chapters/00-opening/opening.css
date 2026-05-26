@@ -5,12 +5,14 @@
    ------------------------------------------------ */
 
 .cover {
-  min-height: calc(100vh - 140px);
-  min-height: calc(100dvh - 140px);
+  height: calc(100vh - 130px);
+  height: calc(100dvh - 130px);
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 48px 0 0;
+  padding: 48px 0 0 !important;
+  box-sizing: border-box;
 }
 
 .cover__inner {
