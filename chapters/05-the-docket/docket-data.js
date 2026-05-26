@@ -64,6 +64,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Scorpions",
+      "genre": "Heavy Metal",
+      "eligible_year": 1997,
+      "wait_years": 29,
+      "criteria_score": 50.45,
+      "verdict": "STRONG_CASE",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 45.0,
+        "career": 100.0,
+        "catalog": 86.67,
+        "contribution": 56.0
+      }
+    },
+    {
       "name": "Mississippi John Hurt",
       "genre": "Blues/Early",
       "eligible_year": 1953,
@@ -158,11 +173,11 @@ window.DOCKET_DATA = {
       "genre": "Electronic",
       "eligible_year": 1995,
       "wait_years": 31,
-      "criteria_score": 48.4,
-      "verdict": "CASE",
+      "criteria_score": 49.65,
+      "verdict": "STRONG_CASE",
       "scores": {
         "excellence": 0.0,
-        "influence": 30.0,
+        "influence": 35.0,
         "career": 100.0,
         "catalog": 93.33,
         "contribution": 59.5
@@ -170,6 +185,21 @@ window.DOCKET_DATA = {
     },
     {
       "name": "The Meters",
+      "genre": "Soul/R&B",
+      "eligible_year": 1994,
+      "wait_years": 32,
+      "criteria_score": 48.05,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 93.33,
+        "contribution": 76.5
+      }
+    },
+    {
+      "name": "War",
       "genre": "Soul/R&B",
       "eligible_year": 1994,
       "wait_years": 32,
@@ -229,6 +259,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Tangerine Dream",
+      "genre": "Electronic",
+      "eligible_year": 1992,
+      "wait_years": 34,
+      "criteria_score": 47.2,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 100.0,
+        "catalog": 93.33,
+        "contribution": 72.25
+      }
+    },
+    {
       "name": "Chaka Khan",
       "genre": "Soul/R&B",
       "eligible_year": 1998,
@@ -259,21 +304,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Scorpions",
-      "genre": "Heavy Metal",
-      "eligible_year": 1997,
-      "wait_years": 29,
-      "criteria_score": 46.7,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 30.0,
-        "career": 100.0,
-        "catalog": 86.67,
-        "contribution": 56.0
-      }
-    },
-    {
       "name": "Iron Butterfly",
       "genre": "Heavy Metal",
       "eligible_year": 1993,
@@ -286,6 +316,21 @@ window.DOCKET_DATA = {
         "career": 100.0,
         "catalog": 93.33,
         "contribution": 68.0
+      }
+    },
+    {
+      "name": "Motorhead",
+      "genre": "Heavy Metal",
+      "eligible_year": 2002,
+      "wait_years": 24,
+      "criteria_score": 46.33,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 3.72,
+        "influence": 30.0,
+        "career": 98.0,
+        "catalog": 80.0,
+        "contribution": 56.0
       }
     },
     {
@@ -314,6 +359,21 @@ window.DOCKET_DATA = {
         "excellence": 2.68,
         "influence": 30.0,
         "career": 96.0,
+        "catalog": 80.0,
+        "contribution": 56.0
+      }
+    },
+    {
+      "name": "The Misfits",
+      "genre": "Punk",
+      "eligible_year": 2002,
+      "wait_years": 24,
+      "criteria_score": 45.4,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 30.0,
+        "career": 98.0,
         "catalog": 80.0,
         "contribution": 56.0
       }
@@ -379,18 +439,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "War",
+      "name": "The Commodores",
       "genre": "Soul/R&B",
-      "eligible_year": 1994,
-      "wait_years": 32,
-      "criteria_score": 44.3,
+      "eligible_year": 1999,
+      "wait_years": 27,
+      "criteria_score": 44.35,
       "verdict": "CASE",
       "scores": {
         "excellence": 0.0,
-        "influence": 0.0,
+        "influence": 15.0,
         "career": 100.0,
-        "catalog": 93.33,
-        "contribution": 76.5
+        "catalog": 86.67,
+        "contribution": 63.0
       }
     },
     {
@@ -439,21 +499,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Tangerine Dream",
-      "genre": "Electronic",
-      "eligible_year": 1992,
-      "wait_years": 34,
-      "criteria_score": 43.45,
-      "verdict": "CASE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 93.33,
-        "contribution": 72.25
-      }
-    },
-    {
       "name": "Husker Du",
       "genre": "Punk",
       "eligible_year": 2006,
@@ -484,6 +529,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Pantera",
+      "genre": "Heavy Metal",
+      "eligible_year": 2008,
+      "wait_years": 18,
+      "criteria_score": 42.95,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 45.0,
+        "career": 86.0,
+        "catalog": 66.67,
+        "contribution": 44.0
+      }
+    },
+    {
       "name": "Emmylou Harris",
       "genre": "Folk/Country",
       "eligible_year": 1994,
@@ -496,6 +556,36 @@ window.DOCKET_DATA = {
         "career": 100.0,
         "catalog": 93.33,
         "contribution": 51.0
+      }
+    },
+    {
+      "name": "Slayer",
+      "genre": "Heavy Metal",
+      "eligible_year": 2008,
+      "wait_years": 18,
+      "criteria_score": 42.81,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 4.44,
+        "influence": 40.0,
+        "career": 86.0,
+        "catalog": 66.67,
+        "contribution": 44.0
+      }
+    },
+    {
+      "name": "Rick James",
+      "genre": "Soul/R&B",
+      "eligible_year": 2003,
+      "wait_years": 23,
+      "criteria_score": 42.75,
+      "verdict": "CASE",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 96.0,
+        "catalog": 80.0,
+        "contribution": 63.0
       }
     },
     {
@@ -544,6 +634,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "The Fall",
+      "genre": "Punk",
+      "eligible_year": 2003,
+      "wait_years": 23,
+      "criteria_score": 41.7,
+      "verdict": "BORDERLINE",
+      "scores": {
+        "excellence": 1.4,
+        "influence": 15.0,
+        "career": 96.0,
+        "catalog": 80.0,
+        "contribution": 56.0
+      }
+    },
+    {
       "name": "Styx",
       "genre": "Classic Rock",
       "eligible_year": 1997,
@@ -559,6 +664,51 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Teena Marie",
+      "genre": "Soul/R&B",
+      "eligible_year": 2004,
+      "wait_years": 22,
+      "criteria_score": 41.45,
+      "verdict": "BORDERLINE",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 94.0,
+        "catalog": 73.33,
+        "contribution": 63.0
+      }
+    },
+    {
+      "name": "Kanye West",
+      "genre": "Hip-Hop",
+      "eligible_year": 2026,
+      "wait_years": 0,
+      "criteria_score": 41.12,
+      "verdict": "BORDERLINE",
+      "scores": {
+        "excellence": 63.3,
+        "influence": 20.0,
+        "career": 50.0,
+        "catalog": 40.0,
+        "contribution": 34.0
+      }
+    },
+    {
+      "name": "Minor Threat",
+      "genre": "Punk",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "criteria_score": 41.01,
+      "verdict": "BORDERLINE",
+      "scores": {
+        "excellence": 0.84,
+        "influence": 30.0,
+        "career": 90.0,
+        "catalog": 73.33,
+        "contribution": 44.0
+      }
+    },
+    {
       "name": "Boston",
       "genre": "Classic Rock",
       "eligible_year": 2001,
@@ -571,6 +721,21 @@ window.DOCKET_DATA = {
         "career": 100.0,
         "catalog": 80.0,
         "contribution": 49.0
+      }
+    },
+    {
+      "name": "Dio",
+      "genre": "Heavy Metal",
+      "eligible_year": 2008,
+      "wait_years": 18,
+      "criteria_score": 40.76,
+      "verdict": "BORDERLINE",
+      "scores": {
+        "excellence": 6.22,
+        "influence": 30.0,
+        "career": 86.0,
+        "catalog": 66.67,
+        "contribution": 44.0
       }
     },
     {
@@ -593,21 +758,6 @@ window.DOCKET_DATA = {
       "genre": "Soul/R&B",
       "eligible_year": 1998,
       "wait_years": 28,
-      "criteria_score": 40.6,
-      "verdict": "BORDERLINE",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 100.0,
-        "catalog": 86.67,
-        "contribution": 63.0
-      }
-    },
-    {
-      "name": "The Commodores",
-      "genre": "Soul/R&B",
-      "eligible_year": 1999,
-      "wait_years": 27,
       "criteria_score": 40.6,
       "verdict": "BORDERLINE",
       "scores": {
@@ -664,21 +814,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Kanye West",
-      "genre": "Hip-Hop",
-      "eligible_year": 2026,
-      "wait_years": 0,
-      "criteria_score": 39.88,
-      "verdict": "BORDERLINE",
-      "scores": {
-        "excellence": 63.3,
-        "influence": 15.0,
-        "career": 50.0,
-        "catalog": 40.0,
-        "contribution": 34.0
-      }
-    },
-    {
       "name": "Townes Van Zandt",
       "genre": "Folk/Country",
       "eligible_year": 1993,
@@ -694,33 +829,33 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Rick James",
-      "genre": "Soul/R&B",
-      "eligible_year": 2003,
-      "wait_years": 23,
-      "criteria_score": 39.0,
+      "name": "Megadeth",
+      "genre": "Heavy Metal",
+      "eligible_year": 2010,
+      "wait_years": 16,
+      "criteria_score": 38.73,
       "verdict": "BORDERLINE",
       "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 96.0,
-        "catalog": 80.0,
-        "contribution": 63.0
+        "excellence": 0.52,
+        "influence": 30.0,
+        "career": 82.0,
+        "catalog": 66.67,
+        "contribution": 44.0
       }
     },
     {
-      "name": "Motorhead",
+      "name": "King Diamond",
       "genre": "Heavy Metal",
-      "eligible_year": 2002,
-      "wait_years": 24,
-      "criteria_score": 38.83,
-      "verdict": "BORDERLINE",
+      "eligible_year": 2011,
+      "wait_years": 15,
+      "criteria_score": 38.3,
+      "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 3.72,
-        "influence": 0.0,
-        "career": 98.0,
-        "catalog": 80.0,
-        "contribution": 56.0
+        "excellence": 0.0,
+        "influence": 30.0,
+        "career": 80.0,
+        "catalog": 66.67,
+        "contribution": 44.0
       }
     },
     {
@@ -739,33 +874,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "The Fall",
+      "name": "Dinosaur Jr.",
       "genre": "Punk",
-      "eligible_year": 2003,
-      "wait_years": 23,
-      "criteria_score": 37.95,
+      "eligible_year": 2010,
+      "wait_years": 16,
+      "criteria_score": 37.88,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 1.4,
-        "influence": 0.0,
-        "career": 96.0,
-        "catalog": 80.0,
-        "contribution": 56.0
-      }
-    },
-    {
-      "name": "The Misfits",
-      "genre": "Punk",
-      "eligible_year": 2002,
-      "wait_years": 24,
-      "criteria_score": 37.9,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 98.0,
-        "catalog": 80.0,
-        "contribution": 56.0
+        "excellence": 12.12,
+        "influence": 15.0,
+        "career": 82.0,
+        "catalog": 66.67,
+        "contribution": 44.0
       }
     },
     {
@@ -799,21 +919,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Teena Marie",
-      "genre": "Soul/R&B",
-      "eligible_year": 2004,
-      "wait_years": 22,
-      "criteria_score": 37.7,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 94.0,
-        "catalog": 73.33,
-        "contribution": 63.0
-      }
-    },
-    {
       "name": "Luther Vandross",
       "genre": "Soul/R&B",
       "eligible_year": 2006,
@@ -844,21 +949,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Minor Threat",
-      "genre": "Punk",
-      "eligible_year": 2006,
-      "wait_years": 20,
-      "criteria_score": 37.26,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.84,
-        "influence": 15.0,
-        "career": 90.0,
-        "catalog": 73.33,
-        "contribution": 44.0
-      }
-    },
-    {
       "name": "Nas",
       "genre": "Hip-Hop",
       "eligible_year": 2019,
@@ -874,17 +964,17 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Dio",
-      "genre": "Heavy Metal",
-      "eligible_year": 2008,
-      "wait_years": 18,
-      "criteria_score": 37.01,
+      "name": "Social Distortion",
+      "genre": "Punk",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "criteria_score": 37.05,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 6.22,
+        "excellence": 0.0,
         "influence": 15.0,
-        "career": 86.0,
-        "catalog": 66.67,
+        "career": 90.0,
+        "catalog": 73.33,
         "contribution": 44.0
       }
     },
@@ -904,18 +994,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Slayer",
-      "genre": "Heavy Metal",
+      "name": "Anita Baker",
+      "genre": "Soul/R&B",
       "eligible_year": 2008,
       "wait_years": 18,
-      "criteria_score": 36.56,
+      "criteria_score": 36.55,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 4.44,
+        "excellence": 0.0,
         "influence": 15.0,
         "career": 86.0,
         "catalog": 66.67,
-        "contribution": 44.0
+        "contribution": 49.5
       }
     },
     {
@@ -994,21 +1084,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Pantera",
-      "genre": "Heavy Metal",
-      "eligible_year": 2008,
-      "wait_years": 18,
-      "criteria_score": 35.45,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 15.0,
-        "career": 86.0,
-        "catalog": 66.67,
-        "contribution": 44.0
-      }
-    },
-    {
       "name": "Massive Attack",
       "genre": "Electronic",
       "eligible_year": 2013,
@@ -1039,21 +1114,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Megadeth",
-      "genre": "Heavy Metal",
-      "eligible_year": 2010,
-      "wait_years": 16,
-      "criteria_score": 34.98,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.52,
-        "influence": 15.0,
-        "career": 82.0,
-        "catalog": 66.67,
-        "contribution": 44.0
-      }
-    },
-    {
       "name": "Oingo Boingo",
       "genre": "Classic Rock",
       "eligible_year": 2004,
@@ -1069,18 +1129,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Dinosaur Jr.",
-      "genre": "Punk",
-      "eligible_year": 2010,
-      "wait_years": 16,
-      "criteria_score": 34.13,
+      "name": "Daft Punk",
+      "genre": "Electronic",
+      "eligible_year": 2019,
+      "wait_years": 7,
+      "criteria_score": 34.11,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 12.12,
-        "influence": 0.0,
-        "career": 82.0,
-        "catalog": 66.67,
-        "contribution": 44.0
+        "excellence": 18.85,
+        "influence": 20.0,
+        "career": 64.0,
+        "catalog": 53.33,
+        "contribution": 34.0
       }
     },
     {
@@ -1114,21 +1174,6 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Social Distortion",
-      "genre": "Punk",
-      "eligible_year": 2006,
-      "wait_years": 20,
-      "criteria_score": 33.3,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 90.0,
-        "catalog": 73.33,
-        "contribution": 44.0
-      }
-    },
-    {
       "name": "Sinead O'Connor",
       "genre": "Pop",
       "eligible_year": 2012,
@@ -1144,37 +1189,7 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Daft Punk",
-      "genre": "Electronic",
-      "eligible_year": 2019,
-      "wait_years": 7,
-      "criteria_score": 32.86,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 18.85,
-        "influence": 15.0,
-        "career": 64.0,
-        "catalog": 53.33,
-        "contribution": 34.0
-      }
-    },
-    {
       "name": "New Edition",
-      "genre": "Soul/R&B",
-      "eligible_year": 2008,
-      "wait_years": 18,
-      "criteria_score": 32.8,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 86.0,
-        "catalog": 66.67,
-        "contribution": 49.5
-      }
-    },
-    {
-      "name": "Anita Baker",
       "genre": "Soul/R&B",
       "eligible_year": 2008,
       "wait_years": 18,
@@ -1264,6 +1279,21 @@ window.DOCKET_DATA = {
       }
     },
     {
+      "name": "Mariah Carey",
+      "genre": "Pop",
+      "eligible_year": 2015,
+      "wait_years": 11,
+      "criteria_score": 31.27,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 24.9,
+        "influence": 5.0,
+        "career": 72.0,
+        "catalog": 60.0,
+        "contribution": 20.0
+      }
+    },
+    {
       "name": "TLC",
       "genre": "Soul/R&B",
       "eligible_year": 2017,
@@ -1294,18 +1324,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "King Diamond",
+      "name": "Tool",
       "genre": "Heavy Metal",
-      "eligible_year": 2011,
-      "wait_years": 15,
-      "criteria_score": 30.8,
+      "eligible_year": 2018,
+      "wait_years": 8,
+      "criteria_score": 30.5,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 80.0,
-        "catalog": 66.67,
-        "contribution": 44.0
+        "excellence": 4.8,
+        "influence": 20.0,
+        "career": 66.0,
+        "catalog": 53.33,
+        "contribution": 32.0
       }
     },
     {
@@ -1324,18 +1354,18 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Mariah Carey",
-      "genre": "Pop",
-      "eligible_year": 2015,
-      "wait_years": 11,
-      "criteria_score": 30.02,
+      "name": "The Chemical Brothers",
+      "genre": "Electronic",
+      "eligible_year": 2017,
+      "wait_years": 9,
+      "criteria_score": 30.0,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 24.9,
-        "influence": 0.0,
-        "career": 72.0,
-        "catalog": 60.0,
-        "contribution": 20.0
+        "excellence": 0.0,
+        "influence": 20.0,
+        "career": 68.0,
+        "catalog": 53.33,
+        "contribution": 34.0
       }
     },
     {
@@ -1381,6 +1411,36 @@ window.DOCKET_DATA = {
         "career": 58.0,
         "catalog": 46.67,
         "contribution": 36.0
+      }
+    },
+    {
+      "name": "Portishead",
+      "genre": "Electronic",
+      "eligible_year": 2019,
+      "wait_years": 7,
+      "criteria_score": 29.13,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 3.92,
+        "influence": 15.0,
+        "career": 64.0,
+        "catalog": 53.33,
+        "contribution": 34.0
+      }
+    },
+    {
+      "name": "The Prodigy",
+      "genre": "Electronic",
+      "eligible_year": 2016,
+      "wait_years": 10,
+      "criteria_score": 29.05,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 70.0,
+        "catalog": 53.33,
+        "contribution": 34.0
       }
     },
     {
@@ -1444,18 +1504,63 @@ window.DOCKET_DATA = {
       }
     },
     {
-      "name": "Tool",
-      "genre": "Heavy Metal",
-      "eligible_year": 2018,
-      "wait_years": 8,
-      "criteria_score": 26.75,
+      "name": "Lil Wayne",
+      "genre": "Hip-Hop",
+      "eligible_year": 2024,
+      "wait_years": 2,
+      "criteria_score": 26.66,
       "verdict": "INSUFFICIENT",
       "scores": {
-        "excellence": 4.8,
+        "excellence": 8.04,
+        "influence": 15.0,
+        "career": 54.0,
+        "catalog": 40.0,
+        "contribution": 34.0
+      }
+    },
+    {
+      "name": "Cypress Hill",
+      "genre": "Hip-Hop",
+      "eligible_year": 2016,
+      "wait_years": 10,
+      "criteria_score": 26.55,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 0.0,
         "influence": 5.0,
-        "career": 66.0,
+        "career": 70.0,
         "catalog": 53.33,
-        "contribution": 32.0
+        "contribution": 34.0
+      }
+    },
+    {
+      "name": "Busta Rhymes",
+      "genre": "Hip-Hop",
+      "eligible_year": 2021,
+      "wait_years": 5,
+      "criteria_score": 26.55,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 60.0,
+        "catalog": 46.67,
+        "contribution": 34.0
+      }
+    },
+    {
+      "name": "DMX",
+      "genre": "Hip-Hop",
+      "eligible_year": 2023,
+      "wait_years": 3,
+      "criteria_score": 25.95,
+      "verdict": "INSUFFICIENT",
+      "scores": {
+        "excellence": 0.0,
+        "influence": 15.0,
+        "career": 56.0,
+        "catalog": 46.67,
+        "contribution": 34.0
       }
     },
     {
@@ -1471,66 +1576,6 @@ window.DOCKET_DATA = {
         "career": 70.0,
         "catalog": 53.33,
         "contribution": 36.0
-      }
-    },
-    {
-      "name": "Portishead",
-      "genre": "Electronic",
-      "eligible_year": 2019,
-      "wait_years": 7,
-      "criteria_score": 25.38,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 3.92,
-        "influence": 0.0,
-        "career": 64.0,
-        "catalog": 53.33,
-        "contribution": 34.0
-      }
-    },
-    {
-      "name": "The Prodigy",
-      "genre": "Electronic",
-      "eligible_year": 2016,
-      "wait_years": 10,
-      "criteria_score": 25.3,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 70.0,
-        "catalog": 53.33,
-        "contribution": 34.0
-      }
-    },
-    {
-      "name": "Cypress Hill",
-      "genre": "Hip-Hop",
-      "eligible_year": 2016,
-      "wait_years": 10,
-      "criteria_score": 25.3,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 70.0,
-        "catalog": 53.33,
-        "contribution": 34.0
-      }
-    },
-    {
-      "name": "The Chemical Brothers",
-      "genre": "Electronic",
-      "eligible_year": 2017,
-      "wait_years": 9,
-      "criteria_score": 25.0,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 68.0,
-        "catalog": 53.33,
-        "contribution": 34.0
       }
     },
     {
@@ -1561,51 +1606,6 @@ window.DOCKET_DATA = {
         "career": 66.0,
         "catalog": 53.33,
         "contribution": 28.0
-      }
-    },
-    {
-      "name": "Lil Wayne",
-      "genre": "Hip-Hop",
-      "eligible_year": 2024,
-      "wait_years": 2,
-      "criteria_score": 22.91,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 8.04,
-        "influence": 0.0,
-        "career": 54.0,
-        "catalog": 40.0,
-        "contribution": 34.0
-      }
-    },
-    {
-      "name": "Busta Rhymes",
-      "genre": "Hip-Hop",
-      "eligible_year": 2021,
-      "wait_years": 5,
-      "criteria_score": 22.8,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 60.0,
-        "catalog": 46.67,
-        "contribution": 34.0
-      }
-    },
-    {
-      "name": "DMX",
-      "genre": "Hip-Hop",
-      "eligible_year": 2023,
-      "wait_years": 3,
-      "criteria_score": 22.2,
-      "verdict": "INSUFFICIENT",
-      "scores": {
-        "excellence": 0.0,
-        "influence": 0.0,
-        "career": 56.0,
-        "catalog": 46.67,
-        "contribution": 34.0
       }
     },
     {
@@ -1643,11 +1643,11 @@ window.DOCKET_DATA = {
       "genre": "Heavy Metal",
       "eligible_year": 2025,
       "wait_years": 1,
-      "criteria_score": 20.2,
+      "criteria_score": 21.45,
       "verdict": "INSUFFICIENT",
       "scores": {
         "excellence": 0.0,
-        "influence": 0.0,
+        "influence": 5.0,
         "career": 52.0,
         "catalog": 40.0,
         "contribution": 32.0
@@ -1658,11 +1658,11 @@ window.DOCKET_DATA = {
       "genre": "Heavy Metal",
       "eligible_year": 2025,
       "wait_years": 1,
-      "criteria_score": 20.2,
+      "criteria_score": 21.45,
       "verdict": "INSUFFICIENT",
       "scores": {
         "excellence": 0.0,
-        "influence": 0.0,
+        "influence": 5.0,
         "career": 52.0,
         "catalog": 40.0,
         "contribution": 32.0
@@ -1687,11 +1687,11 @@ window.DOCKET_DATA = {
   "thresholds": {
     "p25": 38.5,
     "p50": 42.0,
-    "p75": 48.64
+    "p75": 49.0
   },
   "current_year": 2026,
   "metadata": {
     "verdict_method": "Criteria Compliance Score percentiles vs inducted artists",
-    "caveat": "Excellence from RS list appearances. Influence from documented pairs. Both improve as data coverage expands."
+    "caveat": "Excellence from RS list appearances. Influence from documented pairs."
   }
 };
