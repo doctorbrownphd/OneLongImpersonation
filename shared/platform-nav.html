@@ -7,7 +7,7 @@
         <line x1="4.5" y1="13" x2="19.5" y2="13" stroke="#d4a017" stroke-width="0.7" opacity="0.6"/>
         <line x1="7" y1="7" x2="17" y2="7" stroke="#d4a017" stroke-width="0.7" opacity="0.4"/>
       </svg>
-      <span class="platform-nav__name">OLI</span>
+      <span class="platform-nav__name">The People v. The Rock Hall</span>
     </a>
     <div class="platform-nav__chapters" id="nav-chapters"></div>
     <span class="platform-nav__docket">Case No. 2026-001 <span class="platform-nav__docket-filed">Filed May 2026</span></span>
@@ -43,10 +43,13 @@
     fill: rgba(212,160,23,0.08);
   }
   .platform-nav__name {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.25em;
-    color: var(--gold, #d4a017);
+    font-size: 9.5px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: var(--cream, #efe8d6);
+  }
+  .platform-nav__name::before {
+    content: none;
   }
   .platform-nav__chapters {
     display: flex; gap: 2px;
