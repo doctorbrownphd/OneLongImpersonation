@@ -349,3 +349,209 @@ pairs:
       influence." John Lennon also cited Domino in multiple interviews.
     url: null
     confidence: documented
+
+  # -------------------------------------------------------
+  # LINK WRAY -- inventor of the power chord
+  # Inducted 2023 (Musical Influence)
+  # -------------------------------------------------------
+  - teacher: "Link Wray"
+    student: "The Who"
+    source_type: interview
+    citation: >
+      Pete Townshend, quoted in Garth Cartwright, The Guardian
+      (November 21, 2005): "He is the king. If it hadn't been for
+      Link Wray and 'Rumble,' I would have never picked up a guitar."
+    url: null
+    confidence: documented
+
+  - teacher: "Link Wray"
+    student: "Led Zeppelin"
+    source_type: interview
+    citation: >
+      Jimmy Page in "It Might Get Loud" (dir. Davis Guggenheim, 2008).
+      Page performed at Link Wray's 2023 Rock Hall induction ceremony.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # DICK DALE -- King of Surf Guitar (never inducted)
+  # -------------------------------------------------------
+  - teacher: "Dick Dale"
+    student: "Jimi Hendrix"
+    source_type: liner_notes
+    citation: >
+      Liner notes, "Better Shred Than Dead: The Dick Dale Anthology"
+      (Rhino Records, 2004). Rolling Stone obituary (March 2019) names
+      Hendrix among guitarists directly influenced by Dale.
+    url: null
+    confidence: documented
+
+  - teacher: "Dick Dale"
+    student: "The Beach Boys"
+    source_type: interview
+    citation: >
+      Brian Wilson, Instagram tribute (March 2019): "Dick's guitar
+      playing was a big influence on all of us." Al Jardine confirmed
+      the band played Dale songs to fill sets. Billboard obituary
+      (March 2019) documents this.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # THE STOOGES -- proto-punk to punk transmission
+  # Inducted 2010
+  # -------------------------------------------------------
+  - teacher: "The Stooges"
+    student: "Ramones"
+    source_type: biography
+    citation: >
+      Legs McNeil and Gillian McCain, "Please Kill Me: The Uncensored
+      Oral History of Punk" (Grove Press, 1996). All Ramones members
+      cited The Stooges as a key influence on their sound.
+    url: null
+    confidence: documented
+
+  - teacher: "The Stooges"
+    student: "Sex Pistols"
+    source_type: biography
+    citation: >
+      Jon Savage, "England's Dreaming" (Faber, 1991). Sex Pistols
+      recorded the first high-profile Stooges cover, "No Fun" (1976).
+      Raw Power documented as direct influence.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # MC5 -- proto-punk (inducted 2024 Musical Excellence)
+  # -------------------------------------------------------
+  - teacher: "MC5"
+    student: "Ramones"
+    source_type: biography
+    citation: >
+      Legs McNeil and Gillian McCain, "Please Kill Me" (Grove Press,
+      1996). Joey, Johnny, Dee Dee, and Tommy based early image and
+      energy on the MC5.
+    url: null
+    confidence: documented
+
+  - teacher: "MC5"
+    student: "Sex Pistols"
+    source_type: biography
+    citation: >
+      Jon Savage, "England's Dreaming" (Faber, 1991). MC5 and Stooges
+      documented as the proto-punk foundation the British punk scene
+      built upon.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # DJ KOOL HERC -- founder of hip-hop (inducted 2023)
+  # -------------------------------------------------------
+  - teacher: "DJ Kool Herc"
+    student: "Grandmaster Flash & The Furious Five"
+    source_type: biography
+    citation: >
+      Jeff Chang, "Can't Stop Won't Stop: A History of the Hip-Hop
+      Generation" (St. Martin's Press, 2005). Grandmaster Flash in
+      NPR interview (August 2023): Herc was "a hero."
+    url: null
+    confidence: documented
+
+  - teacher: "DJ Kool Herc"
+    student: "Run-D.M.C."
+    source_type: biography
+    citation: >
+      Jeff Chang, "Can't Stop Won't Stop" (St. Martin's Press, 2005).
+      Herc's breakbeat innovation is the foundational technique from
+      which all subsequent hip-hop descends.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # GIL SCOTT-HERON -- godfather of rap (inducted 2021)
+  # -------------------------------------------------------
+  - teacher: "Gil Scott-Heron"
+    student: "Public Enemy"
+    source_type: interview
+    citation: >
+      Chuck D on Twitter (May 27, 2011): "RIP GSH...and we do what
+      we do and how we do because of you." Also called Scott-Heron
+      "the manifestation of the spoken word" in a 2010 profile.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # PROFESSOR LONGHAIR -- Bach of Rock (inducted 1992)
+  # -------------------------------------------------------
+  - teacher: "Professor Longhair"
+    student: "Fats Domino"
+    source_type: academic
+    citation: >
+      Britannica entry on Professor Longhair documents his signature
+      piano style's influence on Fats Domino. Allen Toussaint called
+      Professor Longhair the "Bach of Rock and Roll."
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # BOBBY WOMACK -- songwriter (inducted 2009)
+  # -------------------------------------------------------
+  - teacher: "Bobby Womack"
+    student: "The Rolling Stones"
+    source_type: academic
+    citation: >
+      Womack wrote "It's All Over Now" (with Shirley Womack), first
+      recorded by The Valentinos (1964). Rolling Stones' cover became
+      their first UK number-one single. Documented in Songfacts and
+      multiple biographical sources.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # THE METERS -- founders of funk (never inducted)
+  # -------------------------------------------------------
+  - teacher: "The Meters"
+    student: "Red Hot Chili Peppers"
+    source_type: interview
+    citation: >
+      RHCP covered The Meters' "Africa" on "Freaky Styley" (1985).
+      Flea described listening to a Meters cassette "over and over
+      again" on their first tour (NPR Fresh Air interview).
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # MOTÖRHEAD -- proto-thrash (never inducted)
+  # -------------------------------------------------------
+  - teacher: "Motörhead"
+    student: "Metallica"
+    source_type: interview
+    citation: >
+      James Hetfield, multiple interviews. Metallica covered "So What"
+      on Garage Inc. (1998). Lars Ulrich has documented Motörhead as
+      foundational to thrash metal in numerous interviews.
+    url: null
+    confidence: documented
+
+  # -------------------------------------------------------
+  # THIN LIZZY -- hard rock pioneers (never inducted)
+  # -------------------------------------------------------
+  - teacher: "Thin Lizzy"
+    student: "Metallica"
+    source_type: interview
+    citation: >
+      James Hetfield cited Phil Lynott and Thin Lizzy's dual guitar
+      harmonies as a key influence on Metallica's sound. Metallica
+      covered "Whiskey in the Jar" on Garage Inc. (1998).
+    url: null
+    confidence: documented
+
+  - teacher: "Thin Lizzy"
+    student: "Iron Maiden"
+    source_type: interview
+    citation: >
+      Steve Harris has cited Phil Lynott and Thin Lizzy's dual guitar
+      harmonies as the direct inspiration for Iron Maiden's signature
+      guitar sound. Documented in multiple interviews.
+    url: null
+    confidence: documented

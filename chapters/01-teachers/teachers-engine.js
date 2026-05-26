@@ -50,9 +50,10 @@
     var container = document.getElementById('gap-chart');
     if (!container) return;
 
-    // Filter to prosecution cases: student inducted, teacher waited longer or never inducted
+    // Filter to prosecution cases: teacher waited longer or never inducted, gap > 2y
     var vizPairs = pairs.filter(function(p) {
-      return p.student_inducted_year && p.gap_direction !== 'teacher_first';
+      return p.student_inducted_year && p.gap_direction !== 'teacher_first' &&
+             (p.gap_years > 2 || p.teacher_never_inducted);
     });
 
     // Sort by gap descending
