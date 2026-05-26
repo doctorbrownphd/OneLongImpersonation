@@ -353,9 +353,9 @@
     svg.append('rect')
       .attr('width', width)
       .attr('height', height)
-      .attr('fill', COLORS.bone);
+      .attr('fill', COLORS.ink);
 
-    // Crosshair exhibit framing (darker for light bg)
+    // Crosshair exhibit framing
     var tickLen = 12;
     var tickStroke = 'rgba(176,52,52,0.3)';
     var off = 4;
@@ -382,14 +382,14 @@
       svg.append('line')
         .attr('x1', x(t)).attr('x2', x(t))
         .attr('y1', margin.top).attr('y2', height - margin.bottom)
-        .attr('stroke', 'rgba(0,0,0,0.06)')
+        .attr('stroke', COLORS.rule)
         .attr('stroke-width', 1);
 
       svg.append('text')
         .attr('x', x(t))
         .attr('y', height - margin.bottom + 18)
         .attr('text-anchor', 'middle')
-        .attr('fill', '#8a8a7a')
+        .attr('fill', COLORS.mute)
         .attr('font-family', '"JetBrains Mono", monospace')
         .attr('font-size', 10)
         .text(t + 'y');
@@ -407,7 +407,7 @@
         .attr('x', margin.left - 12)
         .attr('y', cy + 5)
         .attr('text-anchor', 'end')
-        .attr('fill', '#14142b')
+        .attr('fill', COLORS.cream)
         .attr('font-family', '"Inter", sans-serif')
         .attr('font-size', 13)
         .attr('font-weight', 500)
@@ -427,7 +427,7 @@
       svg.append('text')
         .attr('x', x(d.wait_years) + 8)
         .attr('y', cy + 1)
-        .attr('fill', '#14142b')
+        .attr('fill', COLORS.cream)
         .attr('font-family', '"JetBrains Mono", monospace')
         .attr('font-size', 11)
         .attr('font-weight', 600)
@@ -437,7 +437,7 @@
       svg.append('text')
         .attr('x', x(d.wait_years) + 8)
         .attr('y', cy + 14)
-        .attr('fill', '#8a8a7a')
+        .attr('fill', COLORS.mute)
         .attr('font-family', '"JetBrains Mono", monospace')
         .attr('font-size', 9)
         .text(d.eligible_year + ' \u2192 ' + d.inducted_year);
