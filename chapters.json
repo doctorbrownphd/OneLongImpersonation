@@ -9,7 +9,7 @@
       "title": "The Criteria",
       "slug": "opening",
       "description": "Before the prosecution begins, the jury must know the law.",
-      "status": "coming",
+      "status": "live",
       "url": "/chapters/00-opening/",
       "meta": "Criteria Compliance Model / Violation Index"
     },
@@ -22,7 +22,7 @@
       "title": "One Long Impersonation",
       "slug": "teachers",
       "description": "The teacher-student gap. The founding exhibit.",
-      "status": "coming",
+      "status": "live",
       "url": "/chapters/01-teachers/",
       "meta": "Network analysis / Influence graph / Racial decomposition"
     },
@@ -35,7 +35,7 @@
       "title": "The Wait",
       "slug": "the-wait",
       "description": "Time is not neutral. Who waited longest, and why.",
-      "status": "coming",
+      "status": "live",
       "url": "/chapters/02-the-wait/",
       "meta": "Cox proportional hazards / Survival curves / Hazard ratios"
     },
@@ -48,7 +48,7 @@
       "title": "The Genre Desertification",
       "slug": "genre",
       "description": "What the Hall decided rock and roll was, and what it actually was.",
-      "status": "coming",
+      "status": "live",
       "url": "/chapters/03-genre/",
       "meta": "Simpson's diversity index / Genre Bias Score / Timeline"
     },
@@ -61,7 +61,7 @@
       "title": "The Rolling Stone Connection",
       "slug": "rolling-stone",
       "description": "The Wenner Coefficient. How one publication's taste became an institution's selection criteria.",
-      "status": "coming",
+      "status": "live",
       "url": "/chapters/04-rolling-stone/",
       "meta": "Logistic regression / Wenner Coefficient / Committee composition"
     },
@@ -74,7 +74,7 @@
       "title": "The Docket",
       "slug": "the-docket",
       "description": "Every eligible artist who has not been inducted. The criteria applied. The verdict rendered.",
-      "status": "coming",
+      "status": "live",
       "url": "/chapters/05-the-docket/",
       "meta": "Claude API / AI-generated briefs / Searchable / Annual update"
     },
@@ -87,7 +87,7 @@
       "title": "The Other Side",
       "slug": "the-other-side",
       "description": "What the Hall has gotten right. The cases that were correct. The trend since 2019.",
-      "status": "coming",
+      "status": "live",
       "url": "/chapters/06-the-other-side/",
       "meta": "Post-2019 improvement / Criteria alignment analysis"
     },
@@ -100,7 +100,7 @@
       "title": "Closing Argument",
       "slug": "closing",
       "description": "The record, stated plainly.",
-      "status": "coming",
+      "status": "live",
       "url": "/chapters/closing/",
       "meta": "Four findings / The verdict"
     }
