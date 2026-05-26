@@ -5,7 +5,7 @@
    ------------------------------------------------ */
 
 .chapter-header {
-  min-height: 100vh; min-height: 100dvh; display: flex; align-items: center; padding: 80px 0 0;
+  min-height: calc(100vh - 60px); min-height: calc(100dvh - 60px); display: flex; align-items: center; padding: 80px 0 0;
 }
 
 .chapter-header__title {

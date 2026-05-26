@@ -2,7 +2,7 @@
 
 .chapter-header {
   padding-top: 80px;
-  min-height: 100vh; min-height: 100dvh;
+  min-height: calc(100vh - 60px); min-height: calc(100dvh - 60px);
   display: flex;
   align-items: center;
 }
