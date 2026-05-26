@@ -341,6 +341,19 @@
         .attr('stroke-width', 1);
     });
 
+    // Year labels on Simpson x-axis
+    var yearTicks = simpsonData.filter(function(d) { return d.year % 5 === 0 || d.year === yearExtent[0] || d.year === yearExtent[1]; });
+    yearTicks.forEach(function(d) {
+      svg.append('text')
+        .attr('x', sX(d.year))
+        .attr('y', simpsonBot + 14)
+        .attr('text-anchor', 'middle')
+        .attr('fill', COLORS.mute)
+        .attr('font-family', '"JetBrains Mono", monospace')
+        .attr('font-size', 8)
+        .text(d.year);
+    });
+
     // -- LEGEND (right side) --
     var legendX = width - margin.right + 20;
     var legendY = margin.top + 8;
