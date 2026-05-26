@@ -58,7 +58,7 @@
 
 .section--paper .callout__body,
 .section--bone .callout__body {
-  color: var(--ink);
+  color: var(--cream);
 }
 
 /* ------------------------------------------------
@@ -174,15 +174,15 @@
 }
 
 .section--paper .correct-list li {
-  border-bottom-color: var(--rule-paper);
+  border-bottom-color: var(--rule);
 }
 
 .section--paper .correct-list__artist {
-  color: var(--ink);
+  color: var(--cream);
 }
 
 .section--paper .correct-list__detail {
-  color: var(--ink);
+  color: var(--cream);
   opacity: 0.5;
 }
 
@@ -201,7 +201,7 @@
 
 .section--paper .prose,
 .section--bone .prose {
-  color: var(--ink);
+  color: var(--cream);
 }
 
 .prose p {

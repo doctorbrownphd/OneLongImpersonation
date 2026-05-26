@@ -29,7 +29,7 @@
 }
 
 .finding {
-  border-top: 2px solid var(--ink);
+  border-top: 1px solid var(--rule);
   padding-top: 28px;
 }
 
@@ -44,7 +44,7 @@
 .finding__title {
   font-size: 20px;
   font-weight: 500;
-  color: var(--ink);
+  color: var(--cream);
   margin: 0 0 20px;
 }
 
@@ -59,7 +59,7 @@
 .finding__big {
   font-size: clamp(36px, 5vw, 56px);
   font-weight: 500;
-  color: var(--ink);
+  color: var(--cream);
   line-height: 1;
 }
 
@@ -89,7 +89,7 @@
 .finding__gloss {
   font-size: 15px;
   line-height: 1.6;
-  color: var(--ink);
+  color: var(--cream);
   opacity: 0.75;
   margin: 0;
   max-width: 440px;

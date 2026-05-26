@@ -128,14 +128,14 @@
 
 .criteria__heading {
   font-size: clamp(36px, 6vw, 72px);
-  color: var(--ink);
+  color: var(--cream);
   margin: 0 0 32px;
 }
 
 .criteria__intro {
   font-size: 17px;
   line-height: 1.65;
-  color: var(--ink);
+  color: var(--cream);
   max-width: 640px;
   margin: 0 0 56px;
   opacity: 0.8;
@@ -150,9 +150,9 @@
 .criteria__table thead th {
   text-align: left;
   padding: 12px 16px 12px 0;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
   font-size: 10px;
-  color: var(--ink);
+  color: var(--cream);
   opacity: 0.5;
 }
 
@@ -161,17 +161,17 @@
 }
 
 .criteria__table tbody tr {
-  border-bottom: 1px solid var(--rule-paper);
+  border-bottom: 1px solid var(--rule);
 }
 
 .criteria__table tbody tr:last-child {
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
 }
 
 .criteria__name {
   font-size: 17px;
   font-weight: 500;
-  color: var(--ink);
+  color: var(--cream);
   padding: 20px 24px 20px 0;
   vertical-align: top;
   white-space: nowrap;
@@ -181,7 +181,7 @@
 .criteria__proxy {
   font-size: 15px;
   line-height: 1.55;
-  color: var(--ink);
+  color: var(--cream);
   opacity: 0.75;
   padding: 20px 0 20px 24px;
   vertical-align: top;

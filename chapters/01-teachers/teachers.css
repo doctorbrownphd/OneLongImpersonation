@@ -61,7 +61,7 @@
 /* Featured cases */
 .case-card {
   padding: 32px 0;
-  border-bottom: 1px solid var(--rule-paper);
+  border-bottom: 1px solid var(--rule);
 }
 
 .case-card:last-child {
@@ -79,7 +79,7 @@
   font-family: var(--serif);
   font-size: 22px;
   font-weight: 500;
-  color: var(--ink);
+  color: var(--cream);
 }
 
 .case-card__gap {
@@ -110,7 +110,7 @@
 }
 
 .case-card__citation em {
-  color: var(--ink);
+  color: var(--cream);
   font-style: italic;
 }
 
