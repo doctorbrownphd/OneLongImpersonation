@@ -5,6 +5,42 @@
 window.CRITERIA_DATA = {
   "violation_index": [
     {
+      "name": "Joy Division",
+      "criteria_score": 58.98,
+      "genre": "Punk",
+      "eligible_year": 2003,
+      "wait_years": 23,
+      "gap_vs_inducted_median": 16.98,
+      "above_inducted_median": true
+    },
+    {
+      "name": "King Crimson",
+      "criteria_score": 56.96,
+      "genre": "Classic Rock",
+      "eligible_year": 1994,
+      "wait_years": 32,
+      "gap_vs_inducted_median": 14.96,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Brian Eno",
+      "criteria_score": 55.65,
+      "genre": "Electronic",
+      "eligible_year": 1998,
+      "wait_years": 28,
+      "gap_vs_inducted_median": 13.65,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Emerson Lake & Palmer",
+      "criteria_score": 50.5,
+      "genre": "Classic Rock",
+      "eligible_year": 1995,
+      "wait_years": 31,
+      "gap_vs_inducted_median": 8.5,
+      "above_inducted_median": true
+    },
+    {
       "name": "Mississippi John Hurt",
       "criteria_score": 50.0,
       "genre": "Blues/Early",
@@ -77,12 +113,12 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "Joy Division",
-      "criteria_score": 47.73,
-      "genre": "Punk",
-      "eligible_year": 2003,
-      "wait_years": 23,
-      "gap_vs_inducted_median": 5.73,
+      "name": "Jethro Tull",
+      "criteria_score": 47.91,
+      "genre": "Classic Rock",
+      "eligible_year": 1993,
+      "wait_years": 33,
+      "gap_vs_inducted_median": 5.91,
       "above_inducted_median": true
     },
     {
@@ -95,6 +131,24 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
+      "name": "Chic",
+      "criteria_score": 47.61,
+      "genre": "Disco/Dance",
+      "eligible_year": 2002,
+      "wait_years": 24,
+      "gap_vs_inducted_median": 5.61,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Chaka Khan",
+      "criteria_score": 47.09,
+      "genre": "Soul/R&B",
+      "eligible_year": 1998,
+      "wait_years": 28,
+      "gap_vs_inducted_median": 5.09,
+      "above_inducted_median": true
+    },
+    {
       "name": "Thin Lizzy",
       "criteria_score": 46.7,
       "genre": "Heavy Metal",
@@ -104,20 +158,74 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "King Crimson",
-      "criteria_score": 45.71,
-      "genre": "Classic Rock",
-      "eligible_year": 1994,
-      "wait_years": 32,
-      "gap_vs_inducted_median": 3.71,
+      "name": "Scorpions",
+      "criteria_score": 46.7,
+      "genre": "Heavy Metal",
+      "eligible_year": 1997,
+      "wait_years": 29,
+      "gap_vs_inducted_median": 4.7,
       "above_inducted_median": true
     },
     {
-      "name": "Brian Eno",
-      "criteria_score": 44.4,
+      "name": "Iron Butterfly",
+      "criteria_score": 46.35,
+      "genre": "Heavy Metal",
+      "eligible_year": 1993,
+      "wait_years": 33,
+      "gap_vs_inducted_median": 4.35,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Sonic Youth",
+      "criteria_score": 46.26,
+      "genre": "Punk",
+      "eligible_year": 2007,
+      "wait_years": 19,
+      "gap_vs_inducted_median": 4.26,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Siouxsie and the Banshees",
+      "criteria_score": 45.77,
+      "genre": "Punk",
+      "eligible_year": 2003,
+      "wait_years": 23,
+      "gap_vs_inducted_median": 3.77,
+      "above_inducted_median": true
+    },
+    {
+      "name": "New Order",
+      "criteria_score": 44.77,
       "genre": "Electronic",
-      "eligible_year": 1998,
-      "wait_years": 28,
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "gap_vs_inducted_median": 2.77,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Gordon Lightfoot",
+      "criteria_score": 44.72,
+      "genre": "Folk/Country",
+      "eligible_year": 1991,
+      "wait_years": 35,
+      "gap_vs_inducted_median": 2.72,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Dead Kennedys",
+      "criteria_score": 44.56,
+      "genre": "Punk",
+      "eligible_year": 2004,
+      "wait_years": 22,
+      "gap_vs_inducted_median": 2.56,
+      "above_inducted_median": true
+    },
+    {
+      "name": "The Smiths",
+      "criteria_score": 44.4,
+      "genre": "Classic Rock",
+      "eligible_year": 2009,
+      "wait_years": 17,
       "gap_vs_inducted_median": 2.4,
       "above_inducted_median": true
     },
@@ -131,12 +239,30 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "Jethro Tull",
-      "criteria_score": 44.16,
-      "genre": "Classic Rock",
-      "eligible_year": 1993,
-      "wait_years": 33,
-      "gap_vs_inducted_median": 2.16,
+      "name": "Wire",
+      "criteria_score": 43.93,
+      "genre": "Punk",
+      "eligible_year": 2002,
+      "wait_years": 24,
+      "gap_vs_inducted_median": 1.93,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Bauhaus",
+      "criteria_score": 43.8,
+      "genre": "Punk",
+      "eligible_year": 2004,
+      "wait_years": 22,
+      "gap_vs_inducted_median": 1.8,
+      "above_inducted_median": true
+    },
+    {
+      "name": "The Replacements",
+      "criteria_score": 43.48,
+      "genre": "Punk",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "gap_vs_inducted_median": 1.48,
       "above_inducted_median": true
     },
     {
@@ -149,30 +275,39 @@ window.CRITERIA_DATA = {
       "above_inducted_median": true
     },
     {
-      "name": "Chaka Khan",
-      "criteria_score": 43.34,
-      "genre": "Soul/R&B",
-      "eligible_year": 1998,
-      "wait_years": 28,
-      "gap_vs_inducted_median": 1.34,
+      "name": "Husker Du",
+      "criteria_score": 43.2,
+      "genre": "Punk",
+      "eligible_year": 2006,
+      "wait_years": 20,
+      "gap_vs_inducted_median": 1.2,
       "above_inducted_median": true
     },
     {
-      "name": "Emerson Lake & Palmer",
-      "criteria_score": 43.0,
-      "genre": "Classic Rock",
-      "eligible_year": 1995,
-      "wait_years": 31,
-      "gap_vs_inducted_median": 1.0,
+      "name": "Pixies",
+      "criteria_score": 43.14,
+      "genre": "Punk",
+      "eligible_year": 2012,
+      "wait_years": 14,
+      "gap_vs_inducted_median": 1.14,
       "above_inducted_median": true
     },
     {
-      "name": "Iron Butterfly",
-      "criteria_score": 42.6,
-      "genre": "Heavy Metal",
-      "eligible_year": 1993,
-      "wait_years": 33,
-      "gap_vs_inducted_median": 0.6,
+      "name": "Emmylou Harris",
+      "criteria_score": 42.95,
+      "genre": "Folk/Country",
+      "eligible_year": 1994,
+      "wait_years": 32,
+      "gap_vs_inducted_median": 0.95,
+      "above_inducted_median": true
+    },
+    {
+      "name": "Bad Brains",
+      "criteria_score": 42.36,
+      "genre": "Punk",
+      "eligible_year": 2007,
+      "wait_years": 19,
+      "gap_vs_inducted_median": 0.36,
       "above_inducted_median": true
     },
     {
@@ -185,21 +320,39 @@ window.CRITERIA_DATA = {
       "above_inducted_median": false
     },
     {
-      "name": "New Order",
-      "criteria_score": 41.02,
-      "genre": "Electronic",
-      "eligible_year": 2006,
-      "wait_years": 20,
-      "gap_vs_inducted_median": -0.98,
+      "name": "The Damned",
+      "criteria_score": 41.95,
+      "genre": "Punk",
+      "eligible_year": 2001,
+      "wait_years": 25,
+      "gap_vs_inducted_median": -0.05,
       "above_inducted_median": false
     },
     {
-      "name": "Gordon Lightfoot",
+      "name": "Styx",
+      "criteria_score": 41.67,
+      "genre": "Classic Rock",
+      "eligible_year": 1997,
+      "wait_years": 29,
+      "gap_vs_inducted_median": -0.33,
+      "above_inducted_median": false
+    },
+    {
+      "name": "Boston",
       "criteria_score": 40.97,
-      "genre": "Folk/Country",
-      "eligible_year": 1991,
-      "wait_years": 35,
+      "genre": "Classic Rock",
+      "eligible_year": 2001,
+      "wait_years": 25,
       "gap_vs_inducted_median": -1.03,
+      "above_inducted_median": false
+    },
+    {
+      "name": "John Prine",
+      "criteria_score": 40.75,
+      "genre": "Folk/Country",
+      "eligible_year": 1996,
+      "wait_years": 30,
+      "gap_vs_inducted_median": -1.25,
       "above_inducted_median": false
     },
     {
@@ -221,6 +374,24 @@ window.CRITERIA_DATA = {
       "above_inducted_median": false
     },
     {
+      "name": "Soundgarden",
+      "criteria_score": 40.52,
+      "genre": "Heavy Metal",
+      "eligible_year": 2013,
+      "wait_years": 13,
+      "gap_vs_inducted_median": -1.48,
+      "above_inducted_median": false
+    },
+    {
+      "name": "OutKast",
+      "criteria_score": 40.23,
+      "genre": "Hip-Hop",
+      "eligible_year": 2019,
+      "wait_years": 7,
+      "gap_vs_inducted_median": -1.77,
+      "above_inducted_median": false
+    },
+    {
       "name": "Gloria Gaynor",
       "criteria_score": 40.2,
       "genre": "Disco/Dance",
@@ -230,30 +401,12 @@ window.CRITERIA_DATA = {
       "above_inducted_median": false
     },
     {
-      "name": "Wire",
-      "criteria_score": 40.18,
-      "genre": "Punk",
-      "eligible_year": 2002,
-      "wait_years": 24,
-      "gap_vs_inducted_median": -1.82,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Chic",
-      "criteria_score": 40.11,
-      "genre": "Disco/Dance",
-      "eligible_year": 2002,
-      "wait_years": 24,
-      "gap_vs_inducted_median": -1.89,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Scorpions",
-      "criteria_score": 39.2,
-      "genre": "Heavy Metal",
-      "eligible_year": 1997,
-      "wait_years": 29,
-      "gap_vs_inducted_median": -2.8,
+      "name": "Kanye West",
+      "criteria_score": 39.88,
+      "genre": "Hip-Hop",
+      "eligible_year": 2026,
+      "wait_years": 0,
+      "gap_vs_inducted_median": -2.12,
       "above_inducted_median": false
     },
     {
@@ -262,15 +415,6 @@ window.CRITERIA_DATA = {
       "genre": "Folk/Country",
       "eligible_year": 1993,
       "wait_years": 33,
-      "gap_vs_inducted_median": -2.8,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Emmylou Harris",
-      "criteria_score": 39.2,
-      "genre": "Folk/Country",
-      "eligible_year": 1994,
-      "wait_years": 32,
       "gap_vs_inducted_median": -2.8,
       "above_inducted_median": false
     },
@@ -293,33 +437,6 @@ window.CRITERIA_DATA = {
       "above_inducted_median": false
     },
     {
-      "name": "Sonic Youth",
-      "criteria_score": 38.76,
-      "genre": "Punk",
-      "eligible_year": 2007,
-      "wait_years": 19,
-      "gap_vs_inducted_median": -3.24,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Siouxsie and the Banshees",
-      "criteria_score": 38.27,
-      "genre": "Punk",
-      "eligible_year": 2003,
-      "wait_years": 23,
-      "gap_vs_inducted_median": -3.73,
-      "above_inducted_median": false
-    },
-    {
-      "name": "The Damned",
-      "criteria_score": 38.2,
-      "genre": "Punk",
-      "eligible_year": 2001,
-      "wait_years": 25,
-      "gap_vs_inducted_median": -3.8,
-      "above_inducted_median": false
-    },
-    {
       "name": "REO Speedwagon",
       "criteria_score": 38.02,
       "genre": "Classic Rock",
@@ -336,129 +453,12 @@ window.CRITERIA_DATA = {
       "wait_years": 23,
       "gap_vs_inducted_median": -4.05,
       "above_inducted_median": false
-    },
-    {
-      "name": "Styx",
-      "criteria_score": 37.92,
-      "genre": "Classic Rock",
-      "eligible_year": 1997,
-      "wait_years": 29,
-      "gap_vs_inducted_median": -4.08,
-      "above_inducted_median": false
-    },
-    {
-      "name": "The Misfits",
-      "criteria_score": 37.9,
-      "genre": "Punk",
-      "eligible_year": 2002,
-      "wait_years": 24,
-      "gap_vs_inducted_median": -4.1,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Teena Marie",
-      "criteria_score": 37.7,
-      "genre": "Soul/R&B",
-      "eligible_year": 2004,
-      "wait_years": 22,
-      "gap_vs_inducted_median": -4.3,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Luther Vandross",
-      "criteria_score": 37.45,
-      "genre": "Soul/R&B",
-      "eligible_year": 2006,
-      "wait_years": 20,
-      "gap_vs_inducted_median": -4.55,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Boston",
-      "criteria_score": 37.22,
-      "genre": "Classic Rock",
-      "eligible_year": 2001,
-      "wait_years": 25,
-      "gap_vs_inducted_median": -4.78,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Dead Kennedys",
-      "criteria_score": 37.06,
-      "genre": "Punk",
-      "eligible_year": 2004,
-      "wait_years": 22,
-      "gap_vs_inducted_median": -4.94,
-      "above_inducted_median": false
-    },
-    {
-      "name": "John Prine",
-      "criteria_score": 37.0,
-      "genre": "Folk/Country",
-      "eligible_year": 1996,
-      "wait_years": 30,
-      "gap_vs_inducted_median": -5.0,
-      "above_inducted_median": false
-    },
-    {
-      "name": "The Smiths",
-      "criteria_score": 36.9,
-      "genre": "Classic Rock",
-      "eligible_year": 2009,
-      "wait_years": 17,
-      "gap_vs_inducted_median": -5.1,
-      "above_inducted_median": false
-    },
-    {
-      "name": "KC and the Sunshine Band",
-      "criteria_score": 36.4,
-      "genre": "Disco/Dance",
-      "eligible_year": 1998,
-      "wait_years": 28,
-      "gap_vs_inducted_median": -5.6,
-      "above_inducted_median": false
-    },
-    {
-      "name": "The Pointer Sisters",
-      "criteria_score": 36.4,
-      "genre": "Disco/Dance",
-      "eligible_year": 1998,
-      "wait_years": 28,
-      "gap_vs_inducted_median": -5.6,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Bauhaus",
-      "criteria_score": 36.3,
-      "genre": "Punk",
-      "eligible_year": 2004,
-      "wait_years": 22,
-      "gap_vs_inducted_median": -5.7,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Descendents",
-      "criteria_score": 36.3,
-      "genre": "Punk",
-      "eligible_year": 2004,
-      "wait_years": 22,
-      "gap_vs_inducted_median": -5.7,
-      "above_inducted_median": false
-    },
-    {
-      "name": "Kanye West",
-      "criteria_score": 36.12,
-      "genre": "Hip-Hop",
-      "eligible_year": 2026,
-      "wait_years": 0,
-      "gap_vs_inducted_median": -5.88,
-      "above_inducted_median": false
     }
   ],
-  "inducted_average_score": 43.69,
+  "inducted_average_score": 43.93,
   "inducted_median_score": 42.0,
   "total_eligible": 112,
-  "above_inducted_median": 19,
+  "above_inducted_median": 34,
   "weights": {
     "excellence": 0.25,
     "influence": 0.25,
