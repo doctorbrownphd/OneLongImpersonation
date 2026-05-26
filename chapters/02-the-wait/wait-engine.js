@@ -220,7 +220,7 @@
       .curve(d3.curveStepAfter);
 
     // Draw each survival curve
-    strataKeys.forEach(function(key) {
+    strataKeys.forEach(function(key, si) {
       var stratum = curves[key];
       var color = CURVE_COLORS[key] || COLORS.mute;
 
