@@ -59,8 +59,8 @@
     // Dimensions -- responsive
     var isMobile = container.clientWidth < 600;
     var margin = isMobile
-      ? { top: 30, right: 60, bottom: 40, left: 130 }
-      : { top: 40, right: 120, bottom: 50, left: 220 };
+      ? { top: 40, right: 60, bottom: 40, left: 200 }
+      : { top: 50, right: 120, bottom: 50, left: 360 };
     var rowHeight = isMobile ? 24 : 28;
     var width = Math.max(container.clientWidth, isMobile ? 360 : 700);
     var height = margin.top + vizPairs.length * rowHeight + margin.bottom;
@@ -144,6 +144,27 @@
     svg.append('line').attr('x1',width-4).attr('y1',height-4).attr('x2',width-4-tickLen).attr('y2',height-4).attr('stroke',tickStroke);
     svg.append('line').attr('x1',width-4).attr('y1',height-4).attr('x2',width-4).attr('y2',height-4-tickLen).attr('stroke',tickStroke);
 
+    // Legend
+    var legendY = margin.top - 16;
+    // Teacher marker
+    svg.append('circle').attr('cx', margin.left).attr('cy', legendY).attr('r', 4)
+      .attr('fill', 'none').attr('stroke', '#d4a017').attr('stroke-width', 2);
+    svg.append('text').attr('x', margin.left + 10).attr('y', legendY + 4)
+      .attr('fill', '#8a8aa3').attr('font-family', '"Inter", sans-serif').attr('font-size', 10)
+      .text('Teacher inducted');
+    // Student marker
+    svg.append('circle').attr('cx', margin.left + 120).attr('cy', legendY).attr('r', 4)
+      .attr('fill', '#efe8d6').attr('stroke', '#d4a017').attr('stroke-width', 1.5);
+    svg.append('text').attr('x', margin.left + 130).attr('y', legendY + 4)
+      .attr('fill', '#8a8aa3').attr('font-family', '"Inter", sans-serif').attr('font-size', 10)
+      .text('Student inducted');
+    // Never marker
+    svg.append('circle').attr('cx', margin.left + 250).attr('cy', legendY).attr('r', 4)
+      .attr('fill', 'none').attr('stroke', '#b03434').attr('stroke-width', 2);
+    svg.append('text').attr('x', margin.left + 260).attr('y', legendY + 4)
+      .attr('fill', '#8a8aa3').attr('font-family', '"Inter", sans-serif').attr('font-size', 10)
+      .text('Teacher never inducted');
+
     // Render each pair
     vizPairs.forEach(function(p, i) {
       var cy = y(i) + rowHeight / 2;
@@ -162,16 +183,17 @@
         teacherX = x(maxYear - 0.5);
       }
 
-      // Teacher name (left label)
-      svg.append('text')
+      // Teacher -> Student name (left label)
+      var labelText = svg.append('text')
         .attr('x', margin.left - 12)
         .attr('y', cy + 4)
         .attr('text-anchor', 'end')
-        .attr('fill', color)
         .attr('font-family', '"Inter", sans-serif')
         .attr('font-size', 11)
-        .attr('font-weight', 500)
-        .text(p.teacher);
+        .attr('font-weight', 500);
+      labelText.append('tspan').attr('fill', color).text(p.teacher);
+      labelText.append('tspan').attr('fill', '#8a8aa3').text(' \u2192 ');
+      labelText.append('tspan').attr('fill', '#efe8d6').text(p.student);
 
       // Connection line
       var lineLeft = Math.min(studentX, teacherX);
