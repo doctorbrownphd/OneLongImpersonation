@@ -101,7 +101,47 @@
         '<div class="docket-row__wait">' + waitYears + 'y</div>' +
         '<div class="docket-row__verdict ' + verdictClass + '">' + verdictLabel + '</div>';
 
-      container.appendChild(row);
+      // Expandable criteria breakdown
+      if (a.scores) {
+        row.style.cursor = 'pointer';
+        var detail = document.createElement('div');
+        detail.className = 'docket-detail';
+        detail.style.display = 'none';
+
+        var criteria = [
+          { label: 'Musical Excellence', score: a.scores.excellence, weight: '25%' },
+          { label: 'Influence', score: a.scores.influence, weight: '25%' },
+          { label: 'Career Length', score: a.scores.career, weight: '15%' },
+          { label: 'Catalog Depth', score: a.scores.catalog, weight: '15%' },
+          { label: 'Genre Contribution', score: a.scores.contribution, weight: '20%' }
+        ];
+
+        var detailHtml = '<div class="docket-detail__grid">';
+        criteria.forEach(function(c) {
+          var pct = Math.round(c.score || 0);
+          var barColor = pct >= 60 ? '#5f7d56' : pct >= 30 ? '#d4a017' : '#b03434';
+          detailHtml +=
+            '<div class="docket-detail__item">' +
+              '<span class="docket-detail__label">' + c.label + ' <span style="opacity:0.4">(' + c.weight + ')</span></span>' +
+              '<div class="docket-detail__bar-bg"><div class="docket-detail__bar-fill" style="width:' + pct + '%; background:' + barColor + '"></div></div>' +
+              '<span class="docket-detail__score">' + pct + '</span>' +
+            '</div>';
+        });
+        detailHtml += '</div>';
+        detailHtml += '<p class="docket-detail__caveat">Scores are modeled proxies based on available data. Excellence and Influence subscores may undercount artists with limited digital footprint.</p>';
+        detail.innerHTML = detailHtml;
+
+        row.addEventListener('click', function() {
+          var showing = detail.style.display !== 'none';
+          detail.style.display = showing ? 'none' : 'block';
+          row.classList.toggle('docket-row--expanded', !showing);
+        });
+
+        container.appendChild(row);
+        container.appendChild(detail);
+      } else {
+        container.appendChild(row);
+      }
     });
   }
 
